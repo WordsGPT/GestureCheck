@@ -76,6 +76,54 @@ The app uses the seven 1-5 rating dimensions from the human rating rubric:
 
 Because GitHub Pages is static hosting, it cannot store submitted survey responses by itself. The included collection path is Google Apps Script writing to Google Sheets.
 
+## Vercel Adaptive Survey Backend
+
+The rating task can now run as a Vercel app with serverless API routes and Postgres-backed adaptive assignment. This keeps the UI as plain static files, but moves assignment and response storage into a real backend.
+
+Backend files:
+
+- `api/assignment.js`: returns an adaptive, quota-weighted random set of videos.
+- `api/responses.js`: stores each completed video response.
+- `api/status.js`: reports completed counts per gesture/language.
+- `db/schema.sql`: creates the required Postgres tables.
+
+Required environment variables:
+
+```bash
+DATABASE_URL="postgres://user:password@host:5432/database"
+POSTGRES_SSL=true
+```
+
+Setup:
+
+1. Create a Postgres database. Vercel Postgres, Neon, Supabase, or any hosted Postgres with a `DATABASE_URL` is fine.
+2. Run `db/schema.sql` against that database.
+3. Add `DATABASE_URL` and `POSTGRES_SSL=true` in the Vercel project environment variables.
+4. Deploy this repository to Vercel.
+5. Use a single language-specific link, for example:
+
+```text
+https://your-vercel-app.vercel.app/gesture-rating-task.html?lang=de
+https://your-vercel-app.vercel.app/gesture-rating-task.html?lang=it
+https://your-vercel-app.vercel.app/gesture-rating-task.html?lang=en
+```
+
+By default, `gesture-rating-task.js` calls `/api/assignment` for a 20-video adaptive assignment and posts each completed video to `/api/responses`. The assignment algorithm counts completed ratings by `language + title`, prioritizes gestures below the target quota of 20, and still includes randomness so order and assignment are not deterministic. Assignments are logged, but quota counts come from completed responses only, so participant dropout does not inflate completed counts.
+
+Useful API calls:
+
+```text
+GET /api/assignment?lang=de&count=20&target_quota=20
+POST /api/responses
+GET /api/status?lang=de&target_quota=20
+```
+
+To force the old static block behavior for testing, add `assignment=static` or pass an explicit `block`:
+
+```text
+/gesture-rating-task.html?assignment=static&block=1&block_size=20&lang=en
+```
+
 Google Sheets setup:
 
 1. Create a new Google Sheet.

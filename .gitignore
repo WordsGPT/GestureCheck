@@ -1,5 +1,7 @@
 .env
 env.local
+node_modules/
+.vercel/
 .gitreal/
 .tmp/
 __pycache__/

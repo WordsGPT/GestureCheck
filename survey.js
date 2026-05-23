@@ -714,9 +714,11 @@
     if (!rubricGrid) return;
     rubricGrid.innerHTML = "";
     formWarning.textContent = "";
+    const canRate = watchedEnough();
 
     if (showReview()) {
       renderRatingReview();
+      updateRatingAvailability();
       return;
     }
 
@@ -737,7 +739,7 @@
       </div>
       <div class="score-row score-row-large" role="radiogroup" aria-label="${category.label}">
         ${[1, 2, 3, 4, 5].map((score) => `
-          <button class="score-key${selected === score ? " active" : ""}" type="button" data-score="${score}" aria-pressed="${selected === score}">
+          <button class="score-key${selected === score ? " active" : ""}" type="button" data-score="${score}" aria-pressed="${selected === score}" ${canRate ? "" : "disabled"}>
             <span class="keycap">${score}</span>
             <span>${category.anchors[score - 1]}</span>
           </button>
@@ -749,9 +751,14 @@
     rubricGrid.appendChild(card);
     card.querySelectorAll("[data-score]").forEach((button) => {
       button.addEventListener("click", () => {
+        if (!watchedEnough()) {
+          formWarning.textContent = ui.watchBeforeContinue;
+          return;
+        }
         setDraftRating(Number(button.dataset.score));
       });
     });
+    updateRatingAvailability();
   }
 
   function renderRatingReview() {
@@ -784,6 +791,7 @@
     review.querySelectorAll("[data-edit-index]").forEach((button) => {
       button.addEventListener("click", () => editRating(Number(button.dataset.editIndex)));
     });
+    updateRatingAvailability();
   }
 
   function setDraftRating(score) {
@@ -794,6 +802,10 @@
   }
 
   function advanceRatingStep() {
+    if (!watchedEnough()) {
+      formWarning.textContent = ui.watchBeforeContinue;
+      return false;
+    }
     if (showReview()) return true;
     const category = categories[state.ratingStep];
     if (!state.draftRatings[category.key]) {
@@ -871,6 +883,7 @@
     state.videoStartedAt = Date.now();
     watchStatus.textContent = ui.watchRequirement;
     formWarning.textContent = "";
+    updateRatingAvailability();
   }
 
   function renderVideo() {
@@ -892,8 +905,20 @@
 
   function watchedEnough() {
     const duration = videoPlayer.duration || 0;
-    if (!Number.isFinite(duration) || duration <= 0) return true;
+    if (!Number.isFinite(duration) || duration <= 0) return false;
     return state.currentMaxTime / duration >= config.minWatchRatio;
+  }
+
+  function updateRatingAvailability() {
+    if (!nextButton || !rubricGrid) return;
+    const canRate = watchedEnough();
+    nextButton.disabled = !canRate;
+    rubricGrid.querySelectorAll("[data-score]").forEach((button) => {
+      button.disabled = !canRate;
+    });
+    if (canRate) {
+      watchStatus.textContent = ui.watchRequirementMet;
+    }
   }
 
   function saveState() {
@@ -1212,6 +1237,10 @@
     if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
     if (/^[1-5]$/.test(event.key) && !showReview()) {
       event.preventDefault();
+      if (!watchedEnough()) {
+        formWarning.textContent = ui.watchBeforeContinue;
+        return;
+      }
       setDraftRating(Number(event.key));
       return;
     }
@@ -1239,11 +1268,11 @@
     }
   });
 
+  videoPlayer.addEventListener("loadedmetadata", updateRatingAvailability);
+
   videoPlayer.addEventListener("timeupdate", () => {
     state.currentMaxTime = Math.max(state.currentMaxTime, videoPlayer.currentTime || 0);
-    if (watchedEnough()) {
-      watchStatus.textContent = ui.watchRequirementMet;
-    }
+    updateRatingAvailability();
   });
 
   downloadCsvButton.addEventListener("click", () => download("gesture-human-ratings.csv", csvData(), "text/csv"));
