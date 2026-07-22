@@ -1,0 +1,42 @@
+{
+  "target_word": "Flashlight",
+  "video_file": "49_Flashlight.mp4",
+  "brief_gesture_description": "The actor stands still and makes a small, repetitive motion with her right hand, as if clicking a button on a small object, while looking forward with a neutral expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture mimics the action of clicking a button, which is associated with a flashlight, but it lacks the visual representation of the light beam or the shape of the object itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "It simulates the fine motor action of pressing a switch, but it is too subtle to strongly evoke the full experience of using a flashlight."
+    },
+    "motional_salience_gesture": {
+      "score": 1,
+      "rationale": "The movement is very small, constrained to the hand, and lacks the expansive or dynamic quality needed to be visually commanding."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to understand, though perhaps too subtle to be highly effective as a learning tool."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of clicking a button is a universally understood motor action for operating many electronic devices, including flashlights."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and requires minimal physical effort, making it very easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is so subtle that it could represent clicking any small device, such as a pen, a remote, or a light switch, rather than specifically a flashlight."
+    ],
+    "confidence": "medium"
+  }
+}

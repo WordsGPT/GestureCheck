@@ -1,0 +1,40 @@
+{
+  "target_word": "Cat",
+  "video_file": "90_Cat.mp4",
+  "brief_gesture_description": "The actor mimics a cat by crouching slightly, extending one hand with fingers splayed like claws, and making a quick, flicking motion with the wrist as if swatting. The face shows a playful, slightly mischievous expression with wide eyes and a small smile.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture strongly resembles a cat’s paws and swatting motion, with splayed fingers and a quick wrist flick, clearly evoking the animal’s physical behavior."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the tactile and motor experience of a cat swatting, engaging visual and kinesthetic imagery related to feline movement."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture includes a rapid, expansive wrist flick and dynamic hand movement, making it visually prominent and attention-grabbing."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor’s playful, mischievous facial expression with wide eyes and a smile conveys a clear affective cue associated with cats, enhancing emotional engagement."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple enough to be learned quickly but includes enough distinct elements (hand shape, motion, expression) to be memorable and informative."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture is a common, widely recognized representation of a cat’s swatting behavior in Western cultures, making it easily interpretable."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is natural, simple, and requires minimal motor coordination, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

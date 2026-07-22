@@ -1,0 +1,43 @@
+{
+  "target_word": "Cheese",
+  "video_file": "54_Cheese.mp4",
+  "brief_gesture_description": "The actor brings both hands together in front of their chest, palms facing each other, and moves them in a small, repetitive up-and-down motion as if slicing or grating cheese. The facial expression is neutral to slightly smiling, with no strong emotional cues. The movement is moderate in size and speed, and the gesture is performed with both hands in a symmetrical fashion.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture moderately resembles the act of slicing or grating cheese, which is a common physical interaction with the item. However, it does not visually represent the object itself (e.g., a wedge or block of cheese), so the iconic relationship is indirect."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The repetitive up-and-down motion strongly evokes the physical action of grating or slicing cheese, engaging motor imagery related to handling and processing the food. This creates a vivid sensorimotor experience for the learner."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed, with a clear rhythmic pattern, making it noticeable but not overly exaggerated. It captures attention without being visually dominant."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral to mildly pleasant, with no strong emotional cues such as excitement or surprise. It does not enhance the affective meaning of the word."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and involves only two hands performing a repetitive motion, making it easy to observe and remember. It is well-suited for vocabulary learning without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of grating or slicing cheese is a common experience in Western cultures, and the gesture is recognizable as related to food preparation. It aligns with shared cultural schemas."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and easy to reproduce, requiring only basic hand movements that are intuitive and do not require fine motor control or unusual positioning."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be misinterpreted as slicing bread or another soft food, as the motion is generic to cutting actions.",
+      "Without context, the gesture alone might not clearly indicate 'cheese' versus other food items that are grated or sliced."
+    ],
+    "confidence": "medium"
+  }
+}

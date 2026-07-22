@@ -1,0 +1,40 @@
+{
+  "target_word": "Wrench",
+  "video_file": "89_Wrench.mp4",
+  "brief_gesture_description": "The actor mimics turning a wrench by gripping an imaginary object with both hands and rotating it in a circular motion, using forearm and wrist movements. The gesture is performed slowly and deliberately, with a focused facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly simulates the action of turning a wrench, with hand positioning and rotational movement strongly resembling the tool’s use. The visual form directly maps to the semantics of 'wrench' as a tool for turning bolts or nuts."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes a strong sense of physical interaction—gripping and rotating an object—activating motor and proprioceptive imagery. The deliberate motion enhances the embodied experience of using a wrench."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed, with clear rotational motion but not overly expansive or rapid. It is noticeable but not visually commanding, sufficient for encoding without being distracting."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor maintains a focused, neutral-to-determined facial expression, suggesting effort or concentration. It conveys mild affect related to task engagement, but not strong emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple enough to be easily understood and remembered, yet specific enough to convey the word’s meaning. It avoids overcomplication while remaining informative for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of turning a wrench is widely recognized in Western cultures, especially in contexts involving tools, repair, or mechanics. It aligns with common visual and motor schemas."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is straightforward and natural to reproduce. Learners can easily mimic the hand grip and rotational motion without requiring special training or coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

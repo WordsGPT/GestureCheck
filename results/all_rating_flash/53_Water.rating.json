@@ -1,0 +1,42 @@
+{
+  "target_word": "Water",
+  "video_file": "53_Water.mp4",
+  "brief_gesture_description": "The actor performs a waving motion with her hand above her head, moving it from left to right.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of waving a hand above the head does not visually resemble the concept of water."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement does not evoke any physical interaction or sensory experience associated with water."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is a simple, slow, and repetitive wave, lacking dynamic or commanding features."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is simple to perform, but its lack of semantic connection makes it ineffective for learning the word."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This gesture is not a recognized cultural emblem for 'water' in Western or other common contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and physically easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is completely abstract and bears no clear relationship to the target word 'water', making it highly ambiguous as a learning tool."
+    ],
+    "confidence": "high"
+  }
+}

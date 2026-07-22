@@ -1,0 +1,42 @@
+{
+  "target_word": "Water",
+  "video_file": "53_Water.mp4",
+  "brief_gesture_description": "Actor raises right hand and makes a downward, slightly wavy motion.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "Downward motion suggests falling liquid."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Evokes the feeling of flowing or pouring."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Moderate arm movement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Face remains neutral."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Simple motion, easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Recognizable representation of falling liquid."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Basic arm movement is easy to copy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as rain rather than water generally."
+    ],
+    "confidence": "medium"
+  }
+}

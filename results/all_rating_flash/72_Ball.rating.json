@@ -1,0 +1,42 @@
+{
+  "target_word": "Ball",
+  "video_file": "72_Ball.mp4",
+  "brief_gesture_description": "The actor uses both hands to trace a circular shape in the air, representing the spherical form of a ball.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The circular hand movement clearly and directly depicts the spherical shape of a ball."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical act of outlining a round object, which is a common way to interact with or describe a ball."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though it is performed at a moderate speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a ball."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Tracing a circle to indicate a round object is a universally understood gesture in Western and many other cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially represent other round objects like a circle, a globe, or an orange, but in the context of the target word, it is unambiguous."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Grass",
+  "video_file": "51_Grass.mp4",
+  "brief_gesture_description": "The actor bends forward slightly and moves her hands in a sweeping, horizontal motion across the floor, mimicking the act of touching or feeling grass.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The sweeping hand motion across the ground clearly represents the act of touching or feeling grass, making the semantic link quite transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical interaction of touching a surface at ground level, which strongly evokes the sensory experience of grass."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively contained and not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of grass."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of sweeping one's hand over a surface to represent grass is a common and easily understood iconic gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as touching any low-lying surface, such as carpet or sand, rather than specifically grass."
+    ],
+    "confidence": "high"
+  }
+}

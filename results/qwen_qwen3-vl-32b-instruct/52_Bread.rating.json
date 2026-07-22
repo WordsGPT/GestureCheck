@@ -1,0 +1,40 @@
+{
+  "target_word": "Bread",
+  "video_file": "52_Bread.mp4",
+  "brief_gesture_description": "The actor holds both hands together in front of their chest, palms facing each other, and slowly moves them apart as if slicing or breaking a loaf of bread. The motion is smooth and deliberate, with a slight downward tilt of the hands. Facial expression is neutral to mildly pleasant, with a slight smile and direct eye contact.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture strongly resembles the action of breaking or slicing bread, with hands moving apart as if separating a loaf. This is a clear iconic representation of the word 'bread' in a common physical interaction."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the tactile experience of handling and breaking bread, with a smooth, controlled motion that simulates the physical act. This creates a vivid sensorimotor image for the learner."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed—clear enough to be noticed but not overly exaggerated or rapid. It draws attention without being overly dynamic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The facial expression is neutral to mildly pleasant with a slight smile, suggesting a positive but not strongly emotional context. It does not strongly amplify the gesture’s meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and focused, involving only two hands and a straightforward motion. It is well-suited for second-language learners, balancing informativeness with ease of comprehension."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of breaking or slicing bread is common in Western cultures and widely recognized in everyday contexts. It aligns with shared cultural schemas for food handling."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is natural, simple, and easy to reproduce. Learners can easily mimic the hand movement without requiring complex coordination or prior experience."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

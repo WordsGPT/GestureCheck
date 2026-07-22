@@ -1,0 +1,40 @@
+{
+  "target_word": "Flashlight",
+  "video_file": "49_Flashlight.mp4",
+  "brief_gesture_description": "The actor holds one hand in front of them with the thumb and index finger forming a small circle, simulating a flashlight beam. The other hand moves forward in a sweeping motion as if shining the light. The facial expression is neutral to slightly engaged, with eyes following the direction of the simulated beam.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the action of holding and shining a flashlight, with a hand forming a beam and the other hand sweeping forward. This creates a strong visual link to the semantics of 'flashlight'."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical action of holding and directing a flashlight, including the motion of sweeping light across a space, which is a vivid sensorimotor simulation."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The sweeping motion of the hand is large and deliberate, creating a visually prominent and attention-grabbing gesture that stands out in the video."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral to mildly engaged, with no strong emotional cues such as surprise, excitement, or curiosity. The eyes follow the motion, but there is no expressive facial signal."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and clear, combining two basic hand movements that are easy to understand and replicate, making it well-suited for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of mimicking a flashlight beam with a hand is widely recognized in Western cultures, often used in children’s games and everyday communication, making it highly familiar."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is natural and effortless to reproduce, requiring only basic hand movements that are intuitive and easy for learners to mimic without instruction."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

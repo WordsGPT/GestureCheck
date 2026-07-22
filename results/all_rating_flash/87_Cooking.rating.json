@@ -1,0 +1,42 @@
+{
+  "target_word": "Cooking",
+  "video_file": "87_Cooking.mp4",
+  "brief_gesture_description": "The actor performs a gesture by holding both hands in front of her, palms facing up, and making a small, repetitive circular motion as if stirring a pot.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The circular hand motion clearly mimics the action of stirring a pot, which is a core component of cooking."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture effectively simulates the physical action of stirring, engaging the motor system in a way that relates directly to the concept."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is somewhat small and constrained, lacking the expansive or dynamic quality that would make it highly salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for a learning context."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Stirring a pot is a universally recognized action associated with cooking in Western and many other cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'mixing' or 'stirring' rather than the broader concept of 'cooking'."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Water",
+  "video_file": "53_Water.mp4",
+  "brief_gesture_description": "The actor moves their hand in a smooth, horizontal, wavy motion near the lower part of their body, mimicking the flow or surface of water. The movement is fluid and continuous, with slight up-and-down undulations. Facial expression is neutral to slightly engaged, with eyes looking forward.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand movement clearly mimics the surface motion of water, with horizontal waves and slight undulations, creating a strong visual resemblance to flowing or rippling water."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the tactile and kinesthetic experience of water flowing or rippling, engaging the learner’s mental simulation of interacting with water’s surface."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture features a continuous, flowing motion with moderate speed and amplitude, making it visually prominent and attention-grabbing without being overly complex."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor’s facial expression is neutral with minimal emotional cues; there is no clear affective signal such as joy, surprise, or thirst that might enhance the word’s meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, involving only one hand and a smooth motion, making it easy to understand and remember without cognitive overload, appropriate for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The wavy hand motion is a widely recognized iconic gesture for water in Western cultures, commonly used in children’s books, educational materials, and everyday communication."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to reproduce; it requires only a simple, natural hand motion that learners can perform effortlessly and intuitively."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

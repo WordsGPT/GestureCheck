@@ -1,0 +1,42 @@
+{
+  "target_word": "Cat",
+  "video_file": "90_Cat.mp4",
+  "brief_gesture_description": "Actor performs a petting motion with one hand over the other.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "Petting motion relates to cats but lacks specific feline features."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Evokes the physical action of stroking an animal."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Basic, constrained arm movements."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains neutral."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Simple and easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "General petting gesture is recognizable."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Basic arm movements are easy to copy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture could represent any pet, not specifically a cat."
+    ],
+    "confidence": "medium"
+  }
+}

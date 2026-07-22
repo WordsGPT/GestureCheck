@@ -1,6 +1,7 @@
 const payload = window.RATING_DASHBOARD || { ratings: [], rows: [] };
 const rows = payload.rows || [];
 const ratings = payload.ratings || [];
+const dashboardRoot = document.querySelector(".dashboard");
 
 const searchInput = document.getElementById("searchInput");
 const collectionFilter = document.getElementById("collectionFilter");
@@ -18,8 +19,10 @@ const averageChart = document.getElementById("averageChart");
 const deltaChart = document.getElementById("deltaChart");
 const overviewPageTab = document.getElementById("overviewPageTab");
 const concretePageTab = document.getElementById("concretePageTab");
+const fakeTitlePageTab = document.getElementById("fakeTitlePageTab");
 const overviewPage = document.getElementById("overviewPage");
 const concretePage = document.getElementById("concretePage");
+const fakeTitlePage = document.getElementById("fakeTitlePage");
 const concreteSummary = document.getElementById("concreteSummary");
 const concreteChart = document.getElementById("concreteChart");
 const concreteVisibleCount = document.getElementById("concreteVisibleCount");
@@ -28,6 +31,11 @@ const concreteBothMode = document.getElementById("concreteBothMode");
 const concreteFlashMode = document.getElementById("concreteFlashMode");
 const concreteProMode = document.getElementById("concreteProMode");
 const concreteLegendItems = document.querySelectorAll(".concrete-legend");
+const fakeTitlePayload = window.FAKE_TITLE_DASHBOARD || { rows: [] };
+const fakeTitleRows = fakeTitlePayload.rows || [];
+const fakeTitleSummary = document.getElementById("fakeTitleSummary");
+const fakeTitleVisibleCount = document.getElementById("fakeTitleVisibleCount");
+const fakeTitleItemsBody = document.getElementById("fakeTitleItemsBody");
 let deltaChartHits = [];
 let activePage = "overview";
 let concreteModelMode = "both";
@@ -118,10 +126,15 @@ function fmt(value) {
 function setActivePage(page) {
   activePage = page;
   const showOverview = page === "overview";
+  const showConcrete = page === "concrete";
+  const showFakeTitles = page === "fake-titles";
   overviewPageTab.classList.toggle("active", showOverview);
-  concretePageTab.classList.toggle("active", !showOverview);
+  concretePageTab.classList.toggle("active", showConcrete);
+  fakeTitlePageTab.classList.toggle("active", showFakeTitles);
   overviewPage.classList.toggle("active", showOverview);
-  concretePage.classList.toggle("active", !showOverview);
+  concretePage.classList.toggle("active", showConcrete);
+  fakeTitlePage.classList.toggle("active", showFakeTitles);
+  dashboardRoot.classList.toggle("fake-title-mode", showFakeTitles);
   render();
 }
 
@@ -417,7 +430,133 @@ function renderTable(visibleRows) {
   });
 }
 
+function fakeTitleFilteredRows() {
+  const query = searchInput.value.trim().toLowerCase();
+  return fakeTitleRows.filter((row) => {
+    if (!query) return true;
+    return `${row.target_word} ${row.original_word} ${row.title} ${row.original_title}`
+      .toLowerCase()
+      .includes(query);
+  });
+}
+
+function fakeRatingValue(row, model, key = selectedRating()) {
+  return row.ratings?.[key]?.[model]?.score ?? null;
+}
+
+function fakeMeanPairwiseDelta(row, key = selectedRating()) {
+  const values = ["flash", "pro", "qwen"]
+    .map((model) => fakeRatingValue(row, model, key))
+    .filter((value) => typeof value === "number");
+  if (values.length < 2) return null;
+  const deltas = [];
+  for (let left = 0; left < values.length; left += 1) {
+    for (let right = left + 1; right < values.length; right += 1) {
+      deltas.push(Math.abs(values[left] - values[right]));
+    }
+  }
+  return average(deltas);
+}
+
+function renderFakeTitleSummary(visibleRows) {
+  const key = selectedRating();
+  const modelCards = [
+    ["Gemini Flash", "flash"],
+    ["Gemini Pro", "pro"],
+    ["Qwen3-VL-32B", "qwen"],
+  ];
+  fakeTitleSummary.innerHTML = `
+    <article>
+      <span>${visibleRows.length}</span>
+      <p>visible fake-title videos</p>
+    </article>
+    ${modelCards
+      .map(([label, model]) => {
+        const values = visibleRows.map((row) => fakeRatingValue(row, model, key));
+        return `
+          <article>
+            <span>${fmt(average(values)) || "-"}</span>
+            <p>${label} · ${ratings.find((rating) => rating.key === key)?.label || key}</p>
+          </article>
+        `;
+      })
+      .join("")}
+  `;
+}
+
+function renderFakeTitleTable(visibleRows) {
+  const key = selectedRating();
+  fakeTitleItemsBody.innerHTML = "";
+  fakeTitleVisibleCount.textContent = `${visibleRows.length} visible`;
+  visibleRows.forEach((row) => {
+    const delta = fakeMeanPairwiseDelta(row, key);
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td><strong>${row.target_word}</strong><br><span class="confidence">${row.title}</span></td>
+      <td><strong>${row.original_word}</strong><br><span class="confidence">${row.original_title}</span></td>
+      <td>${row.ratings[key]?.label || key}</td>
+      <td>${fmt(fakeRatingValue(row, "flash", key))}</td>
+      <td>${fmt(fakeRatingValue(row, "pro", key))}</td>
+      <td>${fmt(fakeRatingValue(row, "qwen", key))}</td>
+      <td class="delta ${delta >= 2 ? "hot" : ""}">${fmt(delta)}</td>
+    `;
+    tr.addEventListener("click", () => openFakeTitleDetail(row));
+    fakeTitleItemsBody.appendChild(tr);
+  });
+}
+
+function openFakeTitleDetail(row) {
+  const modelLabels = [
+    ["flash", "Gemini Flash"],
+    ["pro", "Gemini Pro"],
+    ["qwen", "Qwen3-VL-32B"],
+  ];
+  detailDrawer.innerHTML = `
+    <div class="detail-head">
+      <div>
+        <p class="eyebrow">Fake-title robustness probe</p>
+        <h2>${row.target_word}</h2>
+        <p class="confidence">Original target: ${row.original_word} · ${row.original_title}</p>
+      </div>
+      <button class="detail-close" type="button" aria-label="Close">×</button>
+    </div>
+    <video class="detail-video" controls playsinline src="${row.video}"></video>
+    <section class="model-descriptions">
+      <h3>Model descriptions</h3>
+      ${modelLabels
+        .map(([model, label]) => `<p><strong>${label}:</strong> ${row.models[model].description || "Missing"}</p>`)
+        .join("")}
+    </section>
+    ${ratings
+      .map((rating) => {
+        const value = row.ratings[rating.key];
+        return `
+          <article class="detail-card">
+            <h3>${rating.label} <span class="rating-delta">mean pairwise Δ ${fmt(fakeMeanPairwiseDelta(row, rating.key))}</span></h3>
+            <div class="rationale-grid three-models">
+              ${modelLabels
+                .map(
+                  ([model, label]) => `
+                    <div>
+                      <strong>${label} ${fmt(value[model].score)}</strong>
+                      <p>${value[model].rationale || "Missing"}</p>
+                    </div>
+                  `,
+                )
+                .join("")}
+            </div>
+          </article>
+        `;
+      })
+      .join("")}
+  `;
+  detailDrawer.classList.add("fake-title-detail");
+  detailDrawer.querySelector(".detail-close").addEventListener("click", closeDetail);
+  detailDrawer.classList.add("open");
+}
+
 function openDetail(row) {
+  detailDrawer.classList.remove("fake-title-detail");
   detailDrawer.innerHTML = `
     <div class="detail-head">
       <div>
@@ -471,16 +610,21 @@ function render() {
   if (activePage === "overview") {
     renderCharts(visibleRows);
     renderTable(visibleRows);
-  } else {
+  } else if (activePage === "concrete") {
     renderConcreteSummary(visibleRows);
     renderConcreteChart(visibleRows);
     renderConcreteTable(visibleRows);
+  } else {
+    const visibleFakeRows = fakeTitleFilteredRows();
+    renderFakeTitleSummary(visibleFakeRows);
+    renderFakeTitleTable(visibleFakeRows);
   }
 }
 
 initControls();
 overviewPageTab.addEventListener("click", () => setActivePage("overview"));
 concretePageTab.addEventListener("click", () => setActivePage("concrete"));
+fakeTitlePageTab.addEventListener("click", () => setActivePage("fake-titles"));
 concreteBothMode.addEventListener("click", () => setConcreteModelMode("both"));
 concreteFlashMode.addEventListener("click", () => setConcreteModelMode("flash"));
 concreteProMode.addEventListener("click", () => setConcreteModelMode("pro"));

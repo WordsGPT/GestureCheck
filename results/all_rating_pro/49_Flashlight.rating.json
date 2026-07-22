@@ -1,0 +1,42 @@
+{
+  "target_word": "Flashlight",
+  "video_file": "49_Flashlight.mp4",
+  "brief_gesture_description": "Actor raises one hand, grips an imaginary cylinder, and presses a thumb button.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Mimics holding and turning on a handheld device."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Simulates gripping a cylinder and pressing a button."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Moderate arm movement with subtle finger action."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains neutral."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Simple motion that is easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Standard mime for using a flashlight."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Basic hand movement is simple to copy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as a remote control without context."
+    ],
+    "confidence": "high"
+  }
+}

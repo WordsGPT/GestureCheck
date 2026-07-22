@@ -1,0 +1,42 @@
+{
+  "target_word": "Door",
+  "video_file": "86_Door.mp4",
+  "brief_gesture_description": "Actor raises a fist and performs a knocking motion twice.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "Shows the action of knocking rather than the object itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Simulates the physical act of knocking."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Simple, localized arm movement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Neutral facial expression."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Straightforward and easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Common action for interacting with doors."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Simple motor action to copy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'knock' instead of 'door'."
+    ],
+    "confidence": "high"
+  }
+}

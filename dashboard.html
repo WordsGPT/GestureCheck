@@ -22,6 +22,7 @@
       <nav class="page-tabs" aria-label="Dashboard pages">
         <button id="overviewPageTab" class="page-tab active" type="button">Overview</button>
         <button id="concretePageTab" class="page-tab" type="button">Concrete/Abstract</button>
+        <button id="fakeTitlePageTab" class="page-tab" type="button">Fake titles (15)</button>
       </nav>
 
       <section class="controls" aria-label="Dashboard filters">
@@ -165,10 +166,46 @@
         </section>
       </section>
 
+      <section id="fakeTitlePage" class="dashboard-page">
+        <section class="probe-intro">
+          <div>
+            <p class="eyebrow">Robustness probe</p>
+            <h2>Same videos, deliberately mismatched target words</h2>
+          </div>
+          <p>These 15 trials are excluded from the genuine-title dashboard summaries. Select a rating above, then open any row to inspect the video, model descriptions, scores, and rationales.</p>
+        </section>
+
+        <section id="fakeTitleSummary" class="summary-grid fake-title-summary" aria-label="Fake-title summary"></section>
+
+        <section class="table-panel">
+          <div class="section-head">
+            <h2>Fake-title trials</h2>
+            <span id="fakeTitleVisibleCount"></span>
+          </div>
+          <div class="table-wrap fake-title-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Fake target</th>
+                  <th>Original target</th>
+                  <th>Rating</th>
+                  <th>Gemini Flash</th>
+                  <th>Gemini Pro</th>
+                  <th>Qwen3-VL-32B</th>
+                  <th>Mean pairwise Δ</th>
+                </tr>
+              </thead>
+              <tbody id="fakeTitleItemsBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
       <aside id="detailDrawer" class="detail-drawer" aria-label="Item details"></aside>
     </main>
 
     <script src="dashboard-data.js"></script>
+    <script src="fake-title-data.js"></script>
     <script src="dashboard.js"></script>
   </body>
 </html>

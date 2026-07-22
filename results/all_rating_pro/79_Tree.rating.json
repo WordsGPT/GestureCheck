@@ -1,0 +1,42 @@
+{
+  "target_word": "Tree",
+  "video_file": "79_Tree.mp4",
+  "brief_gesture_description": "Actor raises one arm overhead, curving it slightly to mimic a tree canopy.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "Visually resembles a tree's shape."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "Minimal action simulation, mostly static posture."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Moderate arm movement overhead."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains neutral."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Simple movement, easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Somewhat recognizable shape representation."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Easy for learners to physically reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as stretching or reaching."
+    ],
+    "confidence": "medium"
+  }
+}

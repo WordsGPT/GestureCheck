@@ -1,0 +1,42 @@
+{
+  "target_word": "Bread",
+  "video_file": "52_Bread.mp4",
+  "brief_gesture_description": "Actor holds hand over eyes like a visor, as if searching.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "Gesture resembles searching, not bread."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "Lacks actions like slicing or eating."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Moderate, simple arm movement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Mostly neutral facial expression."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "Mismatch with word causes confusion."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Common gesture for looking, but unrelated to target."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Simple arm raise is easy to copy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture appears to mean 'searching' or 'looking', not 'bread'."
+    ],
+    "confidence": "high"
+  }
+}

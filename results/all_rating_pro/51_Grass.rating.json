@@ -1,0 +1,42 @@
+{
+  "target_word": "Grass",
+  "video_file": "51_Grass.mp4",
+  "brief_gesture_description": "Actor bends slightly and sweeps hands low to the ground.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "Sweeping hands low suggests a ground cover."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Evokes touching a low surface."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Moderate sweeping arm movement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Face remains neutral."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Simple motion, easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Standard way to indicate ground level."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Basic bending and arm sweep."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could represent ground or floor generally."
+    ],
+    "confidence": "high"
+  }
+}

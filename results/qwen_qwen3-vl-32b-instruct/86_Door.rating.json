@@ -1,0 +1,40 @@
+{
+  "target_word": "Door",
+  "video_file": "86_Door.mp4",
+  "brief_gesture_description": "The actor stands facing the camera, extends one arm forward with the palm facing outward, and moves it sideways in a pushing motion, as if opening a door. The movement is smooth and deliberate, accompanied by a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the action of pushing a door open, which is directly related to the semantics of 'door'. The hand position and lateral movement strongly resemble the physical interaction with a door."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical sensation of pushing a door, including the force and direction of movement. Learners can easily imagine themselves performing this action, enhancing bodily engagement with the word."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed, clearly visible but not overly exaggerated. It effectively draws attention without being overly dynamic or distracting."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a neutral facial expression throughout, providing no strong emotional cues. The face does not enhance or detract from the gesture’s meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and clear, involving a single arm movement with minimal steps. It is well-suited for second-language learners, balancing informativeness and ease of understanding."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of pushing a door open is a highly familiar action in Western cultures, commonly experienced and understood. It aligns with shared cultural schemas and requires no special interpretation."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is natural, simple, and easy to reproduce. Learners can easily mimic the hand position and movement without needing complex coordination or instruction."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

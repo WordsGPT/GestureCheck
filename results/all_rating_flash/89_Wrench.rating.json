@@ -1,0 +1,40 @@
+{
+  "target_word": "Wrench",
+  "video_file": "89_Wrench.mp4",
+  "brief_gesture_description": "The actor performs a pantomime of using a tool, specifically a twisting motion with both hands as if turning a wrench on a bolt.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hand shape and the twisting motion clearly and accurately represent the physical action of using a wrench."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the motor action of gripping and turning a tool, providing strong sensorimotor engagement."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively contained and not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the tool."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of using a wrench is a universally understood mechanical gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

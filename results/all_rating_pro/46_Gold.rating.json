@@ -1,0 +1,42 @@
+{
+  "target_word": "Gold",
+  "video_file": "46_Gold.mp4",
+  "brief_gesture_description": "The actor extends her right arm forward and slightly to the side, then returns it to a neutral resting position.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "Arm extension lacks a clear visual link to the concept of gold."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The reaching motion does not strongly evoke physical interaction with gold."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Standard arm movement with moderate speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains neutral throughout."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "Motorically simple, though the semantic connection is unclear."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "A familiar pointing action, but unusual in this specific word context."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The simple arm extension is very easy for learners to copy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture resembles pointing or indicating a location rather than a property of gold."
+    ],
+    "confidence": "medium"
+  }
+}

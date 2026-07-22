@@ -1,0 +1,40 @@
+{
+  "target_word": "Leg",
+  "video_file": "45_Leg.mp4",
+  "brief_gesture_description": "The actor points to her own leg with her hand, tracing a line down the side of her leg.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly points to and traces the shape of the leg, making the semantic connection perfectly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture involves touching and tracing one's own body part, which strongly engages proprioceptive and sensorimotor systems."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though it is relatively small and contained within the body's personal space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, instructional facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for teaching a concrete noun."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pointing to one's own body parts is a universal and highly familiar way to identify them."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy and natural for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Leg",
+  "video_file": "45_Leg.mp4",
+  "brief_gesture_description": "The actor stands upright, then bends one knee slightly while extending the other leg forward, pointing to it with their hand. The gesture is performed slowly and deliberately, with a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture directly points to and mimics the position of a leg, creating a clear visual representation of the body part. The extension and pointing to the leg provide a strong iconic link to the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture involves a simple bodily movement (bending one knee, extending the other leg) that simulates the physical experience of standing or moving a leg, evoking moderate sensorimotor imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed—clear but not exaggerated. It is noticeable enough to draw attention but not overly dynamic or expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a neutral facial expression throughout, with no clear emotional cues or affective signals accompanying the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and direct, involving minimal motor coordination and clear semantic mapping. It is well-suited for second-language learners without being overly simplistic."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pointing to a body part is a universally recognized and culturally familiar gesture in Western contexts. This gesture aligns with common conventions for teaching body parts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is natural, straightforward, and easy to reproduce. Learners can easily mimic the action of extending a leg and pointing to it without difficulty."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

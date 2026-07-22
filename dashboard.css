@@ -144,6 +144,16 @@ h2 {
   box-shadow: var(--shadow);
 }
 
+.fake-title-mode .controls {
+  grid-template-columns: minmax(260px, 2fr) minmax(220px, 1fr);
+}
+
+.fake-title-mode .controls > :nth-child(2),
+.fake-title-mode .controls > :nth-child(4),
+.fake-title-mode .controls > :nth-child(5) {
+  display: none;
+}
+
 label {
   display: grid;
   gap: 6px;
@@ -326,6 +336,59 @@ canvas {
   min-height: 92px;
 }
 
+.probe-intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 28px;
+  margin-bottom: 14px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff8ed;
+  box-shadow: var(--shadow);
+}
+
+.probe-intro > p {
+  max-width: 720px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.fake-title-summary p {
+  line-height: 1.35;
+}
+
+.fake-title-table-wrap {
+  max-height: 640px;
+}
+
+.model-descriptions {
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-soft);
+}
+
+.model-descriptions h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+
+.model-descriptions p {
+  margin: 7px 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.rationale-grid.three-models {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .concrete-summary strong {
   display: block;
   margin-bottom: 7px;
@@ -409,6 +472,10 @@ tbody tr:hover {
 
 .detail-drawer.open {
   transform: translateX(0);
+}
+
+.detail-drawer.fake-title-detail {
+  width: min(920px, 100vw);
 }
 
 .detail-head {
@@ -548,6 +615,14 @@ tbody tr:hover {
     display: block;
   }
 
+  .probe-intro {
+    display: block;
+  }
+
+  .probe-intro > p {
+    margin-top: 10px;
+  }
+
   .section-head {
     display: block;
   }
@@ -570,6 +645,14 @@ tbody tr:hover {
   .chart-grid,
   .summary-grid,
   .rationale-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fake-title-mode .controls {
+    grid-template-columns: 1fr;
+  }
+
+  .rationale-grid.three-models {
     grid-template-columns: 1fr;
   }
 }

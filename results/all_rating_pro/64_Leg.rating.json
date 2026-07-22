@@ -1,0 +1,42 @@
+{
+  "target_word": "Leg",
+  "video_file": "64_Leg.mp4",
+  "brief_gesture_description": "Actor rests her head on her hand.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "No visual link to a leg."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "Lacks leg-related action."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "Small, constrained hand movement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "Mild tired expression."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "Simple but semantically confusing."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Recognizable resting gesture."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Simple motor action."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture appears to mean sleep or tired, not leg."
+    ],
+    "confidence": "high"
+  }
+}

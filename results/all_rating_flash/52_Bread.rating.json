@@ -1,0 +1,42 @@
+{
+  "target_word": "Bread",
+  "video_file": "52_Bread.mp4",
+  "brief_gesture_description": "The actor performs a sweeping motion with her hand across her forehead, resembling a wiping action.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of wiping the forehead does not visually resemble bread or the act of eating/making bread."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The gesture evokes the sensation of wiping sweat, which is unrelated to the sensorimotor experience of bread."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is clear but small and lacks the dynamic range to be highly salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "While simple to perform, the gesture is confusing because it does not map to the target word."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The gesture is a common 'wiping sweat' gesture, but it is culturally unrelated to the concept of bread."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is completely unrelated to the target word 'Bread', making it highly ambiguous in a learning context."
+    ],
+    "confidence": "high"
+  }
+}

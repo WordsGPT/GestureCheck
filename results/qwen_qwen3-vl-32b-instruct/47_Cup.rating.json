@@ -1,0 +1,40 @@
+{
+  "target_word": "Cup",
+  "video_file": "47_Cup.mp4",
+  "brief_gesture_description": "The actor forms a cup shape with their hands by bringing the thumbs and index fingers together to create a circular rim, with the other fingers curled inward. The hands are held in front of the body at chest level, palms facing inward. The gesture is held steady with minimal movement, and the actor maintains a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand shape clearly mimics the form of a cup, with fingers forming the rim and curled fingers suggesting the body of the cup. This is a direct visual representation of the object’s shape."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates holding or shaping a cup, evoking a mild sense of grasping or containing, but lacks dynamic interaction like pouring or drinking, limiting the sensorimotor richness."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The gesture is static and involves minimal movement; the hands remain in place without expansion, motion, or trajectory, reducing its visual prominence."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor’s face is neutral with no visible emotional expression, providing no affective cue to support the gesture or word."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and straightforward, requiring only basic hand shaping, making it well-suited for second-language learners without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The hand-formed cup gesture is widely recognized in Western cultures as a common iconic gesture for 'cup' or 'drink,' aligning with shared cultural schemas."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is simple, natural, and easy to reproduce with minimal motor coordination, making it highly accessible for learners to mimic."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Cup",
+  "video_file": "47_Cup.mp4",
+  "brief_gesture_description": "Actor raises both hands with palms up and fingers slightly curled.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "Hands suggest holding an object."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Simulates holding something."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "Small, constrained movements."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Face remains mostly neutral."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "Simple and easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "General holding gesture, not specific to cup."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Very simple to copy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture looks more like holding a bowl or weighing objects than a typical cup."
+    ],
+    "confidence": "medium"
+  }
+}

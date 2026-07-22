@@ -1,0 +1,40 @@
+{
+  "target_word": "Ball",
+  "video_file": "72_Ball.mp4",
+  "brief_gesture_description": "The actor forms a round shape with their hands, bringing them together in front of the body, then moves them slightly up and down as if bouncing a ball. The gesture is performed with a neutral to slightly smiling facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the round shape and bouncing motion of a ball, creating a strong visual link to the target word’s semantics."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The hand movements simulate holding and bouncing a ball, evoking a strong physical interaction and perceptual experience associated with the word."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The gesture involves moderate movement in size and speed, with hands moving up and down in a rhythmic fashion, which is noticeable but not highly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor displays a neutral to slightly smiling expression, which conveys mild positivity but does not strongly emphasize emotional content."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and clear, involving only basic hand movements that are easy to understand and remember, fitting well for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of mimicking a ball with hands is widely recognized and used in Western cultures as a common iconic representation of a ball."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and effortless to reproduce, requiring only basic hand shaping and small up-and-down motions, making it highly accessible for learners."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

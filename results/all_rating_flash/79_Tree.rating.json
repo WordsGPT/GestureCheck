@@ -1,0 +1,42 @@
+{
+  "target_word": "Tree",
+  "video_file": "79_Tree.mp4",
+  "brief_gesture_description": "The actor stands still, then raises one arm in a curved motion above her head, leaning her body slightly to the side to mimic the shape of a tree branch or trunk.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The arm movement and body lean clearly mimic the shape of a tree branch or a swaying tree, providing a strong visual representation of the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture involves a physical movement that simulates the shape of a tree, engaging the body in a way that relates to the concept."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing a tree in a learning context."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using one's body to represent the shape of a tree is a universally understood and common iconic gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as a branch or a swaying motion rather than the whole tree, but it is clearly related to the concept."
+    ],
+    "confidence": "high"
+  }
+}

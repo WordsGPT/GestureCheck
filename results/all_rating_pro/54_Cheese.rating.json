@@ -1,0 +1,42 @@
+{
+  "target_word": "Cheese",
+  "video_file": "54_Cheese.mp4",
+  "brief_gesture_description": "Actor brings arms from the sides and crosses them over her torso.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "Weak visual link to cheese; possibly represents holding a wheel."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Suggests holding or pressing a large object."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Moderate inward arm sweep."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Neutral expression."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "Simple movement, but meaning is unclear."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "Not a recognized gesture for cheese."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Simple to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Unclear how crossing arms relates to cheese."
+    ],
+    "confidence": "medium"
+  }
+}

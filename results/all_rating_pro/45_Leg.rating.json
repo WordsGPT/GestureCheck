@@ -1,0 +1,42 @@
+{
+  "target_word": "Leg",
+  "video_file": "45_Leg.mp4",
+  "brief_gesture_description": "Actor raises hand and points index finger outward and downward to her right.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "Points away, no visual link to a leg."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "No leg-related physical action."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Basic arm extension."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Neutral expression."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "Simple motion, but confusing meaning."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Standard pointing, but odd context."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Easy to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture points away rather than at the actor's own leg."
+    ],
+    "confidence": "high"
+  }
+}

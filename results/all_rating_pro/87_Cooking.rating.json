@@ -1,0 +1,42 @@
+{
+  "target_word": "Cooking",
+  "video_file": "87_Cooking.mp4",
+  "brief_gesture_description": "Actor raises both hands as if holding a pot and moves them slightly forward.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "Shows holding a pot, relating moderately to cooking."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Simulates grasping cookware."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "Small, brief forward motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Face remains neutral."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Simple and easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Recognizable action but not a universal emblem."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Simple arm movement is easy to copy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Looks more like holding a pot rather than the active process of cooking."
+    ],
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Grass",
+  "video_file": "51_Grass.mp4",
+  "brief_gesture_description": "The actor bends slightly forward, extends both hands with palms facing down, and moves them horizontally across the lower body level in a sweeping motion, mimicking the appearance and movement of grass swaying. Facial expression is neutral to slightly smiling, with eyes looking downward toward the hands.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture visually resembles grass by simulating its low, horizontal, swaying form with hands moving side-to-side near the ground. The hand orientation and movement direction strongly evoke the appearance of grass blades."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical sensation of brushing hands over grass or feeling grass sway in the wind. The sweeping motion and body posture suggest tactile interaction with a field of grass, creating vivid sensorimotor imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture involves large, continuous, and rhythmic horizontal movement across the body, making it visually prominent and attention-grabbing. The motion is expansive and clear, enhancing its salience."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The facial expression is neutral to mildly positive, with a slight smile and downward gaze. It conveys calmness or mild pleasantness but does not strongly convey emotion related to grass."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, involving only two hands and a basic sweeping motion, making it easy to understand and remember. It is well-suited for vocabulary learning without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture is a common iconic representation of grass in Western cultures, often used in educational or children’s contexts. It aligns with widely recognized visual metaphors for grass."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is natural, simple, and requires no specialized skills. Learners can easily replicate the hand motion and body posture, making it highly reproducible."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

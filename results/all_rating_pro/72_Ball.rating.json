@@ -1,0 +1,42 @@
+{
+  "target_word": "Ball",
+  "video_file": "72_Ball.mp4",
+  "brief_gesture_description": "Actor brings arms from the sides to the front, tracing a large round shape.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Traces a round shape, showing the object's form."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Suggests holding a large round item."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Arms move from sides to center."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Face remains neutral."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Simple motion, easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Common way to show size and shape."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Basic arm movement, easy to copy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'circle' or 'globe' rather than specifically a ball."
+    ],
+    "confidence": "high"
+  }
+}

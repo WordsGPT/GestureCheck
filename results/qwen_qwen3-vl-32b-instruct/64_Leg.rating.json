@@ -1,0 +1,40 @@
+{
+  "target_word": "Leg",
+  "video_file": "64_Leg.mp4",
+  "brief_gesture_description": "The actor points downward with their index finger toward their own leg, while slightly bending the knee and looking at the camera with a neutral to slightly smiling expression. The gesture is slow and deliberate, emphasizing the lower limb.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture directly points to the leg, creating a clear visual link between the hand movement and the body part being named. This is a strong iconic representation of the word 'leg'."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture involves pointing and slight knee bending, which evokes a mild bodily experience related to the leg. However, it does not simulate a full action or interaction with the leg (e.g., walking or kicking)."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed—pointing downward with the index finger is noticeable but not expansive or rapid. It draws attention but does not strongly command visual focus."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral to slightly smiling, providing a weak emotional cue. There is no strong affective signal such as surprise, excitement, or emphasis."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple and direct—pointing to the leg with minimal movement. It is well-suited for second-language learners, as it is easy to understand and does not overload cognitive processing."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pointing to one’s own body part is a highly familiar gesture in Western cultures, commonly used in language learning and daily communication. It aligns with shared cultural schemas."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and effortless to reproduce—simply point to one’s own leg. It requires no special motor skills and is accessible to learners of all ages and abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

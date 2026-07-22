@@ -1,0 +1,42 @@
+{
+  "target_word": "Cheese",
+  "video_file": "54_Cheese.mp4",
+  "brief_gesture_description": "The actor stands, spreads arms wide, then brings them together in front of the chest while bowing slightly, as if mimicking the shape of a large wheel of cheese or a similar object.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture is abstract and does not clearly represent the concept of 'cheese' to an observer without prior knowledge."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is somewhat generic and does not strongly evoke the physical experience of handling or eating cheese."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and involves the whole upper body, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, serious facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to perform, making it appropriate for a learning context."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The gesture is not a standard or widely recognized cultural emblem for 'cheese'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and involves basic arm and torso motions that are easy for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as holding a large ball, a box, or hugging something, rather than specifically 'cheese'."
+    ],
+    "confidence": "high"
+  }
+}

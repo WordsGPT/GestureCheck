@@ -1,0 +1,40 @@
+{
+  "target_word": "Gold",
+  "video_file": "46_Gold.mp4",
+  "brief_gesture_description": "The actor holds up a small, shiny object (resembling a gold coin or nugget) in their right hand, moving it slightly from side to side while looking at it with a pleased expression. The hand is open, palm up, and the object glints under the light. The movement is slow and deliberate, emphasizing the object’s shine and value.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture directly represents the concept of 'gold' by displaying a shiny, valuable object, which is visually and semantically linked to the word. The glinting motion reinforces the metallic, precious nature of gold."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates holding and examining a small, valuable object, evoking tactile and visual experiences associated with handling gold. However, the movement is limited to slight side-to-side motion, so the sensorimotor simulation is moderate."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The gesture involves moderate movement—slight side-to-side motion of the hand holding the object. It is not highly dynamic or expansive, but it is clearly visible and draws attention to the object."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor displays a clear expression of satisfaction or delight while looking at the object, conveying positive affect associated with wealth or value, which aligns with the emotional connotations of 'gold'."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and focused, involving only one hand and a small object. It is easy to understand and appropriate for vocabulary learning, avoiding unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The act of holding and admiring a shiny, valuable object is universally recognized in Western cultures as representing wealth or treasure. The gesture aligns with common cultural schemas for 'gold'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can easily replicate the gesture by holding an imaginary or real small, shiny object and moving it slightly. The motion is natural and requires no complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

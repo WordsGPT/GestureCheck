@@ -1,0 +1,122 @@
+[
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "45_Cigarette.avi",
+    "title": "45_Leg.mp4",
+    "target_word": "Leg",
+    "local_path": "rating-video/45_Leg.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "46_Cancellation.avi",
+    "title": "46_Gold.mp4",
+    "target_word": "Gold",
+    "local_path": "rating-video/46_Gold.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "47_Alternative.avi",
+    "title": "47_Cup.mp4",
+    "target_word": "Cup",
+    "local_path": "rating-video/47_Cup.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "49_Arrival.avi",
+    "title": "49_Flashlight.mp4",
+    "target_word": "Flashlight",
+    "local_path": "rating-video/49_Flashlight.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "51_Effort.avi",
+    "title": "51_Grass.mp4",
+    "target_word": "Grass",
+    "local_path": "rating-video/51_Grass.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "52_View.avi",
+    "title": "52_Bread.mp4",
+    "target_word": "Bread",
+    "local_path": "rating-video/52_Bread.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "53_Command.avi",
+    "title": "53_Water.mp4",
+    "target_word": "Water",
+    "local_path": "rating-video/53_Water.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "54_Property.avi",
+    "title": "54_Cheese.mp4",
+    "target_word": "Cheese",
+    "local_path": "rating-video/54_Cheese.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "64_Boredom.avi",
+    "title": "64_Leg.mp4",
+    "target_word": "Leg",
+    "local_path": "rating-video/64_Leg.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "72_Talent.avi",
+    "title": "72_Ball.mp4",
+    "target_word": "Ball",
+    "local_path": "rating-video/72_Ball.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "79_Triumph.avi",
+    "title": "79_Tree.mp4",
+    "target_word": "Tree",
+    "local_path": "rating-video/79_Tree.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "86_Warning.avi",
+    "title": "86_Door.mp4",
+    "target_word": "Door",
+    "local_path": "rating-video/86_Door.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "87_Wealth.avi",
+    "title": "87_Cooking.mp4",
+    "target_word": "Cooking",
+    "local_path": "rating-video/87_Cooking.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "89_Admission.avi",
+    "title": "89_Wrench.mp4",
+    "target_word": "Wrench",
+    "local_path": "rating-video/89_Wrench.mp4"
+  },
+  {
+    "collection": "gesture",
+    "source": "unrelated_title_probe",
+    "original_title": "90_Purpose.avi",
+    "title": "90_Cat.mp4",
+    "target_word": "Cat",
+    "local_path": "rating-video/90_Cat.mp4"
+  }
+]

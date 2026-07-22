@@ -1,0 +1,42 @@
+{
+  "target_word": "Cup",
+  "video_file": "47_Cup.mp4",
+  "brief_gesture_description": "The actor holds both hands in a cupped shape, moving them slightly outward as if holding a small object, then returns to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand shape clearly mimics the form of holding a cup or a small bowl, providing a strong visual representation of the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical interaction of holding a cup, engaging the motor system associated with grasping and holding."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and subtle, lacking the expansive or rapid dynamics that would make it highly salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the concept of a cup."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of cupping hands to represent a container is universally understood and highly familiar."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also represent 'bowl' or 'holding something small', but it is highly consistent with 'cup'."
+    ],
+    "confidence": "high"
+  }
+}

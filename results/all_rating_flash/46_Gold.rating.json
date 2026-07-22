@@ -1,0 +1,42 @@
+{
+  "target_word": "Gold",
+  "video_file": "46_Gold.mp4",
+  "brief_gesture_description": "The actor performs a sweeping motion with her right arm from the side to the front, followed by a brief pause, which does not clearly represent the concept of gold.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture is an abstract sweeping motion that does not visually resemble gold, jewelry, or any associated concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "There is no clear physical action or sensory experience associated with the concept of gold in this movement."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is a simple, slow arm sweep, lacking dynamic or commanding features."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is simple to perform, but its lack of semantic connection makes it ineffective for learning."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This movement is not a recognized cultural gesture for 'gold' in Western or other common contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and physically effortless to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture is completely abstract and lacks any semantic link to the word 'gold'. It could be interpreted as a wave, a cleaning motion, or a generic gesture."
+    ],
+    "confidence": "high"
+  }
+}

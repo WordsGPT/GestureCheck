@@ -1,0 +1,43 @@
+{
+  "target_word": "Leg",
+  "video_file": "64_Leg.mp4",
+  "brief_gesture_description": "The actor touches her face with her hand, then returns to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of touching the face has no visual relationship to the concept of a leg."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement does not evoke any bodily action or physical interaction associated with a leg."
+    },
+    "motional_salience_gesture": {
+      "score": 1,
+      "rationale": "The movement is subtle, slow, and minimal."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression is neutral throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The gesture is confusing because it does not relate to the target word, making it ineffective for learning."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "Touching one's face is not a culturally recognized gesture for the word 'leg'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and easy to physically reproduce, even if it is semantically meaningless."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture does not represent the target word 'leg' in any recognizable way.",
+      "The movement appears to be a mistake or a placeholder rather than a communicative gesture."
+    ],
+    "confidence": "high"
+  }
+}

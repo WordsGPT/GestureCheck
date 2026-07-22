@@ -1,0 +1,42 @@
+{
+  "target_word": "Door",
+  "video_file": "86_Door.mp4",
+  "brief_gesture_description": "The actor raises her right arm and moves her hand in a small arc, mimicking the motion of opening a door handle or latch.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand movement clearly mimics the action of turning a door handle or latch, which is a highly recognizable iconic representation of a door."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture engages the motor system in a way that simulates the physical interaction of opening a door, providing strong sensorimotor grounding."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and constrained to the hand and forearm, lacking the expansive or highly dynamic quality that would make it visually commanding."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for learning the word 'door' without unnecessary cognitive load."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of turning a door handle is a universal, highly familiar physical interaction in Western and many other cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to perform, making it easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as turning a knob or a light switch, though 'door' is the most logical semantic fit."
+    ],
+    "confidence": "high"
+  }
+}

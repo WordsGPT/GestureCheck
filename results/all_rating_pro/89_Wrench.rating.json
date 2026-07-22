@@ -1,0 +1,42 @@
+{
+  "target_word": "Wrench",
+  "video_file": "89_Wrench.mp4",
+  "brief_gesture_description": "Actor bends forward and mimics gripping and turning a large tool.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Mimics holding and turning a tool."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Simulates the physical effort of turning a wrench."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Moderate arm and torso movement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Mostly neutral facial expression."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Simple and direct action."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Standard pantomime for tool use."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "Easy physical movement to copy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as pulling a lever rather than a wrench."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Cooking",
+  "video_file": "87_Cooking.mp4",
+  "brief_gesture_description": "The actor mimics stirring a pot with a spoon using their right hand, moving it in a circular motion. They lean slightly forward, and their facial expression is focused and neutral to mildly engaged, suggesting concentration on the task. The gesture is performed slowly and deliberately, with moderate arm movement.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The circular hand motion clearly resembles the act of stirring food in a pot, which is a core action in cooking. The gesture directly maps to a common cooking behavior, making the iconic relationship strong and transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical sensation of stirring, involving arm and wrist movement, which learners can easily imagine performing themselves. The motion is concrete and action-based, strongly simulating a real cooking task."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed—clear enough to be noticed but not overly expansive or rapid. It is sufficiently salient to draw attention without being distracting or overwhelming."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor’s facial expression is neutral to mildly focused, indicating concentration. It does not convey strong emotion but does suggest engagement with the task, providing a moderate emotional cue."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and clear, involving only one hand and a basic circular motion. It is well-suited for vocabulary learning, as it is informative without being cognitively or motorically demanding."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Stirring with a spoon is a universally recognized cooking action, especially in Western contexts. The gesture is highly familiar and aligns with common cultural schemas for cooking."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is natural, simple, and easy to reproduce. Learners can immediately mimic the stirring motion with minimal instruction or effort, making it highly enactable."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

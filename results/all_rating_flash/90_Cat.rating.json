@@ -1,0 +1,40 @@
+{
+  "target_word": "Cat",
+  "video_file": "90_Cat.mp4",
+  "brief_gesture_description": "The actor uses both hands to trace the shape of a cat's whiskers on either side of her face, moving from the center outward.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly and directly mimics the iconic feature of a cat's whiskers, making the meaning immediately transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical act of touching or tracing the whiskers, which is a strong sensory-based representation of the animal."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though it is relatively contained and not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word 'cat'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Tracing whiskers is a universally recognized gesture for a cat in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Tree",
+  "video_file": "79_Tree.mp4",
+  "brief_gesture_description": "The actor stands upright, arms raised above head with palms facing outward, fingers spread wide, mimicking the branches of a tree. The movement is slow and deliberate, with a slight sway to suggest growth or wind. Facial expression is neutral to slightly smiling, conveying calmness.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly resembles a tree with arms extended upward and fingers spread like branches, providing a transparent visual representation of the word’s semantics."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical experience of reaching upward and spreading limbs, simulating the form of a tree, but lacks dynamic interaction or tactile elements."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed—arms rise slowly and sway slightly—making it noticeable but not highly dynamic or attention-grabbing."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The facial expression is calm and slightly smiling, suggesting positive affect, but not strongly emotive or expressive."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and clear, involving only arm and hand movements, making it well-suited for second-language learners without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture is commonly used in Western educational contexts to represent trees, aligning with familiar cultural schemas for depicting natural objects."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is natural, intuitive, and easy to reproduce with minimal instruction, requiring no special coordination or physical ability."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}
