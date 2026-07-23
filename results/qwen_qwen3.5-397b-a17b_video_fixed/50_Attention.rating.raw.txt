@@ -1,0 +1,40 @@
+{
+  "target_word": "Attention",
+  "video_file": "50_Attention.avi",
+  "brief_gesture_description": "The actor stands upright, then raises her right hand to cup behind her right ear while tilting her head slightly and leaning her torso forward, as if straining to hear. She holds this pose briefly before returning to neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of cupping the hand behind the ear is a widely recognized iconic representation of listening or paying attention to sound, directly mapping to the semantic core of 'attention' in auditory contexts."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The posture evokes the physical act of leaning in and amplifying sound through hand placement, simulating the bodily experience of focusing auditory attention."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is moderate — deliberate but not expansive or rapid; the lean and hand raise are clear but contained within personal space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "Facial expression shows mild concentration — eyebrows slightly raised, gaze directed outward — conveying focused intent without strong emotional valence."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "Simple, single-motion gesture with no fine motor demands; ideal for learners to associate quickly with the target word without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Cupping the hand behind the ear to indicate listening is a highly familiar emblematic gesture across Western cultures, aligning with common sociocultural schemas."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Extremely natural and effortless to reproduce; requires only basic arm movement and head tilt, accessible to all learners regardless of motor skill level."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": ["Could be misinterpreted as 'listen' rather than general 'attention', though auditory attention is a valid subset of the broader concept."],
+    "confidence": "high"
+  }
+}

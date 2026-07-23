@@ -1,0 +1,40 @@
+{
+  "target_word": "Tent",
+  "video_file": "44_Tent.avi",
+  "brief_gesture_description": "The actor stands facing the camera, raises both hands to chest level, and brings the fingertips of each hand together to form a triangular peak shape in front of her face, then lowers her hands back down.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture forms a clear triangular peak with the hands, directly mimicking the iconic roofline or silhouette of a tent."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The action simulates the structural shape of a tent, evoking the spatial concept of a shelter with a peaked top, though it does not simulate the act of pitching one."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed; the hands move clearly to form the shape but the motion is contained within the upper body without large expansive gestures."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, requiring only basic hand coordination to form a triangle, making it highly appropriate for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using hands to form a roof or triangle shape is a widely recognized and conventional way to represent a house or tent in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and effortless to reproduce, requiring no complex motor skills or flexibility."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

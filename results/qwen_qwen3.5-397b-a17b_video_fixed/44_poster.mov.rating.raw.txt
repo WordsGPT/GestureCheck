@@ -1,0 +1,43 @@
+{
+  "target_word": "Poster",
+  "video_file": "44_poster.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands high as if holding the top corners of a large sheet, brings them down and apart to mimic unrolling or displaying it, and then crosses her arms in front of her chest as if rolling it back up.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the physical dimensions and handling of a poster, specifically the action of holding the top edge and unrolling or displaying a large sheet of paper."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement evokes the kinesthetic sensation of handling a large, lightweight, flexible object, engaging the learner's memory of similar physical interactions."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and uses the upper body space effectively, though it is not overly large or rapid, maintaining a moderate level of visual prominence."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture, providing no additional emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The two-handed coordination is simple enough to be easily processed but complex enough to distinctively represent the object's properties."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of unrolling or hanging a poster is a common experience in Western educational and office contexts, making the mime readily recognizable."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves natural arm movements that are very easy for a learner to reproduce without physical strain or complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as handling a large map or a curtain due to the similar size and unrolling action.",
+      "The final crossing of the arms might be interpreted as simply finishing the action rather than specifically rolling the item up."
+    ],
+    "confidence": "high"
+  }
+}

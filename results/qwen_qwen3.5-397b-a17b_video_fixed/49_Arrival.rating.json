@@ -1,0 +1,42 @@
+{
+  "target_word": "Arrival",
+  "video_file": "49_Arrival.avi",
+  "brief_gesture_description": "The actor walks forward a few steps towards the camera and then comes to a complete stop, standing still.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Walking forward and stopping is a direct physical enactment of reaching a destination, clearly mapping to the concept of arrival."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The full-body movement of walking and halting evokes the physical sensation of traveling and reaching an endpoint."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct but relatively subtle; it relies on translation through space rather than large limb gestures."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral to mildly pleasant, providing little additional affective information about the arrival."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The action is extremely simple and cognitively undemanding, making it highly suitable for vocabulary association."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Walking to a spot and stopping is a universal human action understood across cultures as reaching a destination."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can easily reproduce this by simply taking a step forward and stopping; it requires no special skill."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the target word, the gesture could be interpreted simply as 'walk' or 'come here'."
+    ],
+    "confidence": "high"
+  }
+}

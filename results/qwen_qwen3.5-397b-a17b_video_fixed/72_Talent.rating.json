@@ -1,0 +1,42 @@
+{
+  "target_word": "Talent",
+  "video_file": "72_Talent.avi",
+  "brief_gesture_description": "The actor stands facing the camera, raises both hands to head level with index fingers pointing toward her temples, then extends both arms outward horizontally while maintaining finger-pointing posture, before returning to neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "Pointing to temples suggests mental capacity or innate ability, which loosely relates to 'talent' as an internal trait; however, it does not visually depict talent itself (e.g., skill demonstration) and could be confused with 'thinking' or 'idea'."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes a sense of accessing or indicating something inside the mind, simulating the concept of inherent mental ability — moderately aligned with sensorimotor experience of ‘having’ talent internally."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is clear, expansive (arms extend fully outward), and temporally distinct — drawing attention effectively through size and directional change from head to sides."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains largely neutral throughout; no strong affective cues (e.g., pride, awe, excitement) are conveyed that would reinforce the emotional weight of 'talent'."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Gesture involves two simple, sequential movements (point to head → extend arms) that are easy to parse cognitively and motorically appropriate for vocabulary learning contexts."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Pointing to the head to indicate intelligence or mental ability is somewhat recognizable in Western contexts, but not a conventional emblem for 'talent'; may require interpretation rather than immediate recognition."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Very natural and effortless to reproduce — requires only basic arm and hand coordination without fine motor control or balance challenges."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'idea', 'thinking', or 'intelligence' rather than specifically 'talent'; lacks contextual cues (e.g., performance, award, applause) to disambiguate."
+    ],
+    "confidence": "medium"
+  }
+}

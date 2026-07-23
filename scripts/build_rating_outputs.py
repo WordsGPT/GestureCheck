@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build XLSX and dashboard data from Flash/Pro rating JSON files."""
+"""Build XLSX and dashboard data from Flash, Pro, and Qwen rating JSON files."""
 
 from __future__ import annotations
 
@@ -8,7 +8,9 @@ import json
 import re
 import zipfile
 from html import escape
+from itertools import combinations
 from pathlib import Path
+from statistics import mean
 from typing import Any
 
 
@@ -25,6 +27,7 @@ RATINGS = [
 MODEL_DIRS = {
     "flash": ROOT / "results" / "all_rating_flash",
     "pro": ROOT / "results" / "all_rating_pro",
+    "qwen": ROOT / "results" / "qwen_qwen3.5-397b-a17b_video_fixed",
 }
 
 
@@ -79,6 +82,12 @@ def ambiguities(result: dict[str, Any] | None) -> str:
     return "; ".join(str(value) for value in values)
 
 
+def description(result: dict[str, Any] | None) -> str:
+    if not result:
+        return ""
+    return str(result.get("brief_gesture_description", ""))
+
+
 def build_rows(manifest: list[dict[str, Any]], model_dirs: dict[str, Path]) -> list[dict[str, Any]]:
     rows = []
     for position, item in enumerate(manifest, start=1):
@@ -88,14 +97,14 @@ def build_rows(manifest: list[dict[str, Any]], model_dirs: dict[str, Path]) -> l
         }
         deltas = {}
         for key, _label in RATINGS:
-            flash_score = score(results["flash"], key)
-            pro_score = score(results["pro"], key)
-            deltas[key] = (
-                pro_score - flash_score
-                if flash_score is not None and pro_score is not None
-                else None
-            )
-        numeric_deltas = [abs(value) for value in deltas.values() if value is not None]
+            values = [
+                value
+                for result in results.values()
+                if (value := score(result, key)) is not None
+            ]
+            pairwise = [abs(left - right) for left, right in combinations(values, 2)]
+            deltas[key] = round(mean(pairwise), 3) if pairwise else None
+        numeric_deltas = [value for value in deltas.values() if value is not None]
         rows.append(
             {
                 "index": position,
@@ -133,6 +142,10 @@ def dashboard_payload(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
                     "score": score(row["results"]["pro"], key),
                     "rationale": rationale(row["results"]["pro"], key),
                 },
+                "qwen": {
+                    "score": score(row["results"]["qwen"], key),
+                    "rationale": rationale(row["results"]["qwen"], key),
+                },
                 "delta": row["deltas"][key],
             }
         payload.append(
@@ -149,8 +162,18 @@ def dashboard_payload(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 "mean_abs_delta": row["mean_abs_delta"],
                 "flash_confidence": confidence(row["results"]["flash"]),
                 "pro_confidence": confidence(row["results"]["pro"]),
+                "qwen_confidence": confidence(row["results"]["qwen"]),
                 "flash_ambiguities": ambiguities(row["results"]["flash"]),
                 "pro_ambiguities": ambiguities(row["results"]["pro"]),
+                "qwen_ambiguities": ambiguities(row["results"]["qwen"]),
+                "models": {
+                    model: {
+                        "description": description(result),
+                        "confidence": confidence(result),
+                        "ambiguities": ambiguities(result),
+                    }
+                    for model, result in row["results"].items()
+                },
                 "ratings": ratings,
             }
         )
@@ -253,19 +276,26 @@ def workbook_rows(rows: list[dict[str, Any]]) -> list[list[Any]]:
         "Video file",
         "Flash confidence",
         "Pro confidence",
-        "Mean abs delta",
-        "Max abs delta",
+        "Qwen confidence",
+        "Mean pairwise delta across dimensions",
+        "Max mean pairwise delta",
         "Flash ambiguities",
         "Pro ambiguities",
+        "Qwen ambiguities",
+        "Flash action description",
+        "Pro action description",
+        "Qwen action description",
     ]
     for _key, label in RATINGS:
         header.extend(
             [
                 f"{label} Flash",
                 f"{label} Pro",
-                f"{label} delta",
+                f"{label} Qwen",
+                f"{label} mean pairwise delta",
                 f"{label} Flash rationale",
                 f"{label} Pro rationale",
+                f"{label} Qwen rationale",
             ]
         )
 
@@ -279,19 +309,26 @@ def workbook_rows(rows: list[dict[str, Any]]) -> list[list[Any]]:
             row["title"],
             confidence(row["results"]["flash"]),
             confidence(row["results"]["pro"]),
+            confidence(row["results"]["qwen"]),
             row["mean_abs_delta"],
             row["max_abs_delta"],
             ambiguities(row["results"]["flash"]),
             ambiguities(row["results"]["pro"]),
+            ambiguities(row["results"]["qwen"]),
+            description(row["results"]["flash"]),
+            description(row["results"]["pro"]),
+            description(row["results"]["qwen"]),
         ]
         for key, _label in RATINGS:
             values.extend(
                 [
                     score(row["results"]["flash"], key),
                     score(row["results"]["pro"], key),
+                    score(row["results"]["qwen"], key),
                     row["deltas"][key],
                     rationale(row["results"]["flash"], key),
                     rationale(row["results"]["pro"], key),
+                    rationale(row["results"]["qwen"], key),
                 ]
             )
         table.append(values)
@@ -301,12 +338,13 @@ def workbook_rows(rows: list[dict[str, Any]]) -> list[list[Any]]:
 def summary_rows(rows: list[dict[str, Any]]) -> list[list[Any]]:
     table = [["Metric", "Value"]]
     table.append(["Total manifest rows", len(rows)])
-    table.append(["Rows with both models", sum(1 for row in rows if row["complete"])])
+    table.append(["Rows with all models", sum(1 for row in rows if row["complete"])])
     table.append(["Rows missing Flash", sum(1 for row in rows if not row["results"]["flash"])])
     table.append(["Rows missing Pro", sum(1 for row in rows if not row["results"]["pro"])])
+    table.append(["Rows missing Qwen", sum(1 for row in rows if not row["results"]["qwen"])])
     for key, label in RATINGS:
-        deltas = [abs(row["deltas"][key]) for row in rows if row["deltas"][key] is not None]
-        table.append([f"{label} mean abs delta", round(sum(deltas) / len(deltas), 3) if deltas else ""])
+        deltas = [row["deltas"][key] for row in rows if row["deltas"][key] is not None]
+        table.append([f"{label} mean pairwise delta", round(mean(deltas), 3) if deltas else ""])
     return table
 
 
@@ -333,12 +371,16 @@ def main() -> int:
     parser.add_argument("--manifest", type=Path, default=ROOT / "all_rating_videos.json")
     parser.add_argument("--flash-dir", type=Path, default=MODEL_DIRS["flash"])
     parser.add_argument("--pro-dir", type=Path, default=MODEL_DIRS["pro"])
+    parser.add_argument("--qwen-dir", type=Path, default=MODEL_DIRS["qwen"])
     parser.add_argument("--xlsx", type=Path, default=ROOT / "rating-results.xlsx")
     parser.add_argument("--dashboard-data", type=Path, default=ROOT / "dashboard-data.js")
     args = parser.parse_args()
 
     manifest = json.loads(args.manifest.read_text(encoding="utf-8"))
-    rows = build_rows(manifest, {"flash": args.flash_dir, "pro": args.pro_dir})
+    rows = build_rows(
+        manifest,
+        {"flash": args.flash_dir, "pro": args.pro_dir, "qwen": args.qwen_dir},
+    )
 
     write_xlsx(args.xlsx, rows)
     payload = {

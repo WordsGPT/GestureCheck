@@ -1,0 +1,43 @@
+{
+  "target_word": "Banana",
+  "video_file": "43_banana.mov.AVI",
+  "brief_gesture_description": "The actor stands still, then performs a quick, sweeping motion with her right arm across her body from left to right, ending with a slight head tilt and return to neutral stance. No hand shaping or object mimicry is evident.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture bears no visual resemblance to a banana’s shape, peeling action, or typical handling; it appears abstract and unrelated to the target word’s semantics."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "No bodily simulation of holding, peeling, eating, or interacting with a banana is evoked; the movement lacks tactile or motor association with the word."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The arm sweep is moderately sized and fast enough to draw attention, but lacks complexity or repetition that would enhance salience for learning."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains largely neutral throughout; the slight head tilt at the end conveys minimal affective cue, insufficient to reinforce meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and not cognitively overloaded, making it easy to process — though its simplicity does not aid semantic mapping to 'banana'."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This sweeping arm motion is not a culturally recognized emblem or iconic gesture for 'banana' in Western contexts; it may be interpreted as random or stylistic."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is physically effortless and requires no fine motor control, making it very easy for learners to reproduce — despite lacking semantic relevance."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture could be misinterpreted as indicating direction, dismissal, or dance movement rather than referencing 'banana'.",
+      "Absence of hand shaping or object interaction makes intended referent unclear without verbal context."
+    ],
+    "confidence": "medium"
+  }
+}

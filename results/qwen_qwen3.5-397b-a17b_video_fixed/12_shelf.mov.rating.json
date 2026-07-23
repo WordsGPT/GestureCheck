@@ -1,0 +1,42 @@
+{
+  "target_word": "Shelf",
+  "video_file": "12_shelf.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands high and then brings them down to shoulder level, holding them flat and parallel to the ground to outline a horizontal surface.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture perfectly mimics the physical characteristics of a shelf: a flat, horizontal surface at a specific height."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The flat hand position strongly evokes the tactile and spatial experience of a shelf surface where objects are placed."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is large and distinct, sweeping from high above the head down to a specific level, drawing clear attention to the defined space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused expression typical of instructional videos, with no specific emotional signaling."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matched to the concrete noun it represents, imposing no unnecessary cognitive load."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using flat hands to indicate a level or surface is a highly familiar and universally understood communicative gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no dexterity or complex coordination, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could potentially be confused with 'table' depending on the perceived height, though the mid-level positioning favors 'shelf'."
+    ],
+    "confidence": "high"
+  }
+}

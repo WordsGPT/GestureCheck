@@ -1,0 +1,42 @@
+{
+  "target_word": "Mirror",
+  "video_file": "41_mirrow.mov.AVI",
+  "brief_gesture_description": "The actor stands facing forward, then raises both hands with palms open and facing outward, moving them slightly forward and back in a symmetrical motion as if presenting or framing a reflective surface in front of her face.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture visually mimics holding or facing a mirror — palms forward, symmetric placement near the face — strongly suggesting reflection or self-viewing."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Evokes the bodily experience of looking into a mirror; hand positioning simulates interaction with a reflective surface, engaging spatial and tactile imagination."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is moderate in size and speed — clear but not exaggerated; sufficient to draw attention without being overly dramatic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains neutral throughout; no emotional cues are conveyed beyond focused gaze, which may support intent but lacks affective signaling."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "Simple, intuitive movement requiring minimal coordination; ideal for learners to associate with the concept of ‘mirror’ without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Highly familiar gesture in Western contexts — mimicking holding or facing a mirror is a common iconic representation understood across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Extremely easy to reproduce — requires only raising both hands symmetrically; natural and effortless for most learners to imitate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be misinterpreted as ‘stop’ or ‘frame’ without context; however, symmetry and proximity to face strongly favor ‘mirror’ interpretation."
+    ],
+    "confidence": "high"
+  }
+}

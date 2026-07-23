@@ -1,0 +1,44 @@
+{
+  "target_word": "Flashlight",
+  "video_file": "49_Flashlight.mp4",
+  "brief_gesture_description": "The actor stands in a neutral posture with arms at her sides. Throughout the sampled frames, there is no distinct hand shaping, gripping, or arm sweeping motion typically associated with using a flashlight.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The visual content does not display any form or movement that resembles a flashlight or its function."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "There is no simulation of holding, clicking, or shining a light, offering no bodily connection to the word's semantics."
+    },
+    "motional_salience_gesture": {
+      "score": 1,
+      "rationale": "Movement is minimal to non-existent; the actor remains largely static throughout the sequence."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "Facial expression remains neutral without conveying the focus or affective state associated with using a light in the dark."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The lack of gesture makes it confusing and ineffective for the learning context, failing to support the target vocabulary."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "No recognizable emblematic or iconic gesture form is presented that aligns with cultural schemas for 'flashlight'."
+    },
+    "enactment_potential": {
+      "score": 1,
+      "rationale": "While standing still is physically easy, learners cannot enact a meaningful representation of the word based on this video."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The video frames show a static posture with no clear hand manipulation or arm movement.",
+      "It is unclear if a subtle gesture (e.g., thumb click) occurred that was not captured in the sampled frames.",
+      "The video may be mislabeled or intended to show a different action."
+    ],
+    "confidence": "medium"
+  }
+}

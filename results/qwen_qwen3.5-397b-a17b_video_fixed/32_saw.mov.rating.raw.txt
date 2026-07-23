@@ -1,0 +1,43 @@
+{
+  "target_word": "Saw",
+  "video_file": "32_saw.mov.AVI",
+  "brief_gesture_description": "The actor stands neutrally, then swiftly moves her right hand across her left forearm in a single slicing or swiping motion before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture resembles a cutting or slicing action more than sawing, which typically requires a back-and-forth reciprocating motion to visually represent the tool's function."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "While it evokes a bodily action, it simulates a single slice rather than the friction and repetitive effort associated with using a saw."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is quick and distinct against the static background, drawing attention, but lacks the complexity or size of a more demonstrative action."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor plan is extremely simple and cognitively light, making it easy to process, even if the semantic mapping is weak."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "A single swipe across the arm is not a widely recognized conventional emblem for 'saw' in Western contexts, where a reciprocating motion is expected."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and effortless to reproduce, requiring minimal coordination or range of motion."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture strongly resembles 'cut' or 'slice' rather than the reciprocating action of 'sawing'.",
+      "It could be interpreted as brushing something off the arm."
+    ],
+    "confidence": "medium"
+  }
+}

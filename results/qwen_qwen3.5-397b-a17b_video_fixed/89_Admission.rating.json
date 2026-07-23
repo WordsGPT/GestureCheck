@@ -1,0 +1,43 @@
+{
+  "target_word": "Admission",
+  "video_file": "89_Admission.avi",
+  "brief_gesture_description": "The actor bends forward at the waist and extends both arms outward and downward with open palms, mimicking an inviting 'come in' or ushering motion, before returning to an upright standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture visually depicts the act of inviting someone to enter, which is the primary physical consequence of gaining admission."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement strongly evokes the bodily experience of ushering someone through a doorway or welcoming them into a space."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, involving a bend and arm extension, but remains relatively contained in size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a neutral to slightly polite expression, lacking strong emotional signaling."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple enough to be learned quickly but distinct enough to be memorable for the target concept."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The open-palm 'come in' motion is a highly familiar and conventional emblem in Western cultures for inviting entry."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no dexterity, and is very easy for learners to reproduce physically."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could equally represent 'Welcome' or 'Enter' rather than the specific noun 'Admission'.",
+      "It does not represent the secondary meaning of admission (confessing a truth)."
+    ],
+    "confidence": "high"
+  }
+}

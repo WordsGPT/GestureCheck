@@ -1,0 +1,42 @@
+{
+  "target_word": "Cup",
+  "video_file": "04_cup.mov.AVI",
+  "brief_gesture_description": "The actor brings both hands together in a curved shape, lifts them to her mouth as if drinking from a container, and then lowers them.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct visual mime of holding and using the target object."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Strongly evokes the physical sensations of grasping a cylinder and tilting the head to drink."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "Movement is clear, deliberate, and centrally located, drawing attention effectively."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression is neutral and focused on the action rather than conveying emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The movement is simple, intuitive, and perfectly matched to the concrete noun."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming drinking is a universally recognized action across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is natural and effortless for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as the verb 'drink' rather than the noun 'cup', though the hand shape implies the object."
+    ],
+    "confidence": "high"
+  }
+}

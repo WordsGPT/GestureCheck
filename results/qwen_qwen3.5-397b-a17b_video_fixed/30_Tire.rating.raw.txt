@@ -1,0 +1,40 @@
+{
+  "target_word": "Tire",
+  "video_file": "30_Tire.avi",
+  "brief_gesture_description": "The actor raises both arms overhead, then brings them down in a circular motion while rotating her wrists, mimicking the spinning of a wheel or tire. She ends with a slight forward lean and neutral expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The circular arm and wrist motion strongly resembles the rotation of a tire, making the gesture visually representative of the word’s meaning."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical sensation of turning or rolling a wheel, engaging motor imagery related to vehicle movement."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The large, sweeping arm movements are pronounced and draw attention, enhancing memorability through dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains mostly neutral throughout; no strong emotional cues are conveyed to reinforce the concept of 'tire'."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple enough to be understood quickly but includes sufficient detail (wrist rotation) to convey the concept effectively."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Mimicking wheel rotation with hands is a common iconic gesture in Western contexts for representing tires or wheels."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no special skill, and can be easily reproduced by learners of most ages and abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": ["Could potentially be interpreted as 'wheel' rather than specifically 'tire', though contextually acceptable"],
+    "confidence": "high"
+  }
+}

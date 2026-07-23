@@ -1,0 +1,42 @@
+{
+  "target_word": "Exercise",
+  "video_file": "80_Exercise.avi",
+  "brief_gesture_description": "The actor extends both arms forward for balance and performs a deep squat, holding the position briefly before returning to a standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct enactment of the target concept; performing a squat is a prototypical form of physical exercise."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement strongly evokes the physical sensations of leg engagement, balance, and vertical displacement associated with working out."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The squat involves a large, full-body movement that is visually distinct and clearly separates the action from a neutral standing pose."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is largely neutral but shows mild focus or concentration, lacking strong affective signaling like strain or joy."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The movement is a single, cohesive action that is cognitively simple to map to the word without being overly intricate."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Squatting is a fundamental human movement and a widely recognized standard exercise in Western fitness contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is natural and effortless for most learners to reproduce physically, requiring no complex fine motor skills."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted specifically as the word 'squat' rather than the broader category of 'exercise', though the fit is strong."
+    ],
+    "confidence": "high"
+  }
+}

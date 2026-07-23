@@ -1,0 +1,42 @@
+{
+  "target_word": "Perfume",
+  "video_file": "33_perfume.mov.AVI",
+  "brief_gesture_description": "The actor raises her right hand in a fist with thumb extended near her collarbone, tilts her head back, and mimics sniffing the air or smelling her neck.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The combination of placing the hand near the pulse point (neck) and the sniffing action creates a clear visual representation of applying or smelling perfume."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the sensory experience of smelling a scent and the physical action of applying it to the neck."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and focused on the upper body, standing out against the neutral stance, though not overly large or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor tilts her head back and closes her eyes slightly while sniffing, conveying the sensory focus associated with smelling a fragrance."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of a single fluid motion that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming the act of smelling or dabbing perfume on the neck is a highly conventional and recognizable gesture in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no complex motor skills, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted generally as the verb 'to smell' or 'scent' rather than the specific noun 'perfume', though the context likely clarifies this."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Bett",
+  "video_file": "05_Bett.mov.avi",
+  "brief_gesture_description": "The actor tilts her head to the right side and places her palms together against her right cheek, closing her eyes briefly to mimic the posture of sleeping on a pillow.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture depicts the action associated with the object (sleeping) rather than the object's shape, creating a strong metonymic visual link."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Evokes the physical sensation of resting one's head on a pillow and the bodily state of sleep."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is contained near the head with a moderate head tilt, making it noticeable but not expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor adopts a calm, resting expression with eyes closed, signaling relaxation and sleep."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple and cognitively straightforward, ideal for vocabulary acquisition."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a universally recognized emblem for sleeping or bed in Western and many other cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can easily reproduce this natural posture without difficulty or awkwardness."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture primarily signifies the action 'to sleep' (schlafen) rather than the noun 'bed' (Bett), though the semantic link is strong."
+    ],
+    "confidence": "high"
+  }
+}

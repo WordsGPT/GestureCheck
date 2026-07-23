@@ -1,0 +1,42 @@
+{
+  "target_word": "View",
+  "video_file": "52_View.avi",
+  "brief_gesture_description": "The actor raises her right hand to her forehead with the palm facing outward, mimicking the action of shading her eyes to look into the distance, while slightly turning her head as if scanning the horizon.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of shading the eyes is a highly transparent and conventional visual representation of looking at or viewing something in the distance."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It vividly evokes the physical sensation of blocking light to improve vision and the bodily experience of scanning a landscape."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is clear and pronounced, drawing attention to the face and eyes, though it is contained rather than expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is focused and slightly squinting to match the gesture, but lacks strong emotional affect."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, involving a single hand movement that is cognitively lightweight and easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Shading one's eyes to see better is a widely recognized and familiar gesture in Western contexts for looking or viewing."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and effortless for learners to reproduce without requiring complex motor coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could also be interpreted as 'look', 'see', 'search', or 'sun' depending on context."
+    ],
+    "confidence": "high"
+  }
+}

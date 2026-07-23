@@ -1,0 +1,40 @@
+{
+  "target_word": "Backpack",
+  "video_file": "32_Backpack.avi",
+  "brief_gesture_description": "The actor stands facing the camera and uses both hands to mime the action of putting on a backpack: she lifts her arms, bends her elbows, and pulls her hands down toward her shoulders as if sliding straps over them, then briefly holds the pose before returning to neutral.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the physical act of donning a backpack by simulating strap placement over the shoulders, offering a strong visual link to the word’s meaning."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement evokes the bodily sensation of lifting and adjusting a backpack onto one’s back, engaging motor memory associated with the object’s use."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The motion is deliberate and visible but not exaggerated; it has moderate size and speed, sufficient to draw attention without being overly dynamic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout, providing no emotional or affective cues to support memory encoding."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and directly tied to the function of the object, making it ideal for vocabulary learning without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming the act of putting on a backpack is a widely recognized and culturally neutral iconic gesture in Western contexts, aligning with common experiential schemas."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can easily replicate this gesture using natural arm movements that mirror everyday actions, requiring no special skill or coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

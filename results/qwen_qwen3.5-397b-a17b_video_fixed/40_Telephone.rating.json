@@ -1,0 +1,40 @@
+{
+  "target_word": "Telephone",
+  "video_file": "40_Telephone.avi",
+  "brief_gesture_description": "The actor raises her right hand to her right ear with her thumb and pinky finger extended while curling the middle fingers, mimicking the shape of a traditional telephone receiver, then lowers her arm back to her side.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hand shape held against the ear is a direct visual mimicry of holding a telephone receiver, making the semantic link extremely transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture strongly evokes the physical experience and bodily action of making a phone call, engaging auditory and motor schemas."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct but moderate in amplitude and speed; it is functional and precise rather than expansive or dramatic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a neutral to slightly focused expression, providing minimal affective information beyond attention to the task."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture involves a single, simple hand shape and arm movement, offering an optimal balance of simplicity and semantic clarity for learners."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a widely recognized emblematic gesture in Western culture, universally understood to represent a phone or the act of calling."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The motor action is natural and effortless, requiring no complex coordination, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

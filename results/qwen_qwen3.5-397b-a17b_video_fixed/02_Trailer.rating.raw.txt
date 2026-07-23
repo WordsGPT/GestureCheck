@@ -1,0 +1,44 @@
+{
+  "target_word": "Trailer",
+  "video_file": "02_Trailer.avi",
+  "brief_gesture_description": "The actor stands upright, then leans their torso forward significantly while extending both arms straight back behind them, holding the pose briefly before returning to neutral.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture metaphorically represents the concept of 'trailing' or being pulled behind, rather than depicting the physical object of a trailer directly."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Leaning forward and extending arms back evokes the physical sensation of drag, tension, or being towed, simulating the dynamics of a trailer."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement involves a large shift in center of gravity and full arm extension, making it visually prominent and distinct from a neutral stance."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains largely neutral with slight concentration, offering minimal affective support for the word meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture requires balance while leaning forward, which adds moderate physical complexity compared to simple hand gestures."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This is not a conventional emblem or widely recognized sign for 'trailer' in Western culture; it appears to be a novel iconic gesture."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The movement is physically straightforward and easy for most learners to reproduce without significant motor skill barriers."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'airplane' or 'flying'",
+      "Might suggest 'wind' or 'resistance'",
+      "Could represent the verb 'to pull' rather than the noun 'trailer'"
+    ],
+    "confidence": "medium"
+  }
+}

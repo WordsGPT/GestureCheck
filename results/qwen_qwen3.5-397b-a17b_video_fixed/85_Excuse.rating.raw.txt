@@ -1,0 +1,43 @@
+{
+  "target_word": "Excuse",
+  "video_file": "85_Excuse.avi",
+  "brief_gesture_description": "The actor stands facing the camera, raises both hands to chest level with palms open and facing forward, then pushes them slightly outward before lowering them back down. The facial expression remains neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The open-palm push-forward motion loosely resembles a polite distancing or clearing gesture, which can metaphorically relate to making space or apologizing — common contexts for 'excuse' — but lacks direct visual mapping to the word’s core semantics."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes a mild sense of physical displacement or yielding space, which may simulate the social act of excusing oneself, though it does not strongly engage bodily memory of specific actions like stepping aside or bowing."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is moderate in size and speed — clear enough to be noticed but not expansive or rapid; sufficient to draw attention without being overwhelming."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "Facial expression remains neutral throughout; no emotional cues (e.g., apology, regret, politeness) are conveyed via face, reducing affective reinforcement of the word."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Gesture is simple, symmetrical, and easy to parse cognitively; well-suited for vocabulary learning as it avoids unnecessary motor complexity while still conveying intent."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Open palms pushed forward is a widely recognized gesture in Western cultures for signaling ‘stop,’ ‘wait,’ or ‘I’m sorry’ — all contextually relevant to ‘excuse’ — making it culturally familiar and interpretable."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Gesture requires minimal coordination, uses natural arm movement, and is easily reproducible by learners of most ages and physical abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture could also be interpreted as ‘stop’ or ‘wait’ rather than specifically ‘excuse’.",
+      "Lack of facial expression reduces clarity of intended pragmatic function (apology vs. interruption)."
+    ],
+    "confidence": "medium"
+  }
+}

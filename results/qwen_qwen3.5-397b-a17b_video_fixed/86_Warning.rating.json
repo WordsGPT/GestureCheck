@@ -1,0 +1,43 @@
+{
+  "target_word": "Warning",
+  "video_file": "86_Warning.avi",
+  "brief_gesture_description": "The actor raises her right arm with the index finger pointing upward, holding it briefly near head level before lowering it, while maintaining a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The raised index finger is a symbolic gesture for attention or 'wait' rather than a visual depiction of danger or caution associated with warning."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple reach upward, lacking the physical blocking, shielding, or urgent motion typically associated with warning someone."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The gesture is relatively slow and contained, lacking the sharp, rapid, or expansive movement that would signal urgency or alarm."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains largely neutral, missing the concern, seriousness, or urgency that would reinforce the meaning of a warning."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The motor execution is very simple and uncomplicated, making it easy to process motorically, though the semantic mapping is weak."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "A raised finger is a common gesture for 'attention' or 'wait', which is somewhat related to warning, but it is not a standard emblem specifically for 'warning'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a basic arm raise and finger extension that is physically effortless and natural for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture strongly resembles signs for 'Idea', 'Up', 'Wait', or 'Attention' rather than 'Warning'.",
+      "Lack of facial affect makes the intent (alert vs. question vs. statement) unclear."
+    ],
+    "confidence": "medium"
+  }
+}

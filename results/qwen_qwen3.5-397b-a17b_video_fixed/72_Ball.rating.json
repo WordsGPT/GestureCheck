@@ -1,0 +1,43 @@
+{
+  "target_word": "Ball",
+  "video_file": "72_Ball.mp4",
+  "brief_gesture_description": "The actor raises both hands to head level and moves them outward in a large circular motion, outlining the shape and size of a large sphere before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hands trace a large spherical shape in the air, directly mapping to the physical roundness and volume of a ball."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Mimics holding or defining the volume of a large object, engaging the learner's spatial awareness of size and shape."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The wide arm extension creates a visually prominent and expansive movement that captures attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression is neutral and focused, providing minimal affective cues beyond standard instructional demeanor."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The movement is straightforward, requiring minimal motor planning to understand or copy, fitting the simplicity of the noun."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using hands to outline an object's shape is a universal and highly recognizable communicative strategy in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture uses natural arm movements that are effortless for learners of most physical abilities to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as the adjective 'big' generally rather than specifically the noun 'ball'",
+      "Initial hand placement near ears might briefly suggest 'head' or 'listen' before the outward expansion clarifies the intent"
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Suitcase",
+  "video_file": "26_Suitcase.avi",
+  "brief_gesture_description": "The actor bends forward at the waist to reach down with her right hand, then returns to an upright position with her right hand held at her hip as if gripping a handle.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the action of reaching for and lifting a suitcase by its handle, providing a strong visual link to the word's function."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The bending motion and subsequent posture evoke the physical sensation of lifting a weighted object from the ground."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves a clear change in posture (bending and rising), which is noticeable but not overly expansive or dramatic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, focusing on the action rather than affect."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The movement is simple, consisting of a reach and a hold, making it cognitively light and easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Carrying an object by the handle at one's side is a universally recognized action in Western contexts for bags and suitcases."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture uses natural body mechanics and requires no dexterity or complex coordination to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could potentially represent any handled object like a briefcase, heavy bag, or box rather than specifically a suitcase."
+    ],
+    "confidence": "high"
+  }
+}

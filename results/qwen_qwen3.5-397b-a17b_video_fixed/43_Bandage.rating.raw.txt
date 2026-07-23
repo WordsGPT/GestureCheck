@@ -1,0 +1,42 @@
+{
+  "target_word": "Bandage",
+  "video_file": "43_Bandage.avi",
+  "brief_gesture_description": "The actor bends forward at the waist and uses both hands to make a wrapping motion around her right lower leg/knee area, simulating the application of a bandage.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct pantomime of the action; wrapping hands around a limb visually represents the act of bandaging perfectly."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement strongly evokes the tactile sensation of wrapping and the pressure of a bandage being applied to a body part."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The gesture is clear and distinct due to the bending of the torso, but the hand movement itself is relatively small and contained."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused expression throughout the gesture, without conveying pain or distress."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of a single continuous action that is easy to process and remember."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Wrapping hands around an injured area is a highly familiar and universal gesture for indicating injury or bandaging."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no special skill or flexibility to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as indicating general pain or injury (e.g., 'hurt knee') rather than specifically a bandage."
+    ],
+    "confidence": "high"
+  }
+}

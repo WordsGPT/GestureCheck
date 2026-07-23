@@ -1,0 +1,43 @@
+{
+  "target_word": "Tendency",
+  "video_file": "75_Tendency.avi",
+  "brief_gesture_description": "The actor raises both hands in front of her torso and sweeps them diagonally upward to her left, tracing an invisible slope or path, before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The upward diagonal sweep effectively maps the abstract concept of an 'inclination' or 'direction' inherent in the word tendency onto physical space."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the action of tracing a graph or following a path, evoking a sense of directional movement."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and occupies a distinct zone of space, though it is performed at a moderate speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture, conveying no specific emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor pattern is simple and intuitive, perfectly matching the abstract nature of the word without adding unnecessary cognitive load."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Tracing a line in the air to indicate a trend or direction is a common conventional gesture in Western educational and business contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no dexterity, and can be easily reproduced by learners of any age."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also represent 'increase', 'rise', or 'future' due to the upward direction.",
+      "Without context, the specific nuance of 'habitual inclination' vs 'single event direction' is not visually distinguished."
+    ],
+    "confidence": "high"
+  }
+}

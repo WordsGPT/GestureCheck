@@ -1,0 +1,44 @@
+{
+  "target_word": "Information",
+  "video_file": "62_Information.avi",
+  "brief_gesture_description": "The actor stands facing forward, then raises her right arm to shoulder height with an open palm and slightly spread fingers, holding it briefly before lowering it back to her side.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The open palm gesture has a weak semantic link to 'information', perhaps suggesting 'presenting' or 'offering' data, but lacks a clear visual representation of the concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple arm raise without simulating a specific physical interaction with information, such as reading, writing, or transferring data."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and quick, lacking the expansive or complex dynamics that would strongly capture visual attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor pattern is extremely simple and requires minimal cognitive load to memorize, making it highly accessible for learners."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This specific hand raise is not a conventional emblem for 'information' in Western contexts, where it might be confused with greeting or signaling."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a natural, single-limb movement that is effortless for learners to reproduce physically."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture resembles a greeting wave or a signal to stop/wait.",
+      "It could be interpreted as 'I have an idea' or pointing to something unseen.",
+      "The link to the abstract concept of 'information' is not immediately obvious without verbal context."
+    ],
+    "confidence": "high"
+  }
+}

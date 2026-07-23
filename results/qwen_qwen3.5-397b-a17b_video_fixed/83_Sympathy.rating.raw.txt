@@ -1,0 +1,43 @@
+{
+  "target_word": "Sympathy",
+  "video_file": "83_Sympathy.avi",
+  "brief_gesture_description": "The actor brings both hands together in front of the chest, clasping them, while simultaneously bowing the head and upper body slightly forward and downward.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture metaphorically places the emotion in the heart center and uses a head bow to signify solemnity or care, creating a clear visual link to the abstract concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Clasping hands and leaning forward simulates the physical sensation of holding concern or feeling a weight in the chest associated with empathy."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is contained but distinct, involving both arm flexion and a torso lean that draws attention to the center of the body."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The downward gaze and bowed head effectively communicate sadness, solemnity, or concern, which are key components of sympathy."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor sequence is simple and natural, requiring no complex coordination, making it highly suitable for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Clasping hands near the heart with a head bow is a widely recognized Western convention for sincerity, sorrow, or deep feeling, though it may overlap with 'sorry'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is effortless to reproduce, requiring only basic arm and head movements that are comfortable for most learners."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'Sorry' or 'Apology' due to the head bow.",
+      "Might resemble a gesture for 'Prayer' or 'Please' depending on hand tightness."
+    ],
+    "confidence": "high"
+  }
+}

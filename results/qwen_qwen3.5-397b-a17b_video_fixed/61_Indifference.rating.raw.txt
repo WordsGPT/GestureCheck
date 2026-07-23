@@ -1,0 +1,42 @@
+{
+  "target_word": "Indifference",
+  "video_file": "61_Indifference.avi",
+  "brief_gesture_description": "The actor stands still with arms at her sides and maintains a neutral facial expression, exhibiting minimal to no visible body movement throughout the clip.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The lack of movement and neutral posture visually maps to the concept of not caring or reacting, though it lacks the more conventional shrug emblem."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The static posture evokes little bodily action or physical interaction, representing a state of inaction rather than active engagement."
+    },
+    "motional_salience_gesture": {
+      "score": 1,
+      "rationale": "There is minimal to no movement, making the gesture visually subtle and low in dynamic salience."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The neutral facial expression is a clear and meaningful signal that effectively communicates the lack of emotion associated with indifference."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple, requiring no complex motor planning or cognitive load to process."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "While a neutral stance is recognizable, the specific meaning of indifference is often more strongly associated with a shrug in Western contexts, making this somewhat ambiguous."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is effortless to reproduce, requiring learners to simply stand still and maintain a neutral face."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The lack of distinct hand movement (like a shrug) could be interpreted as waiting, boredom, or simply a neutral starting position rather than active indifference."
+    ],
+    "confidence": "medium"
+  }
+}

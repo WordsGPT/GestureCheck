@@ -1,0 +1,43 @@
+{
+  "target_word": "Recommendation",
+  "video_file": "58_Recommendation.avi",
+  "brief_gesture_description": "The actor stands facing forward, then bends slightly at the waist and extends both hands forward with palms up, as if presenting or offering something. She holds the pose briefly before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The open-palm, forward-offering gesture visually mirrors the act of giving advice or suggesting something — core semantics of 'recommendation'."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The motion evokes the physical experience of handing over or presenting an object or idea, strongly linking to the sensorimotor schema of offering guidance."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is moderate in size and speed — clear but not exaggerated; sufficient to draw attention without being overwhelming."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains largely neutral throughout; no strong affective cues (e.g., warmth, enthusiasm) are visibly conveyed to reinforce the gesture’s intent."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "Simple, single-motion gesture with low cognitive load; ideal for vocabulary learning contexts where clarity and ease of encoding are prioritized."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Open-palm offering gesture is widely recognized across Western cultures as signaling presentation, suggestion, or recommendation."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Gesture requires minimal coordination or flexibility; easily reproducible by learners of varying motor abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without verbal context, the gesture could be misinterpreted as 'giving', 'showing', or 'offering' rather than specifically 'recommending'.",
+      "Lack of facial expression may reduce perceived intentionality or emotional valence associated with recommending."
+    ],
+    "confidence": "high"
+  }
+}

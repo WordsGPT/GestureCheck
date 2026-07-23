@@ -1,0 +1,40 @@
+{
+  "target_word": "Guitar",
+  "video_file": "19_Guitar.avi",
+  "brief_gesture_description": "The actor stands facing the camera, extends her left arm forward with a closed fist (simulating holding a guitar neck), and uses her right hand to make a downward strumming motion across her torso (simulating strumming strings). She holds the pose briefly before returning to neutral.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly mimics the physical act of playing a guitar — one hand as fretting hand, the other as strumming hand — making the semantic link to 'guitar' highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement strongly evokes the bodily experience of holding and strumming a guitar, engaging motor memory associated with playing the instrument."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The strumming motion is clear, deliberate, and spatially distinct, drawing attention without being overly exaggerated or fast."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains neutral throughout; no emotional cue is added to reinforce the gesture’s meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and requires minimal coordination — ideal for learners to encode and reproduce without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Strumming an imaginary guitar is a widely recognized emblematic gesture in Western cultures, commonly used to represent music or guitars."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can easily mimic this gesture using only their hands and arms; no special equipment or complex body positioning is required."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

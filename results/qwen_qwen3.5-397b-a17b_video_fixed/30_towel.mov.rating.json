@@ -1,0 +1,43 @@
+{
+  "target_word": "Towel",
+  "video_file": "30_towel.mov.AVI",
+  "brief_gesture_description": "The actor raises her right arm high above her head and performs a sweeping downward motion across her upper body, mimicking the action of drying off with a towel.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the functional action of using a towel (drying off), establishing a strong semantic link through instrumental movement."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The sweeping arm movement effectively evokes the tactile sensation and physical effort of rubbing a towel against the body or hair."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is large and expansive, utilizing the full range of the arm to ensure the action is visually prominent against the static background."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a largely neutral expression with minimal affective signaling, focusing attention solely on the physical movement."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple, consisting of a single continuous arc that is easy to process and associate with the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of drying oneself is a universal human experience, making this mime highly recognizable across Western cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no complex coordination, making it effortless for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted specifically as drying hair rather than general towel use",
+      "Without a prop, the grip on the imaginary towel is abstract"
+    ],
+    "confidence": "high"
+  }
+}

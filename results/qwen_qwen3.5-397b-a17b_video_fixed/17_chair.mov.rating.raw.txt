@@ -1,0 +1,43 @@
+{
+  "target_word": "Chair",
+  "video_file": "17_chair.mov.AVI",
+  "brief_gesture_description": "The actor stands upright, places her left hand on her hip, and lifts her right leg, bending the knee to mimic the posture of sitting down on an invisible seat.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture iconically represents the function of a chair (sitting) rather than the object's shape, creating a clear semantic link."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Lifting the leg and bending the knee strongly evokes the physical sensation and motor plan of lowering oneself onto a seat."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and changes the body silhouette clearly, but it is relatively contained and slow rather than expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral and focused on the movement, lacking strong affective signaling."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple and cognitively straightforward, making it ideal for vocabulary association."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming the act of sitting is a universally recognized gesture in Western contexts for indicating a chair or sitting."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement requires minimal balance and effort, making it very easy for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without context, the gesture could be interpreted as the verb 'sit' rather than the noun 'chair'.",
+      "Could potentially be confused with body parts like 'knee' or 'leg' due to the focus on limb movement."
+    ],
+    "confidence": "high"
+  }
+}

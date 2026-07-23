@@ -1,0 +1,43 @@
+{
+  "target_word": "Watering Can",
+  "video_file": "09_gießkanne.mov.AVI",
+  "brief_gesture_description": "The actor stands and mimes holding a handle with her right hand near her hip, then swings her arm forward and downward in an arc, simulating the tilting and pouring motion of using a watering can.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture captures the functional action of pouring, which is associated with the object, but lacks specific morphological features of a watering can (e.g., a long spout or two-handed grip), making it resemble generic pouring."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The arm swing and wrist tilt strongly evoke the kinesthetic experience of lifting a weighted container and tilting it to release water."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and creates a clear arc in space, drawing attention to the action without being overly large or exaggerated."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture, providing no additional emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple, involving a single arm movement that is easy to process and memorize."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The pantomime of pouring from a container is a widely recognized and culturally common action."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no complex coordination, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as the verb 'to pour' rather than the noun 'watering can'.",
+      "Might be confused with pouring from a pitcher or jug due to the lack of a two-handed grip or spout indication."
+    ],
+    "confidence": "medium"
+  }
+}

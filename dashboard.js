@@ -30,12 +30,15 @@ const concreteItemsBody = document.getElementById("concreteItemsBody");
 const concreteBothMode = document.getElementById("concreteBothMode");
 const concreteFlashMode = document.getElementById("concreteFlashMode");
 const concreteProMode = document.getElementById("concreteProMode");
+const concreteQwenMode = document.getElementById("concreteQwenMode");
 const concreteLegendItems = document.querySelectorAll(".concrete-legend");
 const fakeTitlePayload = window.FAKE_TITLE_DASHBOARD || { rows: [] };
 const fakeTitleRows = fakeTitlePayload.rows || [];
 const fakeTitleSummary = document.getElementById("fakeTitleSummary");
 const fakeTitleVisibleCount = document.getElementById("fakeTitleVisibleCount");
 const fakeTitleItemsBody = document.getElementById("fakeTitleItemsBody");
+const agreementPayload = window.INTER_MODEL_AGREEMENT || { rows: [] };
+const agreementBody = document.getElementById("agreementBody");
 let deltaChartHits = [];
 let activePage = "overview";
 let concreteModelMode = "both";
@@ -111,7 +114,11 @@ function average(values) {
 }
 
 function modelAverage(row, key = selectedRating()) {
-  return average([ratingValue(row, "flash", key), ratingValue(row, "pro", key)]);
+  return average([
+    ratingValue(row, "flash", key),
+    ratingValue(row, "pro", key),
+    ratingValue(row, "qwen", key),
+  ]);
 }
 
 function typeLabel(value) {
@@ -143,6 +150,7 @@ function setConcreteModelMode(mode) {
   concreteBothMode.classList.toggle("active", mode === "both");
   concreteFlashMode.classList.toggle("active", mode === "flash");
   concreteProMode.classList.toggle("active", mode === "pro");
+  concreteQwenMode.classList.toggle("active", mode === "qwen");
   concreteLegendItems.forEach((item) => {
     item.classList.toggle(
       "hidden",
@@ -164,6 +172,20 @@ function renderSummary(visibleRows) {
   meanDelta.textContent = fmt(average(deltas) ?? 0);
   maxDelta.textContent = fmt(Math.max(0, ...deltas));
   visibleCount.textContent = `${visibleRows.length} visible`;
+}
+
+function renderAgreement() {
+  agreementBody.innerHTML = (agreementPayload.rows || [])
+    .map(
+      (row) => `
+        <tr>
+          <td><strong>${row.label}</strong></td>
+          <td>${Number(row.mean_pairwise_absolute_difference).toFixed(2)}</td>
+          <td>${Number(row.mean_pairwise_spearman_rho).toFixed(2)}</td>
+        </tr>
+      `,
+    )
+    .join("");
 }
 
 function drawBarChart(canvas, labels, series) {
@@ -315,6 +337,10 @@ function renderCharts(visibleRows) {
       color: "#8a5a1f",
       values: ratings.map((rating) => average(visibleRows.map((row) => ratingValue(row, "pro", rating.key)))),
     },
+    {
+      color: "#7656a8",
+      values: ratings.map((rating) => average(visibleRows.map((row) => ratingValue(row, "qwen", rating.key)))),
+    },
   ]);
 
   const key = selectedRating();
@@ -339,7 +365,11 @@ function renderConcreteSummary(visibleRows) {
   ];
   concreteSummary.innerHTML = "";
   summaries.forEach(([label, group]) => {
-    const scores = group.flatMap((row) => [ratingValue(row, "flash", key), ratingValue(row, "pro", key)]);
+    const scores = group.flatMap((row) => [
+      ratingValue(row, "flash", key),
+      ratingValue(row, "pro", key),
+      ratingValue(row, "qwen", key),
+    ]);
     const deltas = group
       .map((row) => Math.abs(deltaValue(row, key) ?? NaN))
       .filter((value) => typeof value === "number" && !Number.isNaN(value));
@@ -369,6 +399,11 @@ function renderConcreteChart(visibleRows) {
       values: ratings.map((rating) => average(concreteRows.map((row) => ratingValue(row, "pro", rating.key)))),
     },
     {
+      model: "qwen",
+      color: "#1f8f8a",
+      values: ratings.map((rating) => average(concreteRows.map((row) => ratingValue(row, "qwen", rating.key)))),
+    },
+    {
       model: "flash",
       color: "#7a5bb1",
       values: ratings.map((rating) => average(abstractRows.map((row) => ratingValue(row, "flash", rating.key)))),
@@ -377,6 +412,11 @@ function renderConcreteChart(visibleRows) {
       model: "pro",
       color: "#b24f7a",
       values: ratings.map((rating) => average(abstractRows.map((row) => ratingValue(row, "pro", rating.key)))),
+    },
+    {
+      model: "qwen",
+      color: "#d17b31",
+      values: ratings.map((rating) => average(abstractRows.map((row) => ratingValue(row, "qwen", rating.key)))),
     },
   ].filter((entry) => concreteModelMode === "both" || entry.model === concreteModelMode);
   drawGroupedChart(concreteChart, labels, series);
@@ -403,7 +443,8 @@ function renderConcreteTable(visibleRows) {
       <td>${row.ratings[key]?.label || key}</td>
       <td>${fmt(ratingValue(row, "flash", key))}</td>
       <td>${fmt(ratingValue(row, "pro", key))}</td>
-      <td class="delta ${Math.abs(delta ?? 0) >= 2 ? "hot" : ""}">${fmt(delta)}</td>
+      <td>${fmt(ratingValue(row, "qwen", key))}</td>
+      <td class="delta ${(delta ?? 0) >= 2 ? "hot" : ""}">${fmt(delta)}</td>
     `;
     tr.addEventListener("click", () => openDetail(row));
     concreteItemsBody.appendChild(tr);
@@ -422,8 +463,9 @@ function renderTable(visibleRows) {
       <td>${row.ratings[key]?.label || key}</td>
       <td>${fmt(ratingValue(row, "flash", key))}</td>
       <td>${fmt(ratingValue(row, "pro", key))}</td>
-      <td class="delta ${Math.abs(delta ?? 0) >= 2 ? "hot" : ""}">${fmt(delta)}</td>
-      <td class="confidence">F: ${row.flash_confidence || "-"}<br>P: ${row.pro_confidence || "-"}</td>
+      <td>${fmt(ratingValue(row, "qwen", key))}</td>
+      <td class="delta ${(delta ?? 0) >= 2 ? "hot" : ""}">${fmt(delta)}</td>
+      <td class="confidence">F: ${row.flash_confidence || "-"}<br>P: ${row.pro_confidence || "-"}<br>Q: ${row.qwen_confidence || "-"}</td>
     `;
     tr.addEventListener("click", () => openDetail(row));
     itemsBody.appendChild(tr);
@@ -463,7 +505,7 @@ function renderFakeTitleSummary(visibleRows) {
   const modelCards = [
     ["Gemini Flash", "flash"],
     ["Gemini Pro", "pro"],
-    ["Qwen3-VL-32B", "qwen"],
+    ["Qwen3.5-397B", "qwen"],
   ];
   fakeTitleSummary.innerHTML = `
     <article>
@@ -506,10 +548,11 @@ function renderFakeTitleTable(visibleRows) {
 }
 
 function openFakeTitleDetail(row) {
+  detailDrawer.classList.remove("three-model-detail");
   const modelLabels = [
     ["flash", "Gemini Flash"],
     ["pro", "Gemini Pro"],
-    ["qwen", "Qwen3-VL-32B"],
+    ["qwen", "Qwen3.5-397B"],
   ];
   detailDrawer.innerHTML = `
     <div class="detail-head">
@@ -557,6 +600,12 @@ function openFakeTitleDetail(row) {
 
 function openDetail(row) {
   detailDrawer.classList.remove("fake-title-detail");
+  detailDrawer.classList.add("three-model-detail");
+  const modelLabels = [
+    ["flash", "Gemini Flash"],
+    ["pro", "Gemini Pro"],
+    ["qwen", "Qwen3.5-397B"],
+  ];
   detailDrawer.innerHTML = `
     <div class="detail-head">
       <div>
@@ -567,6 +616,15 @@ function openDetail(row) {
       <button class="detail-close" type="button" aria-label="Close">×</button>
     </div>
     <video class="detail-video" controls playsinline src="${row.video || ""}"></video>
+    <section class="model-descriptions">
+      <h3>Action descriptions</h3>
+      ${modelLabels
+        .map(
+          ([model, label]) =>
+            `<p><strong>${label}:</strong> ${row.models?.[model]?.description || "Missing"}</p>`,
+        )
+        .join("")}
+    </section>
     ${ratings
       .map((rating) => {
         const value = row.ratings[rating.key];
@@ -577,17 +635,19 @@ function openDetail(row) {
               <span>${rating.label}</span>
               <span class="category-help" aria-hidden="true">?</span>
               <span class="category-tooltip" role="tooltip">${definition}</span>
-              <span class="rating-delta">delta ${fmt(value.delta)}</span>
+              <span class="rating-delta">mean pairwise Δ ${fmt(value.delta)}</span>
             </h3>
-            <div class="rationale-grid">
-              <div>
-                <strong>Flash ${fmt(value.flash.score)}</strong>
-                <p>${value.flash.rationale || "Missing"}</p>
-              </div>
-              <div>
-                <strong>Pro ${fmt(value.pro.score)}</strong>
-                <p>${value.pro.rationale || "Missing"}</p>
-              </div>
+            <div class="rationale-grid three-models">
+              ${modelLabels
+                .map(
+                  ([model, label]) => `
+                    <div>
+                      <strong>${label} ${fmt(value[model].score)}</strong>
+                      <p>${value[model].rationale || "Missing"}</p>
+                    </div>
+                  `,
+                )
+                .join("")}
             </div>
           </article>
         `;
@@ -622,12 +682,14 @@ function render() {
 }
 
 initControls();
+renderAgreement();
 overviewPageTab.addEventListener("click", () => setActivePage("overview"));
 concretePageTab.addEventListener("click", () => setActivePage("concrete"));
 fakeTitlePageTab.addEventListener("click", () => setActivePage("fake-titles"));
 concreteBothMode.addEventListener("click", () => setConcreteModelMode("both"));
 concreteFlashMode.addEventListener("click", () => setConcreteModelMode("flash"));
 concreteProMode.addEventListener("click", () => setConcreteModelMode("pro"));
+concreteQwenMode.addEventListener("click", () => setConcreteModelMode("qwen"));
 [searchInput, collectionFilter, ratingFilter, sortSelect, completeOnly].forEach((control) => {
   control.addEventListener("input", render);
   control.addEventListener("change", render);

@@ -1,0 +1,40 @@
+{
+  "target_word": "Telephone",
+  "video_file": "40_telephone.mov.AVI",
+  "brief_gesture_description": "The actor raises her right hand to her ear, extending the thumb and pinky finger while curling the middle fingers, mimicking the shape of a telephone handset.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hand shape (thumb and pinky extended) is the universally recognized iconic representation of a telephone handset held to the ear."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the physical action of holding a phone to the ear to listen or speak, evoking strong bodily memory."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct but relatively small and contained near the head, lacking large or rapid dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a neutral to slightly pleasant expression, providing minimal affective reinforcement for the word."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor requirement is minimal (simple hand shape), making it cognitively and physically appropriate for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a highly conventionalized emblematic gesture widely understood in Western cultures as meaning 'call' or 'telephone'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to reproduce, requiring only a basic hand configuration and movement to the ear."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

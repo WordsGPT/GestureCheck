@@ -1,0 +1,42 @@
+{
+  "target_word": "Key",
+  "video_file": "34_Key.avi",
+  "brief_gesture_description": "The actor extends her right arm forward at shoulder height, forms a pinch grip as if holding a small object, and performs a distinct wrist rotation mimicking the action of turning a key in a lock.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly depicts the functional use of a key (turning it) rather than its physical shape, establishing a strong semantic link."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The wrist rotation and pinch grip effectively evoke the tactile and motor experience of manipulating a key."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is localized to the arm and wrist; it is clear but relatively small in scale compared to full-body gestures."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple and cognitively straightforward, making it highly suitable for vocabulary association."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of turning a key in a lock is a universally recognized and culturally familiar motor schema in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires minimal dexterity, making it very easy for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without audio or context, the gesture could potentially be interpreted as 'lock' or 'open' rather than the object 'key' itself."
+    ],
+    "confidence": "high"
+  }
+}

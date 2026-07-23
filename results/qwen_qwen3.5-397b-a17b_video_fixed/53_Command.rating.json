@@ -1,0 +1,42 @@
+{
+  "target_word": "Command",
+  "video_file": "53_Command.avi",
+  "brief_gesture_description": "The actor stands upright and performs a military-style salute, raising her right hand to her forehead and then lowering it back to her side.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The salute is a strong emblem of military authority and hierarchy, which is the primary context for issuing commands, creating a clear metonymic link."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Evokes the rigid physical posture and formal bodily discipline associated with military environments where commands are given and received."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and sharp, drawing attention to the upper body, but is relatively contained in scope."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor maintains a serious, neutral expression that conveys authority and sternness appropriate for the concept of command."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is a single, simple motion that is cognitively lightweight and easy to process alongside the vocabulary word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The military salute is a widely recognized symbol in Western culture, immediately understood as relating to authority or the armed forces."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The motion is physically simple and requires no complex coordination, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is literally a 'salute', which could be interpreted as the word 'Salute', 'Soldier', 'Army', or 'Respect' rather than the act of 'Command'."
+    ],
+    "confidence": "high"
+  }
+}

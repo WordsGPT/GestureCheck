@@ -1,0 +1,42 @@
+{
+  "target_word": "Dish Washing Liquid",
+  "video_file": "24_dish washing liquid.mov.AVI",
+  "brief_gesture_description": "The actor mimes holding a dispenser bottle in one hand, pressing a pump mechanism to dispense liquid into the other palm, and then rubbing both hands together.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the specific action of pumping liquid from a bottle and applying it, which is strongly associated with the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The motion evokes the tactile sensation of pressing a pump and the friction of rubbing soapy hands, creating vivid bodily imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct but relatively contained within the upper body, lacking large or expansive dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture without conveying specific affect."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of two distinct phases (pumping and rubbing), making it cognitively light and easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of pumping soap and washing hands is a highly familiar, routine motor schema in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture requires no flexibility or complex coordination, making it effortless for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture represents using liquid soap generally, so it could be confused with 'hand soap' or 'washing hands' without context."
+    ],
+    "confidence": "high"
+  }
+}

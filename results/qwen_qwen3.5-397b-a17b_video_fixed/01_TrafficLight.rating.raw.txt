@@ -1,0 +1,43 @@
+{
+  "target_word": "Traffic Light",
+  "video_file": "01_TrafficLight.avi",
+  "brief_gesture_description": "The actor stands facing forward, then raises her right arm to shoulder height with palm open and fingers extended, holding the pose briefly before lowering the arm back down. Her head turns slightly toward the raised hand during the gesture.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The raised hand with open palm resembles a stop signal, which is associated with one state of a traffic light (red), but does not visually represent the full concept of a multi-light traffic signal or its structure."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture evokes a stopping action, which relates to driver behavior at a red light, but lacks simulation of interacting with or observing a physical traffic light device."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate — raising and lowering the arm — but not particularly large, fast, or complex; it draws moderate attention without being visually commanding."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout; no emotional cues are conveyed via face."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple motorically and cognitively — single arm raise and hold — making it easy to process and associate with the target word in a learning context."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "In Western contexts, an open palm raised horizontally is commonly understood as a 'stop' signal, which aligns with the red light function of a traffic light, though not the entire object."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture requires minimal coordination — simply raising one arm with open palm — making it very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture may be interpreted as signaling 'stop' rather than representing the object 'traffic light' itself.",
+      "Does not depict the vertical arrangement of lights or color changes typical of traffic signals."
+    ],
+    "confidence": "medium"
+  }
+}

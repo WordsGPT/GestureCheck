@@ -1,0 +1,42 @@
+{
+  "target_word": "Grass",
+  "video_file": "51_Grass.mp4",
+  "brief_gesture_description": "The actor bends forward at the waist, reaching both hands down towards the floor as if indicating or touching something low, then returns to an upright standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture indicates the spatial location of grass (low to the ground) but does not visually depict the shape or texture of grass itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The bending and reaching motion simulates the physical action of looking down at or touching vegetation on the ground."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves a clear change in vertical level and full-body engagement, making it distinct from subtle hand gestures."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, conveying no specific affective meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The movement is a simple, natural bodily action that requires minimal cognitive load to understand or reproduce."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Reaching down to indicate ground-level objects is a common and widely understood deictic gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Bending forward and reaching down is a fundamental human movement that is effortless for most learners to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'floor', 'down', 'shoes', or 'picking something up' without context"
+    ],
+    "confidence": "medium"
+  }
+}

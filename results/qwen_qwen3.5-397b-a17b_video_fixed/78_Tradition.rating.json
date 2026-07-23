@@ -1,0 +1,43 @@
+{
+  "target_word": "Tradition",
+  "video_file": "78_Tradition.avi",
+  "brief_gesture_description": "The actor performs a small, folk-dance-like step, lifting her right leg with a bent knee while moving her hands outward and down, then returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture depicts a specific dance step, which is only indirectly related to the abstract concept of 'tradition' via metonymy (cultural dance representing tradition)."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement simulates a rhythmic physical activity (dancing), evoking bodily engagement associated with cultural practices."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The leg lift and arm movement are distinct and break the neutral posture, drawing attention without being overly large."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains largely neutral throughout the gesture, offering no additional emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of a single coordinated movement that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Folk dancing is a recognizable symbol of tradition in Western contexts, though the specific step is generic rather than a specific emblem."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is physically simple and requires no special skill, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted simply as 'dance' or 'kick'",
+      "The link between a specific dance step and the broad concept of 'tradition' is not immediately obvious without the label"
+    ],
+    "confidence": "medium"
+  }
+}

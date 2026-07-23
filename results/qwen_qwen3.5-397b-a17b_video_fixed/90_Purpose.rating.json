@@ -1,0 +1,43 @@
+{
+  "target_word": "Purpose",
+  "video_file": "90_Purpose.avi",
+  "brief_gesture_description": "The actor stands facing forward, then raises her right hand with palm open and facing left, while her left hand moves forward to meet it, palm also open and facing right — as if framing or holding an invisible object between the hands. She holds this pose briefly before returning to neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture does not clearly resemble any concrete aspect of 'purpose' (e.g., goal, direction, intention). It may suggest containment or focus, but the link to abstract semantics is weak."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The motion involves basic hand positioning but does not evoke strong bodily experiences related to purpose (e.g., striving, aiming, deciding). The action feels static and symbolic rather than experiential."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "Movement is slow, small in amplitude, and lacks dynamic emphasis. It does not command attention or stand out visually against the neutral background."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "Facial expression remains neutral throughout; no emotional cues are conveyed that might reinforce the meaning of 'purpose' (e.g., determination, resolve)."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple motorically and cognitively — two-handed framing motion — making it easy to process without overwhelming learners, though its semantic fit is poor."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture resembles a generic 'holding' or 'framing' motion seen in some contexts (e.g., presenting an idea), but it is not a culturally established emblem for 'purpose' in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is straightforward, requires no fine motor control, and can be easily replicated by learners of varying physical abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture could be interpreted as representing 'idea', 'concept', or 'object' rather than 'purpose'.",
+      "Lack of facial or contextual cues makes intended meaning ambiguous without verbal label."
+    ],
+    "confidence": "medium"
+  }
+}

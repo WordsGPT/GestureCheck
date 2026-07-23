@@ -1,0 +1,42 @@
+{
+  "target_word": "Mirror",
+  "video_file": "37_Mirror.avi",
+  "brief_gesture_description": "The woman raises both hands to shoulder/face level with palms facing forward and fingers extended, mimicking the act of looking into a mirror or framing a reflection, before lowering them back down.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the action of looking into a mirror or the frame of a mirror, creating a strong visual link to the concept of reflection."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "It evokes the bodily experience of checking one's appearance or facing a reflective surface, engaging the learner's own sense of spatial orientation."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is deliberate and clear, involving both arms, but is relatively contained in space and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of a single fluid motion that is easy to process and associate with the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using hands to frame the face or mimic looking into a glass surface is a highly conventional and recognizable mime for 'mirror' in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no special dexterity, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could potentially be interpreted as 'stop' or 'frame' without context, but the specific hand orientation favors 'mirror'."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "target_word": "Till",
+  "video_file": "23_Till.avi",
+  "brief_gesture_description": "The actor stands in a neutral posture, briefly raises her right hand with the index finger extended pointing slightly forward and downward, glances at the hand, and then returns to a resting position.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture is a generic pointing motion which has a weak visual relationship to the abstract temporal concept of 'till' (up to a time)."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "There is minimal bodily engagement; the gesture does not strongly evoke the experience of duration or reaching a limit."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small in amplitude, quick, and lacks expansive dynamics that would draw strong attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is motorically very simple and easy to process, though perhaps too simple for the abstract meaning."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Pointing is a familiar deictic gesture, but it is not a conventionalized emblem specifically for the word 'till' in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is extremely natural and effortless for a learner to reproduce physically."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture resembles generic pointing ('here' or 'this') rather than indicating a temporal boundary",
+      "Lack of a sweeping motion or timeline visualization makes the 'duration' aspect unclear",
+      "Subtle movement could be missed or interpreted as a fidget"
+    ],
+    "confidence": "medium"
+  }
+}

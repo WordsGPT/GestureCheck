@@ -1,0 +1,43 @@
+{
+  "target_word": "Peppermill",
+  "video_file": "03_peppermill.mov.AVI",
+  "brief_gesture_description": "The actor stands still, then brings both hands to her lower abdomen/pelvic area and performs a quick, circular grinding motion with closed fists, mimicking the action of turning a peppermill. She returns to neutral stance afterward.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The circular hand motion at waist level strongly resembles the twisting action of operating a peppermill, making the gesture visually representative of the word’s semantics."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical sensation of gripping and rotating a kitchen tool, engaging motor memory associated with using a peppermill."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is moderate in size and speed — not overly large or fast, but clearly visible and distinct from resting posture."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "Facial expression remains neutral throughout; no emotional cues are conveyed to support meaning or engagement."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple enough to be learned quickly yet specific enough to convey the target concept without confusion."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "In Western contexts, mimicking the use of common kitchen tools like a peppermill is widely understood and culturally familiar."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The motion is natural, requires no special skill, and can be easily reproduced by learners of most ages and abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without context, the gesture could be mistaken for grinding coffee or spices generally, not specifically pepper.",
+      "Location (lower abdomen) may seem odd if learners expect the gesture to occur at table height."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "target_word": "Wrench",
+  "video_file": "89_Wrench.mp4",
+  "brief_gesture_description": "The actor bends forward at the waist, extends both arms, and performs a two-handed twisting motion, mimicking the action of turning a bolt or valve with a wrench.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly depicts the functional action of using a wrench (turning/torquing), providing a strong visual link to the word's semantic meaning."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The twisting motion of the wrists and forearms effectively evokes the physical sensation and resistance associated with tightening or loosening a bolt."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and deliberate, involving a bend and reach, but remains relatively contained in terms of spatial expansion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, offering no additional affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture involves a coordinated whole-body movement (bending and twisting) that is complex enough to be memorable but simple enough to be easily understood."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The mechanical action of turning a tool or valve is a common, recognizable motor schema in Western industrial and domestic contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no special flexibility or skill, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'turn', 'crank', or 'valve' due to the two-handed nature of the gesture.",
+      "The open hand shape does not clearly mimic gripping a specific tool handle."
+    ],
+    "confidence": "high"
+  }
+}

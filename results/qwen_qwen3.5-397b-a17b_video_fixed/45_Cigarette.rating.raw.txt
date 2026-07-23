@@ -1,0 +1,40 @@
+{
+  "target_word": "Cigarette",
+  "video_file": "45_Cigarette.avi",
+  "brief_gesture_description": "The actor raises her right hand to her mouth, pinching her thumb and index finger together as if holding a cigarette. She then extends her arm outward and slightly upward, mimicking the motion of exhaling smoke or flicking ash away.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand-to-mouth pinch and outward arm extension clearly mimic the act of smoking, visually representing the target word with strong iconicity."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical sensation of holding and smoking a cigarette, including the inhalation/exhalation motion, creating vivid sensorimotor imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed — not overly dramatic but sufficiently pronounced to draw attention without being distracting."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains largely neutral; no clear emotional cue (e.g., pleasure, disgust, relaxation) is conveyed alongside the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and cognitively lightweight — ideal for vocabulary learning contexts where clarity and ease of encoding are prioritized."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture aligns with widely recognized Western conventions for depicting smoking, making it highly familiar across cultures exposed to media portrayals of cigarettes."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can easily reproduce this gesture using one hand with minimal coordination — natural and effortless to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": ["Without context, the outward arm motion could be misinterpreted as pointing or dismissing rather than exhaling smoke."],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Effort",
+  "video_file": "51_Effort.avi",
+  "brief_gesture_description": "The actor bends forward at the waist with both arms reaching downward, then straightens her torso and lifts her arms slightly, mimicking the physical action of lifting a heavy object.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture iconically represents physical exertion by mimicking the act of lifting a heavy load, which is a concrete metaphor for the abstract concept of effort."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The bending and lifting motion strongly evokes the somatic sensation of muscle strain and physical work associated with exerting effort."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement involves significant displacement of the upper body and arms, making it visually distinct and attention-grabbing against the neutral stance."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor displays a focused expression during the movement that suggests concentration or mild strain, supporting the meaning without being overly dramatic."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor sequence is simple and intuitive, consisting of a single bend-and-lift action that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming the lifting of a heavy object is a widely recognized and conventional way to represent hard work or effort in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture uses natural body mechanics and requires no fine motor skills, making it very easy for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted specifically as 'heavy', 'lift', or 'pick up' rather than the abstract noun 'effort'."
+    ],
+    "confidence": "high"
+  }
+}

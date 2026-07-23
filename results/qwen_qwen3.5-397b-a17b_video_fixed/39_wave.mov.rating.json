@@ -1,0 +1,40 @@
+{
+  "target_word": "Wave",
+  "video_file": "39_wave.mov.AVI",
+  "brief_gesture_description": "The actor raises her right hand to shoulder height and moves it side-to-side in a standard greeting or parting motion.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct, literal visual representation of the action defined by the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement vividly simulates the physical act of waving hello or goodbye."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The hand movement is distinct and clearly visible against the background, drawing attention effectively."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a largely neutral facial expression without strong affective cues like smiling."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, involving a single hand movement that is easy to cognitively process."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a highly conventional and universally recognized emblem for greeting or parting in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires minimal physical effort for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

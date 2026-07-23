@@ -1,0 +1,43 @@
+{
+  "target_word": "Pumpkin",
+  "video_file": "25_pumpkin.mov.AVI",
+  "brief_gesture_description": "The actor bends her knees to lower her body while simultaneously sweeping her hands downwards and outwards, as if outlining the shape and size of a large, round object resting on the ground.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture visually represents the round shape and ground-level position of a pumpkin, but lacks specific distinguishing features like ridges or a stem, making it somewhat generic."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The knee bend and arm extension evoke the physical properties of the object, specifically its size and potential weight, creating a moderate sense of physical presence."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The downward drop of the torso and arms is distinct and creates a clear vertical movement path that captures attention without being overly exaggerated."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture, providing no additional emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture involves a simple coordination of leg and arm movement that is easy to understand and not cognitively overloaded."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "While there is no specific cultural emblem for 'pumpkin', the strategy of outlining an object's size and shape with the hands is a widely recognized communicative convention."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requiring only a slight squat and arm sweep, making it very easy for learners to reproduce physically."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could easily represent other large, round objects like a watermelon or a ball.",
+      "The movement might be interpreted as indicating 'heavy' or 'big' rather than a specific object."
+    ],
+    "confidence": "medium"
+  }
+}

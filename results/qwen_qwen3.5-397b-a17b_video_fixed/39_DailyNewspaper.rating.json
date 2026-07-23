@@ -1,0 +1,44 @@
+{
+  "target_word": "Daily Newspaper",
+  "video_file": "39_DailyNewspaper.avi",
+  "brief_gesture_description": "The actor stands still, then extends her right arm horizontally to the side with palm down, as if holding or presenting a flat object. She holds this pose briefly before returning to neutral stance. No facial expression change is observed.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The extended arm with palm down may suggest holding a flat object like a newspaper, but lacks specificity—could also represent a tray, board, or abstract concept. Weak visual link to 'newspaper' without additional cues (e.g., folding, reading motion)."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "Minimal bodily simulation; the gesture does not evoke actions typically associated with newspapers (e.g., unfolding, turning pages, reading). The static hold offers little kinesthetic engagement."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "Movement is slow and limited to one arm extension and retraction. Lacks dynamic range or emphasis that would draw attention or aid memory encoding."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "Facial expression remains neutral throughout. No affective signal is conveyed to reinforce meaning or engage learner emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Gesture is simple and easy to parse cognitively. However, its simplicity comes at the cost of semantic clarity for the target word."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "In Western contexts, extending an arm palm-down can imply offering or displaying something flat, which may loosely align with handing out or showing a newspaper—but it’s not a conventional emblem for ‘newspaper’ specifically."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Extremely easy to reproduce: single-arm extension with no fine motor control required. Learners of all ages and abilities could mimic it effortlessly."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture could represent any flat object (tray, paper, tablet, etc.)",
+      "No contextual cue (e.g., mimicking reading or folding) to disambiguate toward 'newspaper'",
+      "Lack of facial or vocal emphasis reduces semantic anchoring"
+    ],
+    "confidence": "medium"
+  }
+}

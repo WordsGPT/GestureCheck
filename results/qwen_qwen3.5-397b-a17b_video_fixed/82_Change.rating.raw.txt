@@ -1,0 +1,43 @@
+{
+  "target_word": "Change",
+  "video_file": "82_Change.avi",
+  "brief_gesture_description": "The actor stands facing forward and brings both hands up in front of the torso. The hands perform a vertical swapping or alternating motion (resembling the ASL sign for 'change' where fists exchange vertical positions) before returning to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The vertical swapping of hand positions is a strong metaphorical representation of exchange, alteration, or transformation."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture involves a clear manual action of swapping, evoking the physical sense of exchanging items or states."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is contained within the torso area; it is distinct and deliberate but not large or expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, requiring only basic bimanual coordination, making it highly suitable for learning contexts."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The motion aligns with the common ASL sign for 'change' and the universal metaphor of swapping positions to indicate alteration."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no flexibility, and is very easy for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'swap' or 'exchange' specifically rather than the broader concept of 'change'.",
+      "Without seeing the full dynamic motion, it might resemble a brushing down gesture if the swap is subtle."
+    ],
+    "confidence": "high"
+  }
+}

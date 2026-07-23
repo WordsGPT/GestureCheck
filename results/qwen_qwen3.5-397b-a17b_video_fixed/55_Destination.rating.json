@@ -1,0 +1,43 @@
+{
+  "target_word": "Destination",
+  "video_file": "55_Destination.avi",
+  "brief_gesture_description": "The actor stands still, then raises her right hand to shoulder height with palm facing forward, and performs a single downward chopping motion toward her left hip, ending with hand near waist level. She returns to neutral stance. Facial expression remains neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The downward chop does not visually resemble 'destination'—no clear mapping to arrival, endpoint, or location. May be misinterpreted as dismissal or termination."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "Minimal bodily simulation of travel or arrival; the motion lacks directional trajectory or spatial anchoring that would evoke reaching a destination."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is moderate in size and speed—clearly visible but not expansive or dynamic enough to strongly capture attention for encoding."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "Facial expression remains neutral throughout; no affective cue to reinforce meaning or engagement."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Gesture is simple and cognitively lightweight, appropriate for vocabulary learning context despite low semantic clarity."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "Downward chop is not a conventional emblem for 'destination' in Western contexts; may be associated with cutting, stopping, or negation instead."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Very easy to reproduce—single arm movement with no fine motor control or coordination required."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture could be interpreted as 'stop', 'cut off', or 'end' rather than 'destination'",
+      "Lack of spatial reference (e.g., pointing forward or placing hand on map) weakens association with location or arrival"
+    ],
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "target_word": "Bread",
+  "video_file": "52_Bread.mp4",
+  "brief_gesture_description": "The actor raises her left hand to her forehead with the palm facing down, as if shielding her eyes to look into the distance, then lowers it.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture visually resembles looking or searching, with no iconic relationship to the shape, texture, or concept of bread."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement evokes visual searching, not the tactile or motor experiences associated with holding, cutting, or eating bread."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is distinct and clear, but its salience does not direct attention to semantic features of the target word."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "While motorically simple, the gesture is semantically confusing and misleading for the target word, offering no learning support."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This gesture is commonly associated with 'looking' or 'sun', but has no recognized cultural association with 'bread'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The physical action is very simple and easy for a learner to reproduce, despite being semantically incorrect."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture strongly suggests meanings like 'look', 'see', 'far', or 'sun' rather than 'bread'.",
+      "There appears to be a mismatch between the video content and the target label."
+    ],
+    "confidence": "high"
+  }
+}

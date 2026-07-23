@@ -1,0 +1,40 @@
+{
+  "target_word": "Earth",
+  "video_file": "20_earth.mov.AVI",
+  "brief_gesture_description": "The actor raises both arms high above her head and then sweeps them down and outward in a large, circular motion, effectively outlining the shape of a large sphere or globe around her body.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture creates a clear visual outline of a sphere or globe, which is the direct physical shape of the Earth."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The sweeping motion evokes the physical experience of encompassing or holding a large spherical object."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is expansive and uses the full vertical range of the actor's reach, making it visually prominent."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is largely neutral, perhaps slightly widened eyes for emphasis, but lacks strong affective signaling."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is a simple, single continuous motion that is easy to process cognitively while learning the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Drawing a circle in the air to represent the globe or the world is a highly conventional and recognized gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement relies on natural gross motor skills and is very easy for a learner to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

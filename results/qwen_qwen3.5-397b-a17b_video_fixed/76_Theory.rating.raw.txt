@@ -1,0 +1,43 @@
+{
+  "target_word": "Theory",
+  "video_file": "76_Theory.avi",
+  "brief_gesture_description": "The actor raises both hands to shoulder height with palms facing inward and fingers spread, as if holding or framing an invisible object, then lowers them back to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture is metaphorical, suggesting the framing or holding of an abstract concept, but lacks a direct visual link to the specific semantics of 'theory'."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The action simulates holding an object, which is a weak bodily correlate for an abstract intellectual concept like a theory."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is symmetrical and clear, drawing attention to the upper body, but is relatively slow and contained."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor pattern is extremely simple and cognitively undemanding, making it highly suitable for a learning context."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The 'framing' or 'holding a concept' hand shape is somewhat recognizable in Western contexts as a metaphor for ideas, but is not a specific emblem for 'theory'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a natural, bilateral arm movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could easily be interpreted as 'idea', 'structure', 'framework', or 'balance' rather than specifically 'theory'.",
+      "Without audio context, the specific abstract noun being referenced is unclear."
+    ],
+    "confidence": "medium"
+  }
+}

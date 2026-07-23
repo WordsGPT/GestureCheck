@@ -1,0 +1,43 @@
+{
+  "target_word": "Parsley",
+  "video_file": "06_parseley.mov.AVI",
+  "brief_gesture_description": "The actor stands neutrally, then suddenly throws both arms upward and outward with fingers splayed wide while widening her eyes in a surprised expression, before quickly returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture does not visually resemble the herb parsley (leaves, stems, color). It appears to depict an emotion or reaction rather than the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "There is no simulation of handling, chopping, smelling, or eating the herb. The movement is a full-body reaction."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is fast, expansive, and involves the whole upper body, making it visually prominent and attention-grabbing."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor's eyes widen significantly and her expression shifts to surprise/shock, providing a strong emotional cue."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor pattern is extremely simple (arms up, arms down) and cognitively undemanding."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While the 'surprise' gesture is common, it is not a recognized or conventional gesture for the word 'parsley' in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and effortless for a learner to reproduce physically."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture strongly depicts 'surprise' or 'being startled', suggesting it may be a phonological mnemonic (rhyming 'parsley' with 'startled') rather than a semantic depiction of the herb.",
+      "Without the mnemonic context, the link between the gesture and the vegetable is opaque."
+    ],
+    "confidence": "high"
+  }
+}

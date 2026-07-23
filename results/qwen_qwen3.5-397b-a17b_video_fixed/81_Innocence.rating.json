@@ -1,0 +1,43 @@
+{
+  "target_word": "Innocence",
+  "video_file": "81_Innocence.avi",
+  "brief_gesture_description": "The actor stands still, then brings both hands up to clasp them gently over her chest/heart area, holding the pose with a calm expression before lowering her hands.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture is metaphorical (pure heart) rather than visually representative of innocence; it closely resembles gestures for love, sincerity, or apology."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Touching the chest evokes the somatic experience of feeling emotion or sincerity within the body."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, slow, and contained within the torso area, lacking high visual prominence."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor maintains a soft, serene expression that aligns with the concept of purity or calmness."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor action is extremely simple and requires minimal cognitive load to process or execute."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Placing hands over the heart is a widely recognized Western emblem for sincerity, honesty, or deep feeling."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is natural, requires no dexterity, and is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture is polysemous and could easily be interpreted as 'love', 'sorry', 'honesty', or 'me'",
+      "Lacks specific visual markers distinguishing innocence from general sincerity"
+    ],
+    "confidence": "medium"
+  }
+}

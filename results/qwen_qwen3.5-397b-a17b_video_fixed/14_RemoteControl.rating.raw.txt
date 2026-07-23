@@ -1,0 +1,42 @@
+{
+  "target_word": "Remote Control",
+  "video_file": "14_RemoteControl.avi",
+  "brief_gesture_description": "The actor turns her body slightly to the side, extends her right arm forward, and uses her index finger to make a pointing or button-pressing motion, mimicking the action of using a remote control.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the action of pointing a remote at a device or pressing a button, establishing a strong visual link to the word's function."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement evokes the specific motor experience of extending the arm and pressing a button, engaging the learner's motor memory of using the device."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves a body turn and arm extension which draws attention, but the hand movement itself is relatively small and contained."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and intuitive, requiring minimal cognitive load to understand or reproduce."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of pointing or pressing a button to control a device is a highly familiar and conventionalized gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and effortless, making it very easy for learners to copy and practice immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without an object in hand, the gesture could initially be interpreted as simply pointing at a distant object rather than holding a remote."
+    ],
+    "confidence": "high"
+  }
+}

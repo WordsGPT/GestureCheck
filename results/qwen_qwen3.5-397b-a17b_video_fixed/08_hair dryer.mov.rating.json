@@ -1,0 +1,42 @@
+{
+  "target_word": "Hair Dryer",
+  "video_file": "08_hair dryer.mov.AVI",
+  "brief_gesture_description": "The actor raises her right arm, shaping her hand as if gripping a handle, and moves it back and forth near the top of her head to mimic the action of drying hair.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent pantomime of holding a hair dryer and using it on one's head, directly visually representing the object's function."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The back-and-forth motion near the scalp strongly evokes the physical sensation and motor action of drying wet hair."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and localized to the upper body, clearly visible but not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, focusing on the action rather than conveying emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple, involving a single arm movement that is easy to cognitively process and associate with the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Mimicking the use of a handheld tool near the head is a universally recognized and conventional way to represent hair care tools."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and effortless, requiring no complex coordination, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without audio context, the gesture could potentially be interpreted as 'brushing hair' or 'combing', though the gripping hand shape suggests a tool like a dryer."
+    ],
+    "confidence": "high"
+  }
+}

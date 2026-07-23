@@ -1,0 +1,42 @@
+{
+  "target_word": "Machine",
+  "video_file": "27_Machine.avi",
+  "brief_gesture_description": "The actor bends her elbows and moves her forearms up and down in a rhythmic, piston-like motion to mimic mechanical movement.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The piston-like arm movement is a clear visual metaphor for the moving parts of a machine or engine."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The rigid, repetitive motion effectively simulates the physical action of mechanical components."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and rhythmic, though confined mostly to the forearms, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple enough to be understood quickly but specific enough to convey the concept of mechanical action."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Mimicking a robot or machine with stiff, moving arms is a highly common and recognizable trope in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no complex coordination, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted specifically as 'robot' rather than the broader category of 'machine'."
+    ],
+    "confidence": "high"
+  }
+}

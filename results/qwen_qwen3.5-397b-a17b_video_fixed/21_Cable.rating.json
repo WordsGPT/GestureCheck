@@ -1,0 +1,43 @@
+{
+  "target_word": "Cable",
+  "video_file": "21_Cable.avi",
+  "brief_gesture_description": "The actor stands still, then uses her right hand to make a small, quick pulling motion near her left hip, as if tugging on a thin cord or cable. She returns to neutral stance immediately after.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The pulling motion suggests interaction with a linear object like a cable, but lacks clear depiction of the cable’s form or function; resemblance is moderate and context-dependent."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes a tactile pulling action associated with handling a cable, but does not simulate resistance, weight, or connection points strongly enough for vivid imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "Movement is small, fast, and localized near the hip — subtle and easily missed; lacks expansiveness or visual command to strongly guide attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "Facial expression remains neutral throughout; no affective cues are communicated to reinforce meaning or engagement."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Gesture is simple and cognitively light — appropriate for vocabulary learning; however, its minimalism may reduce memorability without additional contextual support."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Pulling motions are culturally recognizable as interacting with objects, but this specific gesture lacks conventional emblematic status for 'cable' in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Extremely easy to reproduce — requires only a small hand pull near the hip; no coordination, balance, or fine motor control needed."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture could be interpreted as pulling a string, rope, or even a drawer handle rather than specifically a 'cable'.",
+      "Lack of object representation (e.g., miming thickness or connectors) reduces specificity to 'cable' versus other flexible linear objects."
+    ],
+    "confidence": "medium"
+  }
+}

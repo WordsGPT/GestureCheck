@@ -1,0 +1,43 @@
+{
+  "target_word": "Remote Control",
+  "video_file": "42_remote control.mov.AVI",
+  "brief_gesture_description": "The actor raises her right hand forward with fingers curled and thumb extended upward, mimicking the grip of holding a small device, while placing her left hand on her hip. She points the imaginary device forward briefly before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand shape (curled fingers, thumb up) and forward extension clearly mimic holding and pointing a remote control device."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the specific motor action of aiming a remote at a television, supported by the casual hand-on-hip stance."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct but relatively contained within a standard reaching range, lacking exaggerated dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral to focused, lacking strong emotional cues, though it fits the casual context of watching TV."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple and cognitively straightforward, making it highly suitable for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pointing a remote control is a ubiquitous, culturally universal action in modern contexts, making it instantly recognizable."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no dexterity or complex coordination, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The hand shape with the thumb up could potentially be misinterpreted as a 'thumbs up' sign if the forward pointing context is missed.",
+      "Without finger movement, the specific action of 'pressing buttons' is implied rather than shown."
+    ],
+    "confidence": "high"
+  }
+}

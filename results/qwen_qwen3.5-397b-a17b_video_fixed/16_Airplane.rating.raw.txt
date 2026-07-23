@@ -1,0 +1,40 @@
+{
+  "target_word": "Airplane",
+  "video_file": "16_Airplane.avi",
+  "brief_gesture_description": "The actor stands upright and extends both arms horizontally to the sides, mimicking airplane wings. She then tilts her torso and arms diagonally left and right in a banking motion, simulating flight maneuvering, before returning to center and lowering her arms.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly mirrors the shape and motion of an airplane in flight — outstretched arms as wings, body tilt as banking — making it highly transparent visually."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The full-body movement evokes the physical sensation of flying or piloting, engaging proprioceptive and vestibular imagery strongly tied to the concept of airborne motion."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The lateral arm extension and diagonal tilting are expansive and dynamic, drawing clear visual attention; however, the motion is controlled rather than rapid or exaggerated."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains neutral throughout; no emotional cues (e.g., excitement, focus) are conveyed to enhance semantic engagement."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple to understand and execute, yet rich in semantic mapping — ideal for vocabulary learning without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Extending arms as wings is a universally recognized emblem for 'airplane' in Western and many global contexts, especially in educational or playful settings."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Requires only basic motor control — standing and extending arms — making it effortlessly reproducible by learners of all ages and abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

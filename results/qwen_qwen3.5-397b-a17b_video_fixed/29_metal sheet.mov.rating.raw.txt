@@ -1,0 +1,43 @@
+{
+  "target_word": "Metal Sheet",
+  "video_file": "29_metal sheet.mov.AVI",
+  "brief_gesture_description": "The actor starts with hands near the center of the torso, then extends both arms outward to the sides with palms facing down and fingers extended, outlining a flat, horizontal plane.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture clearly depicts the shape and flatness of a 'sheet' using hand orientation and movement, but lacks specific visual cues to distinguish the material as 'metal'."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement simulates indicating the dimensions of a flat object or holding a large, thin item, evoking spatial properties but not the tactile sensation of metal."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The outward expansion of the arms is clear and deliberate, creating a moderate visual focus on the width of the implied object."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective information."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The movement is simple, symmetrical, and cognitively undemanding, making it highly suitable for vocabulary association."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using hands to outline the size and shape of an object is a universally recognized deictic or iconic strategy in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture requires no fine motor skill or flexibility; learners can easily reproduce the arm extension and hand orientation."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could represent any flat object like 'paper', 'table', or 'board'",
+      "Does not convey the hardness or texture associated with 'metal'"
+    ],
+    "confidence": "medium"
+  }
+}

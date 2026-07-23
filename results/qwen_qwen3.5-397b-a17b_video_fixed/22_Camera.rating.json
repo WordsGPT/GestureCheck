@@ -1,0 +1,42 @@
+{
+  "target_word": "Camera",
+  "video_file": "22_Camera.avi",
+  "brief_gesture_description": "The actor raises both hands to her eyes, forming circles with her thumbs and index fingers to mimic looking through a viewfinder or binoculars, then lowers her hands.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hand shape (circles at eyes) is a highly transparent visual representation of looking through a camera lens or viewfinder."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Strongly evokes the physical sensation of holding an optical device to the face and focusing vision."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is clear and distinct but relatively small and contained near the face."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, requiring only basic finger coordination, making it ideal for learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a widely recognized emblematic gesture for looking, optics, or taking a photo in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Very natural and effortless for learners to reproduce without significant motor difficulty."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could potentially be confused with 'binoculars' or 'glasses' without verbal context, though it fits 'camera' viewfinder semantics well."
+    ],
+    "confidence": "high"
+  }
+}

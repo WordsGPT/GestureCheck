@@ -1,0 +1,42 @@
+{
+  "target_word": "Painting",
+  "video_file": "17_Painting.avi",
+  "brief_gesture_description": "The actor raises her right arm to head height, forming a grip as if holding a paintbrush, and performs a short, repetitive dabbing or brushing motion against an invisible vertical surface.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hand shape mimics holding a brush and the movement directly replicates the action of applying paint to a wall or canvas."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the physical sensation of reaching up and the fine motor control of the wrist used in painting."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The arm extension is large and clear, drawing attention to the action space above shoulder level."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral but focused on the task, providing minimal affective information."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, involving a single arm movement that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of painting a wall or canvas is a universally recognized motor schema in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can easily reproduce this natural arm movement without physical strain or complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without context, the motion could resemble writing on a high board or cleaning a window."
+    ],
+    "confidence": "high"
+  }
+}

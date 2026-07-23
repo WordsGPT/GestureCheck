@@ -1,0 +1,43 @@
+{
+  "target_word": "Therapy",
+  "video_file": "77_Therapy.avi",
+  "brief_gesture_description": "The actor stands neutrally, then raises her right hand to rub her left upper arm/shoulder while tilting her head to the side with eyes closed, suggesting relief or soothing, before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture depicts physical soothing or massage, which is a specific subtype of therapy (physiotherapy/massage), but does not visually represent the broader abstract concept of therapy."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Rubbing a sore muscle is a strong tactile and bodily experience that evokes the sensation of pain relief and physical treatment."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small, contained near the torso, and lacks large or rapid dynamics that would strongly grab visual attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The head tilt and closed eyes convey a sense of relief or mild discomfort being soothed, adding affective meaning to the physical action."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor plan is extremely simple (one hand rubbing the other arm) and cognitively undemanding, making it ideal for learning."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Self-soothing by rubbing a sore spot is a widely recognized human behavior associated with healing or pain management in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is natural, requires no dexterity, and can be effortlessly reproduced by learners of any age."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted simply as 'pain', 'cold', or 'shoulder' without the lexical label.",
+      "Might suggest 'massage' more specifically than general 'therapy'."
+    ],
+    "confidence": "high"
+  }
+}

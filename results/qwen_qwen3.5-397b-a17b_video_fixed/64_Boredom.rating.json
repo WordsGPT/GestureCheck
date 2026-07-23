@@ -1,0 +1,40 @@
+{
+  "target_word": "Boredom",
+  "video_file": "64_Boredom.avi",
+  "brief_gesture_description": "The actor raises her right hand to rest her cheek against her palm, tilts her head slightly into the hand, and places her left hand on her hip, holding a static, slumped pose before returning to neutral.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of resting the head in the hand is a universally recognized visual metaphor for lack of interest or energy."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Evokes the physical sensation of lethargy and the bodily tendency to slump or seek support when unstimulated."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is slow and deliberate, transitioning into a static pose; it is distinct but not visually commanding or large."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor adopts a flat affect and blank stare that effectively communicates disinterest and lack of engagement."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, involving a single hand placement and body lean, making it cognitively light."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Resting the chin or cheek on the hand is a highly familiar and conventional emblem for boredom in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no dexterity, and is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "target_word": "Ring",
+  "video_file": "31_Ring.avi",
+  "brief_gesture_description": "The actor brings both hands to the center of her torso, curving her fingers to touch or interlock briefly to form a circular shape, before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture creates a circular shape which relates to the geometry of a ring, but it lacks the specific semantic feature of a finger band, making it look more like 'ball' or 'circle'."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The hand shaping evokes the tactile experience of holding a small, round object, providing moderate bodily engagement."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, contained within the torso, and relatively slow, lacking high visual prominence."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The motor action is simple and uncomplicated, fitting well within a learning context despite semantic ambiguity."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This is not a conventional emblem for 'ring' in Western contexts, where pointing to the finger is the standard gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and natural to reproduce, requiring minimal motor coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'ball', 'globe', or 'circle'",
+      "Resembles holding an invisible object rather than wearing jewelry",
+      "Lacks specific reference to a finger"
+    ],
+    "confidence": "medium"
+  }
+}

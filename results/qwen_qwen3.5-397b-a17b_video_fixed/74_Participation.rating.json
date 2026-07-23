@@ -1,0 +1,42 @@
+{
+  "target_word": "Participation",
+  "video_file": "74_Participation.avi",
+  "brief_gesture_description": "The actor raises her right arm and points her index finger upward, mimicking the common classroom or meeting gesture of volunteering to speak or answer a question.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of raising a hand is a widely recognized symbol for volunteering to participate, creating a clear metonymic link to the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement strongly evokes the physical sensation and action of raising one's hand to join a discussion or activity."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct but relatively contained in size and speed, lacking expansive dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a largely neutral facial expression with minimal emotional signaling or enthusiasm."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple, involving a single arm movement that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Raising a hand to speak is a highly familiar and conventional gesture in Western educational and professional contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, effortless, and requires no complex motor coordination to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could potentially be interpreted as 'question', 'idea', or 'attention' depending on context."
+    ],
+    "confidence": "high"
+  }
+}

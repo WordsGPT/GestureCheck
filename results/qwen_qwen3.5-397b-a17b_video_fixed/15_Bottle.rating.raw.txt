@@ -1,0 +1,43 @@
+{
+  "target_word": "Bottle",
+  "video_file": "15_Bottle.avi",
+  "brief_gesture_description": "The actor raises her right hand to her mouth with fingers curved as if holding a small container, tilts her head back slightly to mimic drinking, and then lowers her hand.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture functionally represents the object by mimicking the action of drinking from a bottle, providing a clear metonymic link to the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement strongly evokes the physical sensation and motor schema of lifting a vessel to the lips and tilting the head to drink."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct but relatively small and contained within the upper body space, lacking expansive dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, offering no additional affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple and cognitively straightforward, making it highly suitable for vocabulary learning contexts."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming the act of drinking to represent a drinking vessel is a highly conventionalized and universally recognized pantomime in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The action is natural and effortless, requiring no complex coordination, making it very easy for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture depicts the action of drinking, which could be interpreted as the verb 'drink' rather than the noun 'bottle'.",
+      "The hand shape is generic and could represent a cup, glass, or small container rather than specifically a bottle."
+    ],
+    "confidence": "high"
+  }
+}

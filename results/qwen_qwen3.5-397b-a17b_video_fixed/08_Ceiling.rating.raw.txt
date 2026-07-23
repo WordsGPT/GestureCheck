@@ -1,0 +1,40 @@
+{
+  "target_word": "Ceiling",
+  "video_file": "08_Ceiling.avi",
+  "brief_gesture_description": "The actor stands still, then raises both arms above her head with palms facing down and fingers extended, forming a flat horizontal plane overhead to represent the ceiling. She holds this pose briefly before lowering her arms back to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly mimics the spatial location and flat surface of a ceiling — hands positioned overhead in a horizontal plane clearly visually represent the concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The upward arm movement and hand positioning evoke the physical experience of reaching toward or touching a ceiling, engaging proprioceptive and spatial memory."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is clear and deliberate but not expansive or rapid; it’s moderate in size and speed, sufficient to draw attention without being overly dramatic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "Facial expression remains neutral throughout; no emotional cues are conveyed via face, which is appropriate for a concrete noun like 'ceiling'."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "Simple, single-motion gesture with minimal cognitive load; perfectly suited for vocabulary learning — easy to associate with the word and reproduce."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Overhead hand-as-surface gesture is widely recognized across Western cultures as representing ceilings, roofs, or overhead structures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Extremely natural and effortless to replicate; requires no special flexibility or coordination, making it ideal for learners of all ages and abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

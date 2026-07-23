@@ -1,0 +1,43 @@
+{
+  "target_word": "Mask",
+  "video_file": "28_Mask.avi",
+  "brief_gesture_description": "The actor stands facing forward, raises both hands simultaneously to cover her entire face with her palms, holds the position briefly, and then lowers her hands back to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of covering the face with hands is a direct visual metaphor for the function of a mask, which is to cover or hide the face."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement strongly evokes the tactile sensation of hands pressing against the face and the visual experience of vision being blocked."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, centered in the frame, but relatively small in scale and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's face is neutral before and after the gesture, and obscured during the gesture, conveying no specific emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple, consisting of a single, fluid motion that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Covering the face with hands is a universally recognized gesture for hiding or masking, familiar across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no dexterity or complex coordination, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'hide' or 'peek-a-boo'",
+      "Might suggest 'scared' or 'shy' without context"
+    ],
+    "confidence": "high"
+  }
+}

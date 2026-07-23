@@ -1,0 +1,42 @@
+{
+  "target_word": "Clothes",
+  "video_file": "25_Clothes.avi",
+  "brief_gesture_description": "The actor places both hands on her upper chest/shoulders and strokes downwards along the front of her torso to her hips, mimicking the action of smoothing down a shirt or jacket.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly manipulates the actor's own clothing, providing a highly transparent visual representation of the target concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The downward stroking motion strongly evokes the tactile sensation of touching and feeling fabric against the body."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and covers the length of the torso, but it is relatively subtle and contained rather than expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, focusing on the physical demonstration."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple, requiring only a basic two-handed downward stroke, making it ideal for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Indicating one's own attire by smoothing it down is a universally recognized and intuitive gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can effortlessly reproduce this natural self-touching movement without cognitive or physical strain."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could potentially be interpreted as 'body' or 'self' without verbal context, though the focus on the fabric suggests clothing."
+    ],
+    "confidence": "high"
+  }
+}

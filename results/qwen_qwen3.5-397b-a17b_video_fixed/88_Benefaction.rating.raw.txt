@@ -1,0 +1,42 @@
+{
+  "target_word": "Benefaction",
+  "video_file": "88_Benefaction.avi",
+  "brief_gesture_description": "The actor stands upright, then leans forward slightly while extending her right arm outward and downward with an open hand, as if offering or placing a gift, before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the act of giving or bestowing something, which is the core semantic component of a benefaction (a charitable gift)."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement strongly evokes the physical sensation of handing an object to another person, grounding the abstract concept in a concrete action."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct, involving a lean and arm extension, but it is relatively moderate in size and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral throughout the gesture, lacking specific emotional cues like warmth or generosity."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of a single smooth motion that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Extending an open hand to offer or give something is a highly familiar and universally recognized gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no complex motor skills, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could broadly represent 'give', 'offer', or 'present' without specifically conveying the charitable or 'good' aspect of benefaction."
+    ],
+    "confidence": "high"
+  }
+}

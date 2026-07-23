@@ -1,0 +1,42 @@
+{
+  "target_word": "Thread",
+  "video_file": "11_Thread.avi",
+  "brief_gesture_description": "The actor pinches her thumb and index finger together as if holding a thin object, then moves her hand upward in a smooth motion, mimicking the action of pulling or lifting a thread.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The pinched fingers clearly represent the thinness of a thread, and the upward motion mimics handling or pulling it."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Evokes the tactile sensation of holding a fine strand and the motor action of pulling it taut or lifting it."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct but relatively small and subtle compared to full-arm gestures."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of a single hand shape and movement, making it easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pinching fingers to indicate thinness or holding a small object is a widely recognized and conventional pantomime."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires minimal effort or dexterity to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'string', 'wire', or 'pulling something fine' without audio context."
+    ],
+    "confidence": "high"
+  }
+}

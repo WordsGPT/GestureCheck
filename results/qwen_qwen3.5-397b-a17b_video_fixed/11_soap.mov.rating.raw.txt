@@ -1,0 +1,40 @@
+{
+  "target_word": "Soap",
+  "video_file": "11_soap.mov.AVI",
+  "brief_gesture_description": "The actor stands still, then brings both hands together in front of her lower torso, palms facing each other as if holding a small object. She rubs her palms together briefly in a circular motion, mimicking lathering soap, then returns hands to sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hand-rubbing motion directly mimics the act of washing with soap, making the gesture highly transparent and visually representative of the word’s semantics."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The rubbing motion strongly evokes the tactile and motor experience of using soap — friction, lather, cleaning — activating vivid sensorimotor memory."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is moderate in size and speed — contained within the torso zone, not expansive or rapid, but clear enough to draw attention without being overwhelming."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "Facial expression remains neutral throughout; no emotional cues are conveyed via face, which is appropriate for a concrete noun like 'soap' but limits affective engagement."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "Gesture is simple, intuitive, and cognitively lightweight — ideal for vocabulary learning. No extraneous movements or cognitive load beyond the core action."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Hand-rubbing to simulate washing is a universally recognized gesture in Western contexts (and globally) associated with soap/hygiene, aligning perfectly with learners’ cultural schemas."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Extremely easy to reproduce — requires only basic bilateral hand coordination and minimal space or strength. Natural and effortless for learners of all ages."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

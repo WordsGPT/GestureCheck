@@ -1,0 +1,40 @@
+{
+  "target_word": "Temple",
+  "video_file": "16_temple.mov.AVI",
+  "brief_gesture_description": "The actor brings her palms together in front of her chest in a prayer-like position, bows her head slightly forward, then returns to upright and lowers her hands.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The prayer-hand gesture is widely associated with temples or places of worship, especially in Eastern religious contexts; it visually evokes reverence and sacred space."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The bowing motion and hand placement simulate a ritualistic bodily action common in temple visits, evoking physical participation in worship."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is moderate — clear but not exaggerated; the bow adds dynamic emphasis without being overly large or fast."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains neutral throughout; no overt emotional signaling (e.g., serenity, awe) accompanies the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "Simple, single-motion gesture with minimal cognitive load; ideal for vocabulary learning contexts."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Prayer hands + bow is recognizable across many Western-educated audiences as associated with Asian temples or spiritual settings, though not universal."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Extremely easy to reproduce — requires only basic motor coordination and no special flexibility or strength."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": ["Could be misinterpreted as 'pray' or 'thank you' depending on cultural context", "Lacks architectural or spatial cues that might more directly evoke 'temple' as a building"],
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "target_word": "Thought",
+  "video_file": "59_Thought.avi",
+  "brief_gesture_description": "The actor raises her right arm, points her index finger upward, and then brings the hand down in a small arc toward her head before returning to a neutral stance. Her facial expression remains largely neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The upward-pointing finger followed by a motion toward the head loosely suggests an idea entering the mind, but the connection to 'thought' is abstract and not visually transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture implies a mental event (idea appearing), but lacks strong bodily or perceptual simulation of thinking itself."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate but modest in size and speed; it draws attention without being highly dynamic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor’s face remains neutral with no discernible emotional expression that would reinforce the concept of thought."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple enough for learners to process without cognitive overload, yet conveys a symbolic meaning relevant to the target word."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Pointing upward to indicate an idea is somewhat conventional in Western contexts (e.g., 'lightbulb moment'), but not universally standardized for 'thought'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is straightforward, requires minimal coordination, and can be easily mimicked by learners of various ages and abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as indicating 'idea', 'inspiration', or 'question' rather than the general concept of 'thought'.",
+      "Without verbal context, the link between the motion and the abstract noun 'thought' may not be immediately clear to all learners."
+    ],
+    "confidence": "medium"
+  }
+}

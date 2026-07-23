@@ -1,0 +1,42 @@
+{
+  "target_word": "Tree",
+  "video_file": "79_Tree.mp4",
+  "brief_gesture_description": "The actor stands upright, then raises her right arm high above her head with an open hand, while slightly leaning her torso to the left, mimicking the shape of a tree swaying or growing upward. She holds the pose briefly before returning to neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The raised arm and slight lean visually suggest the trunk and canopy of a tree, especially in motion; however, it lacks branching detail or root representation, limiting full transparency."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The upward reach and body lean evoke the physical experience of stretching toward the sky or feeling wind sway a tree, engaging proprioceptive and spatial imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture is expansive and dynamic — the arm sweeps upward decisively and the body leans noticeably, making it visually prominent without being overly complex."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains largely neutral throughout; no clear emotional cue (e.g., awe, calm, growth) is conveyed to enhance semantic association."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The movement is simple, intuitive, and requires minimal coordination — ideal for learners to associate with the concept of 'tree' without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Raising one arm to represent a tree is a common iconic gesture in Western contexts, often used in children’s games or educational settings."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is effortless to reproduce — requires only standing, raising one arm, and slight leaning — accessible to learners of all ages and motor abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without context, the gesture could be misinterpreted as 'reaching', 'growing', or even 'dancing'; the lack of bilateral symmetry or branching may reduce specificity to 'tree'."
+    ],
+    "confidence": "high"
+  }
+}

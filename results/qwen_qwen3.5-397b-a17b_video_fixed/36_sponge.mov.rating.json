@@ -1,0 +1,42 @@
+{
+  "target_word": "Sponge",
+  "video_file": "36_sponge.mov.AVI",
+  "brief_gesture_description": "The actor stands still, then brings both hands together in front of her chest, interlocking fingers and squeezing them tightly while slightly hunching forward, as if wringing out a wet object. She holds the squeeze briefly before releasing and returning to neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand-squeezing motion strongly resembles the action of wringing a sponge, visually conveying compression and water expulsion — core semantic features of 'sponge' in use."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture evokes vivid tactile and motor imagery: the feeling of gripping, compressing, and releasing a saturated material, directly simulating the physical interaction with a sponge."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is moderate in size and speed — confined to the torso zone, not expansive or rapid, but clearly deliberate and focused on the squeezing action."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains largely neutral; slight downward gaze during squeeze may imply concentration, but no strong emotional signal is conveyed."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "Gesture is simple, intuitive, and cognitively lightweight — ideal for vocabulary learning, requiring minimal coordination while maximizing semantic clarity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Wringing motion is a universally recognized domestic action in Western contexts, commonly associated with sponges, towels, or cloths — highly familiar and culturally transparent."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Extremely easy to reproduce: requires only basic hand coordination and no special flexibility or strength — natural for learners of all ages and abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be misinterpreted as wringing any cloth item (e.g., towel, rag) without contextual cueing; however, given target word 'sponge', interpretation is coherent."
+    ],
+    "confidence": "high"
+  }
+}

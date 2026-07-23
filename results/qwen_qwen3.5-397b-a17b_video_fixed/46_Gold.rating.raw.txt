@@ -1,0 +1,44 @@
+{
+  "target_word": "Gold",
+  "video_file": "46_Gold.mp4",
+  "brief_gesture_description": "The actor stands neutrally and briefly raises her right hand to touch her chin or lower lip with her index finger before returning her hand to her side.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "Touching the chin does not visually resemble gold metal or its properties; it likely relies on a specific linguistic convention (e.g., ASL sign for 'yellow') rather than transparent iconicity."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture does not simulate physical interactions typical of gold, such as holding a bar, digging, or weighing the metal."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, localized to the head, and brief, lacking the expansive or dynamic qualities that strongly capture attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral throughout the video, providing no affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The motor action is very simple and easy to parse, though its semantic simplicity may limit mnemonic effectiveness."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "Touching the chin is not a common or standard emblem for 'gold' in general Western culture, making it potentially confusing without specific instruction."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is physically effortless and requires no complex coordination, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture closely resembles the ASL sign for 'yellow' rather than a pantomime of gold.",
+      "Could be interpreted as pointing to a gold tooth or jewelry, but no props are visible.",
+      "The brevity of the movement makes the specific handshape and contact point slightly ambiguous."
+    ],
+    "confidence": "medium"
+  }
+}

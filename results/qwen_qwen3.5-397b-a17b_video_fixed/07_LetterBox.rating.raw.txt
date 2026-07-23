@@ -1,0 +1,43 @@
+{
+  "target_word": "Letter Box",
+  "video_file": "07_LetterBox.avi",
+  "brief_gesture_description": "The actor stands facing forward, then turns slightly to her left. She extends her right arm forward and upward, forming a curved hand shape as if inserting something into a slot or opening above head level. Her left arm remains at her side. After holding the pose briefly, she returns to neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture suggests inserting an object into an elevated slot, which loosely resembles placing a letter into a box; however, the absence of a clear ‘box’ outline or receiving container reduces visual transparency."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The reaching and inserting motion evokes a familiar physical action (mailing a letter), but lacks tactile or resistance cues that would strengthen bodily simulation of interacting with a actual letter box."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is moderate in amplitude and speed—clearly visible but not expansive or dynamic enough to strongly command attention or enhance encoding through motion alone."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "Facial expression remains neutral throughout; no affective cues are provided to support emotional engagement or semantic reinforcement."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture involves a single, coordinated arm movement with minimal cognitive load, making it well-suited for vocabulary learning without overwhelming the learner."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "While mailing letters is a common concept, the specific gesture of reaching upward to insert mail may not align with all learners’ experiences (e.g., ground-level or wall-mounted boxes are more typical in some regions)."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The movement is simple, uses natural arm extension, and requires no fine motor control, making it easy for most learners to reproduce accurately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as reaching for a high shelf, hanging an object, or signaling direction rather than specifically depicting a letter box.",
+      "No visual representation of the ‘box’ component—only the insertion action is shown, which may lead to incomplete semantic mapping."
+    ],
+    "confidence": "medium"
+  }
+}

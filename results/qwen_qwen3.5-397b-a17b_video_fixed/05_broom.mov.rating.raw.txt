@@ -1,0 +1,40 @@
+{
+  "target_word": "Broom",
+  "video_file": "05_broom.mov.AVI",
+  "brief_gesture_description": "The actor stands still, then performs a single diagonal sweeping motion with her right arm across her body from upper left to lower right, mimicking the action of sweeping with a broom. She returns to neutral stance afterward.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The diagonal arm sweep clearly mimics the motion of using a broom, visually representing the core action associated with the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical sensation of gripping and moving a broom handle, engaging motor memory related to sweeping."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful but not large or fast; it’s moderate in size and speed, sufficient to draw attention without being exaggerated."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout, offering no emotional cues to reinforce meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, one-motion, and cognitively lightweight — ideal for vocabulary learning contexts."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Sweeping motions are universally recognized in Western cultures as associated with brooms; this gesture aligns with common cultural schemas."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can easily replicate the single-arm sweep without coordination challenges or physical strain."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "target_word": "Ball",
+  "video_file": "04_Ball.avi",
+  "brief_gesture_description": "The actor raises both hands with fingers spread and traces a large circular outline in the air in front of her upper body, mimicking the shape of a large sphere.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly traces the spherical shape of the target object, providing a highly transparent visual representation."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement evokes the spatial dimensions and volume of a ball, simulating the experience of handling or defining a large spherical object."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture uses both arms to create a large, expansive movement that clearly captures attention and defines a specific space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, offering no additional emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The movement is simple, intuitive, and perfectly balanced for conveying the concept of shape without unnecessary cognitive load."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using hands to outline the shape or size of an object is a highly familiar and universally understood communicative strategy in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is physically effortless and requires no complex motor skills, making it very easy for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The large size of the traced sphere might suggest 'beach ball' or 'exercise ball' specifically, rather than a generic small ball.",
+      "Could potentially be confused with 'globe' or 'world' without context."
+    ],
+    "confidence": "high"
+  }
+}

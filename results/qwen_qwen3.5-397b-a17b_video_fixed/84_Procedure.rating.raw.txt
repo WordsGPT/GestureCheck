@@ -1,0 +1,43 @@
+{
+  "target_word": "Procedure",
+  "video_file": "84_Procedure.avi",
+  "brief_gesture_description": "The actor stands with arms at her sides and takes a single, deliberate step forward with one foot, then returns to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture relies on a weak metaphorical link between physical 'steps' and the abstract 'steps' of a procedure, lacking direct visual resemblance."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "While walking is a physical action, it does not strongly evoke the specific manipulative or cognitive actions associated with following a procedure."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, slow, and constrained to the lower body, making it visually subtle rather than commanding."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout, providing no affective cues to support the meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The motor action is extremely simple and cognitively undemanding, though perhaps too simple to convey the abstract concept effectively."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "Stepping forward is not a conventional or emblematic gesture for 'procedure' in Western contexts, making the association unusual."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a basic walking motion that is natural and effortless for any learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could easily be interpreted as 'walk', 'advance', 'approach', or 'next' rather than 'procedure'.",
+      "The lack of hand involvement removes common cues for process or method (e.g., counting, listing, manipulating)."
+    ],
+    "confidence": "medium"
+  }
+}

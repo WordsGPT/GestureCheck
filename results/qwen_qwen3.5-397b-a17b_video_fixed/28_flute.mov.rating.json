@@ -1,0 +1,42 @@
+{
+  "target_word": "Flute",
+  "video_file": "28_flute.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands to chest level, positioning them horizontally as if holding a transverse flute. She purses her lips to simulate blowing and positions her fingers as if pressing keys, then returns to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The horizontal hand positioning and blowing action are a direct, transparent visual representation of playing a transverse flute."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture vividly evokes the specific motor actions of holding the instrument, finger placement, and the breath control required to play."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is contained within the upper torso and is relatively subtle, though distinct enough to be noticed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is primarily functional (pursed lips for blowing) rather than emotional, though it shows focus."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, requiring only basic hand positioning and breath simulation, making it ideal for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming the playing of musical instruments, particularly the flute in this horizontal manner, is a widely recognized and conventional gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can easily reproduce this gesture without physical strain or complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the target word, the gesture could potentially be confused with playing a piccolo or a fife due to the similar holding position."
+    ],
+    "confidence": "high"
+  }
+}

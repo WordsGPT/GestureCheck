@@ -66,11 +66,11 @@
           </article>
           <article>
             <span id="meanDelta">0</span>
-            <p>mean abs delta</p>
+            <p>mean pairwise Δ</p>
           </article>
           <article>
             <span id="maxDelta">0</span>
-            <p>max delta</p>
+            <p>max mean pairwise Δ</p>
           </article>
         </section>
 
@@ -81,6 +81,7 @@
               <div class="chart-legend" aria-label="Average score legend">
                 <span><i class="legend-swatch flash"></i>Flash</span>
                 <span><i class="legend-swatch pro"></i>Pro</span>
+                <span><i class="legend-swatch qwen"></i>Qwen3.5-397B</span>
               </div>
             </div>
             <canvas id="averageChart" width="680" height="360"></canvas>
@@ -91,6 +92,28 @@
             </div>
             <canvas id="deltaChart" width="680" height="320"></canvas>
           </article>
+        </section>
+
+        <section class="table-panel agreement-panel">
+          <div class="section-head">
+            <div>
+              <h2>Inter-model agreement</h2>
+              <p class="agreement-note">Gemini Pro · Gemini Flash · Qwen3.5-397B-A17B · all 149 videos, including 15 false-title controls · scores from 1–5</p>
+            </div>
+            <span class="agreement-note">Lower Δ = closer scores · Higher ρ = closer ranking</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Dimension</th>
+                  <th>Mean pairwise absolute difference (Δ)</th>
+                  <th>Mean pairwise Spearman ρ</th>
+                </tr>
+              </thead>
+              <tbody id="agreementBody"></tbody>
+            </table>
+          </div>
         </section>
 
         <section class="table-panel">
@@ -107,7 +130,8 @@
                   <th>Rating</th>
                   <th>Flash</th>
                   <th>Pro</th>
-                  <th>Delta</th>
+                  <th>Qwen3.5-397B</th>
+                  <th>Mean pairwise Δ</th>
                   <th>Confidence</th>
                 </tr>
               </thead>
@@ -126,15 +150,18 @@
               <h2>Concrete vs Abstract Scores</h2>
               <div class="chart-tools">
                 <div class="chart-mode" aria-label="Concrete chart model">
-                  <button id="concreteBothMode" class="mode-button active" type="button">Both</button>
+                  <button id="concreteBothMode" class="mode-button active" type="button">All</button>
                   <button id="concreteFlashMode" class="mode-button" type="button">Flash</button>
                   <button id="concreteProMode" class="mode-button" type="button">Pro</button>
+                  <button id="concreteQwenMode" class="mode-button" type="button">Qwen</button>
                 </div>
                 <div class="chart-legend" aria-label="Concrete and abstract legend">
                   <span class="concrete-legend flash"><i class="legend-swatch concrete-flash"></i>Concrete Flash</span>
                   <span class="concrete-legend pro"><i class="legend-swatch concrete-pro"></i>Concrete Pro</span>
+                  <span class="concrete-legend qwen"><i class="legend-swatch concrete-qwen"></i>Concrete Qwen</span>
                   <span class="concrete-legend flash"><i class="legend-swatch abstract-flash"></i>Abstract Flash</span>
                   <span class="concrete-legend pro"><i class="legend-swatch abstract-pro"></i>Abstract Pro</span>
+                  <span class="concrete-legend qwen"><i class="legend-swatch abstract-qwen"></i>Abstract Qwen</span>
                 </div>
               </div>
             </div>
@@ -157,7 +184,8 @@
                   <th>Rating</th>
                   <th>Flash</th>
                   <th>Pro</th>
-                  <th>Delta</th>
+                  <th>Qwen3.5-397B</th>
+                  <th>Mean pairwise Δ</th>
                 </tr>
               </thead>
               <tbody id="concreteItemsBody"></tbody>
@@ -191,7 +219,7 @@
                   <th>Rating</th>
                   <th>Gemini Flash</th>
                   <th>Gemini Pro</th>
-                  <th>Qwen3-VL-32B</th>
+                  <th>Qwen3.5-397B</th>
                   <th>Mean pairwise Δ</th>
                 </tr>
               </thead>
@@ -206,6 +234,7 @@
 
     <script src="dashboard-data.js"></script>
     <script src="fake-title-data.js"></script>
+    <script src="inter-model-data.js"></script>
     <script src="dashboard.js"></script>
   </body>
 </html>

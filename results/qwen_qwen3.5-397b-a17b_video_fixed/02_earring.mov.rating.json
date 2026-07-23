@@ -1,0 +1,42 @@
+{
+  "target_word": "Earring",
+  "video_file": "02_earring.mov.AVI",
+  "brief_gesture_description": "The actor raises her right hand to her right ear, using a pinching motion with her thumb and index finger to touch or indicate the earlobe, then returns to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly points to and touches the specific body part where the object is worn, creating a highly transparent visual link."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The pinching motion simulates the tactile experience of holding or putting on an earring, strongly evoking the physical interaction."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is precise and distinct but relatively small and contained near the head, lacking large expansive dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of a single hand movement, which is perfectly appropriate for a concrete noun."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Touching the earlobe to indicate earrings is a widely recognized and conventional gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The action is physically effortless and requires no complex coordination, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could potentially be interpreted as the body part 'ear' generally rather than the specific object 'earring' without context."
+    ],
+    "confidence": "high"
+  }
+}

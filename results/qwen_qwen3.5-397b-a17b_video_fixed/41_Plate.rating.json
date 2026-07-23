@@ -1,0 +1,43 @@
+{
+  "target_word": "Plate",
+  "video_file": "41_Plate.avi",
+  "brief_gesture_description": "The actor extends her left arm with the palm facing up, then brings her right hand to touch or hold the left hand/wrist area, miming the action of holding or indicating a flat, round object.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The flat, palm-up left hand is a strong visual symbol for a plate, and the two-handed interaction suggests holding a flat object."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The posture evokes the haptic experience of balancing or holding a plate in one's hands."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, contained near the waist, and lacks expansive or rapid dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple and cognitively easy to map to the concrete noun."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Holding an imaginary object with one or two hands is a universally recognized representational gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no dexterity, and is very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The right hand touching near the left wrist initially resembles the sign for 'watch' or 'time'.",
+      "It is unclear if the right hand is tracing a circle (shape) or simply holding the wrist/hand."
+    ],
+    "confidence": "medium"
+  }
+}

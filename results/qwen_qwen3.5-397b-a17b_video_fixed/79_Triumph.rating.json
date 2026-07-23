@@ -1,0 +1,42 @@
+{
+  "target_word": "Triumph",
+  "video_file": "79_Triumph.avi",
+  "brief_gesture_description": "The actor stands still, then raises her right arm straight up with a clenched fist, leaning her torso slightly to the side, holding the pose briefly before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The raised fist is a universally recognized emblem for victory, success, and triumph, creating a direct visual link to the word's meaning."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The upward thrust of the arm simulates the physical sensation of celebrating a win or overcoming an obstacle, evoking feelings of power and elevation."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is large, expansive, and distinct against the neutral background, effectively capturing attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains largely neutral throughout the gesture, lacking the intense joy or relief typically associated with triumph."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of a single arm movement, making it cognitively and motorically easy to process and associate with the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The raised fist is a highly familiar cultural symbol for victory and achievement in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no special skill or flexibility, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The neutral facial expression might make the emotional intensity of 'triumph' less clear compared to 'victory' or 'success'."
+    ],
+    "confidence": "high"
+  }
+}

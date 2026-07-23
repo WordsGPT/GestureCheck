@@ -1,0 +1,42 @@
+{
+  "target_word": "Alternative",
+  "video_file": "47_Alternative.avi",
+  "brief_gesture_description": "The actor stands neutrally, then raises both hands to waist level with elbows bent and palms facing upward, moving them slightly outward as if weighing two options or presenting a choice, before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of holding palms up and outward is a conventional metaphor for weighing options or presenting distinct choices, which aligns directly with the concept of an alternative."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Evokes the physical sensation of holding or balancing two separate objects in the hands, simulating the act of comparing possibilities."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct but relatively contained within the personal space, lacking high speed or large amplitude."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains largely neutral with perhaps a slight look of consideration, providing minimal affective reinforcement."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor pattern is extremely simple and cognitively lightweight, making it ideal for quick association with a vocabulary word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'weighing scales' or 'palms up' gesture is highly recognizable in Western contexts as a symbol for choices, options, or uncertainty."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture requires minimal coordination and effort, making it effortless for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture closely resembles a shrug indicating 'I don't know' or uncertainty, which might confuse the specific meaning of 'alternative' versus 'unsure'."
+    ],
+    "confidence": "high"
+  }
+}

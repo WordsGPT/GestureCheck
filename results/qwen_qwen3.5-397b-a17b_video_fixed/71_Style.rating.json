@@ -1,0 +1,43 @@
+{
+  "target_word": "Style",
+  "video_file": "71_Style.avi",
+  "brief_gesture_description": "The actor places her left hand on her hip, shifts her weight to one leg, and tilts her head slightly, adopting a classic modeling or fashion pose before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture depicts a 'model pose,' which is a strong metonymic representation of fashion and style, visually signaling the concept through body language."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The action evokes the physical experience of posing for a photo or runway, connecting the abstract word to a concrete bodily stance."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct (hand to hip, weight shift), but relatively contained and slow rather than expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor displays a confident, poised expression that complements the pose, though it is not overly dramatic or emotionally intense."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple and cognitively straightforward, making it highly suitable for vocabulary learning without causing overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The hand-on-hip modeling stance is a widely recognized cultural convention in Western contexts for indicating fashion, confidence, or style."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and effortless to reproduce, requiring no complex coordination or flexibility."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'pose', 'model', or 'confidence' rather than the abstract noun 'style' itself.",
+      "Might be confused with 'hip' due to hand placement."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "target_word": "Method",
+  "video_file": "66_Method.avi",
+  "brief_gesture_description": "The actor stands facing forward, then turns to her left profile. She raises both hands to shoulder height with palms open and facing forward, as if presenting or framing something in space. She holds this pose briefly before lowering her arms and returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture does not visually resemble the abstract concept of 'method'—no clear mapping to procedure, system, or technique is evident."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "Minimal bodily simulation; the open-palm presentation doesn’t evoke a specific action or physical experience tied to ‘method’."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is moderate in size and speed—turning and raising arms is noticeable but not expansive or rapid enough to strongly command attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "Facial expression remains neutral throughout; no affective cues are communicated to support meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "Gesture is simple and cognitively light—easy to process without overload, though it lacks semantic richness for the target word."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Open-palm presentation is somewhat recognizable in Western contexts as ‘showing’ or ‘presenting,’ but not specifically linked to ‘method.’"
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Very natural and effortless to reproduce—requires only basic arm elevation and torso turn, accessible to all learners."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture could be interpreted as ‘presenting an idea,’ ‘showing options,’ or even ‘stopping’ depending on context.",
+      "No clear visual metaphor for ‘method’ (e.g., steps, tools, sequence) is enacted."
+    ],
+    "confidence": "medium"
+  }
+}

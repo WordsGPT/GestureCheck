@@ -1,0 +1,43 @@
+{
+  "target_word": "Fact",
+  "video_file": "73_Fact.avi",
+  "brief_gesture_description": "The actor brings her right hand to her left wrist, briefly touching it as if checking a watch, then returns her arms to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture visually resembles checking a watch or indicating time, bearing no obvious visual relationship to the abstract concept of a 'fact'."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The action of checking a wrist does not evoke bodily experiences or physical interactions associated with the meaning of 'fact'."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, quick, and contained within the torso area, lacking significant visual prominence."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor action is extremely simple and requires minimal cognitive load to process or execute."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "While checking a watch is a common gesture, it is not a recognized or conventional emblem for the word 'fact' in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is physically effortless and very easy for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture strongly suggests 'time', 'watch', or 'late' rather than the target word 'fact'.",
+      "It is unclear if the actor intended to mime holding an object, but the contact with the wrist suggests otherwise."
+    ],
+    "confidence": "high"
+  }
+}

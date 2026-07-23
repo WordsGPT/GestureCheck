@@ -1,0 +1,43 @@
+{
+  "target_word": "Door",
+  "video_file": "86_Door.mp4",
+  "brief_gesture_description": "The actor raises her right hand to head level with the index finger extended and makes a small tapping or knocking motion in the air before lowering her arm.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture represents an action associated with a door (knocking or pressing a bell) rather than the physical object itself, offering only a weak visual resemblance to the noun."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It simulates the tactile motor action of contacting a surface, evoking the physical experience of interacting with a door."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, restricted to the wrist and hand, and lacks expansive or commanding dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor pattern is extremely simple and requires minimal cognitive load to process or memorize."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "While knocking is culturally linked to doors, using a single extended finger is less conventional than a fist, potentially resembling pointing or pressing a button."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is physically effortless and can be easily reproduced by learners of any motor ability."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'knock', 'doorbell', or 'point up' rather than the object 'door'.",
+      "Hand height (head level) is atypical for a standard doorknob interaction."
+    ],
+    "confidence": "medium"
+  }
+}

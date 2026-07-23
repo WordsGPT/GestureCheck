@@ -1,0 +1,40 @@
+{
+  "target_word": "Coffee",
+  "video_file": "18_coffee.mov.AVI",
+  "brief_gesture_description": "The actor stands still, then raises her left hand palm-up to chest level as if holding a cup. Her right hand mimes pouring from an invisible container into the left palm. She then brings the left hand to her mouth and tilts her head back slightly, simulating drinking.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly mimics holding a cup, pouring liquid, and drinking — directly representing the act of consuming coffee."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Evokes strong bodily simulation: gripping a cup, pouring, lifting to lips, and swallowing — all sensorimotor actions tied to drinking coffee."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "Movement is clear and purposeful but not overly large or fast; sufficient to draw attention without being distracting."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains largely neutral throughout; no clear affective cue (e.g., enjoyment, warmth) associated with coffee consumption."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "Simple, sequential motions that are easy to parse and remember; ideal for vocabulary learning context."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming holding and drinking from a cup is universally recognized in Western contexts as consuming a beverage like coffee."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Requires no special skill or flexibility; learners can easily replicate the hand positions and motion sequence."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

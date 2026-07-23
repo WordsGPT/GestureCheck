@@ -1,0 +1,44 @@
+{
+  "target_word": "Wealth",
+  "video_file": "87_Wealth.avi",
+  "brief_gesture_description": "The actor lifts both hands to waist level, curving fingers and facing palms inward as if holding a large, invisible spherical object or a heavy stack of items, before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of holding an invisible object has a weak visual relationship to the abstract concept of wealth, potentially implying possession but lacking specific semantic markers like money or gold."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Evokes a moderate sense of haptic feedback, simulating the weight and volume of holding a substantial accumulation of items."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct from the neutral pose, occupying the central visual field, though it lacks high speed or expansive range."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is largely neutral with a faint smile, providing minimal affective reinforcement regarding the value or desirability of wealth."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The motor pattern is simple and uncomplicated, making it easy to process without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This specific holding shape is not a standard cultural emblem for wealth (unlike rubbing fingers together), making it less immediately recognizable in that context."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is highly natural and requires no complex dexterity, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as holding a ball or box",
+      "Might signify 'size' or 'volume' rather than value",
+      "Lacks specific money-related cues"
+    ],
+    "confidence": "medium"
+  }
+}

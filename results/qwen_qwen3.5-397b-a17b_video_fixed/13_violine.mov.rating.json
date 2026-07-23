@@ -1,0 +1,42 @@
+{
+  "target_word": "Violin",
+  "video_file": "13_violine.mov.AVI",
+  "brief_gesture_description": "The actor mimics playing a violin by positioning her left hand near her left shoulder as if holding the instrument's neck and chin rest, while her right hand mimics holding a bow and making a sawing motion across the imaginary strings.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct and highly transparent pantomime of playing the violin, visually depicting both the instrument's position and the bowing action."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Evokes the specific motor actions of holding and bowing a violin, creating a vivid simulation of the physical experience of playing the instrument."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The arm movements are distinct and clearly defined against the neutral posture, drawing attention to the specific playing action."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral to focused, lacking strong emotional signaling or affective connection to the music being mimed."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for vocabulary learning without imposing cognitive or motor overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The pantomime of playing a violin is a widely recognized and conventional gesture in Western culture, aligning with existing schemas."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can easily reproduce this gesture as it requires no complex dexterity, props, or difficult body positioning."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without context, could broadly represent 'playing music' or 'orchestra', though the specific hand placement near the chin strongly specifies violin."
+    ],
+    "confidence": "high"
+  }
+}

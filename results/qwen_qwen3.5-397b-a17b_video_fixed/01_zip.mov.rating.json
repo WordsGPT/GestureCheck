@@ -1,0 +1,40 @@
+{
+  "target_word": "Zip",
+  "video_file": "01_zip.mov.AVI",
+  "brief_gesture_description": "The actor mimes the action of zipping up a garment by pinching her right hand at her waist and pulling it vertically up to her chest/neck area.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct pantomime of the physical action associated with the word, creating a perfect visual match."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The pinching grasp and upward pulling motion strongly evoke the tactile and kinesthetic experience of using a zipper."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The upward movement is distinct, sharp, and repeated, making the trajectory clear and easy to follow."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, instructional facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple and cognitively straightforward, ideal for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Zipping clothing is a ubiquitous daily action, making the gesture instantly recognizable in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no special dexterity, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

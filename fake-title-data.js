@@ -16,7 +16,7 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "high"
         },
         "qwen": {
-          "description": "The actor stands upright, then bends one knee slightly while extending the other leg forward, pointing to it with their hand. The gesture is performed slowly and deliberately, with a neutral facial expression.",
+          "description": "The actor touches her chin or mouth area with her right hand, then extends her index finger to point upwards and outward to her left side.",
           "confidence": "high"
         }
       },
@@ -32,8 +32,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Points away, no visual link to a leg."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture directly points to and mimics the position of a leg, creating a clear visual representation of the body part. The extension and pointing to the leg provide a strong iconic link to the target word."
+            "score": 1,
+            "rationale": "The gesture bears no visual resemblance to a leg; it looks like a pointing action originating from the face."
           }
         },
         "sensorimotor_imagery": {
@@ -47,8 +47,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "No leg-related physical action."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The gesture involves a simple bodily movement (bending one knee, extending the other leg) that simulates the physical experience of standing or moving a leg, evoking moderate sensorimotor imagery."
+            "score": 1,
+            "rationale": "The movement does not evoke sensations of walking, kicking, or the physical presence of a leg."
           }
         },
         "motional_salience_gesture": {
@@ -63,7 +63,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 3,
-            "rationale": "The movement is moderate in size and speed—clear but not exaggerated. It is noticeable enough to draw attention but not overly dynamic or expansive."
+            "rationale": "The movement is distinct and clear, involving a two-part sequence, but remains confined to the upper body."
           }
         },
         "emotional_salience_facial_expression": {
@@ -77,8 +77,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Neutral expression."
           },
           "qwen": {
-            "score": 2,
-            "rationale": "The actor maintains a neutral facial expression throughout, with no clear emotional cues or affective signals accompanying the gesture."
+            "score": 1,
+            "rationale": "The actor maintains a neutral facial expression with no emotional cues."
           }
         },
         "gesture_complexity_fit": {
@@ -93,7 +93,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture is simple and direct, involving minimal motor coordination and clear semantic mapping. It is well-suited for second-language learners without being overly simplistic."
+            "rationale": "The motor sequence is simple and easy to parse, though it is semantically inappropriate for the target word."
           }
         },
         "cultural_familiarity": {
@@ -107,8 +107,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Standard pointing, but odd context."
           },
           "qwen": {
-            "score": 5,
-            "rationale": "Pointing to a body part is a universally recognized and culturally familiar gesture in Western contexts. This gesture aligns with common conventions for teaching body parts."
+            "score": 1,
+            "rationale": "This gesture is not a recognized convention for 'leg' in Western culture; it resembles signs for 'tell' or 'you'."
           }
         },
         "enactment_potential": {
@@ -123,7 +123,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture is natural, straightforward, and easy to reproduce. Learners can easily mimic the action of extending a leg and pointing to it without difficulty."
+            "rationale": "The gesture is very simple and natural to reproduce physically."
           }
         }
       }
@@ -144,8 +144,8 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "medium"
         },
         "qwen": {
-          "description": "The actor holds up a small, shiny object (resembling a gold coin or nugget) in their right hand, moving it slightly from side to side while looking at it with a pleased expression. The hand is open, palm up, and the object glints under the light. The movement is slow and deliberate, emphasizing the object’s shine and value.",
-          "confidence": "high"
+          "description": "The actor stands neutrally and briefly raises her right hand to touch her chin or lower lip with her index finger before returning her hand to her side.",
+          "confidence": "medium"
         }
       },
       "ratings": {
@@ -160,8 +160,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Arm extension lacks a clear visual link to the concept of gold."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture directly represents the concept of 'gold' by displaying a shiny, valuable object, which is visually and semantically linked to the word. The glinting motion reinforces the metallic, precious nature of gold."
+            "score": 2,
+            "rationale": "Touching the chin does not visually resemble gold metal or its properties; it likely relies on a specific linguistic convention (e.g., ASL sign for 'yellow') rather than transparent iconicity."
           }
         },
         "sensorimotor_imagery": {
@@ -175,8 +175,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "The reaching motion does not strongly evoke physical interaction with gold."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The gesture simulates holding and examining a small, valuable object, evoking tactile and visual experiences associated with handling gold. However, the movement is limited to slight side-to-side motion, so the sensorimotor simulation is moderate."
+            "score": 2,
+            "rationale": "The gesture does not simulate physical interactions typical of gold, such as holding a bar, digging, or weighing the metal."
           }
         },
         "motional_salience_gesture": {
@@ -190,8 +190,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Standard arm movement with moderate speed and size."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The gesture involves moderate movement—slight side-to-side motion of the hand holding the object. It is not highly dynamic or expansive, but it is clearly visible and draws attention to the object."
+            "score": 2,
+            "rationale": "The movement is small, localized to the head, and brief, lacking the expansive or dynamic qualities that strongly capture attention."
           }
         },
         "emotional_salience_facial_expression": {
@@ -205,8 +205,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "The actor's facial expression remains neutral throughout."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The actor displays a clear expression of satisfaction or delight while looking at the object, conveying positive affect associated with wealth or value, which aligns with the emotional connotations of 'gold'."
+            "score": 1,
+            "rationale": "The actor's facial expression remains neutral throughout the video, providing no affective cues."
           }
         },
         "gesture_complexity_fit": {
@@ -221,7 +221,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture is simple and focused, involving only one hand and a small object. It is easy to understand and appropriate for vocabulary learning, avoiding unnecessary complexity."
+            "rationale": "The motor action is very simple and easy to parse, though its semantic simplicity may limit mnemonic effectiveness."
           }
         },
         "cultural_familiarity": {
@@ -235,8 +235,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "A familiar pointing action, but unusual in this specific word context."
           },
           "qwen": {
-            "score": 5,
-            "rationale": "The act of holding and admiring a shiny, valuable object is universally recognized in Western cultures as representing wealth or treasure. The gesture aligns with common cultural schemas for 'gold'."
+            "score": 2,
+            "rationale": "Touching the chin is not a common or standard emblem for 'gold' in general Western culture, making it potentially confusing without specific instruction."
           }
         },
         "enactment_potential": {
@@ -251,7 +251,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "Learners can easily replicate the gesture by holding an imaginary or real small, shiny object and moving it slightly. The motion is natural and requires no complex coordination."
+            "rationale": "The gesture is physically effortless and requires no complex coordination, making it very easy for learners to reproduce."
           }
         }
       }
@@ -272,7 +272,7 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "medium"
         },
         "qwen": {
-          "description": "The actor forms a cup shape with their hands by bringing the thumbs and index fingers together to create a circular rim, with the other fingers curled inward. The hands are held in front of the body at chest level, palms facing inward. The gesture is held steady with minimal movement, and the actor maintains a neutral facial expression.",
+          "description": "The actor raises both hands to waist/chest level, curving her fingers and positioning palms facing each other as if holding a cylindrical object with two hands, then lowers them back to her sides.",
           "confidence": "high"
         }
       },
@@ -288,8 +288,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Hands suggest holding an object."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The hand shape clearly mimics the form of a cup, with fingers forming the rim and curled fingers suggesting the body of the cup. This is a direct visual representation of the object’s shape."
+            "score": 5,
+            "rationale": "The hand shape and positioning directly mimic the action of holding a cup or mug with two hands, creating a highly transparent visual representation."
           }
         },
         "sensorimotor_imagery": {
@@ -303,8 +303,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simulates holding something."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The gesture simulates holding or shaping a cup, evoking a mild sense of grasping or containing, but lacks dynamic interaction like pouring or drinking, limiting the sensorimotor richness."
+            "score": 4,
+            "rationale": "The gesture strongly evokes the tactile sensation and motor action of grasping and holding a vessel, engaging the learner's physical memory."
           }
         },
         "motional_salience_gesture": {
@@ -318,8 +318,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Small, constrained movements."
           },
           "qwen": {
-            "score": 2,
-            "rationale": "The gesture is static and involves minimal movement; the hands remain in place without expansion, motion, or trajectory, reducing its visual prominence."
+            "score": 3,
+            "rationale": "The movement is clear and distinct but relatively contained within the torso area, lacking large or rapid dynamics that would command high visual attention."
           }
         },
         "emotional_salience_facial_expression": {
@@ -334,7 +334,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 1,
-            "rationale": "The actor’s face is neutral with no visible emotional expression, providing no affective cue to support the gesture or word."
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective cues."
           }
         },
         "gesture_complexity_fit": {
@@ -348,8 +348,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simple and easy to process."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture is simple and straightforward, requiring only basic hand shaping, making it well-suited for second-language learners without cognitive overload."
+            "score": 5,
+            "rationale": "The gesture is simple, intuitive, and perfectly balanced for a vocabulary learning context, requiring minimal cognitive load to process."
           }
         },
         "cultural_familiarity": {
@@ -364,7 +364,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The hand-formed cup gesture is widely recognized in Western cultures as a common iconic gesture for 'cup' or 'drink,' aligning with shared cultural schemas."
+            "rationale": "Miming the holding of a cup is a universally recognized and highly familiar gesture in Western contexts for representing drinking vessels."
           }
         },
         "enactment_potential": {
@@ -379,7 +379,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture is simple, natural, and easy to reproduce with minimal motor coordination, making it highly accessible for learners to mimic."
+            "rationale": "The movement is natural and effortless, making it very easy for learners of any age or ability to reproduce immediately."
           }
         }
       }
@@ -400,8 +400,8 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "high"
         },
         "qwen": {
-          "description": "The actor holds one hand in front of them with the thumb and index finger forming a small circle, simulating a flashlight beam. The other hand moves forward in a sweeping motion as if shining the light. The facial expression is neutral to slightly engaged, with eyes following the direction of the simulated beam.",
-          "confidence": "high"
+          "description": "The actor stands in a neutral posture with arms at her sides. Throughout the sampled frames, there is no distinct hand shaping, gripping, or arm sweeping motion typically associated with using a flashlight.",
+          "confidence": "medium"
         }
       },
       "ratings": {
@@ -416,8 +416,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Mimics holding and turning on a handheld device."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture clearly mimics the action of holding and shining a flashlight, with a hand forming a beam and the other hand sweeping forward. This creates a strong visual link to the semantics of 'flashlight'."
+            "score": 1,
+            "rationale": "The visual content does not display any form or movement that resembles a flashlight or its function."
           }
         },
         "sensorimotor_imagery": {
@@ -431,8 +431,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simulates gripping a cylinder and pressing a button."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture evokes the physical action of holding and directing a flashlight, including the motion of sweeping light across a space, which is a vivid sensorimotor simulation."
+            "score": 1,
+            "rationale": "There is no simulation of holding, clicking, or shining a light, offering no bodily connection to the word's semantics."
           }
         },
         "motional_salience_gesture": {
@@ -446,8 +446,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Moderate arm movement with subtle finger action."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The sweeping motion of the hand is large and deliberate, creating a visually prominent and attention-grabbing gesture that stands out in the video."
+            "score": 1,
+            "rationale": "Movement is minimal to non-existent; the actor remains largely static throughout the sequence."
           }
         },
         "emotional_salience_facial_expression": {
@@ -461,8 +461,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Facial expression remains neutral."
           },
           "qwen": {
-            "score": 2,
-            "rationale": "The facial expression is neutral to mildly engaged, with no strong emotional cues such as surprise, excitement, or curiosity. The eyes follow the motion, but there is no expressive facial signal."
+            "score": 1,
+            "rationale": "Facial expression remains neutral without conveying the focus or affective state associated with using a light in the dark."
           }
         },
         "gesture_complexity_fit": {
@@ -476,8 +476,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simple motion that is easy to process."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture is simple and clear, combining two basic hand movements that are easy to understand and replicate, making it well-suited for vocabulary learning."
+            "score": 1,
+            "rationale": "The lack of gesture makes it confusing and ineffective for the learning context, failing to support the target vocabulary."
           }
         },
         "cultural_familiarity": {
@@ -491,8 +491,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Standard mime for using a flashlight."
           },
           "qwen": {
-            "score": 5,
-            "rationale": "The gesture of mimicking a flashlight beam with a hand is widely recognized in Western cultures, often used in children’s games and everyday communication, making it highly familiar."
+            "score": 1,
+            "rationale": "No recognizable emblematic or iconic gesture form is presented that aligns with cultural schemas for 'flashlight'."
           }
         },
         "enactment_potential": {
@@ -506,8 +506,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Basic hand movement is simple to copy."
           },
           "qwen": {
-            "score": 5,
-            "rationale": "The gesture is natural and effortless to reproduce, requiring only basic hand movements that are intuitive and easy for learners to mimic without instruction."
+            "score": 1,
+            "rationale": "While standing still is physically easy, learners cannot enact a meaningful representation of the word based on this video."
           }
         }
       }
@@ -528,8 +528,8 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "high"
         },
         "qwen": {
-          "description": "The actor bends slightly forward, extends both hands with palms facing down, and moves them horizontally across the lower body level in a sweeping motion, mimicking the appearance and movement of grass swaying. Facial expression is neutral to slightly smiling, with eyes looking downward toward the hands.",
-          "confidence": "high"
+          "description": "The actor bends forward at the waist, reaching both hands down towards the floor as if indicating or touching something low, then returns to an upright standing position.",
+          "confidence": "medium"
         }
       },
       "ratings": {
@@ -544,8 +544,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Sweeping hands low suggests a ground cover."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture visually resembles grass by simulating its low, horizontal, swaying form with hands moving side-to-side near the ground. The hand orientation and movement direction strongly evoke the appearance of grass blades."
+            "score": 3,
+            "rationale": "The gesture indicates the spatial location of grass (low to the ground) but does not visually depict the shape or texture of grass itself."
           }
         },
         "sensorimotor_imagery": {
@@ -559,8 +559,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Evokes touching a low surface."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture evokes the physical sensation of brushing hands over grass or feeling grass sway in the wind. The sweeping motion and body posture suggest tactile interaction with a field of grass, creating vivid sensorimotor imagery."
+            "score": 3,
+            "rationale": "The bending and reaching motion simulates the physical action of looking down at or touching vegetation on the ground."
           }
         },
         "motional_salience_gesture": {
@@ -574,8 +574,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Moderate sweeping arm movement."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture involves large, continuous, and rhythmic horizontal movement across the body, making it visually prominent and attention-grabbing. The motion is expansive and clear, enhancing its salience."
+            "score": 3,
+            "rationale": "The movement involves a clear change in vertical level and full-body engagement, making it distinct from subtle hand gestures."
           }
         },
         "emotional_salience_facial_expression": {
@@ -589,8 +589,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Face remains neutral."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The facial expression is neutral to mildly positive, with a slight smile and downward gaze. It conveys calmness or mild pleasantness but does not strongly convey emotion related to grass."
+            "score": 1,
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture, conveying no specific affective meaning."
           }
         },
         "gesture_complexity_fit": {
@@ -604,8 +604,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simple motion, easy to process."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture is simple, involving only two hands and a basic sweeping motion, making it easy to understand and remember. It is well-suited for vocabulary learning without being overly complex."
+            "score": 5,
+            "rationale": "The movement is a simple, natural bodily action that requires minimal cognitive load to understand or reproduce."
           }
         },
         "cultural_familiarity": {
@@ -620,7 +620,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture is a common iconic representation of grass in Western cultures, often used in educational or children’s contexts. It aligns with widely recognized visual metaphors for grass."
+            "rationale": "Reaching down to indicate ground-level objects is a common and widely understood deictic gesture in Western contexts."
           }
         },
         "enactment_potential": {
@@ -635,7 +635,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture is natural, simple, and requires no specialized skills. Learners can easily replicate the hand motion and body posture, making it highly reproducible."
+            "rationale": "Bending forward and reaching down is a fundamental human movement that is effortless for most learners to replicate."
           }
         }
       }
@@ -656,7 +656,7 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "high"
         },
         "qwen": {
-          "description": "The actor holds both hands together in front of their chest, palms facing each other, and slowly moves them apart as if slicing or breaking a loaf of bread. The motion is smooth and deliberate, with a slight downward tilt of the hands. Facial expression is neutral to mildly pleasant, with a slight smile and direct eye contact.",
+          "description": "The actor raises her left hand to her forehead with the palm facing down, as if shielding her eyes to look into the distance, then lowers it.",
           "confidence": "high"
         }
       },
@@ -672,8 +672,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Gesture resembles searching, not bread."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture strongly resembles the action of breaking or slicing bread, with hands moving apart as if separating a loaf. This is a clear iconic representation of the word 'bread' in a common physical interaction."
+            "score": 1,
+            "rationale": "The gesture visually resembles looking or searching, with no iconic relationship to the shape, texture, or concept of bread."
           }
         },
         "sensorimotor_imagery": {
@@ -687,8 +687,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Lacks actions like slicing or eating."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture evokes the tactile experience of handling and breaking bread, with a smooth, controlled motion that simulates the physical act. This creates a vivid sensorimotor image for the learner."
+            "score": 1,
+            "rationale": "The movement evokes visual searching, not the tactile or motor experiences associated with holding, cutting, or eating bread."
           }
         },
         "motional_salience_gesture": {
@@ -702,8 +702,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Moderate, simple arm movement."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The movement is moderate in size and speed—clear enough to be noticed but not overly exaggerated or rapid. It draws attention without being overly dynamic."
+            "score": 2,
+            "rationale": "The movement is distinct and clear, but its salience does not direct attention to semantic features of the target word."
           }
         },
         "emotional_salience_facial_expression": {
@@ -717,8 +717,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Mostly neutral facial expression."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The facial expression is neutral to mildly pleasant with a slight smile, suggesting a positive but not strongly emotional context. It does not strongly amplify the gesture’s meaning."
+            "score": 1,
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture."
           }
         },
         "gesture_complexity_fit": {
@@ -732,8 +732,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Mismatch with word causes confusion."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture is simple and focused, involving only two hands and a straightforward motion. It is well-suited for second-language learners, balancing informativeness with ease of comprehension."
+            "score": 1,
+            "rationale": "While motorically simple, the gesture is semantically confusing and misleading for the target word, offering no learning support."
           }
         },
         "cultural_familiarity": {
@@ -747,8 +747,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Common gesture for looking, but unrelated to target."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture of breaking or slicing bread is common in Western cultures and widely recognized in everyday contexts. It aligns with shared cultural schemas for food handling."
+            "score": 1,
+            "rationale": "This gesture is commonly associated with 'looking' or 'sun', but has no recognized cultural association with 'bread'."
           }
         },
         "enactment_potential": {
@@ -763,7 +763,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture is natural, simple, and easy to reproduce. Learners can easily mimic the hand movement without requiring complex coordination or prior experience."
+            "rationale": "The physical action is very simple and easy for a learner to reproduce, despite being semantically incorrect."
           }
         }
       }
@@ -784,7 +784,7 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "medium"
         },
         "qwen": {
-          "description": "The actor moves their hand in a smooth, horizontal, wavy motion near the lower part of their body, mimicking the flow or surface of water. The movement is fluid and continuous, with slight up-and-down undulations. Facial expression is neutral to slightly engaged, with eyes looking forward.",
+          "description": "The actor raises her left hand to her forehead with the palm facing forward, mimicking the action of shielding her eyes to look into the distance, then lowers her arm back to her side.",
           "confidence": "high"
         }
       },
@@ -800,8 +800,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Downward motion suggests falling liquid."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The hand movement clearly mimics the surface motion of water, with horizontal waves and slight undulations, creating a strong visual resemblance to flowing or rippling water."
+            "score": 1,
+            "rationale": "The gesture visually represents looking or searching, bearing no direct visual resemblance to water, drinking, or liquid."
           }
         },
         "sensorimotor_imagery": {
@@ -815,8 +815,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Evokes the feeling of flowing or pouring."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture evokes the tactile and kinesthetic experience of water flowing or rippling, engaging the learner’s mental simulation of interacting with water’s surface."
+            "score": 1,
+            "rationale": "The movement simulates visual scanning or shielding from sun, evoking no bodily experience related to handling or consuming water."
           }
         },
         "motional_salience_gesture": {
@@ -830,8 +830,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Moderate arm movement."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture features a continuous, flowing motion with moderate speed and amplitude, making it visually prominent and attention-grabbing without being overly complex."
+            "score": 3,
+            "rationale": "The arm movement is distinct and clearly visible, occupying the upper quadrant of the body space."
           }
         },
         "emotional_salience_facial_expression": {
@@ -845,8 +845,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Face remains neutral."
           },
           "qwen": {
-            "score": 2,
-            "rationale": "The actor’s facial expression is neutral with minimal emotional cues; there is no clear affective signal such as joy, surprise, or thirst that might enhance the word’s meaning."
+            "score": 1,
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture."
           }
         },
         "gesture_complexity_fit": {
@@ -860,8 +860,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simple motion, easy to process."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture is simple, involving only one hand and a smooth motion, making it easy to understand and remember without cognitive overload, appropriate for vocabulary learning."
+            "score": 1,
+            "rationale": "The gesture is cognitively confusing for the target word, as the semantic mismatch creates unnecessary load for the learner."
           }
         },
         "cultural_familiarity": {
@@ -875,8 +875,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Recognizable representation of falling liquid."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The wavy hand motion is a widely recognized iconic gesture for water in Western cultures, commonly used in children’s books, educational materials, and everyday communication."
+            "score": 1,
+            "rationale": "While the gesture itself is a common emblem for 'looking' or 'sun', it is not a recognized or conventional sign for 'water' in Western contexts."
           }
         },
         "enactment_potential": {
@@ -891,7 +891,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture is very easy to reproduce; it requires only a simple, natural hand motion that learners can perform effortlessly and intuitively."
+            "rationale": "The physical movement is simple, natural, and effortless for a learner to reproduce."
           }
         }
       }
@@ -912,8 +912,8 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "medium"
         },
         "qwen": {
-          "description": "The actor brings both hands together in front of their chest, palms facing each other, and moves them in a small, repetitive up-and-down motion as if slicing or grating cheese. The facial expression is neutral to slightly smiling, with no strong emotional cues. The movement is moderate in size and speed, and the gesture is performed with both hands in a symmetrical fashion.",
-          "confidence": "medium"
+          "description": "The actor stands upright, then bends forward at the waist while bringing both hands to clutch her stomach area, holding briefly before returning to a neutral standing position. Her facial expression remains largely neutral throughout.",
+          "confidence": "high"
         }
       },
       "ratings": {
@@ -928,8 +928,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Weak visual link to cheese; possibly represents holding a wheel."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The gesture moderately resembles the act of slicing or grating cheese, which is a common physical interaction with the item. However, it does not visually represent the object itself (e.g., a wedge or block of cheese), so the iconic relationship is indirect."
+            "score": 1,
+            "rationale": "The gesture of clutching the stomach has no visual resemblance to cheese as an object, food item, or concept; it more strongly suggests discomfort or fullness."
           }
         },
         "sensorimotor_imagery": {
@@ -943,8 +943,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Suggests holding or pressing a large object."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The repetitive up-and-down motion strongly evokes the physical action of grating or slicing cheese, engaging motor imagery related to handling and processing the food. This creates a vivid sensorimotor experience for the learner."
+            "score": 2,
+            "rationale": "The action evokes a bodily sensation (e.g., stomach ache or bloating) but does not simulate handling, eating, or producing cheese."
           }
         },
         "motional_salience_gesture": {
@@ -959,7 +959,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 3,
-            "rationale": "The movement is moderate in size and speed, with a clear rhythmic pattern, making it noticeable but not overly exaggerated. It captures attention without being visually dominant."
+            "rationale": "The bending and hand-to-stomach motion is moderate in size and speed—noticeable but not expansive or rapid."
           }
         },
         "emotional_salience_facial_expression": {
@@ -973,8 +973,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Neutral expression."
           },
           "qwen": {
-            "score": 2,
-            "rationale": "The facial expression is neutral to mildly pleasant, with no strong emotional cues such as excitement or surprise. It does not enhance the affective meaning of the word."
+            "score": 1,
+            "rationale": "The actor’s face remains neutral with no discernible emotional expression that might link to cheese (e.g., enjoyment, disgust, anticipation)."
           }
         },
         "gesture_complexity_fit": {
@@ -989,7 +989,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture is simple and involves only two hands performing a repetitive motion, making it easy to observe and remember. It is well-suited for vocabulary learning without being overly complex."
+            "rationale": "The movement is simple and easy to follow, though its mismatch with the target word reduces its pedagogical utility."
           }
         },
         "cultural_familiarity": {
@@ -1003,8 +1003,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Not a recognized gesture for cheese."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The action of grating or slicing cheese is a common experience in Western cultures, and the gesture is recognizable as related to food preparation. It aligns with shared cultural schemas."
+            "score": 3,
+            "rationale": "Clutching the stomach is a recognizable gesture for pain or fullness in Western contexts, but it is not conventionally associated with cheese."
           }
         },
         "enactment_potential": {
@@ -1019,7 +1019,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture is very natural and easy to reproduce, requiring only basic hand movements that are intuitive and do not require fine motor control or unusual positioning."
+            "rationale": "The gesture is physically simple and requires no special skill—learners could easily reproduce it."
           }
         }
       }
@@ -1040,7 +1040,7 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "high"
         },
         "qwen": {
-          "description": "The actor points downward with their index finger toward their own leg, while slightly bending the knee and looking at the camera with a neutral to slightly smiling expression. The gesture is slow and deliberate, emphasizing the lower limb.",
+          "description": "The actor stands neutrally, then places her right hand against her cheek with her elbow bent and left hand on her hip, mimicking a sleeping or bored pose, before returning to a neutral stance.",
           "confidence": "high"
         }
       },
@@ -1056,8 +1056,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "No visual link to a leg."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture directly points to the leg, creating a clear visual link between the hand movement and the body part being named. This is a strong iconic representation of the word 'leg'."
+            "score": 1,
+            "rationale": "The gesture visually represents sleeping or resting the head, bearing no iconic resemblance to the semantics of a leg."
           }
         },
         "sensorimotor_imagery": {
@@ -1071,8 +1071,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Lacks leg-related action."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The gesture involves pointing and slight knee bending, which evokes a mild bodily experience related to the leg. However, it does not simulate a full action or interaction with the leg (e.g., walking or kicking)."
+            "score": 1,
+            "rationale": "The movement evokes sensations of sleepiness or boredom in the upper body, with no sensorimotor connection to legs or walking."
           }
         },
         "motional_salience_gesture": {
@@ -1086,8 +1086,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Small, constrained hand movement."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The movement is moderate in size and speed—pointing downward with the index finger is noticeable but not expansive or rapid. It draws attention but does not strongly command visual focus."
+            "score": 2,
+            "rationale": "The movement is relatively small, slow, and contained within the upper torso, lacking dynamic salience."
           }
         },
         "emotional_salience_facial_expression": {
@@ -1102,7 +1102,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 2,
-            "rationale": "The facial expression is neutral to slightly smiling, providing a weak emotional cue. There is no strong affective signal such as surprise, excitement, or emphasis."
+            "rationale": "The facial expression is mild, suggesting sleepiness or neutrality, without strong emotional signaling."
           }
         },
         "gesture_complexity_fit": {
@@ -1116,8 +1116,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simple but semantically confusing."
           },
           "qwen": {
-            "score": 5,
-            "rationale": "The gesture is simple and direct—pointing to the leg with minimal movement. It is well-suited for second-language learners, as it is easy to understand and does not overload cognitive processing."
+            "score": 1,
+            "rationale": "The gesture is semantically incongruent with the target word, creating confusion rather than supporting learning."
           }
         },
         "cultural_familiarity": {
@@ -1131,8 +1131,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Recognizable resting gesture."
           },
           "qwen": {
-            "score": 5,
-            "rationale": "Pointing to one’s own body part is a highly familiar gesture in Western cultures, commonly used in language learning and daily communication. It aligns with shared cultural schemas."
+            "score": 2,
+            "rationale": "While the pose is a common emblem for 'sleep' or 'boredom', it is an unfamiliar and non-standard gesture for signifying 'leg'."
           }
         },
         "enactment_potential": {
@@ -1147,7 +1147,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture is very natural and effortless to reproduce—simply point to one’s own leg. It requires no special motor skills and is accessible to learners of all ages and abilities."
+            "rationale": "The physical movement is simple, natural, and very easy for a learner to reproduce."
           }
         }
       }
@@ -1168,7 +1168,7 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "high"
         },
         "qwen": {
-          "description": "The actor forms a round shape with their hands, bringing them together in front of the body, then moves them slightly up and down as if bouncing a ball. The gesture is performed with a neutral to slightly smiling facial expression.",
+          "description": "The actor raises both hands to head level and moves them outward in a large circular motion, outlining the shape and size of a large sphere before returning to a neutral stance.",
           "confidence": "high"
         }
       },
@@ -1184,8 +1184,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Traces a round shape, showing the object's form."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture clearly mimics the round shape and bouncing motion of a ball, creating a strong visual link to the target word’s semantics."
+            "score": 5,
+            "rationale": "The hands trace a large spherical shape in the air, directly mapping to the physical roundness and volume of a ball."
           }
         },
         "sensorimotor_imagery": {
@@ -1200,7 +1200,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The hand movements simulate holding and bouncing a ball, evoking a strong physical interaction and perceptual experience associated with the word."
+            "rationale": "Mimics holding or defining the volume of a large object, engaging the learner's spatial awareness of size and shape."
           }
         },
         "motional_salience_gesture": {
@@ -1214,8 +1214,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Arms move from sides to center."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The gesture involves moderate movement in size and speed, with hands moving up and down in a rhythmic fashion, which is noticeable but not highly expansive or rapid."
+            "score": 4,
+            "rationale": "The wide arm extension creates a visually prominent and expansive movement that captures attention."
           }
         },
         "emotional_salience_facial_expression": {
@@ -1229,8 +1229,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Face remains neutral."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The actor displays a neutral to slightly smiling expression, which conveys mild positivity but does not strongly emphasize emotional content."
+            "score": 2,
+            "rationale": "Facial expression is neutral and focused, providing minimal affective cues beyond standard instructional demeanor."
           }
         },
         "gesture_complexity_fit": {
@@ -1244,8 +1244,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simple motion, easy to process."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture is simple and clear, involving only basic hand movements that are easy to understand and remember, fitting well for vocabulary learning."
+            "score": 5,
+            "rationale": "The movement is straightforward, requiring minimal motor planning to understand or copy, fitting the simplicity of the noun."
           }
         },
         "cultural_familiarity": {
@@ -1260,7 +1260,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture of mimicking a ball with hands is widely recognized and used in Western cultures as a common iconic representation of a ball."
+            "rationale": "Using hands to outline an object's shape is a universal and highly recognizable communicative strategy in Western contexts."
           }
         },
         "enactment_potential": {
@@ -1275,7 +1275,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture is very natural and effortless to reproduce, requiring only basic hand shaping and small up-and-down motions, making it highly accessible for learners."
+            "rationale": "The gesture uses natural arm movements that are effortless for learners of most physical abilities to reproduce."
           }
         }
       }
@@ -1296,7 +1296,7 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "medium"
         },
         "qwen": {
-          "description": "The actor stands upright, arms raised above head with palms facing outward, fingers spread wide, mimicking the branches of a tree. The movement is slow and deliberate, with a slight sway to suggest growth or wind. Facial expression is neutral to slightly smiling, conveying calmness.",
+          "description": "The actor stands upright, then raises her right arm high above her head with an open hand, while slightly leaning her torso to the left, mimicking the shape of a tree swaying or growing upward. She holds the pose briefly before returning to neutral stance.",
           "confidence": "high"
         }
       },
@@ -1313,7 +1313,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture clearly resembles a tree with arms extended upward and fingers spread like branches, providing a transparent visual representation of the word’s semantics."
+            "rationale": "The raised arm and slight lean visually suggest the trunk and canopy of a tree, especially in motion; however, it lacks branching detail or root representation, limiting full transparency."
           }
         },
         "sensorimotor_imagery": {
@@ -1327,8 +1327,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Minimal action simulation, mostly static posture."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The gesture evokes the physical experience of reaching upward and spreading limbs, simulating the form of a tree, but lacks dynamic interaction or tactile elements."
+            "score": 4,
+            "rationale": "The upward reach and body lean evoke the physical experience of stretching toward the sky or feeling wind sway a tree, engaging proprioceptive and spatial imagery."
           }
         },
         "motional_salience_gesture": {
@@ -1342,8 +1342,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Moderate arm movement overhead."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The movement is moderate in size and speed—arms rise slowly and sway slightly—making it noticeable but not highly dynamic or attention-grabbing."
+            "score": 4,
+            "rationale": "The gesture is expansive and dynamic — the arm sweeps upward decisively and the body leans noticeably, making it visually prominent without being overly complex."
           }
         },
         "emotional_salience_facial_expression": {
@@ -1357,8 +1357,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Facial expression remains neutral."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The facial expression is calm and slightly smiling, suggesting positive affect, but not strongly emotive or expressive."
+            "score": 2,
+            "rationale": "Facial expression remains largely neutral throughout; no clear emotional cue (e.g., awe, calm, growth) is conveyed to enhance semantic association."
           }
         },
         "gesture_complexity_fit": {
@@ -1372,8 +1372,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simple movement, easy to process."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture is simple and clear, involving only arm and hand movements, making it well-suited for second-language learners without cognitive overload."
+            "score": 5,
+            "rationale": "The movement is simple, intuitive, and requires minimal coordination — ideal for learners to associate with the concept of 'tree' without cognitive overload."
           }
         },
         "cultural_familiarity": {
@@ -1388,7 +1388,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture is commonly used in Western educational contexts to represent trees, aligning with familiar cultural schemas for depicting natural objects."
+            "rationale": "Raising one arm to represent a tree is a common iconic gesture in Western contexts, often used in children’s games or educational settings."
           }
         },
         "enactment_potential": {
@@ -1403,7 +1403,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture is natural, intuitive, and easy to reproduce with minimal instruction, requiring no special coordination or physical ability."
+            "rationale": "The gesture is effortless to reproduce — requires only standing, raising one arm, and slight leaning — accessible to learners of all ages and motor abilities."
           }
         }
       }
@@ -1424,8 +1424,8 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "high"
         },
         "qwen": {
-          "description": "The actor stands facing the camera, extends one arm forward with the palm facing outward, and moves it sideways in a pushing motion, as if opening a door. The movement is smooth and deliberate, accompanied by a neutral facial expression.",
-          "confidence": "high"
+          "description": "The actor raises her right hand to head level with the index finger extended and makes a small tapping or knocking motion in the air before lowering her arm.",
+          "confidence": "medium"
         }
       },
       "ratings": {
@@ -1440,8 +1440,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Shows the action of knocking rather than the object itself."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture clearly mimics the action of pushing a door open, which is directly related to the semantics of 'door'. The hand position and lateral movement strongly resemble the physical interaction with a door."
+            "score": 2,
+            "rationale": "The gesture represents an action associated with a door (knocking or pressing a bell) rather than the physical object itself, offering only a weak visual resemblance to the noun."
           }
         },
         "sensorimotor_imagery": {
@@ -1455,8 +1455,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simulates the physical act of knocking."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture evokes the physical sensation of pushing a door, including the force and direction of movement. Learners can easily imagine themselves performing this action, enhancing bodily engagement with the word."
+            "score": 3,
+            "rationale": "It simulates the tactile motor action of contacting a surface, evoking the physical experience of interacting with a door."
           }
         },
         "motional_salience_gesture": {
@@ -1470,8 +1470,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simple, localized arm movement."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The movement is moderate in size and speed, clearly visible but not overly exaggerated. It effectively draws attention without being overly dynamic or distracting."
+            "score": 2,
+            "rationale": "The movement is small, restricted to the wrist and hand, and lacks expansive or commanding dynamics."
           }
         },
         "emotional_salience_facial_expression": {
@@ -1485,8 +1485,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Neutral facial expression."
           },
           "qwen": {
-            "score": 2,
-            "rationale": "The actor maintains a neutral facial expression throughout, providing no strong emotional cues. The face does not enhance or detract from the gesture’s meaning."
+            "score": 1,
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no affective cues."
           }
         },
         "gesture_complexity_fit": {
@@ -1500,8 +1500,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Straightforward and easy to process."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture is simple and clear, involving a single arm movement with minimal steps. It is well-suited for second-language learners, balancing informativeness and ease of understanding."
+            "score": 5,
+            "rationale": "The motor pattern is extremely simple and requires minimal cognitive load to process or memorize."
           }
         },
         "cultural_familiarity": {
@@ -1515,8 +1515,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Common action for interacting with doors."
           },
           "qwen": {
-            "score": 5,
-            "rationale": "The gesture of pushing a door open is a highly familiar action in Western cultures, commonly experienced and understood. It aligns with shared cultural schemas and requires no special interpretation."
+            "score": 3,
+            "rationale": "While knocking is culturally linked to doors, using a single extended finger is less conventional than a fist, potentially resembling pointing or pressing a button."
           }
         },
         "enactment_potential": {
@@ -1531,7 +1531,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture is natural, simple, and easy to reproduce. Learners can easily mimic the hand position and movement without needing complex coordination or instruction."
+            "rationale": "The gesture is physically effortless and can be easily reproduced by learners of any motor ability."
           }
         }
       }
@@ -1552,7 +1552,7 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "medium"
         },
         "qwen": {
-          "description": "The actor mimics stirring a pot with a spoon using their right hand, moving it in a circular motion. They lean slightly forward, and their facial expression is focused and neutral to mildly engaged, suggesting concentration on the task. The gesture is performed slowly and deliberately, with moderate arm movement.",
+          "description": "The actor raises both hands to chest level, forming loose fists as if holding the handles of a pot or a utensil, and makes a brief circular stirring motion before returning to a neutral stance.",
           "confidence": "high"
         }
       },
@@ -1569,7 +1569,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The circular hand motion clearly resembles the act of stirring food in a pot, which is a core action in cooking. The gesture directly maps to a common cooking behavior, making the iconic relationship strong and transparent."
+            "rationale": "The hand shape and stirring motion clearly mimic the action of cooking with a pot or pan, establishing a strong visual link to the word."
           }
         },
         "sensorimotor_imagery": {
@@ -1584,7 +1584,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture evokes the physical sensation of stirring, involving arm and wrist movement, which learners can easily imagine performing themselves. The motion is concrete and action-based, strongly simulating a real cooking task."
+            "rationale": "The gesture evokes the tactile and motor experience of holding a cooking vessel and stirring, engaging the learner's motor cortex."
           }
         },
         "motional_salience_gesture": {
@@ -1599,7 +1599,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 3,
-            "rationale": "The movement is moderate in size and speed—clear enough to be noticed but not overly expansive or rapid. It is sufficiently salient to draw attention without being distracting or overwhelming."
+            "rationale": "The movement is contained within the torso area and is moderate in size; it is clear but not particularly expansive or dynamic."
           }
         },
         "emotional_salience_facial_expression": {
@@ -1613,8 +1613,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Face remains neutral."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The actor’s facial expression is neutral to mildly focused, indicating concentration. It does not convey strong emotion but does suggest engagement with the task, providing a moderate emotional cue."
+            "score": 2,
+            "rationale": "The actor maintains a neutral to slightly pleasant expression, lacking strong affective cues related to the enjoyment or intensity of cooking."
           }
         },
         "gesture_complexity_fit": {
@@ -1628,8 +1628,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simple and easy to process."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture is simple and clear, involving only one hand and a basic circular motion. It is well-suited for vocabulary learning, as it is informative without being cognitively or motorically demanding."
+            "score": 5,
+            "rationale": "The gesture is simple, consisting of a single, recognizable action that is easy to process cognitively."
           }
         },
         "cultural_familiarity": {
@@ -1644,7 +1644,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "Stirring with a spoon is a universally recognized cooking action, especially in Western contexts. The gesture is highly familiar and aligns with common cultural schemas for cooking."
+            "rationale": "Miming stirring a pot is a highly conventional and widely recognized gesture for cooking in Western contexts."
           }
         },
         "enactment_potential": {
@@ -1659,7 +1659,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture is natural, simple, and easy to reproduce. Learners can immediately mimic the stirring motion with minimal instruction or effort, making it highly enactable."
+            "rationale": "The movement is natural and requires no dexterity or flexibility, making it effortless for learners to reproduce."
           }
         }
       }
@@ -1680,7 +1680,7 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "high"
         },
         "qwen": {
-          "description": "The actor mimics turning a wrench by gripping an imaginary object with both hands and rotating it in a circular motion, using forearm and wrist movements. The gesture is performed slowly and deliberately, with a focused facial expression.",
+          "description": "The actor bends forward at the waist, extends both arms, and performs a two-handed twisting motion, mimicking the action of turning a bolt or valve with a wrench.",
           "confidence": "high"
         }
       },
@@ -1697,7 +1697,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture clearly simulates the action of turning a wrench, with hand positioning and rotational movement strongly resembling the tool’s use. The visual form directly maps to the semantics of 'wrench' as a tool for turning bolts or nuts."
+            "rationale": "The gesture clearly depicts the functional action of using a wrench (turning/torquing), providing a strong visual link to the word's semantic meaning."
           }
         },
         "sensorimotor_imagery": {
@@ -1712,7 +1712,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture evokes a strong sense of physical interaction—gripping and rotating an object—activating motor and proprioceptive imagery. The deliberate motion enhances the embodied experience of using a wrench."
+            "rationale": "The twisting motion of the wrists and forearms effectively evokes the physical sensation and resistance associated with tightening or loosening a bolt."
           }
         },
         "motional_salience_gesture": {
@@ -1727,7 +1727,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 3,
-            "rationale": "The movement is moderate in size and speed, with clear rotational motion but not overly expansive or rapid. It is noticeable but not visually commanding, sufficient for encoding without being distracting."
+            "rationale": "The movement is distinct and deliberate, involving a bend and reach, but remains relatively contained in terms of spatial expansion."
           }
         },
         "emotional_salience_facial_expression": {
@@ -1741,8 +1741,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Mostly neutral facial expression."
           },
           "qwen": {
-            "score": 3,
-            "rationale": "The actor maintains a focused, neutral-to-determined facial expression, suggesting effort or concentration. It conveys mild affect related to task engagement, but not strong emotional cues."
+            "score": 1,
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture, offering no additional affective cues."
           }
         },
         "gesture_complexity_fit": {
@@ -1757,7 +1757,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture is simple enough to be easily understood and remembered, yet specific enough to convey the word’s meaning. It avoids overcomplication while remaining informative for vocabulary learning."
+            "rationale": "The gesture involves a coordinated whole-body movement (bending and twisting) that is complex enough to be memorable but simple enough to be easily understood."
           }
         },
         "cultural_familiarity": {
@@ -1772,7 +1772,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture of turning a wrench is widely recognized in Western cultures, especially in contexts involving tools, repair, or mechanics. It aligns with common visual and motor schemas."
+            "rationale": "The mechanical action of turning a tool or valve is a common, recognizable motor schema in Western industrial and domestic contexts."
           }
         },
         "enactment_potential": {
@@ -1786,8 +1786,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Easy physical movement to copy."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture is straightforward and natural to reproduce. Learners can easily mimic the hand grip and rotational motion without requiring special training or coordination."
+            "score": 5,
+            "rationale": "The movement is natural and requires no special flexibility or skill, making it very easy for learners to reproduce."
           }
         }
       }
@@ -1808,7 +1808,7 @@ window.FAKE_TITLE_DASHBOARD = {
           "confidence": "medium"
         },
         "qwen": {
-          "description": "The actor mimics a cat by crouching slightly, extending one hand with fingers splayed like claws, and making a quick, flicking motion with the wrist as if swatting. The face shows a playful, slightly mischievous expression with wide eyes and a small smile.",
+          "description": "The actor extends her left arm forward with the palm vertical, then uses her right hand to stroke the left forearm, mimicking the motion of petting an animal.",
           "confidence": "high"
         }
       },
@@ -1825,7 +1825,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture strongly resembles a cat’s paws and swatting motion, with splayed fingers and a quick wrist flick, clearly evoking the animal’s physical behavior."
+            "rationale": "The gesture iconically represents the action of petting a cat, which is a strong semantic association, though it depicts an interaction rather than the animal's physical form."
           }
         },
         "sensorimotor_imagery": {
@@ -1839,8 +1839,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Evokes the physical action of stroking an animal."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture simulates the tactile and motor experience of a cat swatting, engaging visual and kinesthetic imagery related to feline movement."
+            "score": 5,
+            "rationale": "The stroking motion strongly evokes the tactile sensation and motor action of petting a soft animal."
           }
         },
         "motional_salience_gesture": {
@@ -1854,8 +1854,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Basic, constrained arm movements."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture includes a rapid, expansive wrist flick and dynamic hand movement, making it visually prominent and attention-grabbing."
+            "score": 3,
+            "rationale": "The movement is clear and distinct but relatively small and contained within the personal space."
           }
         },
         "emotional_salience_facial_expression": {
@@ -1869,8 +1869,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Facial expression remains neutral."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The actor’s playful, mischievous facial expression with wide eyes and a smile conveys a clear affective cue associated with cats, enhancing emotional engagement."
+            "score": 1,
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture."
           }
         },
         "gesture_complexity_fit": {
@@ -1884,8 +1884,8 @@ window.FAKE_TITLE_DASHBOARD = {
             "rationale": "Simple and easy to process."
           },
           "qwen": {
-            "score": 4,
-            "rationale": "The gesture is simple enough to be learned quickly but includes enough distinct elements (hand shape, motion, expression) to be memorable and informative."
+            "score": 5,
+            "rationale": "The gesture is simple, requiring only basic two-handed coordination, making it highly suitable for learning."
           }
         },
         "cultural_familiarity": {
@@ -1900,7 +1900,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 4,
-            "rationale": "The gesture is a common, widely recognized representation of a cat’s swatting behavior in Western cultures, making it easily interpretable."
+            "rationale": "While the 'whiskers' gesture is perhaps more common for 'cat', the petting motion is a widely recognized pantomime for interacting with a pet."
           }
         },
         "enactment_potential": {
@@ -1915,7 +1915,7 @@ window.FAKE_TITLE_DASHBOARD = {
           },
           "qwen": {
             "score": 5,
-            "rationale": "The gesture is natural, simple, and requires minimal motor coordination, making it very easy for learners to reproduce."
+            "rationale": "The movement is natural and effortless for learners to reproduce immediately."
           }
         }
       }

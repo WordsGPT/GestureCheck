@@ -1,0 +1,43 @@
+{
+  "target_word": "Collection",
+  "video_file": "33_Collection.avi",
+  "brief_gesture_description": "The actor stands neutrally, then raises both hands and performs a gathering motion, reaching slightly outward and drawing hands inward toward the midline of the body, as if collecting scattered items into a central group.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The inward gathering motion of the hands clearly mimics the semantic action of collecting items together."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical sensation of reaching for and pulling objects into a pile or group."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and involves both arms, but is relatively contained within the personal space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a neutral, focused expression without strong emotional signaling."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and cognitively lightweight for the target concept."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The pantomime of gathering items is a widely recognized metaphor for collecting across Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no fine motor skills, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as the verb 'gather' rather than the noun 'collection'",
+      "Might be confused with 'group' or 'together'"
+    ],
+    "confidence": "high"
+  }
+}

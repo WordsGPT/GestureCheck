@@ -1,0 +1,43 @@
+{
+  "target_word": "Leg",
+  "video_file": "45_Leg.mp4",
+  "brief_gesture_description": "The actor touches her chin or mouth area with her right hand, then extends her index finger to point upwards and outward to her left side.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture bears no visual resemblance to a leg; it looks like a pointing action originating from the face."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement does not evoke sensations of walking, kicking, or the physical presence of a leg."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and clear, involving a two-part sequence, but remains confined to the upper body."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression with no emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The motor sequence is simple and easy to parse, though it is semantically inappropriate for the target word."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This gesture is not a recognized convention for 'leg' in Western culture; it resembles signs for 'tell' or 'you'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to reproduce physically."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture strongly resembles the ASL sign for 'TELL' or 'YOU' rather than 'LEG'",
+      "Pointing direction is away from the actor's legs, causing semantic confusion"
+    ],
+    "confidence": "high"
+  }
+}

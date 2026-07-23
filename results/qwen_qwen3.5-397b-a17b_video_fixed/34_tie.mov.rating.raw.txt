@@ -1,0 +1,40 @@
+{
+  "target_word": "Tie",
+  "video_file": "34_tie.mov.AVI",
+  "brief_gesture_description": "The actor stands still, then brings both hands to the front of her neck/collar area and performs a quick, symmetrical crossing motion as if tying a bow or knot, before returning hands to sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly mimics the physical action of tying a necktie or bow at the collar, making the semantic link to 'tie' highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The hand movement evokes the tactile and motor experience of manipulating fabric to form a knot — strongly activating sensorimotor memory associated with tying."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture is concise but clearly visible; the crossing motion at chest level is pronounced enough to draw attention without being overly large or fast."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains neutral throughout; no emotional cues are added to reinforce or contextualize the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and requires minimal coordination — ideal for vocabulary learning contexts where cognitive load should be low."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The motion of tying a bow or knot at the neck is widely recognized across Western cultures as associated with ties, scarves, or shoelaces — highly familiar schema."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can easily replicate the gesture using their own hands at their neck; it requires no special flexibility or props and feels natural."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

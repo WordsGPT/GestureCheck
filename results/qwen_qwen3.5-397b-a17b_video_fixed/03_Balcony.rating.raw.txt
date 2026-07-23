@@ -1,0 +1,40 @@
+{
+  "target_word": "Balcony",
+  "video_file": "03_Balcony.avi",
+  "brief_gesture_description": "The actor stands upright, then bends forward at the waist while extending both arms horizontally in front of her, palms down, as if resting them on a railing. She holds this posture briefly before returning to standing.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics leaning over a balcony railing — arms extended forward and downward simulate the physical act of looking out from an elevated platform."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The bending motion and arm placement evoke the bodily experience of standing on a balcony and leaning forward to look down or out, engaging spatial and postural memory."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is deliberate and visible but not expansive or rapid; it’s moderate in size and speed, sufficient to draw attention without being overly dramatic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains neutral throughout; no emotional cue is conveyed beyond focused intent, which may limit affective engagement for learners."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture involves a simple whole-body motion (bending + arm extension) that is easy to parse and replicate, well-suited for vocabulary learning contexts."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Leaning on a railing is a universally recognizable action associated with balconies in Western contexts; the gesture aligns with common embodied experiences."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The motion is natural, requires no special skill, and can be easily reproduced by learners of most ages and physical abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": ["Could be misinterpreted as 'looking over a fence' or 'peering off a bridge' without contextual cues"],
+    "confidence": "high"
+  }
+}

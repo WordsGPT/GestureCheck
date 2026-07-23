@@ -1,0 +1,43 @@
+{
+  "target_word": "Paper",
+  "video_file": "29_Paper.avi",
+  "brief_gesture_description": "The actor performs a bimanual gesture where the right hand remains stationary near the chest (mimicking holding a pad) while the left hand moves outward to the left (mimicking tearing off a sheet).",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture depicts an action associated with paper (tearing from a pad) rather than the shape of the object itself, creating a functional rather than visual resemblance."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Evokes the tactile and motor experience of holding a stable object with one hand and pulling with the other, simulating the physical interaction with paper."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small, contained within the torso area, and quick, lacking large or expansive dynamics that would strongly capture attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple, involving a basic two-handed coordination that is easy to process and does not overload cognitive resources."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of tearing a page from a notepad is a common, recognizable motor schema in Western contexts, aligning with general cultural experience."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no special dexterity, making it very easy for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'notebook' or 'notepad' specifically due to the tearing motion.",
+      "Might be confused with 'ticket' or 'receipt' if context is missing."
+    ],
+    "confidence": "medium"
+  }
+}

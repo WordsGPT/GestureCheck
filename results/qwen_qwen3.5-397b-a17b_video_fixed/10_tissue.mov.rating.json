@@ -1,0 +1,43 @@
+{
+  "target_word": "Tissue",
+  "video_file": "10_tissue.mov.AVI",
+  "brief_gesture_description": "The actor mimes reaching into her right pocket, retrieving an imaginary item, and bringing it to her nose to wipe or blow it.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture depicts the functional use of the object (pulling from pocket, wiping nose), creating a clear semantic link to the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The sequence strongly evokes the tactile and motor experience of retrieving and using a tissue."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movements are natural and moderate in size, clearly visible but not exaggerated or expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor mimics facial expressions of discomfort or sneezing, adding affective context to the need for a tissue."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is a simple, logical sequence of everyday actions that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Reaching into a pocket to retrieve a tissue is a highly familiar and conventional action in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movements are natural and effortless, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without audio, the gesture could initially be interpreted as 'sneeze' or 'cold' rather than the object itself.",
+      "The reliance on an imaginary object requires learner imagination."
+    ],
+    "confidence": "high"
+  }
+}

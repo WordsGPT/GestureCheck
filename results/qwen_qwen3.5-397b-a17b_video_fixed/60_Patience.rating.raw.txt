@@ -1,0 +1,40 @@
+{
+  "target_word": "Patience",
+  "video_file": "60_Patience.avi",
+  "brief_gesture_description": "The actor stands still, raises both hands to shoulder height with palms facing down, and performs a slow, rhythmic downward pressing motion while maintaining a calm, neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The downward pressing motion visually suggests calming or holding back energy, which metaphorically aligns with the concept of patience as self-restraint or waiting calmly."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the bodily sensation of suppressing impulse or gently restraining movement, simulating the internal experience of exercising patience."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is deliberate and repeated but not large or fast; it’s moderate in salience—noticeable without being dramatic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor maintains a calm, composed expression that subtly reinforces patience, though it lacks strong emotional signaling beyond neutrality."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, repetitive, and easy to associate with the abstract concept of patience without overwhelming cognitive load."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The palms-down calming gesture is commonly used in Western contexts to signal ‘slow down’ or ‘stay calm,’ making it culturally recognizable."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The motion requires minimal coordination and can be easily reproduced by learners of varying motor abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": ["Could be misinterpreted as ‘calm down’ or ‘wait’ rather than specifically ‘patience’ without verbal context"],
+    "confidence": "high"
+  }
+}

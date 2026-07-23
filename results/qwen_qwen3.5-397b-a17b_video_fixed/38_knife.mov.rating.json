@@ -1,0 +1,42 @@
+{
+  "target_word": "Knife",
+  "video_file": "38_knife.mov.AVI",
+  "brief_gesture_description": "The actor raises her right arm, gripping an imaginary handle, and executes a sharp, swift downward chopping or stabbing motion in the air before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture functionally represents the target word by miming the primary action associated with a knife (cutting or stabbing), creating a clear semantic link."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The sharp downward strike and hand grip strongly evoke the physical sensation and motor program of wielding a blade."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is quick, decisive, and distinct from the neutral posture, effectively capturing visual attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a focused, relatively neutral expression that matches the seriousness of the action but lacks strong emotional signaling."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of a single arm movement, making it cognitively light and easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming a cutting or stabbing motion is a highly conventional and universally recognized way to represent a knife or cutting action."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no complex dexterity, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture depicts an action (cutting/stabbing), which might be interpreted as the verb 'to cut' rather than the noun 'knife' without context."
+    ],
+    "confidence": "high"
+  }
+}

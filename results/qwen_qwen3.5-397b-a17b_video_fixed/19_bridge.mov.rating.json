@@ -1,0 +1,42 @@
+{
+  "target_word": "Bridge",
+  "video_file": "19_bridge.mov.AVI",
+  "brief_gesture_description": "The actor raises both arms high and sweeps them forward and down in a large arc, bending slightly at the waist to form an arch shape with her upper body.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture creates a clear arch shape with the arms and torso, directly mimicking the structural form of a typical arch bridge."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The sweeping motion of the arms overhead and down simulates the physical span and curvature involved in bridge architecture."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture involves a large, expansive movement of the upper body and arms, making it visually prominent and attention-grabbing."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused on the movement, conveying no specific emotional affect."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The movement is a single, fluid arc that is simple to parse and understand without creating cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using arms to form an arch is a widely recognized and conventional gesture for representing bridges or arches."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture uses natural, gross motor body mechanics and requires no fine motor skills, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could potentially be interpreted as 'arch' or 'tunnel' without linguistic context"
+    ],
+    "confidence": "high"
+  }
+}

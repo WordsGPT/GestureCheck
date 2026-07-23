@@ -1,0 +1,40 @@
+{
+  "target_word": "Flower",
+  "video_file": "21_flower.mov.AVI",
+  "brief_gesture_description": "The actor stands facing the camera, raises her left hand with palm up as if holding something, then uses her right hand to make a small circular motion above the left palm, ending with both hands held in place as if presenting or cradling an object.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture visually suggests holding and presenting a flower — the cupped left hand implies containment (like a bloom), and the right hand’s circular motion mimics petals or fragrance rising, creating a clear iconic link to 'flower'."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the tactile experience of gently holding a flower and the kinesthetic sense of smelling or admiring it, engaging motor and perceptual simulations relevant to the word."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "Movement is moderate in size and speed — not overly dramatic but sufficiently distinct to draw attention; the circular motion adds visual interest without being overwhelming."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression remains largely neutral throughout; no strong affective cues (e.g., delight, awe) are conveyed that might enhance emotional encoding of the word."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple enough for learners to parse quickly yet contains meaningful components (holding + circling) that support semantic mapping without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "In Western contexts, cupping hands to hold or present an object (especially something delicate like a flower) is a recognizable convention; the circular motion may also evoke scent or beauty, aligning with common gestural schemas."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture requires minimal coordination and uses natural hand positions; learners can easily replicate it without training or physical strain."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": ["The circular motion could be interpreted as stirring or mixing rather than representing petals or fragrance if context is missing.", "Without prior knowledge of the target word, the gesture might be seen as generic ‘holding’ or ‘presenting’ rather than specifically ‘flower’."],
+    "confidence": "high"
+  }
+}

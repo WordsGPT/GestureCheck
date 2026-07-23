@@ -1,0 +1,42 @@
+{
+  "target_word": "Purse",
+  "video_file": "20_Purse.avi",
+  "brief_gesture_description": "The actor mimes the action of wearing a shoulder bag by lifting her right hand to grasp her left shoulder, simulating the strap of a purse.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly depicts the action of carrying a purse over the shoulder, providing a strong visual link to the object's use."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement evokes the physical sensation of the weight and position of a strap resting on the shoulder."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct but relatively small and contained within the upper body."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral to pleasant, serving a functional role without adding specific emotional meaning to the word."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of a single arm movement that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Carrying a bag over the shoulder is a highly familiar and conventional action in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires minimal effort or dexterity for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'shoulder' or 'bag' generally rather than specifically 'purse'"
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Present",
+  "video_file": "18_Present.avi",
+  "brief_gesture_description": "The actor cups her hands in front of her torso as if holding a box, then extends both arms forward to offer the imaginary object to the viewer before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of holding an invisible box and extending it outward is a highly transparent and conventional visual representation of giving a gift."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement strongly evokes the tactile sensation of holding a weighted object and the kinesthetic experience of offering it to someone."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The forward extension of the arms is clear and distinct, effectively drawing attention to the act of giving."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains largely neutral, lacking the warmth or excitement typically associated with giving a present."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The movement is simple, involving a single cohesive action that is easy to process and associate with the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Offering an object with two hands is a widely recognized and culturally familiar emblem for giving a gift in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is physically effortless and natural, making it very easy for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

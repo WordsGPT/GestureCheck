@@ -1,0 +1,42 @@
+{
+  "target_word": "Crutch",
+  "video_file": "31_crutch.mov.AVI",
+  "brief_gesture_description": "The actor places one hand on her hip and leans her torso to the opposite side with the other arm hanging loosely, mimicking the posture of someone relying on a support aid.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture depicts the functional use of a crutch (leaning for support) rather than the object's physical form, offering a moderate semantic link."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The visible shift in center of gravity and weight-bearing posture strongly evokes the bodily experience of needing physical support."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The lean is distinct and deliberate, creating a clear visual asymmetry without being overly large or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is largely neutral but focused, providing only a weak cue regarding the discomfort or effort implied."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The movement is motorically simple and cognitively clear, representing an optimal balance for learning contexts."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "While leaning suggests instability, the specific mapping to 'crutch' rather than general injury or fatigue is somewhat context-dependent."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is physically effortless and requires no fine motor skills, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'limp', 'hip pain', or 'injury' rather than the specific object 'crutch'."
+    ],
+    "confidence": "medium"
+  }
+}

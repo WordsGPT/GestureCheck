@@ -1,0 +1,43 @@
+{
+  "target_word": "Water",
+  "video_file": "53_Water.mp4",
+  "brief_gesture_description": "The actor raises her left hand to her forehead with the palm facing forward, mimicking the action of shielding her eyes to look into the distance, then lowers her arm back to her side.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture visually represents looking or searching, bearing no direct visual resemblance to water, drinking, or liquid."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement simulates visual scanning or shielding from sun, evoking no bodily experience related to handling or consuming water."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The arm movement is distinct and clearly visible, occupying the upper quadrant of the body space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The gesture is cognitively confusing for the target word, as the semantic mismatch creates unnecessary load for the learner."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "While the gesture itself is a common emblem for 'looking' or 'sun', it is not a recognized or conventional sign for 'water' in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The physical movement is simple, natural, and effortless for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture strongly suggests meanings like 'look', 'search', 'sun', or 'hot' rather than 'water'.",
+      "Learners may struggle to associate this specific action with the concept of water without explicit instruction."
+    ],
+    "confidence": "high"
+  }
+}

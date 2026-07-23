@@ -1,0 +1,44 @@
+{
+  "target_word": "Cat",
+  "video_file": "90_Cat.mp4",
+  "brief_gesture_description": "The actor extends her left arm forward with the palm vertical, then uses her right hand to stroke the left forearm, mimicking the motion of petting an animal.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture iconically represents the action of petting a cat, which is a strong semantic association, though it depicts an interaction rather than the animal's physical form."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The stroking motion strongly evokes the tactile sensation and motor action of petting a soft animal."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct but relatively small and contained within the personal space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, requiring only basic two-handed coordination, making it highly suitable for learning."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "While the 'whiskers' gesture is perhaps more common for 'cat', the petting motion is a widely recognized pantomime for interacting with a pet."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and effortless for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as the verb 'pet'",
+      "Could represent other soft animals like a dog or rabbit",
+      "Could imply the adjective 'soft'"
+    ],
+    "confidence": "high"
+  }
+}

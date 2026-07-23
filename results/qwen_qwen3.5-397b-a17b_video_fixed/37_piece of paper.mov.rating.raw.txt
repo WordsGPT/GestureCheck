@@ -1,0 +1,42 @@
+{
+  "target_word": "Piece Of Paper",
+  "video_file": "37_piece of paper.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands to chest level, positioning them parallel to each other as if holding the vertical edges of a thin, rectangular sheet, then lowers them back to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The parallel hand placement clearly outlines the shape and thinness of a rectangular sheet, visually representing the object's physical properties."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The grip mimics the tactile experience of holding a light, flat object, evoking the physical sensation of handling paper."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is contained and relatively small, lacking large or rapid dynamics that would strongly grab visual attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple and cognitively straightforward, making it highly suitable for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming the holding of an object is a universal and highly recognizable communicative strategy across Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no dexterity or complex coordination, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could potentially be interpreted as holding a book, tablet, or photograph due to the similar hand shape."
+    ],
+    "confidence": "high"
+  }
+}

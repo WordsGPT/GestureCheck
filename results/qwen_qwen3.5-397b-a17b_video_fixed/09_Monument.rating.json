@@ -1,0 +1,42 @@
+{
+  "target_word": "Monument",
+  "video_file": "09_Monument.avi",
+  "brief_gesture_description": "The actor stands facing forward, then raises both arms high above her head with palms facing inward while looking upward, outlining a tall vertical shape before lowering her arms.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The upward extension of both arms visually mimics the height and vertical structure typical of a monument or statue."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical experience of craning one's neck to look up at a tall structure, simulating the viewer's perspective."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is expansive and uses the full vertical range of the upper body, making it visually prominent against the neutral background."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor looks upward with a focused expression that suggests awe or attention to scale, though the facial affect remains relatively neutral."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture consists of a single, fluid motion that is cognitively simple and directly maps to the concept of height."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Reaching upward to indicate height or a tall object is a highly conventional and recognizable gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement requires no fine motor skills or complex coordination, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'tall', 'statue', 'sky', or 'reach' without context"
+    ],
+    "confidence": "high"
+  }
+}

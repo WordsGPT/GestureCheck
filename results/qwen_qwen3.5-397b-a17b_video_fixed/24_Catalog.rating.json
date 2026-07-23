@@ -1,0 +1,42 @@
+{
+  "target_word": "Catalog",
+  "video_file": "24_Catalog.avi",
+  "brief_gesture_description": "The actor holds her left hand flat with palm up to simulate holding a book, while her right hand mimics the action of flipping pages over it.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct visual mimicry of holding a physical catalog and flipping through its pages."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Strongly evokes the tactile and motor experience of browsing a booklet or catalog."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear but relatively small and contained within the central body space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused expression looking down at her hands."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The two-handed coordination is simple and perfectly suited for the concept."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Flipping pages is a highly familiar and conventional action associated with books and catalogs."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Learners can easily reproduce this simple hand movement without difficulty."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted generally as 'book', 'magazine', or 'reading'."
+    ],
+    "confidence": "high"
+  }
+}

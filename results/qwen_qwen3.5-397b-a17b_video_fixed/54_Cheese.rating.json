@@ -1,0 +1,44 @@
+{
+  "target_word": "Cheese",
+  "video_file": "54_Cheese.mp4",
+  "brief_gesture_description": "The actor stands upright, then bends forward at the waist while bringing both hands to clutch her stomach area, holding briefly before returning to a neutral standing position. Her facial expression remains largely neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of clutching the stomach has no visual resemblance to cheese as an object, food item, or concept; it more strongly suggests discomfort or fullness."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The action evokes a bodily sensation (e.g., stomach ache or bloating) but does not simulate handling, eating, or producing cheese."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The bending and hand-to-stomach motion is moderate in size and speed—noticeable but not expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor’s face remains neutral with no discernible emotional expression that might link to cheese (e.g., enjoyment, disgust, anticipation)."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The movement is simple and easy to follow, though its mismatch with the target word reduces its pedagogical utility."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Clutching the stomach is a recognizable gesture for pain or fullness in Western contexts, but it is not conventionally associated with cheese."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is physically simple and requires no special skill—learners could easily reproduce it."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture strongly suggests stomach pain, indigestion, or overeating rather than cheese.",
+      "No clear link to cheese properties (e.g., texture, shape, consumption, production).",
+      "May be misinterpreted as representing 'full,' 'sick,' or 'hungry' instead of the target word."
+    ],
+    "confidence": "high"
+  }
+}

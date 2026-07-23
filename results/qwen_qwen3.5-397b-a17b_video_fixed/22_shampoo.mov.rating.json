@@ -1,0 +1,42 @@
+{
+  "target_word": "Shampoo",
+  "video_file": "22_shampoo.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands to the top of her head and performs a vigorous scrubbing or massaging motion with her fingers, mimicking the action of washing hair, before quickly returning her arms to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct pantomime of the physical act of applying shampoo and scrubbing the scalp, creating a highly transparent visual link to the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The scrubbing motion strongly evokes the tactile sensation of fingers massaging the scalp and the physical routine of hair washing."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is clear and pronounced, utilizing both arms and distinct hand actions that effectively capture attention without being overly exaggerated."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a relatively neutral facial expression, focusing on the physical enactment rather than conveying strong affective meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matched to the concrete nature of the verb, imposing minimal cognitive load."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of washing hair is a universal daily routine, and the hand-to-head scrubbing motion is widely recognized across Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and effortless, requiring no special dexterity, making it very easy for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the specific scrubbing dynamic, hands on the head could ambiguously signal a headache or stress, but the motion clarifies the intent."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "target_word": "Leg",
+  "video_file": "64_Leg.mp4",
+  "brief_gesture_description": "The actor stands neutrally, then places her right hand against her cheek with her elbow bent and left hand on her hip, mimicking a sleeping or bored pose, before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture visually represents sleeping or resting the head, bearing no iconic resemblance to the semantics of a leg."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement evokes sensations of sleepiness or boredom in the upper body, with no sensorimotor connection to legs or walking."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small, slow, and contained within the upper torso, lacking dynamic salience."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mild, suggesting sleepiness or neutrality, without strong emotional signaling."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The gesture is semantically incongruent with the target word, creating confusion rather than supporting learning."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While the pose is a common emblem for 'sleep' or 'boredom', it is an unfamiliar and non-standard gesture for signifying 'leg'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The physical movement is simple, natural, and very easy for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture strongly conflicts with the target word, appearing to represent 'sleep', 'dream', or 'bored' instead of 'leg'.",
+      "There may be a labeling error in the dataset as the visual content does not match the semantic target."
+    ],
+    "confidence": "high"
+  }
+}

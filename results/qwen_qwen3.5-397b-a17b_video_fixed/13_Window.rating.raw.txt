@@ -1,0 +1,42 @@
+{
+  "target_word": "Window",
+  "video_file": "13_Window.avi",
+  "brief_gesture_description": "The actor turns slightly to the side, raises both hands to shoulder height with fists closed as if gripping a frame, and mimics sliding a window pane open and closed horizontally.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture is a clear pantomime of opening a sliding window, visually resembling the action associated with the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The fist grip and sliding motion strongly evoke the tactile and kinesthetic experience of physically manipulating a window frame."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and deliberate but remains relatively contained within the upper body space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the demonstration, focusing on the action rather than affect."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, involving a single coordinated bimanual action that is easy to cognitively process."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Mimicking the action of sliding a window is a highly familiar and conventionalized gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no special dexterity, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could potentially be confused with opening curtains or a sliding door without context."
+    ],
+    "confidence": "high"
+  }
+}

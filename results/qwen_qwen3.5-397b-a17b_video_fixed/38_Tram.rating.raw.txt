@@ -1,0 +1,43 @@
+{
+  "target_word": "Tram",
+  "video_file": "38_Tram.avi",
+  "brief_gesture_description": "The actor stands still, raises her right arm straight up with a closed fist, holds it briefly, then lowers it back down. No other body movement or facial expression is used.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of raising a fist vertically has no visual resemblance to a tram (a rail vehicle), its motion, structure, or function."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "No bodily action or perceptual experience related to riding, operating, or observing a tram is evoked by the static arm raise."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is slow and minimal — only one arm moves in a simple vertical path — lacking dynamism or visual prominence."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor’s face remains neutral throughout; no emotional cue is conveyed to support meaning or engagement."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is extremely simple motorically, which may aid reproducibility but fails to convey semantic content relevant to 'tram'."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "Raising a fist vertically is not culturally associated with trams in Western contexts; it may signal protest, victory, or greeting — none relevant here."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture requires no coordination or skill — any learner can easily replicate raising an arm with a closed fist."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture could be misinterpreted as signaling 'stop', 'victory', or 'attention' rather than referencing a tram.",
+      "No contextual cues (e.g., sound, props, or additional movements) clarify the intended link to 'tram'."
+    ],
+    "confidence": "high"
+  }
+}

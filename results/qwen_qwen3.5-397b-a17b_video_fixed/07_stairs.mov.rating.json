@@ -1,0 +1,44 @@
+{
+  "target_word": "Stairs",
+  "video_file": "07_stairs.mov.AVI",
+  "brief_gesture_description": "The actor stands neutral, then swiftly raises both arms diagonally upward to the left, tracing an incline, before returning to a resting position.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The diagonal upward movement visually represents the incline or slope of a staircase, but does not depict the individual steps or structure of the object itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the trajectory of ascending, evoking the direction of movement associated with stairs, though it lacks the bodily sensation of climbing."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is large, swift, and expansive, clearly drawing the viewer's eye upward and distinguishing the gesture from neutral posture."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple, involving a single coordinated arm movement that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using arms to trace a direction or incline is a common iconic strategy in Western contexts to indicate upward movement or structures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no fine motor skills, making it very easy for learners to reproduce immediately."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'up' or 'ascend' generally",
+      "Might represent a roof or slope",
+      "Could signify 'climbing' without the object"
+    ],
+    "confidence": "medium"
+  }
+}

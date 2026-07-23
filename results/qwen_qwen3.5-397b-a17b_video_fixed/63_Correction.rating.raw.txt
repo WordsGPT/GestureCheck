@@ -1,0 +1,43 @@
+{
+  "target_word": "Correction",
+  "video_file": "63_Correction.avi",
+  "brief_gesture_description": "The actor extends her right index finger and makes a diagonal crossing motion in front of her body, followed by pointing to the side, mimicking the action of crossing out an error and indicating the correct alternative.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of crossing out (making an X or diagonal line) combined with pointing elsewhere visually maps well to the concept of negating an error and providing the correct version."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Evokes the familiar physical experience of writing, crossing out a mistake on paper, and pointing to the right answer."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct, involving the arm and hand, but is relatively contained in size and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression is neutral and focused, providing minimal affective reinforcement for the concept."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of a single compound movement that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Crossing something out to indicate it is wrong or needs changing is a widely recognized convention in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no dexterity or complex coordination, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted simply as 'No' or 'Wrong' without the specific nuance of 'Correction' unless the pointing phase is clearly linked to a replacement.",
+      "Without audio context, the distinction between 'Delete' and 'Correct' relies heavily on the second part of the movement."
+    ],
+    "confidence": "high"
+  }
+}

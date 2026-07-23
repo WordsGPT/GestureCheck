@@ -1,0 +1,42 @@
+{
+  "target_word": "Plea",
+  "video_file": "56_Plea.avi",
+  "brief_gesture_description": "The actor brings her palms together in front of her chest in a prayer position, slightly bends her knees to lower her body in a bowing motion, and then returns to a standing position with hands at her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of pressing palms together combined with a slight bow is a highly transparent and universal visual representation of begging or pleading."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The action simulates the physical posture of submission and earnest asking, strongly evoking the bodily experience of making a plea."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is deliberate and clear, particularly the knee bend, but remains contained within a moderate range of motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral to serious, lacking strong indicators of desperation or urgency often associated with a plea."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, consisting of a single cohesive movement sequence that is easy to cognitively process."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'prayer hands' gesture used for begging or pleading is a highly familiar cultural convention in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no special physical ability, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'pray' or 'thank you' without context, though the knee bend leans towards pleading."
+    ],
+    "confidence": "high"
+  }
+}

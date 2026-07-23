@@ -1,0 +1,42 @@
+{
+  "target_word": "Monitor",
+  "video_file": "06_Monitor.avi",
+  "brief_gesture_description": "The actor raises both hands to head level with index fingers pointing upward, then brings them down and forward to outline a rectangular shape in front of her torso, mimicking the frame of a screen.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly traces the rectangular physical shape of a computer monitor, providing a highly transparent visual representation of the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement evokes the spatial dimensions and boundaries of the object, simulating the visual experience of seeing a screen."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is deliberate and clear, involving a distinct path from head level to chest level, but is moderate in size and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture involves a sequence of movements (up, then down to form a box) which is slightly complex but well-balanced for representing the object's form."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Drawing a rectangle in the air to represent a screen, TV, or picture is a highly familiar and widely understood gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture uses natural hand movements and is very easy for learners to reproduce without difficulty."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The initial raising of hands with index fingers pointing up could momentarily be interpreted as a different sign (e.g., 'quote' or 'attention') before the rectangular shape is formed."
+    ],
+    "confidence": "high"
+  }
+}

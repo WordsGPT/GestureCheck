@@ -1,0 +1,43 @@
+{
+  "target_word": "Jumper",
+  "video_file": "23_jumper.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands to the neck/head area, moves them behind the head, extends arms fully upward, and then brings them down, mimicking the action of pulling a pullover sweater over the head.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture iconically represents the action of putting on a pullover-style jumper (sweater), which is a strong metonymic link to the object itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement evokes the specific tactile and motor experience of pulling a garment over one's head and through the arms."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture involves large, full-range arm movements extending vertically, making it visually prominent and easy to track."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains relatively neutral and focused on the movement, lacking strong emotional signaling."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is a single, fluid sequence that is cognitively simple and perfectly matched to the concrete nature of the noun."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of dressing oneself is a universal human experience, making the gesture recognizable across most cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no special skill, and can be effortlessly reproduced by learners of any age."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the label, the gesture might be interpreted as 'putting on a mask' or 'fixing hair' due to the hands near the face.",
+      "The word 'Jumper' has different meanings (sweater vs. pinafore dress vs. action of jumping); the gesture specifically supports the 'pullover sweater' definition."
+    ],
+    "confidence": "high"
+  }
+}

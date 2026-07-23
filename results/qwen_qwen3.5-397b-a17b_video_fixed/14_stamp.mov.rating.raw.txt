@@ -1,0 +1,42 @@
+{
+  "target_word": "Stamp",
+  "video_file": "14_stamp.mov.AVI",
+  "brief_gesture_description": "The actor holds her left hand flat with palm up and brings her right fist down forcefully onto it, mimicking the action of using a hand stamp on a surface.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct visual mimicry of the action of stamping, with one hand representing the stamp and the other the surface."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The forceful downward strike evokes the tactile sensation and physical effort of pressing a stamp."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is sharp, vertical, and distinct against the neutral background, drawing clear attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a neutral, focused expression with minimal emotional signaling."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, involving basic coordination that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of stamping a document or object is a common, recognizable convention in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and effortless for learners to reproduce physically."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'hit' or 'punch' without context, though the flat palm suggests a surface."
+    ],
+    "confidence": "high"
+  }
+}

@@ -15,7 +15,7 @@ OUTPUT = ROOT / "fake-title-data.js"
 MODEL_DIRS = {
     "flash": ROOT / "results" / "all_rating_flash",
     "pro": ROOT / "results" / "all_rating_pro",
-    "qwen": ROOT / "results" / "qwen_qwen3-vl-32b-instruct",
+    "qwen": ROOT / "results" / "qwen_qwen3.5-397b-a17b_video_fixed",
 }
 RATINGS = [
     ("iconicity", "Iconicity"),

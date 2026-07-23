@@ -1,0 +1,42 @@
+{
+  "target_word": "Cancellation",
+  "video_file": "46_Cancellation.avi",
+  "brief_gesture_description": "The actor stands neutrally, then raises her right hand and executes a sharp, downward chopping motion with her hand, simulating a cutting action, before returning to rest.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The chopping motion metaphorically represents cutting or severing a connection, which aligns well with the concept of cancellation."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical sensation of striking or cutting through an object, creating a strong bodily association with ending something."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is sharp, distinct, and contrasts clearly with the static posture, drawing immediate visual attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a largely neutral, focused expression with minimal emotional signaling accompanying the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is a simple, single-plane movement that is cognitively and motorically undemanding for learners."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The hand-chop gesture is a widely recognized emblem in Western cultures for stopping, cutting, or negating an action."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires no complex coordination, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'cut', 'stop', 'decision', or 'no' without specific context."
+    ],
+    "confidence": "high"
+  }
+}

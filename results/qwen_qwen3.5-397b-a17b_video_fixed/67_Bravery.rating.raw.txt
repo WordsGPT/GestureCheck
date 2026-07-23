@@ -1,0 +1,43 @@
+{
+  "target_word": "Bravery",
+  "video_file": "67_Bravery.avi",
+  "brief_gesture_description": "The actor stands upright, then places both hands firmly on her hips with elbows bent outward, holding the pose briefly before returning to a neutral stance. Her facial expression remains calm and composed throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "Hands-on-hips is a culturally associated posture of confidence or readiness, which loosely connects to bravery but does not visually depict courage or risk-taking directly."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture evokes a static posture of assertiveness rather than dynamic action; it lacks strong bodily simulation of facing danger or overcoming fear."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "Movement is minimal — only arms move to hips and back — with no speed, expansion, or complexity to draw strong attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "Facial expression is neutral to mildly confident; no strong emotional signal (e.g., determination, fearlessness) is conveyed through the face."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "Extremely simple motor pattern — easy to understand and replicate without cognitive overload; ideal for vocabulary learning context."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Hands-on-hips is widely recognized in Western contexts as signaling confidence, defiance, or readiness — moderately aligned with bravery."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Gesture requires no coordination or flexibility; learners of all ages can easily reproduce it without instruction."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Gesture could be interpreted as impatience, authority, or casual stance rather than specifically bravery.",
+      "Lack of facial or contextual cues may lead learners to associate the gesture with confidence rather than courage under threat."
+    ],
+    "confidence": "medium"
+  }
+}

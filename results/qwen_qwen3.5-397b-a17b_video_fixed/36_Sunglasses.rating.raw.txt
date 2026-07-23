@@ -1,0 +1,42 @@
+{
+  "target_word": "Sunglasses",
+  "video_file": "36_Sunglasses.avi",
+  "brief_gesture_description": "The actor raises both hands to her face, forming circles with her thumbs and index fingers over her eyes to mimic the shape of glasses frames, then lowers her hands back to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture creates a direct visual map of the object by shaping hands like lenses over the eyes."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Strongly evokes the tactile and motor experience of putting on eyewear."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is distinct and centrally located, drawing immediate attention to the face."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral and functional, lacking specific affective cues like squinting against bright light."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The motor plan is simple and symmetrical, imposing minimal cognitive load."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a highly conventionalized gesture for glasses or vision in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is physically effortless and intuitive for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture represents 'glasses' generally and lacks specific markers (like shielding eyes) to distinguish 'sunglasses' specifically."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Partnership",
+  "video_file": "68_Partnership.avi",
+  "brief_gesture_description": "The actor raises both arms to chest height and interlocks her fingers in front of her torso, holding the clasp briefly before releasing and lowering her arms.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Interlocking fingers visually represents two separate entities joining together to form a single unit, which is a clear metaphor for partnership."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The physical sensation of hands clasping and locking together evokes the feeling of connection and mutual support inherent in a partnership."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and centered but relatively contained in size and speed, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, symmetrical, and easy to process cognitively, making it highly appropriate for learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Clasping hands or shaking hands are widely recognized Western symbols for agreement, connection, and partnership."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no dexterity beyond basic finger interlocking, and is very easy for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could also represent 'connection', 'together', 'friendship', or 'holding'."
+    ],
+    "confidence": "high"
+  }
+}

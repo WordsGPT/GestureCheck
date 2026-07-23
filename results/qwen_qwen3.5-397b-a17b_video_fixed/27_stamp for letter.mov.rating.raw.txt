@@ -1,0 +1,42 @@
+{
+  "target_word": "Stamp For Letter",
+  "video_file": "27_stamp for letter.mov.AVI",
+  "brief_gesture_description": "The actor positions her left hand flat with palm facing up to represent an envelope or letter. She then brings her right hand down in a firm, pressing motion onto the left palm, mimicking the action of applying a postage stamp.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct pantomime of the target action, using one hand as the paper and the other as the stamp."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Strongly evokes the tactile sensation of holding a flat object and the pressure of pressing a stamp down."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The downward striking motion is distinct and deliberate, drawing clear attention to the action."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The two-handed coordination is simple and intuitively maps to the semantic meaning without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "While physical stamping is less common digitally, the physical action is a widely recognized conventional mime."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no flexibility, and is very easy for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without context, the motion could briefly resemble a clap or a hand slap."
+    ],
+    "confidence": "high"
+  }
+}

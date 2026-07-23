@@ -1,0 +1,43 @@
+{
+  "target_word": "Mentality",
+  "video_file": "65_Mentality.avi",
+  "brief_gesture_description": "The actor raises both hands from her sides up to the level of her head, framing her temples with open palms, before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture uses the head as a metonym for the mind, which is a clear and conventional visual representation for 'mentality'."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Framing the head evokes the location of thought processes, providing a moderate bodily anchor for the abstract concept."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is symmetrical and deliberate, drawing attention to the head without being overly large or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a neutral to slightly focused expression, lacking strong emotional signaling."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The movement is simple, symmetrical, and cognitively undemanding, making it ideal for vocabulary association."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pointing to or framing the head to indicate thinking or the mind is a highly familiar convention in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves natural arm movements that are effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted generally as 'thinking' or 'idea' rather than the specific trait of 'mentality'.",
+      "Without context, framing the head might occasionally signal 'crazy' depending on facial expression, though here it appears neutral."
+    ],
+    "confidence": "high"
+  }
+}

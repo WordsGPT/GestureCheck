@@ -1,0 +1,43 @@
+{
+  "target_word": "Consideration",
+  "video_file": "69_Consideration.avi",
+  "brief_gesture_description": "The actor raises both hands to shoulder height with palms facing inward and fingers slightly spread, while tilting her head and gazing upward to the side, mimicking a classic thinking or weighing posture, before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture visually represents the act of thinking or weighing options, which is the process of consideration, but does not depict the abstract noun itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Evokes the internal bodily sensation of pausing and mentally weighing information, simulating the cognitive effort of consideration."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small, contained near the upper body, and lacks high speed or expansive range."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is thoughtful and focused, with eyes looking away, but lacks strong affective or emotional signaling."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and uncomplicated, making it easy to process without overloading the learner's cognitive resources."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Looking up and away while raising hands is a widely recognized Western cultural convention for indicating thought or contemplation."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no dexterity, and can be effortlessly reproduced by learners of most physical abilities."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is generic and could easily represent 'thinking', 'wondering', or 'idea' rather than specifically 'consideration'.",
+      "Without audio context, the specific nuance of careful thought versus general thought is hard to distinguish."
+    ],
+    "confidence": "medium"
+  }
+}

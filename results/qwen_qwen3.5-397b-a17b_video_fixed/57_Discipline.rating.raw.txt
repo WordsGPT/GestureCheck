@@ -1,0 +1,42 @@
+{
+  "target_word": "Discipline",
+  "video_file": "57_Discipline.avi",
+  "brief_gesture_description": "The actor stands upright, then simultaneously extends her right arm straight out to the side and lifts her left leg straight out to the side, holding a rigid, balanced pose before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture metaphorically represents self-control and rigidity, resembling a military drill or physical test, which aligns with the concept of discipline but is not a direct visual icon."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The pose strongly evokes the physical sensation of core stability, balance, and strict bodily control, simulating the effort required to maintain order."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The simultaneous extension of the arm and leg creates a large, distinct shape that stands out clearly against the body's neutral position."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a neutral, focused expression with little emotional variation, conveying seriousness but not strong affect."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "While the movement concept is simple, the physical requirement to balance on one leg while extending limbs adds motor complexity that may distract from word encoding."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This specific pose is not a conventional emblem for 'discipline' in Western culture; it is more commonly associated with exercise, dance, or balance."
+    },
+    "enactment_potential": {
+      "score": 3,
+      "rationale": "Reproducing the gesture requires moderate physical ability, specifically balance and core strength, which may be difficult for some learners to perform effortlessly."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could easily be interpreted as 'balance', 'exercise', 'military attention', or 'physical fitness' rather than the abstract concept of discipline."
+    ],
+    "confidence": "medium"
+  }
+}

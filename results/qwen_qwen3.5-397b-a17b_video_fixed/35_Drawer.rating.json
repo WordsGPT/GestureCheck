@@ -1,0 +1,42 @@
+{
+  "target_word": "Drawer",
+  "video_file": "35_Drawer.avi",
+  "brief_gesture_description": "The actor extends her left arm forward with a grasping hand shape, then pulls her hand back towards her hip, mimicking the action of pulling open a drawer handle.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The grasping and pulling motion directly mimics the primary physical interaction with a drawer."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the tactile sensation of gripping a handle and the kinetic feeling of resistance while pulling."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and subtle, lacking large or exaggerated dynamics that would grab strong visual attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is motorically simple, involving a single arm movement that is easy to process cognitively."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pulling a handle to open a container is a highly conventional and universally recognized action in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural and requires minimal effort or coordination for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without context, the pulling motion could represent 'pull', 'open', or 'bring here'."
+    ],
+    "confidence": "high"
+  }
+}
