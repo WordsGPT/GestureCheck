@@ -20,6 +20,17 @@ To publish it, configure GitHub Pages to deploy from the `main` branch and root 
 https://hax2.github.io/GestureCheck/
 ```
 
+The unrelated-title page and the matching dashboard tab compare the current
+database-covered mismatched-title videos with Gemini Flash, Gemini Pro, and
+Qwen. Human means use the latest response for each participant and video so
+repeat sessions are not counted twice. Rebuild the privacy-safe static payload
+without storing database credentials in the repository:
+
+```bash
+export DATABASE_URL="postgresql://..."
+python3 scripts/build_unrelated_probe_site.py
+```
+
 The local questionnaire in `Gesture Rating Sheet.docx` was converted into a structured prompt with seven 1-5 rating dimensions:
 
 - iconicity

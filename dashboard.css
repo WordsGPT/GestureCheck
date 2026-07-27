@@ -226,6 +226,27 @@ select {
   padding: 14px;
 }
 
+.chart-tooltip {
+  position: fixed;
+  z-index: 40;
+  display: none;
+  max-width: min(280px, calc(100vw - 24px));
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 7px 9px;
+  background: rgba(24, 32, 38, 0.96);
+  box-shadow: var(--shadow);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.35;
+  pointer-events: none;
+}
+
+.chart-tooltip.visible {
+  display: block;
+}
+
 .chart-tools {
   display: grid;
   justify-items: end;

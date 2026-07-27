@@ -28,6 +28,13 @@ button {
   font: inherit;
 }
 
+button:focus-visible,
+a:focus-visible,
+tr:focus-visible {
+  outline: 3px solid rgba(29, 111, 114, 0.35);
+  outline-offset: -2px;
+}
+
 .probe {
   width: min(1360px, 100%);
   margin: 0 auto;
@@ -187,12 +194,12 @@ th {
   font-size: 12px;
 }
 
-tbody tr {
+#itemsBody tr {
   cursor: pointer;
 }
 
-tbody tr:hover,
-tbody tr.active {
+#itemsBody tr:hover,
+#itemsBody tr.active {
   background: #eef5f5;
 }
 
@@ -237,6 +244,14 @@ tbody tr.active {
   color: #8e3030;
 }
 
+.score-badge.human {
+  width: auto;
+  min-width: 44px;
+  padding: 0 7px;
+  background: #dfe8f1;
+  color: #365f80;
+}
+
 .analysis-note {
   color: var(--muted);
   font-size: 12px;
@@ -278,6 +293,24 @@ tbody tr.active {
   gap: 16px;
 }
 
+.detail-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.gap-pill {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 7px 10px;
+  background: #f4ead8;
+  color: #7a531a;
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .detail-video {
   width: 100%;
   aspect-ratio: 16 / 10;
@@ -308,10 +341,46 @@ tbody tr.active {
   font-size: 14px;
 }
 
+.human-rating {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 9px;
+  border-radius: 7px;
+  padding: 8px 10px;
+  background: #e8f0f6;
+  color: #365f80;
+  font-size: 13px;
+}
+
+.model-descriptions {
+  margin-top: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px;
+  background: var(--surface-soft);
+}
+
+.model-descriptions h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+
+.model-descriptions p {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
 .rationale-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+}
+
+.rationale-grid.three-models {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .rationale-grid p {
@@ -324,17 +393,20 @@ tbody tr.active {
 @media (max-width: 900px) {
   .summary-grid,
   .detail-grid,
-  .rationale-grid {
+  .rationale-grid,
+  .rationale-grid.three-models {
     grid-template-columns: 1fr;
   }
 
   .masthead,
-  .section-head {
+  .section-head,
+  .detail-head {
     display: block;
   }
 
   .nav-link,
-  .section-head span {
+  .section-head span,
+  .gap-pill {
     display: inline-flex;
     margin-top: 10px;
   }

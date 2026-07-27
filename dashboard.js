@@ -39,7 +39,9 @@ const fakeTitleVisibleCount = document.getElementById("fakeTitleVisibleCount");
 const fakeTitleItemsBody = document.getElementById("fakeTitleItemsBody");
 const agreementPayload = window.INTER_MODEL_AGREEMENT || { rows: [] };
 const agreementBody = document.getElementById("agreementBody");
+const chartTooltip = document.getElementById("chartTooltip");
 let deltaChartHits = [];
+const barChartHits = new Map();
 let activePage = "overview";
 let concreteModelMode = "both";
 
@@ -195,6 +197,8 @@ function drawBarChart(canvas, labels, series) {
   context.clearRect(0, 0, width, height);
   context.fillStyle = "#ffffff";
   context.fillRect(0, 0, width, height);
+  const hits = [];
+  barChartHits.set(canvas, hits);
 
   const padding = { top: 20, right: 22, bottom: 78, left: 42 };
   const chartWidth = width - padding.left - padding.right;
@@ -225,6 +229,13 @@ function drawBarChart(canvas, labels, series) {
       const y = padding.top + chartHeight - barHeight;
       context.fillStyle = entry.color;
       context.fillRect(x, y, barWidth - 2, barHeight);
+      hits.push({
+        x1: x,
+        y1: y,
+        x2: x + barWidth - 2,
+        y2: padding.top + chartHeight,
+        text: `${entry.label} · ${label}: ${fmt(value)}`,
+      });
     });
     context.fillStyle = "#64717a";
     context.textAlign = "center";
@@ -245,6 +256,8 @@ function drawHorizontalChart(canvas, items, key) {
   context.clearRect(0, 0, width, height);
   context.fillStyle = "#ffffff";
   context.fillRect(0, 0, width, height);
+  const hits = [];
+  barChartHits.set(canvas, hits);
 
   const padding = { top: 18, right: 28, bottom: 16, left: 170 };
   const max = Math.max(1, ...items.map((item) => Math.abs(deltaValue(item, key) ?? 0)));
@@ -266,6 +279,13 @@ function drawHorizontalChart(canvas, items, key) {
     context.fillText(item.target_word.slice(0, 24), 8, y + rowHeight / 2);
     context.fillStyle = Math.abs(delta) >= 2 ? "#a33a3a" : "#8a5a1f";
     context.fillRect(padding.left, y, barWidth, Math.max(8, rowHeight - 8));
+    hits.push({
+      x1: padding.left,
+      y1: y,
+      x2: padding.left + barWidth,
+      y2: y + Math.max(8, rowHeight - 8),
+      text: `${item.target_word} · ${ratings.find((rating) => rating.key === key)?.label || key}: Δ ${fmt(delta)}`,
+    });
     context.fillStyle = "#182026";
     context.fillText(String(delta), padding.left + barWidth + 6, y + rowHeight / 2);
   });
@@ -278,6 +298,8 @@ function drawGroupedChart(canvas, labels, series) {
   context.clearRect(0, 0, width, height);
   context.fillStyle = "#ffffff";
   context.fillRect(0, 0, width, height);
+  const hits = [];
+  barChartHits.set(canvas, hits);
 
   const padding = { top: 20, right: 24, bottom: 76, left: 42 };
   const chartWidth = width - padding.left - padding.right;
@@ -314,6 +336,13 @@ function drawGroupedChart(canvas, labels, series) {
       const y = padding.top + chartHeight - barHeight;
       context.fillStyle = entry.color;
       context.fillRect(x, y, barWidth - 2, barHeight);
+      hits.push({
+        x1: x,
+        y1: y,
+        x2: x + barWidth - 2,
+        y2: padding.top + chartHeight,
+        text: `${entry.label} · ${label}: ${fmt(value)}`,
+      });
     });
     context.fillStyle = "#64717a";
     context.textAlign = "center";
@@ -330,14 +359,17 @@ function renderCharts(visibleRows) {
   const labels = ratings.map((rating) => rating.label);
   drawBarChart(averageChart, labels, [
     {
+      label: "Gemini Flash",
       color: "#1d6f72",
       values: ratings.map((rating) => average(visibleRows.map((row) => ratingValue(row, "flash", rating.key)))),
     },
     {
+      label: "Gemini Pro",
       color: "#8a5a1f",
       values: ratings.map((rating) => average(visibleRows.map((row) => ratingValue(row, "pro", rating.key)))),
     },
     {
+      label: "Qwen3.5-397B",
       color: "#7656a8",
       values: ratings.map((rating) => average(visibleRows.map((row) => ratingValue(row, "qwen", rating.key)))),
     },
@@ -390,31 +422,37 @@ function renderConcreteChart(visibleRows) {
   const series = [
     {
       model: "flash",
+      label: "Concrete · Flash",
       color: "#1f7a4d",
       values: ratings.map((rating) => average(concreteRows.map((row) => ratingValue(row, "flash", rating.key)))),
     },
     {
       model: "pro",
+      label: "Concrete · Pro",
       color: "#6da34d",
       values: ratings.map((rating) => average(concreteRows.map((row) => ratingValue(row, "pro", rating.key)))),
     },
     {
       model: "qwen",
+      label: "Concrete · Qwen",
       color: "#1f8f8a",
       values: ratings.map((rating) => average(concreteRows.map((row) => ratingValue(row, "qwen", rating.key)))),
     },
     {
       model: "flash",
+      label: "Abstract · Flash",
       color: "#7a5bb1",
       values: ratings.map((rating) => average(abstractRows.map((row) => ratingValue(row, "flash", rating.key)))),
     },
     {
       model: "pro",
+      label: "Abstract · Pro",
       color: "#b24f7a",
       values: ratings.map((rating) => average(abstractRows.map((row) => ratingValue(row, "pro", rating.key)))),
     },
     {
       model: "qwen",
+      label: "Abstract · Qwen",
       color: "#d17b31",
       values: ratings.map((rating) => average(abstractRows.map((row) => ratingValue(row, "qwen", rating.key)))),
     },
@@ -713,6 +751,40 @@ deltaChart.addEventListener("mousemove", (event) => {
 
 deltaChart.addEventListener("mouseleave", () => {
   deltaChart.style.cursor = "default";
+});
+
+function chartPoint(canvas, event) {
+  const rect = canvas.getBoundingClientRect();
+  return {
+    x: ((event.clientX - rect.left) / rect.width) * canvas.width,
+    y: ((event.clientY - rect.top) / rect.height) * canvas.height,
+  };
+}
+
+function hideChartTooltip() {
+  chartTooltip.classList.remove("visible");
+}
+
+function showChartTooltip(event, text) {
+  chartTooltip.textContent = text;
+  chartTooltip.style.left = `${Math.max(8, Math.min(event.clientX + 12, window.innerWidth - 292))}px`;
+  chartTooltip.style.top = `${Math.max(8, Math.min(event.clientY + 12, window.innerHeight - 64))}px`;
+  chartTooltip.classList.add("visible");
+}
+
+[averageChart, deltaChart, concreteChart].forEach((canvas) => {
+  canvas.addEventListener("mousemove", (event) => {
+    const point = chartPoint(canvas, event);
+    const hit = (barChartHits.get(canvas) || []).find(
+      (area) => point.x >= area.x1 && point.x <= area.x2 && point.y >= area.y1 && point.y <= area.y2,
+    );
+    if (hit) {
+      showChartTooltip(event, hit.text);
+    } else {
+      hideChartTooltip();
+    }
+  });
+  canvas.addEventListener("mouseleave", hideChartTooltip);
 });
 
 document.addEventListener(

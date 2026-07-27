@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GestureCheck Unrelated Title Probe</title>
-    <link rel="stylesheet" href="unrelated-probe.css">
+    <link rel="stylesheet" href="unrelated-probe.css?v=20260727-human-comparison">
   </head>
   <body>
     <main class="probe">
@@ -12,7 +12,7 @@
         <div>
           <p class="eyebrow">GestureCheck</p>
           <h1>Unrelated Title Probe</h1>
-          <p class="subtitle">Ten videos were copied under unrelated filenames and target words, then rerated on Iconicity, Sensorimotor imagery, and Cultural familiarity.</p>
+          <p class="subtitle">Human ratings for the 14 current mismatched-title videos compared with Gemini Flash, Gemini Pro, and Qwen across all seven rating dimensions.</p>
         </div>
         <a class="nav-link" href="dashboard.html">Dashboard</a>
       </header>
@@ -21,18 +21,19 @@
 
       <section class="analysis-panel">
         <div class="section-head">
-          <h2>Probe Analysis</h2>
-          <span>Scores are Iconicity / Sensorimotor / Cultural familiarity</span>
+          <h2>Human–VLM Comparison by Dimension</h2>
+          <span>Item-weighted means · scores from 1–5 · lower absolute gap is closer</span>
         </div>
         <div class="table-wrap analysis-wrap">
           <table>
             <thead>
               <tr>
-                <th>Unrelated label</th>
-                <th>Original video</th>
-                <th>Flash</th>
-                <th>Pro</th>
-                <th>Read</th>
+                <th>Dimension</th>
+                <th>Human</th>
+                <th>Gemini Flash</th>
+                <th>Gemini Pro</th>
+                <th>Qwen</th>
+                <th>Mean absolute gap</th>
               </tr>
             </thead>
             <tbody id="analysisBody"></tbody>
@@ -42,18 +43,20 @@
 
       <section class="table-panel">
         <div class="section-head">
-          <h2>Test Items</h2>
+          <h2>Current Probe Items</h2>
           <span id="itemCount"></span>
         </div>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>Test word</th>
-                <th>Original video</th>
-                <th>Flash I/S/C</th>
-                <th>Pro I/S/C</th>
-                <th>High scores</th>
+                <th>Mismatched target</th>
+                <th>Original target</th>
+                <th>Human mean</th>
+                <th>Flash mean</th>
+                <th>Pro mean</th>
+                <th>Qwen mean</th>
+                <th>Mean absolute gap</th>
               </tr>
             </thead>
             <tbody id="itemsBody"></tbody>
@@ -64,7 +67,7 @@
       <section id="detailPanel" class="detail-panel" aria-label="Probe item details"></section>
     </main>
 
-    <script src="unrelated-probe-data.js"></script>
-    <script src="unrelated-probe.js"></script>
+    <script src="unrelated-probe-data.js?v=20260727-human-comparison"></script>
+    <script src="unrelated-probe.js?v=20260727-human-comparison"></script>
   </body>
 </html>
