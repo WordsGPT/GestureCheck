@@ -3,239 +3,243 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GestureCheck Rating Dashboard</title>
-    <link rel="stylesheet" href="dashboard.css?v=20260727-chart-tooltips">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+    <meta name="theme-color" content="#141b2d">
+    <title>Gesture Rating Research Console</title>
+    <link rel="stylesheet" href="research-insights-7f3c9a/styles.css">
   </head>
   <body>
-    <main class="dashboard">
-      <header class="masthead">
-        <div>
-          <p class="eyebrow">GestureCheck</p>
-          <h1>Model Rating Dashboard</h1>
-        </div>
-        <div class="header-links">
-          <a class="workbook-link" href="unrelated-probe.html">Unrelated title probe</a>
-          <a class="workbook-link" href="rating-results.xlsx">XLSX</a>
-        </div>
-      </header>
-
-      <nav class="page-tabs" aria-label="Dashboard pages">
-        <button id="overviewPageTab" class="page-tab active" type="button">Overview</button>
-        <button id="concretePageTab" class="page-tab" type="button">Concrete/Abstract</button>
-        <button id="fakeTitlePageTab" class="page-tab" type="button">Fake titles (15)</button>
+    <header class="site-header">
+      <a class="brand" href="#overview" aria-label="Gesture Rating Research Console">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>
+          <strong>Gesture / Signal</strong>
+          <small>Research console</small>
+        </span>
+      </a>
+      <nav aria-label="Analysis sections">
+        <a class="nav-link active" href="#overview">Overview</a>
+        <a class="nav-link" href="#agreement">Agreement</a>
+        <a class="nav-link" href="#explorer">Video explorer</a>
+        <a class="nav-link" href="#methods">Methods</a>
       </nav>
+      <span class="privacy-chip"><span></span> Aggregate data only</span>
+    </header>
 
-      <section class="controls" aria-label="Dashboard filters">
-        <label>
-          Search
-          <input id="searchInput" type="search" placeholder="Word or file">
-        </label>
-        <label>
-          Collection
-          <select id="collectionFilter">
-            <option value="all">All</option>
-          </select>
-        </label>
-        <label>
-          Rating
-          <select id="ratingFilter"></select>
-        </label>
-        <label>
-          Sort
-          <select id="sortSelect">
-            <option value="max_abs_delta">Largest disagreement</option>
-            <option value="mean_abs_delta">Mean disagreement</option>
-            <option value="target_word">Word</option>
-          </select>
-        </label>
-        <label class="toggle-row">
-          <input id="completeOnly" type="checkbox" checked>
-          Complete only
-        </label>
+    <main>
+      <section class="hero" id="overview">
+        <div class="hero-copy">
+          <p class="eyebrow">Human × machine evaluation / 2026 snapshot</p>
+          <h1>Where human judgment<br>meets model perception.</h1>
+          <p class="lede">
+            An item-level view of seven gesture qualities across human raters,
+            Gemini 3.1 Pro Preview, Gemini 3.1 Flash-Lite Preview, and
+            Qwen3.5-397B-A17B.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="primary-download"
+              href="research-insights-7f3c9a/gesture_ratings_all_data_and_analysis.xlsx"
+              download
+            >
+              <span aria-hidden="true">↓</span>
+              Download full Excel
+            </a>
+            <span class="download-meta">Cleaned human ratings · VLM scores and rationales · statistics</span>
+          </div>
+        </div>
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit-core">
+            <strong id="heroPaired">148</strong>
+            <span>paired videos</span>
+          </div>
+          <span class="orbit-label label-human">HUMAN</span>
+          <span class="orbit-label label-pro">3.1 PRO</span>
+          <span class="orbit-label label-flash">FLASH-LITE</span>
+          <span class="orbit-label label-qwen">QWEN 3.5</span>
+        </div>
       </section>
 
-      <section id="overviewPage" class="dashboard-page active">
-        <section class="summary-grid" aria-label="Summary">
-          <article>
-            <span id="totalCount">0</span>
-            <p>rows</p>
-          </article>
-          <article>
-            <span id="completeCount">0</span>
-            <p>complete</p>
-          </article>
-          <article>
-            <span id="meanDelta">0</span>
-            <p>mean pairwise Δ</p>
-          </article>
-          <article>
-            <span id="maxDelta">0</span>
-            <p>max mean pairwise Δ</p>
-          </article>
-        </section>
-
-        <section class="chart-grid">
-          <article class="chart-panel">
-            <div class="section-head">
-              <h2>Average Scores</h2>
-              <div class="chart-legend" aria-label="Average score legend">
-                <span><i class="legend-swatch flash"></i>Flash</span>
-                <span><i class="legend-swatch pro"></i>Pro</span>
-                <span><i class="legend-swatch qwen"></i>Qwen3.5-397B</span>
-              </div>
-            </div>
-            <canvas id="averageChart" width="680" height="360"></canvas>
-          </article>
-          <article class="chart-panel">
-            <div class="section-head">
-              <h2>Largest Disagreements</h2>
-            </div>
-            <canvas id="deltaChart" width="680" height="320"></canvas>
-          </article>
-        </section>
-
-        <section class="table-panel agreement-panel">
-          <div class="section-head">
-            <div>
-              <h2>Inter-model agreement</h2>
-              <p class="agreement-note">Gemini Pro · Gemini Flash · Qwen3.5-397B-A17B · all 149 videos, including 15 false-title controls · scores from 1–5</p>
-            </div>
-            <span class="agreement-note">Lower Δ = closer scores · Higher ρ = closer ranking</span>
-          </div>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Dimension</th>
-                  <th>Mean pairwise absolute difference (Δ)</th>
-                  <th>Mean pairwise Spearman ρ</th>
-                </tr>
-              </thead>
-              <tbody id="agreementBody"></tbody>
-            </table>
-          </div>
-        </section>
-
-        <section class="table-panel">
-          <div class="section-head">
-            <h2>Items</h2>
-            <span id="visibleCount"></span>
-          </div>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Word</th>
-                  <th>Collection</th>
-                  <th>Rating</th>
-                  <th>Flash</th>
-                  <th>Pro</th>
-                  <th>Qwen3.5-397B</th>
-                  <th>Mean pairwise Δ</th>
-                  <th>Confidence</th>
-                </tr>
-              </thead>
-              <tbody id="itemsBody"></tbody>
-            </table>
-          </div>
-        </section>
+      <section class="kpi-grid" aria-label="Dataset summary">
+        <article class="kpi-card">
+          <span>Complete human responses</span>
+          <strong id="humanResponses">—</strong>
+          <small id="humanRaters">Across — raters</small>
+        </article>
+        <article class="kpi-card">
+          <span>Individual human scores</span>
+          <strong id="humanScores">—</strong>
+          <small>Seven dimensions per response</small>
+        </article>
+        <article class="kpi-card">
+          <span>VLM judgments</span>
+          <strong id="vlmScores">—</strong>
+          <small>Three models × 148 × seven</small>
+        </article>
+        <article class="kpi-card accent">
+          <span>Best overall proximity</span>
+          <strong id="bestModel">—</strong>
+          <small id="bestModelDetail">Lowest mean absolute error</small>
+        </article>
       </section>
 
-      <section id="concretePage" class="dashboard-page">
-        <section id="concreteSummary" class="summary-grid concrete-summary" aria-label="Concrete and abstract summary"></section>
-
-        <section class="chart-grid single">
-          <article class="chart-panel">
-            <div class="section-head">
-              <h2>Concrete vs Abstract Scores</h2>
-              <div class="chart-tools">
-                <div class="chart-mode" aria-label="Concrete chart model">
-                  <button id="concreteBothMode" class="mode-button active" type="button">All</button>
-                  <button id="concreteFlashMode" class="mode-button" type="button">Flash</button>
-                  <button id="concreteProMode" class="mode-button" type="button">Pro</button>
-                  <button id="concreteQwenMode" class="mode-button" type="button">Qwen</button>
-                </div>
-                <div class="chart-legend" aria-label="Concrete and abstract legend">
-                  <span class="concrete-legend flash"><i class="legend-swatch concrete-flash"></i>Concrete Flash</span>
-                  <span class="concrete-legend pro"><i class="legend-swatch concrete-pro"></i>Concrete Pro</span>
-                  <span class="concrete-legend qwen"><i class="legend-swatch concrete-qwen"></i>Concrete Qwen</span>
-                  <span class="concrete-legend flash"><i class="legend-swatch abstract-flash"></i>Abstract Flash</span>
-                  <span class="concrete-legend pro"><i class="legend-swatch abstract-pro"></i>Abstract Pro</span>
-                  <span class="concrete-legend qwen"><i class="legend-swatch abstract-qwen"></i>Abstract Qwen</span>
-                </div>
-              </div>
-            </div>
-            <canvas id="concreteChart" width="1200" height="390"></canvas>
-          </article>
-        </section>
-
-        <section class="table-panel">
-          <div class="section-head">
-            <h2>Concrete/Abstract Items</h2>
-            <span id="concreteVisibleCount"></span>
-          </div>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Word</th>
-                  <th>Type</th>
-                  <th>Collection</th>
-                  <th>Rating</th>
-                  <th>Flash</th>
-                  <th>Pro</th>
-                  <th>Qwen3.5-397B</th>
-                  <th>Mean pairwise Δ</th>
-                </tr>
-              </thead>
-              <tbody id="concreteItemsBody"></tbody>
-            </table>
-          </div>
-        </section>
-      </section>
-
-      <section id="fakeTitlePage" class="dashboard-page">
-        <section class="probe-intro">
+      <section class="panel benchmark-panel">
+        <div class="section-heading">
           <div>
-            <p class="eyebrow">Robustness probe</p>
-            <h2>Same videos, deliberately mismatched target words</h2>
+            <p class="eyebrow">Benchmark profile</p>
+            <h2>Average score by dimension</h2>
+            <p>Human values are equal-weighted video means. Model values are one score per video.</p>
           </div>
-          <p>These 15 trials are excluded from the genuine-title dashboard summaries. Select a rating above, then open any row to inspect the video, model descriptions, scores, and rationales.</p>
-        </section>
+          <div class="legend" id="benchmarkLegend"></div>
+        </div>
+        <div class="chart-frame" id="benchmarkChart" role="img" aria-label="Grouped mean rating chart"></div>
+      </section>
 
-        <section id="fakeTitleSummary" class="summary-grid fake-title-summary" aria-label="Fake-title summary"></section>
+      <section class="findings-grid" id="findings"></section>
 
-        <section class="table-panel">
-          <div class="section-head">
-            <h2>Fake-title trials</h2>
-            <span id="fakeTitleVisibleCount"></span>
+      <section id="agreement" class="section-block">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Model–human concordance</p>
+            <h2>Agreement is more than correlation.</h2>
+            <p>Explore item ordering, absolute distance, and systematic offset together.</p>
           </div>
-          <div class="table-wrap fake-title-table-wrap">
+          <div class="control-row">
+            <label>
+              <span>Dimension</span>
+              <select id="agreementDimension"></select>
+            </label>
+            <label>
+              <span>Model</span>
+              <select id="agreementModel"></select>
+            </label>
+          </div>
+        </div>
+
+        <div class="agreement-grid">
+          <article class="panel scatter-panel">
+            <div class="mini-heading">
+              <h3 id="scatterTitle">Human mean vs model score</h3>
+              <span>Each point is one video</span>
+            </div>
+            <div id="scatterChart" class="scatter-chart"></div>
+          </article>
+          <aside class="metric-stack" id="agreementMetrics"></aside>
+        </div>
+
+        <article class="panel divergence-panel">
+          <div class="mini-heading">
+            <div>
+              <h3>Largest model–human gaps</h3>
+              <span>Ranked by absolute difference for the active selection</span>
+            </div>
+            <button class="text-button" id="downloadSummary" type="button">Download summary CSV</button>
+          </div>
+          <div class="table-scroll">
             <table>
               <thead>
                 <tr>
-                  <th>Fake target</th>
-                  <th>Original target</th>
-                  <th>Rating</th>
-                  <th>Gemini Flash</th>
-                  <th>Gemini Pro</th>
-                  <th>Qwen3.5-397B</th>
-                  <th>Mean pairwise Δ</th>
+                  <th>Video</th>
+                  <th>Human mean</th>
+                  <th>Model</th>
+                  <th>Difference</th>
+                  <th>Human n</th>
                 </tr>
               </thead>
-              <tbody id="fakeTitleItemsBody"></tbody>
+              <tbody id="divergenceRows"></tbody>
             </table>
           </div>
-        </section>
+        </article>
       </section>
 
-      <aside id="detailDrawer" class="detail-drawer" aria-label="Item details"></aside>
-      <div id="chartTooltip" class="chart-tooltip" role="status" aria-live="polite"></div>
+      <section id="explorer" class="section-block">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Item-level evidence</p>
+            <h2>Inspect every gesture.</h2>
+            <p>Scores, uncertainty, model descriptions, and rationales in one view.</p>
+          </div>
+          <div class="search-wrap">
+            <span aria-hidden="true">⌕</span>
+            <input id="videoSearch" type="search" placeholder="Search title or target word…" autocomplete="off">
+          </div>
+        </div>
+
+        <div class="explorer-layout">
+          <aside class="video-index panel">
+            <div class="index-meta">
+              <span id="videoCount">149 videos</span>
+              <select id="collectionFilter" aria-label="Filter by collection">
+                <option value="all">All collections</option>
+                <option value="gesture">Gesture</option>
+                <option value="object">Object</option>
+              </select>
+            </div>
+            <div id="videoList" class="video-list"></div>
+          </aside>
+          <article class="video-detail panel">
+            <div class="video-detail-header">
+              <div>
+                <p class="eyebrow" id="videoCollection">—</p>
+                <h3 id="videoTitle">Select a video</h3>
+                <p id="videoTarget">—</p>
+              </div>
+              <span class="n-chip" id="videoHumanN">Human n = —</span>
+            </div>
+            <div class="explorer-video-wrap">
+              <video id="explorerVideo" controls muted loop playsinline preload="metadata"></video>
+              <p id="explorerVideoStatus" class="video-status" hidden>Video unavailable.</p>
+            </div>
+            <div id="videoScoreChart" class="score-chart"></div>
+            <div class="rationale-section">
+              <h4>Model readings</h4>
+              <div id="modelReadings" class="model-readings"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="methods" class="section-block">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Read before interpreting</p>
+            <h2>Methods and boundaries.</h2>
+          </div>
+        </div>
+        <div class="methods-grid">
+          <article class="panel method-card">
+            <span>01</span>
+            <h3>Pair on the item</h3>
+            <p>Uniform all-1 and all-5 test runs are removed first. Each model score is then paired with the human mean for the same video and dimension.</p>
+          </article>
+          <article class="panel method-card">
+            <span>02</span>
+            <h3>Read several metrics</h3>
+            <p>Correlation captures ordering; MAE and RMSE capture distance; mean bias captures systematic over- or under-rating.</p>
+          </article>
+          <article class="panel method-card">
+            <span>03</span>
+            <h3>Keep inference modest</h3>
+            <p>Model values are single generated judgments. Human n varies by video, and the language distribution is uneven.</p>
+          </article>
+        </div>
+        <article class="panel language-panel">
+          <div>
+            <p class="eyebrow">Human sample composition</p>
+            <h3>Interface language distribution</h3>
+          </div>
+          <div id="languageBars" class="language-bars"></div>
+        </article>
+        <footer>
+          <span id="snapshotDate">Data snapshot —</span>
+          <span><a href="legacy-dashboard.html">Previous model-only dashboard</a> · no participant identifiers · noindex</span>
+        </footer>
+      </section>
     </main>
 
-    <script src="dashboard-data.js?v=20260723-qwen-drawer"></script>
-    <script src="fake-title-data.js?v=20260723-qwen-drawer"></script>
-    <script src="inter-model-data.js?v=20260723-qwen-drawer"></script>
-    <script src="dashboard.js?v=20260727-chart-tooltips"></script>
+    <div class="tooltip" id="tooltip" role="status"></div>
+    <script src="research-insights-7f3c9a/app.js"></script>
   </body>
 </html>

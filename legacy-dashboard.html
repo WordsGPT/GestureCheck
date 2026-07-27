@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GestureCheck Rating Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css?v=20260727-chart-tooltips">
+  </head>
+  <body>
+    <main class="dashboard">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">GestureCheck</p>
+          <h1>Model Rating Dashboard</h1>
+        </div>
+        <div class="header-links">
+          <a class="workbook-link" href="unrelated-probe.html">Unrelated title probe</a>
+          <a class="workbook-link" href="rating-results.xlsx">XLSX</a>
+        </div>
+      </header>
+
+      <nav class="page-tabs" aria-label="Dashboard pages">
+        <button id="overviewPageTab" class="page-tab active" type="button">Overview</button>
+        <button id="concretePageTab" class="page-tab" type="button">Concrete/Abstract</button>
+        <button id="fakeTitlePageTab" class="page-tab" type="button">Fake titles (15)</button>
+      </nav>
+
+      <section class="controls" aria-label="Dashboard filters">
+        <label>
+          Search
+          <input id="searchInput" type="search" placeholder="Word or file">
+        </label>
+        <label>
+          Collection
+          <select id="collectionFilter">
+            <option value="all">All</option>
+          </select>
+        </label>
+        <label>
+          Rating
+          <select id="ratingFilter"></select>
+        </label>
+        <label>
+          Sort
+          <select id="sortSelect">
+            <option value="max_abs_delta">Largest disagreement</option>
+            <option value="mean_abs_delta">Mean disagreement</option>
+            <option value="target_word">Word</option>
+          </select>
+        </label>
+        <label class="toggle-row">
+          <input id="completeOnly" type="checkbox" checked>
+          Complete only
+        </label>
+      </section>
+
+      <section id="overviewPage" class="dashboard-page active">
+        <section class="summary-grid" aria-label="Summary">
+          <article>
+            <span id="totalCount">0</span>
+            <p>rows</p>
+          </article>
+          <article>
+            <span id="completeCount">0</span>
+            <p>complete</p>
+          </article>
+          <article>
+            <span id="meanDelta">0</span>
+            <p>mean pairwise Δ</p>
+          </article>
+          <article>
+            <span id="maxDelta">0</span>
+            <p>max mean pairwise Δ</p>
+          </article>
+        </section>
+
+        <section class="chart-grid">
+          <article class="chart-panel">
+            <div class="section-head">
+              <h2>Average Scores</h2>
+              <div class="chart-legend" aria-label="Average score legend">
+                <span><i class="legend-swatch flash"></i>Flash</span>
+                <span><i class="legend-swatch pro"></i>Pro</span>
+                <span><i class="legend-swatch qwen"></i>Qwen3.5-397B</span>
+              </div>
+            </div>
+            <canvas id="averageChart" width="680" height="360"></canvas>
+          </article>
+          <article class="chart-panel">
+            <div class="section-head">
+              <h2>Largest Disagreements</h2>
+            </div>
+            <canvas id="deltaChart" width="680" height="320"></canvas>
+          </article>
+        </section>
+
+        <section class="table-panel agreement-panel">
+          <div class="section-head">
+            <div>
+              <h2>Inter-model agreement</h2>
+              <p class="agreement-note">Gemini Pro · Gemini Flash · Qwen3.5-397B-A17B · all 149 videos, including 15 false-title controls · scores from 1–5</p>
+            </div>
+            <span class="agreement-note">Lower Δ = closer scores · Higher ρ = closer ranking</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Dimension</th>
+                  <th>Mean pairwise absolute difference (Δ)</th>
+                  <th>Mean pairwise Spearman ρ</th>
+                </tr>
+              </thead>
+              <tbody id="agreementBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="table-panel">
+          <div class="section-head">
+            <h2>Items</h2>
+            <span id="visibleCount"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Word</th>
+                  <th>Collection</th>
+                  <th>Rating</th>
+                  <th>Flash</th>
+                  <th>Pro</th>
+                  <th>Qwen3.5-397B</th>
+                  <th>Mean pairwise Δ</th>
+                  <th>Confidence</th>
+                </tr>
+              </thead>
+              <tbody id="itemsBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <section id="concretePage" class="dashboard-page">
+        <section id="concreteSummary" class="summary-grid concrete-summary" aria-label="Concrete and abstract summary"></section>
+
+        <section class="chart-grid single">
+          <article class="chart-panel">
+            <div class="section-head">
+              <h2>Concrete vs Abstract Scores</h2>
+              <div class="chart-tools">
+                <div class="chart-mode" aria-label="Concrete chart model">
+                  <button id="concreteBothMode" class="mode-button active" type="button">All</button>
+                  <button id="concreteFlashMode" class="mode-button" type="button">Flash</button>
+                  <button id="concreteProMode" class="mode-button" type="button">Pro</button>
+                  <button id="concreteQwenMode" class="mode-button" type="button">Qwen</button>
+                </div>
+                <div class="chart-legend" aria-label="Concrete and abstract legend">
+                  <span class="concrete-legend flash"><i class="legend-swatch concrete-flash"></i>Concrete Flash</span>
+                  <span class="concrete-legend pro"><i class="legend-swatch concrete-pro"></i>Concrete Pro</span>
+                  <span class="concrete-legend qwen"><i class="legend-swatch concrete-qwen"></i>Concrete Qwen</span>
+                  <span class="concrete-legend flash"><i class="legend-swatch abstract-flash"></i>Abstract Flash</span>
+                  <span class="concrete-legend pro"><i class="legend-swatch abstract-pro"></i>Abstract Pro</span>
+                  <span class="concrete-legend qwen"><i class="legend-swatch abstract-qwen"></i>Abstract Qwen</span>
+                </div>
+              </div>
+            </div>
+            <canvas id="concreteChart" width="1200" height="390"></canvas>
+          </article>
+        </section>
+
+        <section class="table-panel">
+          <div class="section-head">
+            <h2>Concrete/Abstract Items</h2>
+            <span id="concreteVisibleCount"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Word</th>
+                  <th>Type</th>
+                  <th>Collection</th>
+                  <th>Rating</th>
+                  <th>Flash</th>
+                  <th>Pro</th>
+                  <th>Qwen3.5-397B</th>
+                  <th>Mean pairwise Δ</th>
+                </tr>
+              </thead>
+              <tbody id="concreteItemsBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <section id="fakeTitlePage" class="dashboard-page">
+        <section class="probe-intro">
+          <div>
+            <p class="eyebrow">Robustness probe</p>
+            <h2>Same videos, deliberately mismatched target words</h2>
+          </div>
+          <p>These 15 trials are excluded from the genuine-title dashboard summaries. Select a rating above, then open any row to inspect the video, model descriptions, scores, and rationales.</p>
+        </section>
+
+        <section id="fakeTitleSummary" class="summary-grid fake-title-summary" aria-label="Fake-title summary"></section>
+
+        <section class="table-panel">
+          <div class="section-head">
+            <h2>Fake-title trials</h2>
+            <span id="fakeTitleVisibleCount"></span>
+          </div>
+          <div class="table-wrap fake-title-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Fake target</th>
+                  <th>Original target</th>
+                  <th>Rating</th>
+                  <th>Gemini Flash</th>
+                  <th>Gemini Pro</th>
+                  <th>Qwen3.5-397B</th>
+                  <th>Mean pairwise Δ</th>
+                </tr>
+              </thead>
+              <tbody id="fakeTitleItemsBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <aside id="detailDrawer" class="detail-drawer" aria-label="Item details"></aside>
+      <div id="chartTooltip" class="chart-tooltip" role="status" aria-live="polite"></div>
+    </main>
+
+    <script src="dashboard-data.js?v=20260723-qwen-drawer"></script>
+    <script src="fake-title-data.js?v=20260723-qwen-drawer"></script>
+    <script src="inter-model-data.js?v=20260723-qwen-drawer"></script>
+    <script src="dashboard.js?v=20260727-chart-tooltips"></script>
+  </body>
+</html>
