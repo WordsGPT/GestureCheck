@@ -87,6 +87,12 @@ function setActiveTab(tab) {
   probeTab.classList.toggle("active", !showRating);
   ratingView.classList.toggle("active", showRating);
   probeView.classList.toggle("active", !showRating);
+  ratingTab.setAttribute("aria-selected", String(showRating));
+  probeTab.setAttribute("aria-selected", String(!showRating));
+  ratingTab.tabIndex = showRating ? 0 : -1;
+  probeTab.tabIndex = showRating ? -1 : 0;
+  ratingView.hidden = !showRating;
+  probeView.hidden = showRating;
 }
 
 function renderList() {
@@ -96,7 +102,12 @@ function renderList() {
     const button = document.createElement("button");
     button.type = "button";
     button.className = `video-button${index === currentIndex ? " active" : ""}`;
-    button.innerHTML = `<strong>${item.target_word}</strong><span>${item.collection} · ${variant.label} · ${item.title}</span>`;
+    button.setAttribute("aria-current", index === currentIndex ? "true" : "false");
+    const word = document.createElement("strong");
+    word.textContent = item.target_word || item.title || "Untitled";
+    const details = document.createElement("span");
+    details.textContent = `${item.collection || "Unknown collection"} · ${variant.label || variant.model || "Unknown model"} · ${item.title || "Untitled"}`;
+    button.append(word, details);
     button.addEventListener("click", () => {
       currentIndex = index;
       render();
@@ -112,7 +123,7 @@ function renderModelToggle(item) {
   modelToggle.innerHTML = "";
   if (variants.length <= 1) {
     modelToggle.classList.add("single");
-    modelToggle.textContent = selectedVariant.label;
+    modelToggle.textContent = selectedVariant.label || selectedVariant.model || "Model";
     return;
   }
 
@@ -121,7 +132,8 @@ function renderModelToggle(item) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = `model-button${variant.key === selectedVariant.key ? " active" : ""}`;
-    button.textContent = variant.label;
+    button.textContent = variant.label || variant.model || "Model";
+    button.setAttribute("aria-pressed", String(variant.key === selectedVariant.key));
     button.addEventListener("click", () => {
       selectedModels[itemKey(item)] = variant.key;
       render();
@@ -131,27 +143,39 @@ function renderModelToggle(item) {
 }
 
 function renderRatings(variant) {
-  const rating = variant.rating;
+  const rating = variant.rating || {};
   ratingDescription.textContent = rating.brief_gesture_description || "";
   ratingsGrid.innerHTML = "";
 
   ratingLabels.forEach(([key, label, hint]) => {
-    const value = rating.ratings[key];
+    const value = rating.ratings?.[key] || {};
     const card = document.createElement("article");
     card.className = "rating-card";
-    card.innerHTML = `
-      <div class="rating-head">
-        <h3>
-          ${label}
-          <button class="hint-button" type="button" aria-label="${label} definition">
-            ?
-            <span class="hint-tooltip" role="tooltip">${hint}</span>
-          </button>
-        </h3>
-        <div class="score">${value.score}</div>
-      </div>
-      <p>${value.rationale}</p>
-    `;
+    const head = document.createElement("div");
+    head.className = "rating-head";
+    const heading = document.createElement("h3");
+    heading.append(document.createTextNode(label));
+    const hintButton = document.createElement("button");
+    hintButton.className = "hint-button";
+    hintButton.type = "button";
+    hintButton.setAttribute("aria-label", `${label} definition`);
+    hintButton.setAttribute("aria-describedby", `rating-hint-${key}`);
+    hintButton.append(document.createTextNode("?"));
+    const tooltip = document.createElement("span");
+    tooltip.id = `rating-hint-${key}`;
+    tooltip.className = "hint-tooltip";
+    tooltip.role = "tooltip";
+    tooltip.textContent = hint;
+    hintButton.appendChild(tooltip);
+    heading.appendChild(hintButton);
+    const score = document.createElement("div");
+    score.className = "score";
+    score.textContent = value.score ?? "–";
+    score.setAttribute("aria-label", `Score ${value.score ?? "not available"} out of 5`);
+    head.append(heading, score);
+    const rationale = document.createElement("p");
+    rationale.textContent = value.rationale || "No rationale available.";
+    card.append(head, rationale);
     ratingsGrid.appendChild(card);
   });
 
@@ -159,20 +183,24 @@ function renderRatings(variant) {
 }
 
 function renderProbe(variant) {
-  const probe = variant.probe;
+  const probe = variant.probe || {};
   probeDescription.textContent = probe.brief_gesture_description || "";
 
   candidateList.innerHTML = "";
   (probe.candidate_meanings || []).forEach((candidate) => {
     const card = document.createElement("article");
     card.className = "candidate";
-    card.innerHTML = `
-      <div class="candidate-header">
-        <strong>${candidate.meaning}</strong>
-        <span class="confidence">${candidate.confidence}</span>
-      </div>
-      <p>${candidate.evidence}</p>
-    `;
+    const header = document.createElement("div");
+    header.className = "candidate-header";
+    const meaning = document.createElement("strong");
+    meaning.textContent = candidate.meaning || "Unspecified";
+    const confidence = document.createElement("span");
+    confidence.className = "confidence";
+    confidence.textContent = candidate.confidence || "unknown";
+    header.append(meaning, confidence);
+    const evidence = document.createElement("p");
+    evidence.textContent = candidate.evidence || "No evidence provided.";
+    card.append(header, evidence);
     candidateList.appendChild(card);
   });
 
@@ -180,7 +208,11 @@ function renderProbe(variant) {
   Object.entries(probe.visible_components || {}).forEach(([key, value]) => {
     const row = document.createElement("div");
     const label = key.replaceAll("_", " ");
-    row.innerHTML = `<dt>${label}</dt><dd>${value}</dd>`;
+    const term = document.createElement("dt");
+    term.textContent = label;
+    const description = document.createElement("dd");
+    description.textContent = value;
+    row.append(term, description);
     componentsList.appendChild(row);
   });
 
@@ -205,15 +237,24 @@ function renderListItems(container, items) {
 
 function render() {
   const item = results[currentIndex];
-  if (!item) return;
+  if (!item) {
+    targetWord.textContent = "No results available";
+    fileName.textContent = "";
+    confidenceBadge.textContent = "";
+    videoPlayer.removeAttribute("src");
+    videoPlayer.load();
+    return;
+  }
   const variant = getSelectedVariant(item);
 
   renderList();
   renderModelToggle(item);
-  videoPlayer.src = item.video;
-  fileName.textContent = item.title;
-  targetWord.textContent = item.target_word;
-  confidenceBadge.textContent = `${item.collection} · ${variant.model} · rating confidence: ${variant.rating.coherence_check?.confidence || "unknown"}`;
+  if (videoPlayer.getAttribute("src") !== item.video) {
+    videoPlayer.src = item.video;
+  }
+  fileName.textContent = item.title || "";
+  targetWord.textContent = item.target_word || item.title || "Untitled";
+  confidenceBadge.textContent = `${item.collection || "Unknown collection"} · ${variant.model || variant.label || "Unknown model"} · rating confidence: ${variant.rating?.coherence_check?.confidence || "unknown"}`;
 
   renderRatings(variant);
   renderProbe(variant);
@@ -221,5 +262,13 @@ function render() {
 
 ratingTab.addEventListener("click", () => setActiveTab("rating"));
 probeTab.addEventListener("click", () => setActiveTab("probe"));
+document.querySelector(".tabs").addEventListener("keydown", (event) => {
+  if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+  event.preventDefault();
+  const showRating = event.key === "ArrowLeft" || event.key === "Home";
+  setActiveTab(showRating ? "rating" : "probe");
+  (showRating ? ratingTab : probeTab).focus();
+});
 
+setActiveTab("rating");
 render();

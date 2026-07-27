@@ -29,6 +29,12 @@ button {
   font: inherit;
 }
 
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid rgba(29, 111, 114, 0.35);
+  outline-offset: 2px;
+}
+
 .app {
   height: 100vh;
   display: grid;
@@ -444,8 +450,15 @@ video {
 }
 
 @media (max-width: 980px) {
+  body {
+    overflow: auto;
+  }
+
   .app {
+    height: auto;
+    min-height: 100vh;
     grid-template-columns: 1fr;
+    overflow: visible;
   }
 
   .sidebar {
@@ -462,6 +475,10 @@ video {
 
   .content-grid {
     grid-template-columns: 1fr;
+  }
+
+  .workspace {
+    overflow: visible;
   }
 }
 

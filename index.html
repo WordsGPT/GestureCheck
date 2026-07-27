@@ -14,7 +14,6 @@
             <h1>GestureCheck</h1>
             <p>First 10 video results</p>
             <a class="nav-link" href="survey.html">Human rating survey</a>
-            <a class="nav-link" href="claudia-suggestions.html">Claudia suggestions</a>
             <a class="nav-link" href="dashboard.html">Rating dashboard</a>
             <a class="nav-link" href="unrelated-probe.html">Unrelated title probe</a>
             <a class="nav-link" href="generated-videos.html">Generated videos</a>
@@ -42,11 +41,11 @@
 
           <section class="results-panel" aria-label="Results">
             <div class="tabs" role="tablist" aria-label="Result view">
-              <button id="ratingTab" class="tab active" type="button">Survey</button>
-              <button id="probeTab" class="tab" type="button">Guess</button>
+              <button id="ratingTab" class="tab active" type="button" role="tab" aria-selected="true" aria-controls="ratingView">Survey</button>
+              <button id="probeTab" class="tab" type="button" role="tab" aria-selected="false" aria-controls="probeView" tabindex="-1">Guess</button>
             </div>
 
-            <div id="ratingView" class="panel-view active">
+            <div id="ratingView" class="panel-view active" role="tabpanel" aria-labelledby="ratingTab">
               <p id="ratingDescription" class="description"></p>
               <div id="ratingsGrid" class="ratings-grid"></div>
               <div class="section-block">
@@ -55,7 +54,7 @@
               </div>
             </div>
 
-            <div id="probeView" class="panel-view">
+            <div id="probeView" class="panel-view" role="tabpanel" aria-labelledby="probeTab" hidden>
               <p id="probeDescription" class="description"></p>
               <div class="section-block">
                 <h3>Candidate Meanings</h3>
