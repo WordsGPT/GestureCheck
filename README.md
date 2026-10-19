@@ -4,7 +4,7 @@
 
 The corrected data, analysis code, instructions in all four languages, model prompt, figures and source documentation for **Can Video-Language Models Rate Instructional Gestures Like Humans Do? A Benchmark Study** are in [paper_materials/](paper_materials/README.md). This is the package to use for the revised paper; the pilot results described below predate it.
 
-**[Read the current revised paper](paper_materials/revision/manuscript.md)** · [Word](paper_materials/revision/06_GestureCheck_Pedro_targeted_revision.docx) · [PDF](paper_materials/revision/06_GestureCheck_Pedro_targeted_revision.pdf) · [Download the complete revision ZIP](https://github.com/WordsGPT/GestureCheck/raw/refs/heads/main/paper_materials/GestureCheck_revision_with_Glimpse.zip)
+**[Read the current revised paper](paper_materials/revision/manuscript.md)** · [Word (Improved 07)](paper_materials/revision/07_GestureCheck_Pedro_improved_revision.docx) · [PDF (Improved 07)](paper_materials/revision/07_GestureCheck_Pedro_improved_revision.pdf) · [HTML Writing Changes Comparison](writing_changes_comparison.html) · [Base DOCX (06)](paper_materials/revision/06_GestureCheck_Pedro_targeted_revision.docx) · [Download the complete revision ZIP](https://github.com/WordsGPT/GestureCheck/raw/refs/heads/main/paper_materials/GestureCheck_revision_with_Glimpse.zip)
 
 Updated 19 October 2026, including Elorian Glimpse. The ZIP includes the offline HTML comparison with Pedro’s text, the change list and supplementary materials. Extract it and open `revision/comparison.html`.
 

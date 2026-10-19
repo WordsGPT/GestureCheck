@@ -6,7 +6,7 @@ This directory contains the corrected aggregate inputs and descriptive analyses 
 
 ## Read the current revision
 
-**[Read the current paper](revision/manuscript.md)** · [Word](revision/06_GestureCheck_Pedro_targeted_revision.docx) · [PDF](revision/06_GestureCheck_Pedro_targeted_revision.pdf) · [Download everything](https://github.com/WordsGPT/GestureCheck/raw/refs/heads/main/paper_materials/GestureCheck_revision_with_Glimpse.zip)
+**[Read the current paper](revision/manuscript.md)** · [Word (Improved 07)](revision/07_GestureCheck_Pedro_improved_revision.docx) · [PDF (Improved 07)](revision/07_GestureCheck_Pedro_improved_revision.pdf) · [HTML Writing Changes Comparison](revision/writing_changes_comparison.html) · [Base DOCX (06)](revision/06_GestureCheck_Pedro_targeted_revision.docx) · [Download everything](https://github.com/WordsGPT/GestureCheck/raw/refs/heads/main/paper_materials/GestureCheck_revision_with_Glimpse.zip)
 
 The ZIP contains the local HTML comparison, manuscript, supplement, instructions, figures, saved model scores and analysis code. Extract it and open `revision/comparison.html`. See [revision/](revision/README.md) for the review links and change list.
 
