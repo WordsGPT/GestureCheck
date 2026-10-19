@@ -1,0 +1,42 @@
+{
+  "target_word": "Alternative",
+  "video_file": "video_047.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns their head to the right while raising both hands to chest height with palms facing upward in a shrugging, weighing motion. They then turn their head to the left, keeping both hands raised with palms up, before lowering their arms and returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture of turning the head side to side while holding both hands out with palms up visually resembles weighing or considering two options, which aligns with the concept of an 'alternative'."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a natural, everyday action of pondering or weighing choices, though it is not a highly specific or intense physical experience."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained, limited to the arms and head, with no large or dynamic body movements."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, with no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, two-sided weighing motion fits the concept of an 'alternative' well, as it visually represents considering one option versus another."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The shrugging, palms-up gesture combined with head turning is a widely recognized and common gesture for uncertainty or weighing options across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only simple arm raises and head turns without any complex coordination or physical effort."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as general uncertainty, confusion, or a simple shrug rather than specifically representing an 'alternative'."
+    ],
+    "confidence": "medium"
+  }
+}

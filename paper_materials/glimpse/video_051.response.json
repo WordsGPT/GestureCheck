@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394693-2gIB3FFpL37zEsnz7x49",
+  "object": "chat.completion",
+  "created": 1792394693,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Effort\",\n  \"video_file\": \"video_051.mp4\",\n  \"brief_gesture_description\": \"The person begins standing upright, then bends forward at the waist, reaching both hands down toward the floor as if lifting a heavy object. They then straighten up, bringing the hands up to chest level with palms facing each other, and finally return to a neutral standing position with arms at their sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The bending and lifting motion visually resembles the physical exertion associated with effort, but the lack of a visible heavy object or strain makes the connection somewhat generic.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement mimics a real action of lifting or picking something up, which involves physical effort, but the execution is smooth and lacks the tension or strain that would strongly evoke the sensation of effort.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture involves a clear bending and straightening of the body, which is a moderate movement, but it is not particularly large or dynamic.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral throughout the video, showing no signs of strain, effort, or emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture is relatively simple, involving a basic lifting motion, which fits the concept of effort as a physical action, but it may not fully capture the complexity of effort as a mental or abstract concept.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of bending and lifting is a common and familiar action in many cultures, often associated with physical effort.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform, requiring only a simple bending and straightening motion without any complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as simply picking something up rather than exerting effort.\",\n      \"The lack of facial expression or strain may make it less clear that the gesture is meant to represent effort.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 589,
+    "total_tokens": 3793,
+    "cost": 0.0036894,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036894,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001767
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Stamp For Letter",
+  "video_file": "video_117.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises their right hand and repeatedly presses it down onto the back of their left hand, which is held flat in front of the body. The motion mimics the action of stamping an object, followed by lowering both arms back to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of repeatedly pressing one hand onto the other clearly mimics the physical action of stamping a letter."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The downward pressing motion is distinct and tactile, strongly evoking the physical sensation of using a stamp."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is localized to the hands and arms in front of the torso; it is clear but not large or highly dynamic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The person maintains a neutral, focused facial expression throughout the video with no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, repetitive pressing motion perfectly matches the straightforward physical action of stamping a letter."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture is a common and recognizable pantomime for stamping, widely understood in contexts involving mail or office work."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only simple hand movements without any props or complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without a visible letter or stamp, the gesture could be interpreted generally as 'stamping' or 'pressing' rather than specifically for a letter."
+    ],
+    "confidence": "high"
+  }
+}

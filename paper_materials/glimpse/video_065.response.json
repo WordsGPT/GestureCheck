@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394709-aPfye23zo8eSda4QiIYx",
+  "object": "chat.completion",
+  "created": 1792394709,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Mentality\",\n  \"video_file\": \"video_065.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, raises both hands to the sides of the head with palms facing inward, then moves them outward and downward away from the head, and finally returns to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The hands near the head suggest a mental or cognitive domain, but the outward sweeping motion does not clearly depict the specific concept of 'mentality' or mindset.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is abstract and symbolic rather than mimicking a concrete physical action or experience.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement involves both arms moving from the head outward and downward, which is a moderate, visible movement but not highly dynamic or large in scale.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, conveying no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The simple two-part movement (hands to head, then outward) is too basic to adequately represent the complex, multifaceted concept of 'mentality'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"While touching the head is a common gesture for 'thinking' or 'idea', the specific outward sweeping motion is not a widely recognized conventional gesture for 'mentality'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is simple, requiring only basic arm movements to the head and outward, making it easy to perform.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as 'thinking', 'having an idea', 'forgetting', or 'mindset' rather than specifically 'mentality'.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3205,
+    "completion_tokens": 543,
+    "total_tokens": 3748,
+    "cost": 0.003552,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003552,
+      "upstream_inference_prompt_cost": 0.001923,
+      "upstream_inference_completions_cost": 0.001629
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

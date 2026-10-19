@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394687-DFSTc3vTWiIzVIqdc7y1",
+  "object": "chat.completion",
+  "created": 1792394687,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Cigarette\",\n  \"video_file\": \"video_045.mp4\",\n  \"brief_gesture_description\": \"A person stands facing the camera and raises their right hand to their mouth, holding the fingers together as if pinching a small object. They then move the hand away from the mouth and extend the arm outward to the side, pointing with the index finger, before lowering the arm back to the side.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of bringing the hand to the mouth and then moving it away mimics the action of smoking a cigarette, which is a highly iconic representation of the word.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The movement feels like a real action of smoking, with the hand-to-mouth motion and the subsequent exhale-like gesture being very tangible.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, involving the arm and hand but not the whole body. It is dynamic enough to be clear but not overly large.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression is neutral and does not convey any strong emotion, focusing solely on the gesture.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is simple and directly represents the action associated with the word 'cigarette', fitting the concept's complexity well.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture of smoking is widely recognized and familiar in many cultural contexts, making it easy to understand.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform, requiring only basic hand and arm movements that are natural and intuitive.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as smoking any small object, not specifically a cigarette, but the context strongly suggests a cigarette.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3205,
+    "completion_tokens": 547,
+    "total_tokens": 3752,
+    "cost": 0.003564,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003564,
+      "upstream_inference_prompt_cost": 0.001923,
+      "upstream_inference_completions_cost": 0.001641
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

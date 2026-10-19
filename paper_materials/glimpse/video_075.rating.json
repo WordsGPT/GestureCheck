@@ -1,0 +1,42 @@
+{
+  "target_word": "Tendency",
+  "video_file": "video_075.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises their right arm and sweeps it diagonally upward and outward to their right side, ending with the arm extended high. The left arm remains mostly at the side. The face remains neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The upward sweeping motion could loosely suggest a 'leaning' or 'inclination' toward something, but it is quite abstract and does not clearly depict the concept of a tendency."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture is a simple arm sweep and does not strongly evoke a tangible physical action or experience related to the word."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The arm movement is moderate in size, extending from the center of the body to a high position on the side, but it is a single, smooth motion without high dynamism."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and unchanging throughout the video, conveying no emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The concept of 'tendency' is abstract and complex, while the gesture is a very simple, single-arm movement, which may not adequately capture the nuance of the word."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This specific sweeping gesture is not a widely recognized or common cultural gesture for 'tendency' or inclination."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is very easy to perform, requiring only a simple raising and sweeping of one arm."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as pointing to something high, waving, or indicating a direction, rather than an abstract concept like 'tendency'."
+    ],
+    "confidence": "low"
+  }
+}

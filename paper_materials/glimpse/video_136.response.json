@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394807-OjHDy3LB8eP6RoAdTGTg",
+  "object": "chat.completion",
+  "created": 1792394807,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Gold\",\n  \"video_file\": \"video_136.mp4\",\n  \"brief_gesture_description\": \"A person stands facing the camera against a plain background. Around 1.0-1.5 seconds, they briefly raise their right hand to touch their chin/mouth area, then lower it back to their side. For the remainder of the video, they stand still with arms at their sides and a neutral facial expression.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The brief hand-to-chin movement does not visually resemble the concept of gold, its color, or its properties.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture is a minimal, static touch to the face and does not evoke any tangible action or sensory experience related to gold.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 1,\n      \"rationale\": \"The movement is very small, limited to a brief hand raise and lower, with the rest of the video showing a static standing posture.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains completely neutral and unchanging throughout the video, conveying no emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture is extremely simple and lacks any representational elements that would fit the concept of gold.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"A hand-to-chin gesture is a common human movement, but it is not a culturally recognized or conventional gesture for representing gold.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The movement is extremely simple, requiring only a brief raise of the hand to the chin, making it very easy to perform.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as a generic thinking or contemplation pose rather than a specific representation of gold.\",\n      \"The lack of movement and facial expression makes it difficult to determine any intended meaning.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 554,
+    "total_tokens": 3757,
+    "cost": 0.0035838,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035838,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001662
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

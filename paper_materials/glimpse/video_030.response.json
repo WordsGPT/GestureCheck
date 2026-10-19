@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394666-VHJS7CKbsM3c6STeYe8W",
+  "object": "chat.completion",
+  "created": 1792394666,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Tire\",\n  \"video_file\": \"video_030.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera and performs a repeated circular motion with both hands, alternating one hand raised high and the other lowered, as if turning a large wheel or steering wheel. The torso rotates slightly with the movement, and the facial expression remains neutral.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The circular hand motion strongly resembles the action of turning a wheel or tire, which is a highly iconic representation of the word.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture feels like a real physical action of gripping and turning a large wheel, providing strong sensorimotor imagery.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 4,\n      \"rationale\": \"The movement is large, dynamic, and clearly visible, involving full arm extensions and torso rotation.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, conveying no specific emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The complexity of the gesture (a continuous circular motion) fits well with the concept of a tire, which is associated with rotation and movement.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of miming turning a steering wheel or wheel is a common and widely understood gesture in many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform, requiring only simple arm movements and a slight torso rotation without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as turning a steering wheel or a large knob, but the circular motion is strongly associated with a tire.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 520,
+    "total_tokens": 3724,
+    "cost": 0.0034824,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034824,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.00156
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Property",
+  "video_file": "video_054.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then bends forward at the waist and crosses both arms in front of the torso, rubbing or hugging the opposite arms in a self-embracing motion. The person then straightens up and returns to a neutral standing posture with arms at the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of hugging oneself or rubbing the arms does not visually resemble the concept of 'Property' (ownership, real estate, or attributes)."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The motion of crossing arms and rubbing the torso feels like a tangible physical action, resembling self-hugging, shivering, or comforting oneself."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained within the body's immediate space, involving a simple bend and arm crossing without large dynamic displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, showing no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The simple self-hugging gesture does not map well to the abstract or concrete meanings of 'Property'."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture of crossing arms to hug oneself is a common, recognizable human movement, though not specifically tied to the target word."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only a forward bend and crossing the arms over the chest."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as shivering, self-comforting, or hugging oneself, but has no clear connection to 'Property'."
+    ],
+    "confidence": "high"
+  }
+}

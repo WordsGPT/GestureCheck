@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394630-72iZqG8tjz84y7sbW3JJ",
+  "object": "chat.completion",
+  "created": 1792394630,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Trailer\",\n  \"video_file\": \"video_002.mp4\",\n  \"brief_gesture_description\": \"The person stands upright facing the camera, then bends forward at the waist while swinging both arms backward behind the body, and finally returns to the neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The forward bend with arms swung backward does not visually resemble a trailer, a towed vehicle, or any related concept.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement resembles a simple physical action like a forward lean or arm swing, but it does not evoke the experience of a trailer.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and brief, consisting of a slight forward bend and backward arm swing before returning to rest.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and unchanged throughout the video.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The simple body movement does not correspond to the concept of a trailer, so the complexity does not fit the word.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is not a recognizable or conventional sign for a trailer in common cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The movement is simple and easy to perform, requiring only a forward bend and backward arm swing.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as a generic forward lean, a stretching motion, or a dance move, but it does not clearly represent a trailer.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 491,
+    "total_tokens": 3695,
+    "cost": 0.0033954,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0033954,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001473
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

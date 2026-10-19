@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394817-Jx7tcJWzMWhvuVRpqtCY",
+  "object": "chat.completion",
+  "created": 1792394817,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Tree\",\n  \"video_file\": \"video_145.mp4\",\n  \"brief_gesture_description\": \"The person stands upright facing the camera, then raises one arm straight up above the head while tilting the torso and head to the opposite side, holding the pose briefly before lowering the arm and returning to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The raised arm and tilted torso vaguely suggest a trunk or branch, but the gesture lacks the broad canopy or branching structure typically associated with a tree, making the resemblance weak.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement feels like a simple stretch or reach rather than a tangible interaction with or embodiment of a tree, offering little sensory or motor connection to the concept.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture involves a clear, full-body movement with the arm raised high and the torso tilted, making it moderately dynamic and visible, though it is brief and lacks complex motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and flat throughout the video, conveying no discernible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The simple single-arm raise and tilt is too minimal to adequately represent the structural complexity of a tree, which typically involves a trunk, branches, and foliage.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"This specific gesture is not a widely recognized or conventional sign for 'tree' in common cultural contexts, appearing more like an arbitrary movement or a stretch.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is extremely easy to perform, requiring only a simple arm raise and a slight tilt of the torso without any complex coordination or physical demand.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as stretching, reaching for something high, or a dance move rather than a tree.\",\n      \"The lack of hand shape or secondary arm movement makes it difficult to distinguish from a generic upward reach.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 584,
+    "total_tokens": 3787,
+    "cost": 0.0036738,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036738,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001752
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

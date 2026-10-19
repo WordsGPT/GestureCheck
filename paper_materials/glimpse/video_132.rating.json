@@ -1,0 +1,42 @@
+{
+  "target_word": "Remote Control",
+  "video_file": "video_132.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises their right hand forward with the index finger extended, pointing directly ahead as if pressing a button on an invisible device. The left hand rests on the hip during the gesture. The right hand then lowers back to the side, and the person returns to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The forward-pointing index finger mimics the typical action of pressing a button on a remote control, visually resembling the concept well."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture feels like a real, familiar action of pointing and pressing a button, evoking a clear sensorimotor experience of using a remote."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained, limited to raising and lowering one arm with a finger point; it lacks large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout, conveying no noticeable emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, single-hand pointing gesture appropriately matches the straightforward concept of using a remote control."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pointing a finger forward as if pressing a remote button is a widely recognized and common gesture in everyday life."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple arm raise and finger point without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as pointing at something or someone rather than specifically using a remote control."
+    ],
+    "confidence": "high"
+  }
+}

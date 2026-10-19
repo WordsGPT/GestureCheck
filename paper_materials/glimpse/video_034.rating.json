@@ -1,0 +1,42 @@
+{
+  "target_word": "Key",
+  "video_file": "video_034.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns their head and extends their left arm straight out to the side at shoulder height. The hand is held in a loose fist or pinching shape, making a small twisting or turning motion as if turning a key in a lock, before returning the arm to the side and facing forward again.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The twisting hand motion resembles turning a key, but the absence of a visible key or lock makes the connection to the object itself only moderate."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture mimics the physical action of turning a key, providing some tactile imagery, but the lack of an object reduces the realism."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained, limited to a single arm extension and a subtle wrist twist."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, showing no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, single-action gesture fits the concrete, everyday nature of the word 'Key' well."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The pantomime of turning a key is a widely recognized and common gesture across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple arm extension and a wrist rotation."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as turning a doorknob or a dial rather than specifically a key."
+    ],
+    "confidence": "medium"
+  }
+}

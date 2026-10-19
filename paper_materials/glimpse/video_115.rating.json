@@ -1,0 +1,42 @@
+{
+  "target_word": "Pumpkin",
+  "video_file": "video_115.mp4",
+  "brief_gesture_description": "The person stands upright, then bends forward slightly at the waist and extends both arms downward and forward. Both hands are held open with fingers curved, forming a large, round shape in front of the lower body as if outlining or holding a large sphere. The person then returns to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of holding hands in a large, round shape effectively mimics the spherical shape and size of a pumpkin."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement of bending down and holding a large, round object with both hands strongly evokes the physical experience of holding or lifting a heavy pumpkin."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving a slight bend of the torso and a clear shaping of the hands, but it is not highly dynamic or large in amplitude."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, showing no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-action gesture of outlining a round shape is a perfect fit for the concrete, simple concept of a pumpkin."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using hands to outline the shape of an object is a very common and universally understood gesture in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple hand shape and a slight bend of the body."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also represent other large, round objects like a ball, a melon, or a globe."
+    ],
+    "confidence": "high"
+  }
+}

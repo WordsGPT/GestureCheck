@@ -1,0 +1,43 @@
+{
+  "target_word": "Drawer",
+  "video_file": "video_035.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then looks down and extends the left arm forward and downward with the hand in a loose fist, as if gripping and pulling an object toward the body. The arm then returns to the side and the person returns to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The downward, forward reach with a closed hand resembles gripping a drawer handle and pulling, but the motion is small and lacks a clear pulling trajectory, so the resemblance is only partial."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The hand forms a fist as if grasping something, which gives a slight sense of a real pulling action, but the movement is brief and low-amplitude, limiting the felt experience."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is limited to a small extension and retraction of one arm; the body remains otherwise still, making the gesture low in size and dynamism."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral throughout, with only a downward glance during the gesture and no visible emotional expression."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple grasp-and-pull motion matches the straightforward, single-action concept of opening a drawer."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Miming the act of pulling a drawer open is a common, everyday gesture in most cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform: it requires only extending one arm with a closed hand and pulling it back, with no complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The small pulling motion could be interpreted as other grasp-and-pull actions (e.g., pulling a cord or opening a pocket) rather than specifically a drawer.",
+      "The lack of a visible object or clear horizontal pulling path makes the target word only partly supported."
+    ],
+    "confidence": "medium"
+  }
+}

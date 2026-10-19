@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394726-sCdh4alKToqzJgRIjBnN",
+  "object": "chat.completion",
+  "created": 1792394726,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Tendency\",\n  \"video_file\": \"video_075.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises their right arm and sweeps it diagonally upward and outward to their right side, ending with the arm extended high. The left arm remains mostly at the side. The face remains neutral throughout.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The upward sweeping motion could loosely suggest a 'leaning' or 'inclination' toward something, but it is quite abstract and does not clearly depict the concept of a tendency.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is a simple arm sweep and does not strongly evoke a tangible physical action or experience related to the word.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The arm movement is moderate in size, extending from the center of the body to a high position on the side, but it is a single, smooth motion without high dynamism.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and unchanging throughout the video, conveying no emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The concept of 'tendency' is abstract and complex, while the gesture is a very simple, single-arm movement, which may not adequately capture the nuance of the word.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"This specific sweeping gesture is not a widely recognized or common cultural gesture for 'tendency' or inclination.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple raising and sweeping of one arm.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as pointing to something high, waving, or indicating a direction, rather than an abstract concept like 'tendency'.\"\n    ],\n    \"confidence\": \"low\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 550,
+    "total_tokens": 3754,
+    "cost": 0.0035724,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035724,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.00165
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

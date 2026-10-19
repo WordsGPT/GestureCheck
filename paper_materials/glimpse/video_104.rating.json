@@ -1,0 +1,42 @@
+{
+  "target_word": "Stamp",
+  "video_file": "video_104.mp4",
+  "brief_gesture_description": "A person stands facing the camera against a plain background. They raise their right hand, palm down, and bring it down in a quick, flat striking motion onto their open left palm, which is held at waist height. The hands then return to the sides of the body.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of bringing one flat hand down onto another strongly resembles the physical action of pressing a stamp onto a surface, making it highly iconic for the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The quick, downward striking motion onto the other hand creates a clear tactile and visual impression of pressing or stamping, evoking a real physical action."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is a localized, quick motion of the hands and forearms. It is distinct and dynamic but limited in overall body amplitude."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The person's facial expression remains neutral and focused throughout the video, showing no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-action gesture perfectly matches the straightforward, concrete nature of the word 'stamp'."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The mimed action of pressing a stamp is a widely recognized and common gesture across many cultures for representing the concept."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple downward motion of one hand onto the other without any complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without context, the gesture could also be interpreted as clapping, slapping, or hitting."
+    ],
+    "confidence": "high"
+  }
+}

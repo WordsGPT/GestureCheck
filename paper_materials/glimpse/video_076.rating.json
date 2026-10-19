@@ -1,0 +1,42 @@
+{
+  "target_word": "Theory",
+  "video_file": "video_076.mp4",
+  "brief_gesture_description": "A woman stands facing the camera against a plain background. She raises both hands to chest height with palms facing inward, then moves them slightly forward and outward in a small, contained gesture, before lowering her arms back to her sides. Her facial expression remains neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of holding hands in front of the chest could vaguely represent holding or shaping an abstract concept, but it lacks specific visual resemblance to 'theory'."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is small and abstract, not resembling a concrete physical action or experience that would strongly evoke sensorimotor imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, contained, and slow, with limited dynamic range or size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression is neutral and shows no discernible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple, abstract gesture might loosely fit the abstract nature of 'theory', but it is not clearly tailored to the concept's complexity."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture is a common, neutral hand movement that could be interpreted in various ways, but it is not a widely recognized cultural symbol for 'theory'."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to perform, requiring only a small movement of both hands."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is highly abstract and could be interpreted as holding, shaping, or presenting an idea, but it does not clearly map to 'theory'."
+    ],
+    "confidence": "medium"
+  }
+}

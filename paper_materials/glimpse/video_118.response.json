@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394785-lsPvXvu7iUWJPJfVqw6s",
+  "object": "chat.completion",
+  "created": 1792394785,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Flute\",\n  \"video_file\": \"video_118.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then raises both hands to chest level with fingers curled as if holding a small object. She tilts her head down and to the side, purses her lips as if blowing, and makes small finger movements. She then lowers her hands and returns to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The hand position and pursed lips suggest blowing into an instrument, but the hands are held close together at the chest rather than extended to the side as in flute playing, making the resemblance partial.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The pursed lips and finger movements evoke the physical act of blowing and fingering an instrument, but the lack of a clear flute posture reduces the realism.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and contained, limited to hand raising, slight head tilt, and finger motion, with no large or dynamic body movement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The face shows a focused, neutral expression with pursed lips for blowing, but no strong emotion is conveyed.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture captures the basic idea of playing a wind instrument, but the complexity is low and does not fully match the specific technique of flute playing.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture resembles a common pantomime for playing a wind instrument, but the hand position is ambiguous and not clearly recognizable as flute-specific.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is simple to perform, requiring only hand raising, finger curling, head tilt, and lip pursing, with no complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The hand position could be interpreted as playing a recorder or other small wind instrument rather than a flute.\",\n      \"The lack of lateral hand extension makes the flute-specific posture unclear.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 591,
+    "total_tokens": 2645,
+    "cost": 0.0030054,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0030054,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001773
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

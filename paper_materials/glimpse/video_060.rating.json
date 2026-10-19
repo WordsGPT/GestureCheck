@@ -1,0 +1,42 @@
+{
+  "target_word": "Patience",
+  "video_file": "video_060.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both hands to chest height with palms facing forward, then lowers them slowly outward and downward to the sides of the body, ending in a neutral standing posture with arms at the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The slow lowering of the hands could suggest calming down or waiting, but it does not clearly resemble the concept of patience."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is simple and lacks a strong physical sensation or real-world action that would evoke the experience of patience."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, slow, and contained within the body's immediate space, showing low dynamism."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and calm throughout, conveying no strong emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple, slow gesture fits the abstract and calm nature of the concept of patience reasonably well."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This specific gesture is not a widely recognized or common cultural symbol for patience."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple raising and lowering of the arms."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as calming down, relaxing, or simply lowering hands, rather than specifically patience."
+    ],
+    "confidence": "medium"
+  }
+}

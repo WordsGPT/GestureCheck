@@ -1,0 +1,42 @@
+{
+  "target_word": "Participation",
+  "video_file": "video_074.mp4",
+  "brief_gesture_description": "A woman stands facing the camera. She raises her left hand to her chest, then extends it forward and upward with the index finger pointing up, as if volunteering or signaling to speak, before returning her arm to her side.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of raising a hand with the index finger extended is a widely recognized visual representation of volunteering or participating in a group setting."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement feels like a natural, real-world action of someone raising their hand to contribute or answer a question."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct, involving a moderate range of motion from the chest to an extended position, though it is not highly dynamic or large-scale."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains relatively neutral and focused, with only a slight smile, conveying little strong emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, single-handed gesture fits the concept of 'participation' well, as it represents a basic act of joining in or contributing."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Raising a hand to speak or volunteer is a highly familiar and common gesture in educational and professional contexts across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple arm movement and hand extension."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'asking a question' or 'having an idea' rather than general participation."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Guitar",
+  "video_file": "video_019.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera. At the start, the left arm is extended outward to the side with the hand in a loose fist, while the right hand is held near the mid-torso. The left arm then lowers and both arms return to a neutral resting position at the sides of the body, where they remain for the rest of the clip. The facial expression remains neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The visible movement consists of a single arm extension and lowering, which does not resemble holding, strumming, or playing a guitar."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The gesture lacks the bimanual coordination, fretting, or strumming motions associated with the physical experience of playing a guitar."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is limited to a brief, small-scale arm extension and return, followed by a static standing posture."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout the video, conveying no discernible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The simple, single-arm movement does not match the complexity of the concept 'Guitar,' which typically involves coordinated hand movements."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The gesture is not a recognizable or conventional sign for 'Guitar' in common cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The movement is physically simple and easy to perform, though it does not effectively represent the target word."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as a generic pointing or reaching motion rather than a specific representation of a guitar."
+    ],
+    "confidence": "high"
+  }
+}

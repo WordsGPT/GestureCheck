@@ -1,0 +1,42 @@
+{
+  "target_word": "Cigarette",
+  "video_file": "video_045.mp4",
+  "brief_gesture_description": "A person stands facing the camera and raises their right hand to their mouth, holding the fingers together as if pinching a small object. They then move the hand away from the mouth and extend the arm outward to the side, pointing with the index finger, before lowering the arm back to the side.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of bringing the hand to the mouth and then moving it away mimics the action of smoking a cigarette, which is a highly iconic representation of the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement feels like a real action of smoking, with the hand-to-mouth motion and the subsequent exhale-like gesture being very tangible."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving the arm and hand but not the whole body. It is dynamic enough to be clear but not overly large."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression is neutral and does not convey any strong emotion, focusing solely on the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple and directly represents the action associated with the word 'cigarette', fitting the concept's complexity well."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of smoking is widely recognized and familiar in many cultural contexts, making it easy to understand."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only basic hand and arm movements that are natural and intuitive."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as smoking any small object, not specifically a cigarette, but the context strongly suggests a cigarette."
+    ],
+    "confidence": "high"
+  }
+}

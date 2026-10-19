@@ -1,0 +1,43 @@
+{
+  "target_word": "Carpet",
+  "video_file": "video_042.mp4",
+  "brief_gesture_description": "The person stands upright, then bends forward at the waist and sweeps both open hands downward and outward toward the floor, as if smoothing or spreading a flat surface at ground level, before returning to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The downward, outward sweeping motion with open palms resembles spreading or smoothing a flat surface on the floor, which loosely matches a carpet, but no carpet-like object or texture is depicted."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The bending and hand-sweeping motion feels like a real physical action of touching or smoothing a surface at floor level, though it is not strongly tied to the tactile experience of a carpet."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves a clear forward bend and a moderate outward sweep of both arms, but it is brief and not highly dynamic or large in amplitude."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout the video, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, single-phase sweeping gesture matches the relatively simple, concrete concept of a carpet as a flat floor covering."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture resembles a common miming action for smoothing or spreading something flat on the ground, but it is not a widely recognized conventional gesture specifically for 'carpet'."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform: it requires only bending forward and sweeping both open hands downward and outward, with no fine motor precision needed."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as smoothing a floor, spreading a mat, or sweeping the ground rather than specifically indicating a carpet.",
+      "The brief duration and neutral expression make the intended referent somewhat ambiguous."
+    ],
+    "confidence": "medium"
+  }
+}

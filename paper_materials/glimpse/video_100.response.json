@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394761-TLyFBDvojgCDRQfKib3k",
+  "object": "chat.completion",
+  "created": 1792394761,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Tissue\",\n  \"video_file\": \"video_100.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises one hand to the face, covering the mouth and nose area with the hand or forearm in a sneezing or coughing motion, before lowering the arm back to the side.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture depicts the action of sneezing or coughing into one's hand, which is an action associated with using a tissue, but it does not visually resemble the object 'tissue' itself.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The movement strongly evokes the physical sensation and reflex of sneezing or coughing, making it feel like a real bodily experience.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is a moderate, quick motion of raising the arm to the face and lowering it, which is noticeable but not highly dynamic or large in scale.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The facial expression is largely neutral and obscured during the gesture, conveying little to no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture represents a complex action (sneezing/coughing) rather than the simple object concept of a 'tissue', creating a mismatch in semantic complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture of covering one's mouth and nose when sneezing or coughing is a universally recognized and common social behavior.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple raising of the hand to the face.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as sneezing, coughing, or wiping the nose, rather than specifically representing the object 'tissue'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 559,
+    "total_tokens": 2613,
+    "cost": 0.0029094,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0029094,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001677
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

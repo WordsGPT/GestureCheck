@@ -1,0 +1,42 @@
+{
+  "target_word": "Airplane",
+  "video_file": "video_016.mp4",
+  "brief_gesture_description": "The person stands facing the camera, extends both arms straight out to the sides like wings, and tilts the torso and arms side to side in a banking motion, mimicking an airplane in flight, before returning the arms to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The outstretched arms and side-to-side banking motion directly resemble an airplane's wings and flight movement."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The sweeping arm and torso motion evokes the physical sensation of flying or banking, though it is a stylized representation rather than a literal action."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is large and dynamic, involving the full span of both arms and noticeable torso tilting."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout, conveying no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-action gesture matches the concrete, easily visualized concept of an airplane."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Mimicking an airplane with outstretched arms is a widely recognized and common gesture across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only extending the arms and tilting the body side to side."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as a bird flying or simply balancing."
+    ],
+    "confidence": "high"
+  }
+}

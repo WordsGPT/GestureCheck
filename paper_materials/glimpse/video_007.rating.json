@@ -1,0 +1,43 @@
+{
+  "target_word": "Letter Box",
+  "video_file": "video_007.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns to their left (viewer's right) and extends both arms forward. The left arm extends straight out at shoulder height, while the right arm is raised higher with the hand curved downward, as if holding or placing an object into a slot or opening. The person then returns to a neutral standing position facing forward.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture of extending arms and making a placing motion with a curved hand could represent putting a letter into a box, but it lacks specific features like a slot or box shape, making it somewhat ambiguous."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a real action of placing something into a container, but the lack of a visible object or specific container shape limits the sensory experience."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained, with arms extending forward but not involving large or dynamic motions."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral throughout the video, with no visible emotion conveyed."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is moderately complex, involving both arms and a specific hand shape, which fits the concept of interacting with a letter box, but could be more specific."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture of placing something into a container is common, but the specific context of a letter box may not be universally familiar, especially in digital communication contexts."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is relatively easy to perform, involving simple arm extensions and a hand curve, making it accessible for most people."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as placing any object into any container, not specifically a letter box.",
+      "The lack of a visible object or container shape makes the specific action ambiguous."
+    ],
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "View",
+  "video_file": "video_052.mp4",
+  "brief_gesture_description": "The person stands facing forward, then raises their right hand to their forehead with the palm facing outward, mimicking a shading or scanning motion. They turn their head and upper body to the right, holding the hand at the brow as if looking into the distance, then lower the arm and return to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand-to-forehead gesture is a classic iconic representation of looking or viewing, visually resembling the act of shielding eyes to see something far away."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the physical sensation of peering into the distance or scanning a horizon, making it feel like a real action."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving the arm and head turning, but it is not highly dynamic or large-scale."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, conveying no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and direct, fitting the straightforward nature of the word 'View' without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The hand-to-forehead 'looking into the distance' gesture is a widely recognized and common gesture across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple arm raise and head turn."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'looking' or 'searching' rather than the noun 'view', but the action is clearly related to the concept."
+    ],
+    "confidence": "high"
+  }
+}

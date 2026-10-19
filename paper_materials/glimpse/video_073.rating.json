@@ -1,0 +1,42 @@
+{
+  "target_word": "Fact",
+  "video_file": "video_073.mp4",
+  "brief_gesture_description": "A woman stands facing the camera. She raises her right hand to shoulder height with the index finger extended upward, while her left hand is held slightly out to the side with the index finger pointing forward. She then lowers both hands to her sides and stands still with a neutral expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of raising an index finger is a common conversational marker for making a point or stating something, which loosely aligns with presenting a 'fact', but it does not visually resemble the abstract concept itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple, brief hand raise and lowering. It lacks the physical weight, manipulation, or spatial interaction that would create strong sensorimotor imagery for an abstract noun."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained within the upper body. The hands are raised briefly and then lowered, with the rest of the video showing a static standing posture."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, showing no discernible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple, single-point gesture matches the relatively simple, singular nature of the word 'fact', though it is quite generic."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Raising an index finger to indicate a point, a number one, or a statement is a highly familiar and common gesture in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only a simple raise and lower of the hands with fingers extended."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'one', 'pointing', 'making a point', or 'idea' rather than specifically 'fact'."
+    ],
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394755-dWdnjLeXKoeoHySJmL5X",
+  "object": "chat.completion",
+  "created": 1792394755,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Parsley\",\n  \"video_file\": \"video_096.mp4\",\n  \"brief_gesture_description\": \"The person stands upright facing the camera, then raises both arms outward and upward to shoulder height with open palms and spread fingers, holds the pose briefly, and lowers the arms back to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The open-palm, arms-raised gesture does not visually resemble parsley, a leafy herb; no leaf-like or plant-like shape is formed.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement feels like a generic open-arms gesture rather than a concrete action tied to handling or eating parsley.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The arms move from the sides to a raised position with visible motion blur, giving moderate size and dynamism.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The face remains largely neutral with only slight mouth movement, conveying little emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"A simple two-arm raise does not map well to the specific concept of parsley, which would more naturally involve hand shapes suggesting leaves or stems.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"Raising open arms is a common, familiar gesture in many contexts, but it is not a conventional sign for parsley.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform: simply raise both arms outward with open palms and return them to the sides.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as 'open,' 'big,' 'surprise,' or 'presenting,' rather than parsley.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 516,
+    "total_tokens": 2571,
+    "cost": 0.002781,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002781,
+      "upstream_inference_prompt_cost": 0.001233,
+      "upstream_inference_completions_cost": 0.001548
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

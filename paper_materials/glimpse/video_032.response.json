@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394671-MnlcnLQDWwiU3fsGuqnd",
+  "object": "chat.completion",
+  "created": 1792394671,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Backpack\",\n  \"video_file\": \"video_032.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, raises both hands to the front of the shoulders, and makes a repeated downward pulling motion with both fists, as if tugging on straps, before lowering the arms back to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The two-handed downward tug at the shoulders visually mimics adjusting backpack straps, which is a recognizable iconic action for a backpack.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The repeated pulling motion at the shoulders evokes the bodily feeling of tightening or settling backpack straps on the shoulders.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, limited to the arms and shoulders, with a clear but not large or highly dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout, conveying no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple two-handed strap-pulling gesture matches the concrete, everyday object 'backpack' without unnecessary complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"Mimicking backpack straps is a common and widely understood gesture in everyday contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform, requiring only raising both hands to the shoulders and pulling downward.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as adjusting a jacket or hoodie rather than a backpack.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 492,
+    "total_tokens": 3696,
+    "cost": 0.0033984,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0033984,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001476
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

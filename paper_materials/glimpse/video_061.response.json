@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394704-lBiqMCPCr6jUTbgzA5Ab",
+  "object": "chat.completion",
+  "created": 1792394704,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Indifference\",\n  \"video_file\": \"video_061.mp4\",\n  \"brief_gesture_description\": \"The person stands upright facing the camera with arms resting at the sides. Throughout the clip, the shoulders perform a slight, slow shrug (raising and lowering), while the facial expression remains neutral and flat.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The slight shoulder shrug combined with a neutral facial expression is a widely recognized visual representation of indifference or a lack of concern.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is a subtle physical action (shrugging) that feels like a natural, everyday bodily response to a situation, though it is not a large or complex motor action.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is very small and subtle, limited to a slight elevation of the shoulders without any large arm or body displacement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression is completely neutral and flat, showing no visible emotion, which aligns with the concept of indifference but lacks expressive salience.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simplicity of the gesture (a minimal shrug) perfectly matches the low-energy, non-committal nature of the concept of indifference.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The shoulder shrug is a highly common and universally understood gesture for indifference or uncertainty across many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is extremely easy to perform, requiring only a slight movement of the shoulders while standing still.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture is very subtle and could be interpreted as a lack of movement or a neutral resting state rather than an active gesture of indifference if not viewed in context.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2686,
+    "completion_tokens": 540,
+    "total_tokens": 3226,
+    "cost": 0.0032316,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0032316,
+      "upstream_inference_prompt_cost": 0.0016116,
+      "upstream_inference_completions_cost": 0.00162
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

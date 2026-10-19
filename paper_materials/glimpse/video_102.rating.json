@@ -1,0 +1,43 @@
+{
+  "target_word": "Shelf",
+  "video_file": "video_102.mp4",
+  "brief_gesture_description": "The person stands facing forward, then raises both hands above head level with palms facing down. She then sweeps both hands horizontally downward and to her right side, keeping the palms flat and facing down throughout the motion, before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The flat, downward-facing palms moving in a horizontal plane visually resemble the flat surface of a shelf, but the sweeping motion is more indicative of a general surface or wiping action rather than a static shelf."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture feels like a physical action of smoothing or tracing a surface, which provides some tactile imagery, but it lacks the specific interaction (like placing an object) that would strongly evoke a shelf."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is large and dynamic, involving both arms moving from a high position above the head down to the side of the body in a clear, sweeping arc."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, showing no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is moderately complex, involving a two-handed sweep. While a shelf is a simple object, the gesture's complexity is somewhat high for a static noun, though it effectively outlines a spatial plane."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Using flat hands to indicate a surface or plane is a relatively common gesture, but this specific sweeping motion is not a universally standardized sign for 'shelf'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only simple arm movements and flat hand positions without any fine motor skills or props."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The sweeping motion could be interpreted as 'wiping', 'smoothing', or 'leveling' rather than specifically 'shelf'.",
+      "The gesture might also represent a 'table' or 'counter' depending on the height of the sweep."
+    ],
+    "confidence": "medium"
+  }
+}

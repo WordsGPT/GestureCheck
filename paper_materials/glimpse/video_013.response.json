@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394642-jNHMf9EB6Aym0U1cyXpQ",
+  "object": "chat.completion",
+  "created": 1792394642,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Window\",\n  \"video_file\": \"video_013.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns to their left (viewer's right) and raises both hands to chest/face height, holding them as if gripping the edges of a rectangular frame. They move their hands forward and slightly upward in a pushing or sliding motion, as if opening a window, then lower their arms and return to a neutral standing position facing forward.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The two-handed grip and forward pushing motion visually resemble the action of opening a sliding or casement window, which is a common iconic representation for the object.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture mimics the physical sensation of gripping a frame and pushing it open, providing a strong sense of the real-world action associated with a window.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, involving the arms and upper body turning, but it is not highly dynamic or large-scale.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, conveying no specific emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is simple and direct, fitting the concrete nature of the word 'Window' without unnecessary complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"Miming the action of opening a window is a widely understood and common gesture across many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform, requiring only basic arm movements and a body turn without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as opening a door or a box, though the height and two-handed grip lean towards a window.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 548,
+    "total_tokens": 3751,
+    "cost": 0.0035658,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035658,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001644
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

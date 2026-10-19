@@ -1,0 +1,42 @@
+{
+  "target_word": "Coffee",
+  "video_file": "video_108.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises both hands to chest level with palms facing each other as if holding a cup. She tilts her head back and moves her hands upward toward her mouth in a drinking motion, then lowers her hands back down to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of holding an invisible cup and tilting the head back to drink is a highly recognizable and iconic representation of drinking coffee."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement clearly mimics the physical action of holding a warm cup and drinking from it, evoking a strong sensory experience of the action."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, confined to the upper body and hands, and is performed at a steady, deliberate pace."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains relatively neutral and focused on the action, with only slight changes as the head tilts back to drink."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-action gesture perfectly matches the straightforward concept of drinking coffee."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming drinking from a cup is a universally understood gesture across many cultures, making it highly familiar."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only basic hand movements and a head tilt without any complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could represent drinking any hot beverage (like tea) rather than specifically coffee, though it fits the target word well."
+    ],
+    "confidence": "high"
+  }
+}

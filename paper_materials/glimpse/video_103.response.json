@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394767-MIBvKog9QpmFvuxPHIyU",
+  "object": "chat.completion",
+  "created": 1792394767,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Violin\",\n  \"video_file\": \"video_103.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then raises both arms to chest height. The left arm extends outward and slightly upward with the hand in a loose fist, while the right arm bends at the elbow with the hand held near the chest, also in a loose fist. The person holds this posture briefly, tilting their head slightly, before lowering both arms back to their sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture vaguely resembles holding a string instrument, but the left arm extends too far outward and lacks the characteristic chin-rest position of a violin. The right hand does not clearly mimic bowing motion.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The static hold of the arms in a loose fist posture does not strongly evoke the physical experience of playing a violin, as there is no visible bowing or fingering motion.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is limited to a simple raising and lowering of the arms with a brief static hold, lacking dynamic or large-scale motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, with no visible emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is too simple and static to adequately represent the complex, coordinated actions involved in playing a violin.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The general posture of holding arms up as if playing an instrument is a recognizable pantomime, though it is not specifically or clearly a violin gesture.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform, requiring only a simple raising of the arms into a loose fist position without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as playing any string instrument (e.g., cello, viola) rather than specifically a violin.\",\n      \"The lack of a clear bowing motion makes the action ambiguous.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 595,
+    "total_tokens": 2649,
+    "cost": 0.0030174,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0030174,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001785
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

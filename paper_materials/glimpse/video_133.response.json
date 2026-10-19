@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394807-ySRrValjRa3hzq0iIW0X",
+  "object": "chat.completion",
+  "created": 1792394807,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Banana\",\n  \"video_file\": \"video_133.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera with arms at their sides. Around 1.5 to 2.5 seconds, they briefly raise their right hand to the side of their head, touching or brushing the hair/ear area, before lowering the arm back to the side. The facial expression remains neutral throughout.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture of touching the hair or ear does not visually resemble a banana or any action associated with it.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 1,\n      \"rationale\": \"The movement is a simple, brief touch to the head and does not evoke any sensory or motor experience related to a banana.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and brief, limited to a slight raise of the right arm, with low overall dynamism.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and unchanged throughout the video, conveying no emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The simple gesture of touching the head does not fit the concept of a banana, which would typically involve a more specific representational or manipulative movement.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"While touching the hair is a common everyday movement, it is not a familiar or conventional gesture for representing a banana.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The movement is simple and easy to perform, requiring only a brief raise of the hand to the head.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture appears to be a casual hair adjustment or ear touch rather than a deliberate sign for 'banana'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2414,
+    "completion_tokens": 530,
+    "total_tokens": 2944,
+    "cost": 0.0030384,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0030384,
+      "upstream_inference_prompt_cost": 0.0014484,
+      "upstream_inference_completions_cost": 0.00159
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

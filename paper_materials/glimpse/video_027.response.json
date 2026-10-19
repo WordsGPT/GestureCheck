@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394659-396Sc6IIdkVPuNIdCABa",
+  "object": "chat.completion",
+  "created": 1792394659,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Machine\",\n  \"video_file\": \"video_027.mp4\",\n  \"brief_gesture_description\": \"A person stands facing the camera against a plain background. They briefly raise both arms outward and slightly forward to about shoulder height with elbows bent, then lower them back to their sides and remain standing still with a neutral facial expression.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The brief outward arm movement does not visually resemble a machine, its parts, or its operation.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 1,\n      \"rationale\": \"The movement is a simple arm raise and lower with no object interaction or mechanical motion, so it does not feel like operating or experiencing a machine.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is small and brief, limited to a quick arm lift and return, with the rest of the video showing a static standing posture.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout the video.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The concept of a machine involves mechanisms and processes, but the gesture is a single simple arm movement that does not reflect that complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"The arm movement is a generic, non-specific gesture and is not a commonly recognized sign for 'machine'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The movement is very easy to perform, requiring only a brief raise and lowering of both arms.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as a generic shrug, a neutral preparatory movement, or an unrelated motion rather than a representation of 'machine'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 516,
+    "total_tokens": 3719,
+    "cost": 0.0034698,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034698,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001548
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

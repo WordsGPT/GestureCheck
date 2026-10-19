@@ -1,0 +1,42 @@
+{
+  "target_word": "Trailer",
+  "video_file": "video_002.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, then bends forward at the waist while swinging both arms backward behind the body, and finally returns to the neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The forward bend with arms swung backward does not visually resemble a trailer, a towed vehicle, or any related concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement resembles a simple physical action like a forward lean or arm swing, but it does not evoke the experience of a trailer."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and brief, consisting of a slight forward bend and backward arm swing before returning to rest."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and unchanged throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The simple body movement does not correspond to the concept of a trailer, so the complexity does not fit the word."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The gesture is not a recognizable or conventional sign for a trailer in common cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The movement is simple and easy to perform, requiring only a forward bend and backward arm swing."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as a generic forward lean, a stretching motion, or a dance move, but it does not clearly represent a trailer."
+    ],
+    "confidence": "high"
+  }
+}

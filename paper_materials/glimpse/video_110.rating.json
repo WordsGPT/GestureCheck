@@ -1,0 +1,43 @@
+{
+  "target_word": "Earth",
+  "video_file": "video_110.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, then raises both arms straight up overhead with open palms, sweeps them outward and downward in a wide arc to the sides, and finally brings both hands together in front of the lower torso with palms facing each other, as if holding or shaping a sphere, before returning to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The final hand-together shaping gesture loosely resembles holding a round globe, but the preceding wide overhead sweep is generic and does not specifically depict Earth."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The sweeping arms and cupped hands create a mild sensation of enclosing a large object, but there is no clear tactile or spatial cue tied specifically to Earth."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The arms move through a large range from overhead to the sides and down to the torso, producing a broad, visible arc."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The face remains largely neutral with only slight mouth opening during the movement; no strong emotion is conveyed."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is moderately complex with a multi-phase arc, which is somewhat more elaborate than needed for a simple concrete noun like Earth."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The wide overhead-to-side sweep is not a conventional or widely recognized sign for Earth in common gesture repertoires."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The movement is simple to reproduce: raise arms, sweep outward and down, and cup hands together in front of the body."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The wide overhead sweep could be interpreted as indicating something large, sky, or space rather than Earth specifically.",
+      "The final cupped-hand shape is brief and may not clearly read as holding a globe."
+    ],
+    "confidence": "medium"
+  }
+}

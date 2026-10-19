@@ -1,0 +1,42 @@
+{
+  "target_word": "Bandage",
+  "video_file": "video_043.mp4",
+  "brief_gesture_description": "The person stands upright, then bends forward at the waist and reaches both hands down to touch and wrap around the lower leg/shin area, mimicking the action of applying a bandage to a leg injury, before standing back up to a neutral position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of wrapping hands around the leg clearly mimics the action of applying a bandage to a limb, which is a common association with the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement feels like a realistic enactment of treating an injury, engaging the tactile sensation of wrapping a limb."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves bending the torso and moving arms down, which is a moderate range of motion, neither extremely large nor static."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, showing no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and direct, fitting the concrete nature of the object 'bandage' and its primary function."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of wrapping a bandage around a leg is a universally understood concept in first aid and daily life."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform as it requires no props and uses natural body movements."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'injury' or 'pain' rather than the object 'bandage' itself, though the wrapping motion strongly suggests bandaging."
+    ],
+    "confidence": "high"
+  }
+}

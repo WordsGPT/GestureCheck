@@ -1,0 +1,42 @@
+{
+  "target_word": "Triumph",
+  "video_file": "video_079.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises one arm straight up with a clenched fist while tilting the torso and head to the side, holding the pose briefly before lowering the arm and returning to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The raised clenched fist is a widely recognized emblem of victory and triumph, visually matching the target word well."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The upward thrust of the arm and the clenched fist feel like a genuine physical expression of success or celebration."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is a single, moderate-amplitude arm raise with a slight torso lean; it is clear but not highly dynamic or large."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains largely neutral and composed, showing little visible emotion during the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, single-arm gesture appropriately matches the abstract but singular concept of triumph."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The raised fist is a highly familiar and common gesture associated with victory and triumph across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only a simple arm raise and fist clench without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The neutral facial expression could make the gesture appear more like a generic stretch or salute rather than an emotional triumph."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Poster",
+  "video_file": "video_134.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns to their left (side profile to the camera). They raise both hands to head height, holding them as if gripping the top corners of a flat rectangular object, and move them downward in a smoothing motion, as if pressing a sheet onto a surface. They then lower their hands and turn back to face the camera.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of holding the top corners of an invisible sheet and smoothing it downward strongly resembles the physical act of putting up a poster."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement feels like a real, tactile action of handling a flat object and pressing it against a wall, providing strong sensorimotor imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving both arms moving from head height to waist height, but it is not highly dynamic or large-scale."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, conveying no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and direct, fitting the concrete, everyday concept of a poster and the action of displaying one."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The mimed action of smoothing a sheet onto a wall is a common and easily recognizable gesture in many cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only simple arm movements and hand positioning without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as hanging a picture frame or smoothing out a tablecloth, though the vertical orientation suggests a wall surface."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394801-nk09s3haceTwfkF4GUyu",
+  "object": "chat.completion",
+  "created": 1792394801,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Knife\",\n  \"video_file\": \"video_128.mp4\",\n  \"brief_gesture_description\": \"A woman stands facing the camera, then raises her right arm and hand upward to head height with the hand in a loose fist or pinched shape, holds it briefly, and then lowers her arm back to her side.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture shows a simple arm raise with a closed hand, which does not visually resemble a knife or any cutting motion.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 1,\n      \"rationale\": \"The movement is a generic upward arm raise without any gripping, slicing, or handling motion that would evoke the physical experience of using a knife.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is limited to a single arm raising and lowering; it is small in amplitude and lacks dynamic or repeated motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and flat throughout the video, conveying no discernible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture is a simple, non-representational arm raise that does not map onto the concrete object or function of a knife.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"A raised fist or pinched hand is a common gesture in many contexts (e.g., signaling, emphasis), but it is not a familiar or conventional gesture for 'knife'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The movement is simple and easy to imitate: raise one arm with a closed hand and lower it again.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The raised hand could be interpreted as a generic signal, a fist, or a pinched-finger gesture, but none clearly represents a knife.\",\n      \"The gesture may be intended for a different word (e.g., 'raise', 'point', or a sign-language sign) rather than 'knife'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2053,
+    "completion_tokens": 571,
+    "total_tokens": 2624,
+    "cost": 0.0029448,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0029448,
+      "upstream_inference_prompt_cost": 0.0012318,
+      "upstream_inference_completions_cost": 0.001713
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

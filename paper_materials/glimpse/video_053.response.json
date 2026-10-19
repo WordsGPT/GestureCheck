@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394693-s24GgFimQiWnahPKMpJd",
+  "object": "chat.completion",
+  "created": 1792394693,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Command\",\n  \"video_file\": \"video_053.mp4\",\n  \"brief_gesture_description\": \"A person stands facing the camera, raises their right hand to their forehead in a salute-like gesture, holds it briefly, and then lowers the arm back to their side.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The salute-like gesture is associated with military respect or greeting rather than the act of giving a command, so it only slightly resembles the target word.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is a clear, recognizable physical action (raising and lowering the arm to the head), but it does not strongly evoke the experience of issuing or receiving a command.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is limited to a single arm raising and lowering; it is relatively small and lacks large or dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and flat throughout the video, conveying no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The simple salute gesture does not adequately capture the complexity of 'command,' which involves authority, communication, and control.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"The salute is a widely recognized and common gesture in many cultural contexts, particularly in military or formal settings.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple raising of the hand to the forehead and lowering it back down.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as a military salute, a greeting, or a sign of respect rather than a command.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 515,
+    "total_tokens": 3718,
+    "cost": 0.0034668,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034668,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001545
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

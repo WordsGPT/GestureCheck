@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394731-cFabKjHcGLd1fhnIkfAG",
+  "object": "chat.completion",
+  "created": 1792394731,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Triumph\",\n  \"video_file\": \"video_079.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises one arm straight up with a clenched fist while tilting the torso and head to the side, holding the pose briefly before lowering the arm and returning to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The raised clenched fist is a widely recognized emblem of victory and triumph, visually matching the target word well.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The upward thrust of the arm and the clenched fist feel like a genuine physical expression of success or celebration.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is a single, moderate-amplitude arm raise with a slight torso lean; it is clear but not highly dynamic or large.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The facial expression remains largely neutral and composed, showing little visible emotion during the gesture.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, single-arm gesture appropriately matches the abstract but singular concept of triumph.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The raised fist is a highly familiar and common gesture associated with victory and triumph across many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform, requiring only a simple arm raise and fist clench without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The neutral facial expression could make the gesture appear more like a generic stretch or salute rather than an emotional triumph.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 499,
+    "total_tokens": 3703,
+    "cost": 0.0034194,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034194,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001497
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

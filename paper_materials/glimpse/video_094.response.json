@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394749-WBo0ijxskyn7zsHZpymO",
+  "object": "chat.completion",
+  "created": 1792394749,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Cup\",\n  \"video_file\": \"video_094.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, raises both hands to the sides of the head with fingers curved as if holding a large object, tilts the head back, and then lowers the hands to the chest while bringing the head back to a neutral position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of holding hands to the mouth and tilting the head back strongly resembles the action of drinking from a cup, which is a highly iconic representation of the object's primary function.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The movement feels like a genuine physical action of drinking, with clear hand positioning and head movement that evoke the sensory experience of consuming a beverage.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, involving the arms and head but remaining contained within the upper body space.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The facial expression is relatively neutral, with the mouth slightly open during the drinking motion but lacking strong emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, single-action gesture of drinking is an appropriate and direct fit for the concrete, simple concept of a 'cup'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture of miming drinking from a cup is a universally recognized and common gesture across cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only basic hand and head movements that are simple to replicate.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as drinking from any container (bottle, glass, mug) rather than specifically a cup, though the hand shape suggests a cup-like object.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 546,
+    "total_tokens": 2600,
+    "cost": 0.0028704,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0028704,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001638
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

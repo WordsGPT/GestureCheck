@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394682-fGCwoDGqEs0DRtmwqNKQ",
+  "object": "chat.completion",
+  "created": 1792394682,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Carpet\",\n  \"video_file\": \"video_042.mp4\",\n  \"brief_gesture_description\": \"The person stands upright, then bends forward at the waist and sweeps both open hands downward and outward toward the floor, as if smoothing or spreading a flat surface at ground level, before returning to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The downward, outward sweeping motion with open palms resembles spreading or smoothing a flat surface on the floor, which loosely matches a carpet, but no carpet-like object or texture is depicted.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The bending and hand-sweeping motion feels like a real physical action of touching or smoothing a surface at floor level, though it is not strongly tied to the tactile experience of a carpet.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement involves a clear forward bend and a moderate outward sweep of both arms, but it is brief and not highly dynamic or large in amplitude.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout the video, conveying no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, single-phase sweeping gesture matches the relatively simple, concrete concept of a carpet as a flat floor covering.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture resembles a common miming action for smoothing or spreading something flat on the ground, but it is not a widely recognized conventional gesture specifically for 'carpet'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform: it requires only bending forward and sweeping both open hands downward and outward, with no fine motor precision needed.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as smoothing a floor, spreading a mat, or sweeping the ground rather than specifically indicating a carpet.\",\n      \"The brief duration and neutral expression make the intended referent somewhat ambiguous.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 577,
+    "total_tokens": 3781,
+    "cost": 0.0036534,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036534,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001731
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

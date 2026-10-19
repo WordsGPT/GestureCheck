@@ -1,0 +1,2451 @@
+[
+  {
+    "source_block": 11,
+    "section": "Title and abstract",
+    "reason": "Distinguish underlying clips from relabeled presentations. The negative Qwen movement correlation resulted from incomplete field parsing. A single inference per configuration does not establish repeatability. Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "Systematic characterization of gesture stimuli is important for vocabulary-learning research, but human annotation is slow and costly to scale. Video-language models (VLMs) may support this process, yet their correspondence with human judgment requires empirical evaluation. We benchmarked eleven configurations from three model families (Google Gemini, OpenAI GPT, Alibaba Qwen) against 230 human raters across four language cohorts, who rated 148 instructional gesture videos on seven dimensions drawn from the Gesture Memory Support Model. Mean absolute error across configurations ranged from 0.53 to 1.12 points on five-point scales, and pooled rank correlations ranged from .62 to .69. Crucially, error and rank-order agreement dissociated: dimensions with the lowest error (enactment potential, motional salience) had the weakest or even negative rank correlations, while iconicity showed the opposite pattern. This dissociation mirrored a structural feature of the human data itself, where the same two dimensions showed the lowest interrater reliability and most compressed rating distributions. Models reliably rated mismatched gesture–word pairs lower than matched pairs, indicating genuine sensitivity to semantic compatibility, though residual ratings remained above the human floor. Cultural familiarity showed the largest model–human discrepancies; independently, human ratings on this and related dimensions varied systematically by language cohort even after controlling for item identity, indicating that the human reference itself is not culturally neutral. These findings support selective, dimension-specific use of VLMs for gesture annotation under human oversight, rather than uniform deployment across the full rating profile. The benchmark establishes correspondence with human judgment; it does not establish whether model- or human-derived ratings predict vocabulary-learning outcomes, which remains an open empirical question."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Systematic characterization of gesture stimuli is important for vocabulary-learning research, but human annotation is slow and costly to scale. Video-language models (VLMs) may support this process, yet their correspondence with human judgment requires empirical evaluation. We benchmarked twelve configurations from four model families (Google Gemini, OpenAI GPT, Alibaba Qwen, Elorian Glimpse) against 230 human raters across four language cohorts, who rated 148 instructional gesture–word pairings derived from 134 underlying clips on seven dimensions drawn from the Gesture Memory Support Model. Mean absolute error across configurations ranged from 0.53 to 1.12 points on five-point scales, and pooled rank correlations ranged from .62 to .69. Crucially, error and rank-order agreement dissociated: dimensions with the lowest error (enactment potential, motional salience) had the weakest rank correlations, while iconicity showed the opposite pattern. This dissociation mirrored a structural feature of the human data itself, where the same two dimensions showed the lowest interrater reliability and most compressed rating distributions. Models rated mismatched gesture–word pairs lower than matched pairs, indicating genuine sensitivity to semantic compatibility, though residual ratings remained above the human floor. Cultural familiarity showed the largest model–human discrepancies; independently, human ratings on this and related dimensions varied systematically by language cohort even after controlling for item identity, indicating that the human reference itself is not culturally neutral. These findings support selective, dimension-specific use of VLMs for gesture annotation under human oversight, rather than uniform deployment across the full rating profile. The benchmark establishes correspondence with human judgment; it does not establish whether model- or human-derived ratings predict vocabulary-learning outcomes, which remains an open empirical question."
+    }
+  },
+  {
+    "source_block": 15,
+    "section": "1 Introduction",
+    "reason": "Subject–verb agreement only.",
+    "original": {
+      "kind": "p",
+      "text": "To address this gap, recent work has moved beyond binary “gesture/no-gesture” distinctions toward characterizing gesture effectiveness as a multidimensional construct. Macedonia et al. (2026) has proposed the Gesture Memory Support Model (GMSM), a preliminary theoretical and operational framework distinguishing seven dimensions: iconicity, sensorimotor imagery potential, motional salience, emotional salience fit, gesture complexity fit, cultural familiarity, and enactment potential. These dimensions describe both intrinsic properties of gestures and their fit with target meanings, learner populations, and instructional contexts; ratings are retained as a multidimensional profile rather than collapsed into a single effectiveness score, since a higher rating indicates more of a characteristic rather than necessarily greater mnemonic benefit. Such profiles could serve as item-level covariates in mixed-effects models of vocabulary-learning outcomes, allowing researchers to estimate the contributions of specific gesture characteristics alongside lexical and learner-level variables—though the reliability, empirical distinctiveness, and predictive relevance of these dimensions remain to be established."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "To address this gap, recent work has moved beyond binary “gesture/no-gesture” distinctions toward characterizing gesture effectiveness as a multidimensional construct. Macedonia et al. (2026) have proposed the Gesture Memory Support Model (GMSM), a preliminary theoretical and operational framework distinguishing seven dimensions: iconicity, sensorimotor imagery potential, motional salience, emotional salience fit, gesture complexity fit, cultural familiarity, and enactment potential. These dimensions describe both intrinsic properties of gestures and their fit with target meanings, learner populations, and instructional contexts; ratings are retained as a multidimensional profile rather than collapsed into a single effectiveness score, since a higher rating indicates more of a characteristic rather than necessarily greater mnemonic benefit. Such profiles could serve as item-level covariates in mixed-effects models of vocabulary-learning outcomes, allowing researchers to estimate the contributions of specific gesture characteristics alongside lexical and learner-level variables—though the reliability, empirical distinctiveness, and predictive relevance of these dimensions remain to be established."
+    }
+  },
+  {
+    "source_block": 16,
+    "section": "1 Introduction",
+    "reason": "The retained participant sample was not established as an expert panel.",
+    "original": {
+      "kind": "p",
+      "text": "A significant methodological bottleneck constrains this purpose: operationalizing gesture-related variables typically requires expert human annotation of video data, with each gesture rated independently across seven dimensions under clearly defined criteria. This process is time-consuming, costly, and inherently subjective, and inter-rater agreement becomes increasingly difficult to maintain as stimulus sets grow or additional linguistic populations are included. Ratings may also reflect raters’ own linguistic experience and cultural familiarity, meaning human annotation provides a population-dependent reference rather than an error-free standard. As gesture datasets expand, reliance on manual coding becomes increasingly impractical for large-scale or longitudinal research, creating a clear need for computational methods capable of estimating gesture-related covariates reliably and reproducibly."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "A significant methodological bottleneck constrains this purpose: operationalizing gesture-related variables typically requires human annotation of video data, with each gesture rated independently across seven dimensions under clearly defined criteria. This process is time-consuming, costly, and inherently subjective, and inter-rater agreement becomes increasingly difficult to maintain as stimulus sets grow or additional linguistic populations are included. Ratings may also reflect raters’ own linguistic experience and cultural familiarity, meaning human annotation provides a population-dependent reference rather than an error-free standard. As gesture datasets expand, reliance on manual coding becomes increasingly impractical for large-scale or longitudinal research, creating a clear need for computational methods capable of estimating gesture-related covariates reliably and reproducibly."
+    }
+  },
+  {
+    "source_block": 18,
+    "section": "1 Introduction",
+    "reason": "The retained participant sample was not established as an expert panel. Pedro explicitly requested removal of fine-tuning from the tested scope.",
+    "original": {
+      "kind": "p",
+      "text": "This paper investigates that question directly: whether state-of-the-art VLMs can autonomously estimate GMSM-aligned gesture covariates from instructional video data in a manner that corresponds to expert human judgment. We evaluate both zero-shot prompting and the potential for fine-tuned, gesture-specialized architectures. Because agreement between models alone cannot establish correspondence with human raters, and because an aggregate performance measure may conceal dimension-specific differences, evaluation must distinguish rank-order association, absolute agreement, and systematic bias—distinctions essential for identifying which model-generated ratings are suitable for downstream statistical use and which still require human oversight. More broadly, this work aims to determine whether VLMs can transform qualitative video data into robust, scalable statistical covariates, offering a computational lens onto how embodied, multimodal features shape the formation and durability of lexical representations."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "This paper investigates that question directly: whether state-of-the-art VLMs can autonomously estimate GMSM-aligned gesture covariates from instructional video data in a manner that corresponds to human judgment. We evaluate zero-shot prompting across model families and input configurations. Because agreement between models alone cannot establish correspondence with human raters, and because an aggregate performance measure may conceal dimension-specific differences, evaluation must distinguish rank-order association, absolute agreement, and systematic bias—distinctions essential for identifying which model-generated ratings are suitable for downstream statistical use and which still require human oversight. More broadly, this work aims to determine whether VLMs can transform qualitative video data into robust, scalable statistical covariates, offering a computational lens onto how embodied, multimodal features shape the formation and durability of lexical representations."
+    }
+  },
+  {
+    "source_block": 39,
+    "section": "2 Theoretical background",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "The increasing availability of multimodal learning datasets has stimulated growing interest in computational approaches to gesture analysis. Early work in gesture recognition primarily relied on computer vision techniques designed to detect bodily motion through handcrafted features, pose estimation algorithms, and motion tracking systems. These approaches focused largely on identifying physical movement patterns rather than interpreting the semantic or cognitive properties of gestures. Methods based on optical flow, skeletal tracking, and keypoint extraction enabled the automatic recognition of predefined gesture classes, particularly in human–computer interaction research and sign language processing."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "The increasing availability of multimodal learning datasets has stimulated growing interest in computational approaches to gesture analysis. Computational approaches to gesture recognition have included computer vision techniques designed to detect bodily motion through handcrafted features, pose estimation algorithms, and motion tracking systems (Cao et al., 2017). Pose estimation identifies body configurations rather than directly measuring the semantic or cognitive properties of gestures. These representations provide inputs for movement analysis; estimating gesture properties such as iconicity requires an additional link to the intended meaning."
+    }
+  },
+  {
+    "source_block": 40,
+    "section": "2 Theoretical background",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "More recent developments in deep learning substantially expanded the scope of computational gesture analysis (Foteinos et al., 2025). Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs) (Ghojogh & Ghodsi, 2026), Long Short-Term Memory networks (LSTMs), and Transformer-based architectures enabled models to process temporal sequences of visual information and learn complex multimodal representations directly from raw video data. These architectures improved the recognition of dynamic human actions and allowed gesture analysis systems to capture temporal dependencies, spatial configurations, and contextual information more effectively than earlier rule-based methods."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "More recent developments in deep learning substantially expanded the scope of computational gesture analysis (Donahue et al., 2015; Bertasius et al., 2021). Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Long Short-Term Memory networks (LSTMs), and Transformer-based architectures enabled models to process temporal sequences of visual information and learn complex multimodal representations directly from raw video data. These architectures improved the recognition of dynamic human actions and allowed gesture analysis systems to capture temporal dependencies, spatial configurations, and contextual information more effectively than earlier rule-based methods."
+    }
+  },
+  {
+    "source_block": 41,
+    "section": "2 Theoretical background",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "In parallel, advances in multimodal representation learning have increasingly blurred the distinction between gesture recognition and semantic interpretation. Contemporary multimodal systems can integrate visual, auditory, textual, and contextual signals into shared embedding spaces, allowing models not only to classify gestures but also to reason about their communicative and semantic functions. This shift is particularly relevant for gesture-supported language learning research, where the primary interest lies not merely in identifying movements but in estimating theoretically meaningful properties such as iconicity, enactment potential, or semantic transparency that can support verbal learning."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "In parallel, advances in multimodal representation learning have increasingly blurred the distinction between gesture recognition and semantic interpretation. Contemporary multimodal systems can integrate visual, auditory, textual, and contextual signals into shared embedding spaces, allowing models not only to classify gestures but also to reason about their communicative and semantic functions (Zhang et al., 2023; Nishida et al., 2025). This shift is particularly relevant for gesture-supported language learning research, where the primary interest lies not merely in identifying movements but in estimating theoretically meaningful properties such as iconicity, enactment potential, or semantic transparency that can support verbal learning."
+    }
+  },
+  {
+    "source_block": 42,
+    "section": "2 Theoretical background",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "Within educational and psycholinguistic research, however, computational gesture analysis remains comparatively underdeveloped. Most studies investigating gesture-supported vocabulary learning continue to rely on manual annotation by expert raters, resulting in substantial methodological limitations related to scalability, reproducibility, and inter-rater variability. The GMSM itself was originally conceived as a human-centered coding framework, requiring trained evaluators to estimate gesture properties dimension by dimension."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Within educational and psycholinguistic research, however, computational gesture analysis remains comparatively underdeveloped. Manual annotation of gesture properties requires human judgments, with practical implications for scalability, reproducibility, and inter-rater variability. The GMSM itself was originally conceived as a human-centered coding framework, requiring evaluators to estimate gesture properties dimension by dimension (Macedonia et al., 2026)."
+    }
+  },
+  {
+    "source_block": 43,
+    "section": "2 Theoretical background",
+    "reason": "The removed citation concerns lexical diversity rather than psycholinguistic norming.",
+    "original": {
+      "kind": "p",
+      "text": "Recent work on psycholinguistic norming using large language models (LLMs) suggests that artificial intelligence systems may increasingly be capable of approximating human judgments for cognitively meaningful constructs. Studies by Conde and colleagues, among others, demonstrated that LLM-generated estimates of concreteness, familiarity, valence, and related psycholinguistic variables correlate strongly with human ratings when appropriate prompting and validation procedures are employed (Conde et al., 2026; Martinez et al., 2025; Martínez et al., 2024). These findings raise the possibility that multimodal models may likewise be able to estimate gesture-related mnemonic dimensions directly from video data."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Recent work on psycholinguistic norming using large language models (LLMs) suggests that artificial intelligence systems may increasingly be capable of approximating human judgments for cognitively meaningful constructs. Studies by Conde and colleagues, among others, demonstrated that LLM-generated estimates of concreteness, familiarity, valence, and related psycholinguistic variables correlate strongly with human ratings when appropriate prompting and validation procedures are employed (Conde et al., 2026; Martínez et al., 2024). These findings raise the possibility that multimodal models may likewise be able to estimate gesture-related mnemonic dimensions directly from video data."
+    }
+  },
+  {
+    "source_block": 46,
+    "section": "2 Theoretical background",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "Video-Language Models (VLMs) represent a recent development in multimodal artificial intelligence that combines advances in computer vision, natural language processing, and temporal sequence modeling. Unlike earlier video analysis systems that primarily focused on action recognition or object detection, VLMs are designed to jointly process visual and linguistic information, enabling higher-level semantic reasoning about events, interactions, and contextual meaning within video sequences (Rahman, 2026)."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Video-Language Models (VLMs) represent a recent development in multimodal artificial intelligence that combines advances in computer vision, natural language processing, and temporal sequence modeling. Unlike earlier video analysis systems that primarily focused on action recognition or object detection, VLMs are designed to jointly process visual and linguistic information, enabling higher-level semantic reasoning about events, interactions, and contextual meaning within video sequences (Zhang et al., 2023; Fu et al., 2025)."
+    }
+  },
+  {
+    "source_block": 47,
+    "section": "2 Theoretical background",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "Modern VLMs typically build upon large-scale Transformer architectures trained on multimodal datasets containing aligned video, image, and text information. These systems learn shared representational spaces that connect visual dynamics with linguistic descriptions, allowing them to perform tasks such as video captioning, temporal reasoning, question answering, instruction following, and multimodal inference."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Modern VLMs commonly combine visual encoders with large-scale Transformer architectures trained on multimodal datasets containing aligned video, image, and text information. These systems learn shared representational spaces that connect visual dynamics with linguistic descriptions, allowing them to perform tasks such as video captioning, temporal reasoning, question answering, instruction following, and multimodal inference (Radford et al., 2021; Zhang et al., 2023)."
+    }
+  },
+  {
+    "source_block": 48,
+    "section": "2 Theoretical background",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "Several characteristics of VLMs make them particularly relevant for gesture analysis in vocabulary learning research. First, VLMs can process temporally unfolding bodily actions rather than static visual snapshots, allowing them to capture dynamic movement information central to gesture interpretation. Second, these models can integrate contextual linguistic prompts with visual information, making it possible to ask cognitively oriented questions about gesture meaning, enactability, emotional salience, or semantic congruence (Florea et al., 2026). Third, VLMs exhibit increasingly sophisticated zero-shot reasoning abilities, enabling them to generate interpretable judgments for tasks on which they were not explicitly trained (Unmesh et al., 2026)."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Several characteristics of VLMs make them particularly relevant for gesture analysis in vocabulary learning research. First, VLMs can process temporally unfolding bodily actions rather than static visual snapshots, allowing them to capture dynamic movement information central to gesture interpretation. Second, these models can integrate contextual linguistic prompts with visual information, making it possible to ask cognitively oriented questions about gesture meaning, enactability, emotional salience, or semantic congruence (Zhang et al., 2023). Third, VLMs exhibit increasingly sophisticated zero-shot reasoning abilities, enabling them to generate responses or action labels without task-specific training examples (Unmesh et al., 2026)."
+    }
+  },
+  {
+    "source_block": 49,
+    "section": "2 Theoretical background",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "From a theoretical perspective, VLMs may provide a computational approximation of multimodal semantic integration processes that resemble some aspects of human embodied cognition (Bavaresco et al., 2026). Human gesture interpretation relies on integrating visual motion, contextual knowledge, semantic expectations, and embodied simulation processes. Contemporary multimodal architectures similarly combine visual and linguistic representations in order to infer meaning from temporally coordinated multimodal input. Although such models do not constitute embodied cognitive systems in a biological sense, their ability to align motor-like visual patterns with semantic representations makes them potentially suitable tools for estimating gesture-related mnemonic covariates (Nishida et al., 2025)."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "From a theoretical perspective, VLMs may provide a computational approximation of multimodal semantic integration. Bavaresco et al. (2026) found alignment between VLM concept representations and human fMRI responses to words presented with pictures or sentences, with differences across model architectures. Human gesture interpretation relies on integrating visual motion, contextual knowledge, semantic expectations, and embodied simulation processes. Contemporary multimodal architectures likewise combine visual and linguistic information (Zhang et al., 2023), but the concept-processing result does not establish embodied simulation or gesture understanding. Their suitability for estimating gesture-related mnemonic covariates therefore requires direct comparison with human ratings."
+    }
+  },
+  {
+    "source_block": 50,
+    "section": "2 Theoretical background",
+    "reason": "The retained participant sample was not established as an expert panel. Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "At the same time, the application of VLMs to educational and psycholinguistic gesture analysis remains largely unexplored. Existing VLMs benchmarks focus predominantly on general-purpose tasks such as activity recognition, navigation, scene understanding, or conversational video reasoning (Li et al., 2025). Very little work has examined whether these systems can reliably estimate theoretically grounded gesture dimensions relevant to vocabulary acquisition and research. In particular, it remains unclear whether VLM-generated ratings align with expert human judgments for constructs such as iconicity, sensorimotor imagery, or enactment potential."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "At the same time, the application of VLMs to educational and psycholinguistic gesture analysis remains largely unexplored. Existing VLMs benchmarks focus predominantly on general-purpose tasks such as activity recognition, navigation, scene understanding, or conversational video reasoning (Fu et al., 2025). Very little work has examined whether these systems can reliably estimate theoretically grounded gesture dimensions relevant to vocabulary acquisition and research. In particular, it remains unclear whether VLM-generated ratings align with human judgments for constructs such as iconicity, sensorimotor imagery, or enactment potential."
+    }
+  },
+  {
+    "after_source_block": 50,
+    "section": "2 Theoretical background",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": null,
+    "revised": {
+      "kind": "p",
+      "text": "General video-understanding benchmarks demonstrate capabilities in video question answering and temporal reasoning (Fu et al., 2025), but do not establish correspondence with human ratings of instructional gestures. More directly, Nishida et al. (2025) compared indexical, iconic, and symbolic gestures and found a particular weakness in interpreting indexical gestures. These findings motivate evaluating human–model agreement separately for each gesture dimension.",
+      "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes."
+    }
+  },
+  {
+    "source_block": 51,
+    "section": "2 Theoretical background",
+    "reason": "The retained participant sample was not established as an expert panel. No fine-tuned model was evaluated.",
+    "original": {
+      "kind": "p",
+      "text": "The current study addresses this gap by evaluating the feasibility of using VLMs as automated coders for gesture-based vocabulary learning research. Specifically, we investigate whether zero-shot and fine-tuned VLMs can generate reliable GMSM-aligned estimates directly from gesture videos and whether these estimates approximate expert human ratings closely enough to support large-scale multimodal annotation pipelines."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "The current study addresses this gap by evaluating the feasibility of using VLMs as automated coders for gesture-based vocabulary learning research. Specifically, we investigate whether zero-shot VLMs can generate reliable GMSM-aligned estimates directly from gesture videos and whether these estimates approximate human ratings closely enough to support large-scale multimodal annotation pipelines."
+    }
+  },
+  {
+    "source_block": 58,
+    "section": "3 Research questions",
+    "reason": "The retained participant sample was not established as an expert panel.",
+    "original": {
+      "kind": "p",
+      "text": "The present study investigates whether contemporary Video-Language Models (VLMs) can function as reliable computational annotators for gesture properties relevant to vocabulary learning. Building on the Gesture Memory Support Model (GMSM), the study examines the extent to which multimodal artificial intelligence systems can estimate theoretically meaningful gesture dimensions directly from raw video data and whether these estimates align with expert human judgments."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "The present study investigates whether contemporary Video-Language Models (VLMs) can function as reliable computational annotators for gesture properties relevant to vocabulary learning. Building on the Gesture Memory Support Model (GMSM), the study examines the extent to which multimodal artificial intelligence systems can estimate theoretically meaningful gesture dimensions directly from raw video data and whether these estimates align with human judgments."
+    }
+  },
+  {
+    "source_block": 60,
+    "section": "3 Research questions",
+    "reason": "RQ1 must match the available single-run benchmark.",
+    "original": {
+      "kind": "p",
+      "text": "RQ1: Can VLMs generate reliable estimates of GMSM dimensions from gesture videos?"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "RQ1: Can VLMs generate estimates corresponding to human ratings of GMSM dimensions from gesture videos?"
+    }
+  },
+  {
+    "source_block": 61,
+    "section": "3 Research questions",
+    "reason": "Replace only the unperformed reliability procedure.",
+    "original": {
+      "kind": "p",
+      "text": "This question examines whether VLMs are capable of producing stable and internally consistent ratings for gesture-related mnemonic dimensions such as iconicity, sensorimotor imagery, motional salience, emotional salience, gesture complexity fit, cultural familiarity, and enactment potential. Reliability is evaluated in terms of consistency across repeated inferences, prompt conditions, and model configurations."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "This question examines whether VLMs are capable of producing ratings for gesture-related mnemonic dimensions such as iconicity, sensorimotor imagery, motional salience, emotional salience, gesture complexity fit, cultural familiarity, and enactment potential that correspond to human judgments. Correspondence is evaluated across model configurations; consistency across repeated inferences or prompt conditions was not tested."
+    }
+  },
+  {
+    "source_block": 64,
+    "section": "3 Research questions",
+    "reason": "The retained participant sample was not established as an expert panel.",
+    "original": {
+      "kind": "p",
+      "text": "RQ3: How closely do VLM-generated scores align with expert human ratings?"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "RQ3: How closely do VLM-generated scores align with human ratings?"
+    }
+  },
+  {
+    "source_block": 65,
+    "section": "3 Research questions",
+    "reason": "The retained participant sample was not established as an expert panel. Agreement with a single rating instrument does not establish construct validity.",
+    "original": {
+      "kind": "p",
+      "text": "A central objective of the study is to evaluate the degree of agreement between model-generated ratings and human expert annotations. This question addresses the construct validity of VLM-based gesture estimation by examining whether computational scores approximate human judgments sufficiently to support their use as automated research covariates."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "A central objective of the study is to evaluate the degree of agreement between model-generated ratings and human annotations. This question assesses the correspondence of VLM-based gesture estimation with human ratings by examining whether computational scores approximate human judgments sufficiently to support their use as automated research covariates."
+    }
+  },
+  {
+    "source_block": 66,
+    "section": "3 Research questions",
+    "reason": "Remove the unperformed fine-tuning RQ/H requested by Pedro (RQ4 and H3 in the actual document).",
+    "original": {
+      "kind": "p",
+      "text": "RQ4: Does fine-tuning improve alignment relative to zero-shot prompting?"
+    },
+    "revised": null
+  },
+  {
+    "source_block": 67,
+    "section": "3 Research questions",
+    "reason": "Remove the unperformed fine-tuning RQ/H requested by Pedro (RQ4 and H3 in the actual document).",
+    "original": {
+      "kind": "p",
+      "text": "Recent multimodal models demonstrate strong zero-shot reasoning capabilities, but domain-specific fine-tuning may further improve performance for specialized gesture interpretation tasks. This question compares zero-shot prompting approaches with fine-tuned architectures in order to determine whether gesture-specific adaptation improves agreement with expert human ratings."
+    },
+    "revised": null
+  },
+  {
+    "source_block": 68,
+    "section": "3 Research questions",
+    "reason": "Renumber after deleting the fine-tuning question/hypothesis.",
+    "original": {
+      "kind": "p",
+      "text": "RQ5: Do VLMs exhibit systematic disagreement patterns similar to those observed among human raters?"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "RQ4: Do VLMs exhibit systematic disagreement patterns similar to those observed among human raters?"
+    }
+  },
+  {
+    "source_block": 70,
+    "section": "3 Research questions",
+    "reason": "Renumber after deleting the fine-tuning question/hypothesis.",
+    "original": {
+      "kind": "p",
+      "text": "RQ6: Can VLM-generated gesture covariates support scalable multimodal research pipelines in vocabulary acquisition?"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "RQ5: Can VLM-generated gesture covariates support scalable multimodal research pipelines in vocabulary acquisition?"
+    }
+  },
+  {
+    "source_block": 73,
+    "section": "3 Research questions",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "Based on prior research in embodied cognition, multimodal language processing, and recent advances in multimodal artificial intelligence, the following hypotheses are proposed:"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Based on prior research in embodied cognition, multimodal language processing, and recent advances in multimodal artificial intelligence, the following hypotheses are proposed. The cited work provides a rationale for these expectations; the specific GMSM rating relationships are examined here:"
+    }
+  },
+  {
+    "after_source_block": 73,
+    "section": "3 Research questions",
+    "reason": "Clarify the status of the hypotheses without replacing their content.",
+    "original": null,
+    "revised": {
+      "kind": "p",
+      "text": "These hypotheses provide a conceptual framework for interpreting the benchmark. The reported analyses are exploratory and do not constitute preregistered confirmatory tests.",
+      "reason": "Clarify the status of the hypotheses without replacing their content."
+    }
+  },
+  {
+    "source_block": 74,
+    "section": "3 Research questions",
+    "reason": "The retained participant sample was not established as an expert panel. The reported correlations are descriptive; no significance analysis was performed.",
+    "original": {
+      "kind": "p",
+      "text": "H1: VLM-generated ratings will significantly correlate with expert human annotations across GMSM dimensions."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "H1: VLM-generated ratings will positively correlate with human annotations across GMSM dimensions."
+    }
+  },
+  {
+    "source_block": 75,
+    "section": "3 Research questions",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "Because contemporary VLMs can integrate visual and linguistic information through multimodal reasoning, their estimates are expected to approximate expert human judgments for gesture-related mnemonic properties. Moderate-to-strong positive correlations are therefore anticipated between computational ratings and human-coded scores."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Because contemporary VLMs can integrate visual and linguistic information (Zhang et al., 2023), and text-based psycholinguistic norming has shown correspondence with human judgments (Conde et al., 2026; Martínez et al., 2024), their estimates are expected to approximate human judgments for gesture-related mnemonic properties. Positive correlations are therefore anticipated between computational ratings and human-coded scores; their magnitude remains an empirical question."
+    }
+  },
+  {
+    "source_block": 77,
+    "section": "3 Research questions",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "Dimensions such as iconicity, motional salience, and enactment potential are expected to produce stronger agreement because they rely heavily on directly observable bodily movement and perceptual resemblance. By contrast, dimensions such as emotional salience or cultural familiarity may yield lower agreement due to their greater dependence on contextual interpretation and sociocultural knowledge."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Dimensions such as iconicity, motional salience, and enactment potential are expected to produce stronger agreement because they rely heavily on directly observable bodily movement and perceptual resemblance. By contrast, dimensions such as emotional salience or cultural familiarity may yield lower agreement due to their greater dependence on contextual interpretation and sociocultural knowledge. Evidence of visual-language associations (Radford et al., 2021) and gesture-type-dependent grounding difficulties (Nishida et al., 2025) motivates this comparison."
+    }
+  },
+  {
+    "source_block": 78,
+    "section": "3 Research questions",
+    "reason": "Remove the unperformed fine-tuning RQ/H requested by Pedro (RQ4 and H3 in the actual document).",
+    "original": {
+      "kind": "p",
+      "text": "H3: Fine-tuned VLMs will outperform zero-shot models in alignment with expert ratings."
+    },
+    "revised": null
+  },
+  {
+    "source_block": 79,
+    "section": "3 Research questions",
+    "reason": "Remove the unperformed fine-tuning RQ/H requested by Pedro (RQ4 and H3 in the actual document).",
+    "original": {
+      "kind": "p",
+      "text": "Although zero-shot prompting is expected to produce meaningful estimates, fine-tuning on gesture-specific annotation data should improve the model’s sensitivity to theoretically relevant gesture dimensions and reduce prediction error relative to human judgments."
+    },
+    "revised": null
+  },
+  {
+    "source_block": 80,
+    "section": "3 Research questions",
+    "reason": "Renumber after deleting the fine-tuning question/hypothesis.",
+    "original": {
+      "kind": "p",
+      "text": "H4: Highly iconic and sensorimotor-rich gestures will produce lower inter-rater disagreement than abstract or weakly embodied gestures."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "H3: Highly iconic and sensorimotor-rich gestures will produce lower inter-rater disagreement than abstract or weakly embodied gestures."
+    }
+  },
+  {
+    "source_block": 81,
+    "section": "3 Research questions",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "Gestures that provide transparent mappings between movement and lexical meaning are expected to generate more stable ratings across both humans and models. In contrast, abstract, metaphorical, or culturally ambiguous gestures may produce greater variability and disagreement."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Gestures that provide transparent mappings between movement and lexical meaning are expected to generate more stable ratings across both humans and models. In contrast, abstract, metaphorical, or culturally ambiguous gestures may produce greater variability and disagreement. This expectation extends accounts of form–meaning resemblance and gesture-supported semantic processing (Perniss et al., 2010; Macedonia et al., 2011) to agreement between raters."
+    }
+  },
+  {
+    "source_block": 82,
+    "section": "3 Research questions",
+    "reason": "Renumber after deleting the fine-tuning question/hypothesis.",
+    "original": {
+      "kind": "p",
+      "text": "H5: VLM disagreement patterns will partially mirror human disagreement patterns."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "H4: VLM disagreement patterns will partially mirror human disagreement patterns."
+    }
+  },
+  {
+    "source_block": 83,
+    "section": "3 Research questions",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "Items that produce high variability among expert raters are also expected to generate greater computational uncertainty, particularly for gestures with low semantic transparency or multiple possible interpretations. This would suggest that some forms of disagreement reflect intrinsic ambiguity in the gesture stimuli rather than purely model-specific error."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Items that produce high variability among human raters are also expected to generate greater disagreement between model ratings, particularly for gestures with low semantic transparency or multiple possible interpretations. This would suggest that some forms of disagreement reflect intrinsic ambiguity in the gesture stimuli rather than purely model-specific error. The grounding difficulties reported by Nishida et al. (2025) motivate examining this possibility."
+    }
+  },
+  {
+    "source_block": 84,
+    "section": "3 Research questions",
+    "reason": "Renumber after deleting the fine-tuning question/hypothesis.",
+    "original": {
+      "kind": "p",
+      "text": "H6: VLM-generated gesture covariates will demonstrate sufficient reliability to support exploratory large-scale multimodal research applications."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "H5: VLM-generated gesture covariates will demonstrate sufficient reliability to support exploratory large-scale multimodal research applications."
+    }
+  },
+  {
+    "source_block": 85,
+    "section": "3 Research questions",
+    "reason": "The retained participant sample was not established as an expert panel. Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "Although model-generated ratings are not expected to replace expert human annotation entirely, they are hypothesized to provide sufficiently robust estimates for use in large-scale corpus analysis, preliminary stimulus evaluation, and computational modeling of gesture-supported vocabulary learning."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Although model-generated ratings are not expected to replace human annotation entirely, they are hypothesized to provide sufficiently robust estimates for use in large-scale corpus analysis, preliminary stimulus evaluation, and computational modeling of gesture-supported vocabulary learning. Psycholinguistic norming results support this proposed use (Conde et al., 2026; Martínez et al., 2024), while variation across evaluation tasks motivates validation for each intended property (Bavaresco et al., 2025)."
+    }
+  },
+  {
+    "source_block": 88,
+    "section": "4 Methods",
+    "reason": "Correct the fabricated object-display condition and distinguish 134 base clips from 148 presentations; unresolved provenance remains in author notes. Resolve the requested provenance using Pedro’s original source correspondence and the public corpus record.",
+    "original": {
+      "kind": "p",
+      "text": "The dataset comprised 148 short instructional videos representing lexical items commonly used in second-language (L2) vocabulary-learning paradigms. Stimuli were organized into two collections: a gesture collection (n = 104), in which a performer demonstrated a gesture corresponding to a target word, and an object collection (n = 44), in which the target item itself was shown on video rather than enacted as a gesture (e.g., zip, earring, peppermill, cup). The object collection was included as [Samer TO CONFIRM: rationale — e.g., a non-gestural comparison condition against which gesture-dimension ratings could be benchmarked]. Gesture-collection items were drawn from existing gesture-supported vocabulary-learning materials and experimental gesture corpora (Macedonia et al., 2011; Macedonia & Knösche, 2011; Mayer et al., 2015); the source and provenance of the object-collection videos should be added here."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "The dataset comprised 134 short instructional gesture clips representing lexical items commonly used in second-language (L2) vocabulary-learning paradigms. Stimuli were organized into two source collections: a gesture collection (n = 90 underlying clips) and an internally named object collection (n = 44 underlying clips). Both collections show a performer demonstrating gestures corresponding to target words; “object” is a collection label, not a condition showing the target objects themselves. The 90-clip collection was obtained from the public Gesture video corpus (Macedonia et al., 2021; https://doi.org/10.6084/m9.figshare.c.5296396.v1), associated with Macedonia et al. (2011) and Mayer et al. (2015). The 44-clip collection was supplied through a Johannes Kepler University file share and identified in the project source correspondence as material from Macedonia et al. (2011). Supplementary Material 1 gives the item mapping and source information."
+    }
+  },
+  {
+    "source_block": 90,
+    "section": "4 Methods",
+    "reason": "Remove unverified uniform recording specifications and deliberate facial-neutrality manipulation.",
+    "original": {
+      "kind": "p",
+      "text": "All recordings were conducted under standardized conditions to minimize variability unrelated to gesture characteristics. A female performer demonstrated each gesture against a neutral background, under consistent lighting, from a fixed frontal camera position, and with stable framing. Facial expression was generally neutral, as emotional facial cues were deliberately excluded to control for affective confounds, except where expressive behavior formed an intrinsic part of the gesture itself. Videos were provided in MP4 format at a resolution of 960 × 538 pixels and a frame rate of 25 fps, with individual clips lasting approximately 3–6 seconds."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "A female performer demonstrated each gesture against a neutral background, from a fixed frontal camera position. The source collections differ in framing and video characteristics; a uniform resolution, recording frame rate, or duration across the entire corpus was not established."
+    }
+  },
+  {
+    "source_block": 91,
+    "section": "4 Methods",
+    "reason": "Resolve the highlighted count question using manifests and incorporate the user’s clarification of control purpose and exposure prevention.",
+    "original": {
+      "kind": "p",
+      "text": "[Samer TO RECONCILE: the design has elsewhere been described as comprising 149 gesture–word pairings — 134 standard pairings, in which gestures accompanied their intended lexical meanings, and 15 deliberately mismatched control pairings, in which a gesture was paired with an unrelated target word (e.g., a smoking gesture paired with leg*), included to test whether raters/models distinguished semantically compatible from incompatible gesture–word relationships. The dataset underlying this report contains 148 videos, undifferentiated by a standard/control flag. This count and the mapping of control items onto the gesture/object collections should be resolved before submission — either by correcting the stimulus count to 148 throughout the manuscript, or by adding an explicit control-item indicator to the shared dataset and reconciling the totals.]*"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Fourteen clips from the gesture collection were also paired with deliberately unrelated target words, yielding 148 gesture–word pairings for the human survey: 134 standard pairings and 14 mismatched controls. These controls were intended to elicit low semantic-compatibility ratings and test whether models agreed with humans in that range. The model manifest included one additional mismatched pairing, the Wealth clip labeled Cooking, yielding 149 pairings. This extra model-only control had no human reference and was excluded from human–model comparisons. The survey application prevented any individual participant from seeing the same clip under both labels; no retained participant rated both versions."
+    }
+  },
+  {
+    "after_source_block": 92,
+    "section": "4 Methods",
+    "reason": "Add the overview/results figure requested in the email.",
+    "original": null,
+    "revised": {
+      "kind": "figure",
+      "text": "Figure 1. Overview of the benchmark. The human survey included 148 pairings from 134 underlying clips; the model manifest contained one additional control without human ratings.",
+      "reason": "Add the overview/results figure requested in the email.",
+      "file": "figures/fig1_study_overview.png"
+    }
+  },
+  {
+    "source_block": 98,
+    "section": "4 Methods",
+    "reason": "Recorded assignment count does not describe randomization or participant count. Correct the unit of presentation.",
+    "original": {
+      "kind": "p",
+      "text": "Each participant was assigned a fixed set of 20 videos to rate on all seven dimensions, presented in a recorded sequential order; this assignment size (M = 20.13, SD = 2.33 across all 563 assignments created, including non-retained ones) was constant at exactly 20 items among the 230 assignments retained for analysis. Items were drawn from both the gesture and object collections such that every one of the 148 videos received ratings from between 25 and 39 distinct participants overall, and from all four language cohorts."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Each participant was assigned a fixed set of 20 videos to rate on all seven dimensions, presented in randomized order; this assignment size was constant at exactly 20 items among the 230 assignments retained for analysis. Items were drawn from both the gesture and object collections such that every one of the 148 pairings received ratings from between 25 and 39 distinct participants overall, and from all four language cohorts."
+    }
+  },
+  {
+    "source_block": 99,
+    "section": "4 Methods",
+    "reason": "Fill the requested survey-methods placeholder, supply all four languages verbatim, and distinguish the instruction screen from an unsupported tutorial claim.",
+    "original": {
+      "kind": "p",
+      "text": "Pls Samer add: the survey platform used; the exact instructions and dimension definitions shown to raters (verbatim, per language); whether item-to-participant assignment was randomized, stratified, or fixed; whether attention/comprehension checks were administered; and whether raters could review or revise earlier responses within an assignment."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "The survey used a custom browser-based application with a Vercel-hosted collection service. Participants received informed-consent information and task instructions before rating. The English instructions asked them to use their immediate impression and stated that there were no right or wrong answers. Assignments preferentially sampled items with fewer completed ratings, without replacement, and the client filtered conflicting label versions. Participants could review and revise their responses. The application did not include a separate scored attention or comprehension test; mismatched-label items were semantic-compatibility controls rather than automatic participant-exclusion checks. The instructions, rating questions, and scale labels shown in German, English, Italian, and Japanese are reproduced verbatim in Supplementary Material 2, together with the model prompt. The rating interface is shown in Figure 2."
+    }
+  },
+  {
+    "after_source_block": 100,
+    "section": "4 Methods",
+    "reason": "Add the overview/results figure requested in the email.",
+    "original": null,
+    "revised": {
+      "kind": "figure",
+      "text": "Figure 2. Human rating interface. Participants viewed each gesture video alongside its target word and rated seven dimensions on five-point scales. The interface also provided an optional notes field and navigation between items.",
+      "reason": "Add the overview/results figure requested in the email.",
+      "file": "figures/fig2_human_rating_interface.png"
+    }
+  },
+  {
+    "source_block": 103,
+    "section": "4 Methods",
+    "reason": "Fill the exclusion-breakdown placeholder; correct the Human Results cross-reference.",
+    "original": {
+      "kind": "p",
+      "text": "Of 278 participants who created at least one assignment, 230 (82.7%) completed an analysis-ready assignment and are described below and analyzed in Section 6; the remaining 48 were not retained, primarily due to incomplete assignments [Pls Samer check full breakdown of exclusion reasons for the 48 non-retained participants, e.g., via the assignment_status/exclusion_reason fields in Assignment QC]."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Of 278 participants represented in the workbook, 230 (82.7%) completed an analysis-ready assignment and are described below and analyzed in Section 5; the remaining 48 comprised 25 with incomplete submitted responses, 21 without submitted responses, and two with uniform extreme runs."
+    }
+  },
+  {
+    "source_block": 108,
+    "section": "4 Methods",
+    "reason": "Correct the Human Results cross-reference.",
+    "original": {
+      "kind": "p",
+      "text": "Two additional review flags were recorded for sensitivity purposes without triggering automatic exclusion: assignments completed in under 7 minutes, and assignments in which the participant’s self-reported country of origin differed from their approximate connection-based country. As reported in Section 6, excluding the 21 participants carrying either review flag changed no pooled dimension mean by more than 0.03 points and left key dimension associations unchanged, indicating that the analysis-ready sample was not materially sensitive to these additional, more conservative criteria."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Two additional review flags were recorded for sensitivity purposes without triggering automatic exclusion: assignments completed in under 7 minutes, and assignments in which the participant’s self-reported country of origin differed from their approximate connection-based country. As reported in Section 5, excluding the 21 participants carrying either review flag changed no pooled dimension mean by more than 0.03 points and left key dimension associations unchanged, indicating that the analysis-ready sample was not materially sensitive to these additional, more conservative criteria."
+    }
+  },
+  {
+    "source_block": 111,
+    "section": "5 Human ratings",
+    "reason": "Correct the unit of presentation. Do not claim participant microdata are in the shared package.",
+    "original": {
+      "kind": "p",
+      "text": "Each of the 148 stimulus videos received between 25 and 39 evaluations from distinct participants (M = 31.08, SD = 2.40, Mdn = 31), with responses represented across all four survey languages. The gesture and object collections contributed 3,249 and 1,351 evaluations, respectively, yielding a total of 4,600 analysis-ready ratings per dimension. Median assignment completion time was 13.41 minutes (interquartile range = 9.66–17.94). Full rating and assignment-level data are provided in Supplementary Material 2."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Each of the 148 stimulus pairings received between 25 and 39 evaluations from distinct participants (M = 31.08, SD = 2.40, Mdn = 31), with responses represented across all four survey languages. The gesture and object collections contributed 3,249 and 1,351 evaluations, respectively, yielding a total of 4,600 analysis-ready ratings per dimension. Median assignment completion time was 13.41 minutes (interquartile range = 9.66–17.94). Aggregate item-level data and rating instructions are provided in Supplementary Material 2; participant-level data remain in the controlled human workbook."
+    }
+  },
+  {
+    "source_block": 114,
+    "section": "5 Human ratings",
+    "reason": "Correct cultural-familiarity alpha from the recalculated human table.",
+    "original": {
+      "kind": "table",
+      "rows": [
+        [
+          "Dimension",
+          "M",
+          "SD",
+          "Median [Q1, Q3]",
+          "Ordinal α"
+        ],
+        [
+          "Iconicity",
+          "2.92",
+          "1.37",
+          "3 [2, 4]",
+          ".454"
+        ],
+        [
+          "Sensorimotor imagery",
+          "3.00",
+          "1.36",
+          "3 [2, 4]",
+          ".368"
+        ],
+        [
+          "Motional salience",
+          "3.03",
+          "0.97",
+          "3 [2, 4]",
+          ".179"
+        ],
+        [
+          "Facial-expression emotional salience",
+          "2.14",
+          "1.07",
+          "2 [1, 3]",
+          ".185"
+        ],
+        [
+          "Complexity fit",
+          "2.84",
+          "1.22",
+          "3 [2, 4]",
+          ".369"
+        ],
+        [
+          "Cultural familiarity",
+          "2.65",
+          "1.41",
+          "3 [1, 4]",
+          ".385"
+        ],
+        [
+          "Enactment potential",
+          "4.01",
+          "1.02",
+          "4 [3, 5]",
+          ".087"
+        ]
+      ]
+    },
+    "revised": {
+      "kind": "table",
+      "rows": [
+        [
+          "Dimension",
+          "M",
+          "SD",
+          "Median [Q1, Q3]",
+          "Ordinal α"
+        ],
+        [
+          "Iconicity",
+          "2.92",
+          "1.37",
+          "3 [2, 4]",
+          ".454"
+        ],
+        [
+          "Sensorimotor imagery",
+          "3.00",
+          "1.36",
+          "3 [2, 4]",
+          ".368"
+        ],
+        [
+          "Motional salience",
+          "3.03",
+          "0.97",
+          "3 [2, 4]",
+          ".179"
+        ],
+        [
+          "Facial-expression emotional salience",
+          "2.14",
+          "1.07",
+          "2 [1, 3]",
+          ".185"
+        ],
+        [
+          "Complexity fit",
+          "2.84",
+          "1.22",
+          "3 [2, 4]",
+          ".369"
+        ],
+        [
+          "Cultural familiarity",
+          "2.65",
+          "1.41",
+          "3 [1, 4]",
+          ".384"
+        ],
+        [
+          "Enactment potential",
+          "4.01",
+          "1.02",
+          "4 [3, 5]",
+          ".087"
+        ]
+      ]
+    }
+  },
+  {
+    "source_block": 115,
+    "section": "5 Human ratings",
+    "reason": "Remove a stray character.",
+    "original": {
+      "kind": "p",
+      "text": "Note. N = 4,600 evaluations per dimension. SD describes dispersion of individual ratings. Ordinal α is Krippendorff’s alpha.v"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Note. N = 4,600 evaluations per dimension. SD describes dispersion of individual ratings. Ordinal α is Krippendorff’s alpha."
+    }
+  },
+  {
+    "source_block": 116,
+    "section": "5 Human ratings",
+    "reason": "Correct cultural-familiarity alpha rounding.",
+    "original": {
+      "kind": "p",
+      "text": "These pooled means, however, concealed considerable disagreement among individual raters. Ordinal Krippendorff’s α was highest for iconicity (α = .454), followed by cultural familiarity (α = .385), gesture complexity fit (α = .369), and sensorimotor imagery (α = .368), and comparatively low for facial-expression salience (α = .185), motional salience (α = .179), and enactment potential (α = .087). Mean within-video pairwise absolute differences ranged from 0.94 to 1.15 scale points across dimensions, indicating that favorable pooled means did not correspond to close agreement among individual raters. Enactment potential illustrates this pattern particularly clearly: despite a high pooled mean and minimal between-video variation (SD = 0.35), within-video dispersion remained substantial (mean within-video SD = 0.96). This combination of restricted between-video variance and a strongly skewed rating distribution is consistent with the low chance-corrected agreement observed for this dimension, and these results should not be taken to establish the reliability of the corresponding pooled means."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "These pooled means, however, concealed considerable disagreement among individual raters. Ordinal Krippendorff’s α was highest for iconicity (α = .454), followed by cultural familiarity (α = .384), gesture complexity fit (α = .369), and sensorimotor imagery (α = .368), and comparatively low for facial-expression salience (α = .185), motional salience (α = .179), and enactment potential (α = .087). Mean within-video pairwise absolute differences ranged from 0.94 to 1.15 scale points across dimensions, indicating that favorable pooled means did not correspond to close agreement among individual raters. Enactment potential illustrates this pattern particularly clearly: despite a high pooled mean and minimal between-video variation (SD = 0.35), within-video dispersion remained substantial (mean within-video SD = 0.96). This combination of restricted between-video variance and a strongly skewed rating distribution is consistent with the low chance-corrected agreement observed for this dimension, and these results should not be taken to establish the reliability of the corresponding pooled means."
+    }
+  },
+  {
+    "after_source_block": 116,
+    "section": "5 Human ratings",
+    "reason": "Qualify full-corpus reliability when models are evaluated on the standard subset.",
+    "original": null,
+    "revised": {
+      "kind": "p",
+      "text": "For comparison with the standard-pairing model benchmark, ordinal α values after excluding the 14 mismatched controls were .363, .327, .166, .174, .286, .360, and .090, respectively, in the dimension order shown in Table 1. These individual-rating agreement coefficients do not estimate the reliability of aggregated item means.",
+      "reason": "Qualify full-corpus reliability when models are evaluated on the standard subset."
+    }
+  },
+  {
+    "source_block": 121,
+    "section": "5 Human ratings",
+    "reason": "Correct the unit of analysis.",
+    "original": {
+      "kind": "p",
+      "text": "Note. Each of 148 videos contributes one mean per dimension. SD describes differences between video means."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Note. Each of 148 pairings contributes one mean per dimension. SD describes differences between video means."
+    }
+  },
+  {
+    "source_block": 128,
+    "section": "5 Human ratings",
+    "reason": "Match the recalculated participant-clustered p value.",
+    "original": {
+      "kind": "p",
+      "text": "Both analyses converged: cohort differences remained significant for every dimension after conditioning on video identity (residual Kruskal-Wallis, all p < .001), indicating that the omnibus differences were not attributable to unequal video sampling across cohorts. Table 3 reports the video-adjusted, participant-clustered regression coefficients. Two patterns were evident. The English-language cohort rated iconicity, motional salience, and facial-expression emotional salience lower than the German-language cohort on the same videos (b = –0.20 to –0.41, all p < .05). The Japanese-language cohort rated cultural familiarity, enactment potential, and gesture complexity fit lower than the German-language cohort (b = –0.20 to –0.31, all p < .05). The Italian-language cohort rated sensorimotor imagery higher than the German-language cohort (b = 0.24, p = .015). No other cohort contrasts reached significance."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Both analyses converged: cohort differences remained significant for every dimension after conditioning on video identity (residual Kruskal-Wallis, all p < .001), indicating that the omnibus differences were not attributable to unequal video sampling across cohorts. Table 3 reports the video-adjusted, participant-clustered regression coefficients. Two patterns were evident. The English-language cohort rated iconicity, motional salience, and facial-expression emotional salience lower than the German-language cohort on the same videos (b = –0.20 to –0.41, all p < .05). The Japanese-language cohort rated cultural familiarity, enactment potential, and gesture complexity fit lower than the German-language cohort (b = –0.20 to –0.31, all p < .05). The Italian-language cohort rated sensorimotor imagery higher than the German-language cohort (b = 0.24, p = .016). No other cohort contrasts reached significance."
+    }
+  },
+  {
+    "source_block": 129,
+    "section": "5 Human ratings",
+    "reason": "Repair a missing space.",
+    "original": {
+      "kind": "p",
+      "text": "Table 3Video-adjusted cohort differences in ratings (reference: German cohort)"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Table 3 Video-adjusted cohort differences in ratings (reference: German cohort)"
+    }
+  },
+  {
+    "source_block": 130,
+    "section": "5 Human ratings",
+    "reason": "Update p values from the same participant-clustered model using t(229); no multiplicity adjustment added to the manuscript.",
+    "original": {
+      "kind": "table",
+      "rows": [
+        [
+          "Dimension",
+          "Cohort",
+          "b",
+          "p"
+        ],
+        [
+          "Iconicity",
+          "English",
+          "–0.20",
+          ".036"
+        ],
+        [
+          "Sensorimotor imagery",
+          "Italian",
+          "0.24",
+          ".015"
+        ],
+        [
+          "Motional salience",
+          "English",
+          "–0.24",
+          ".006"
+        ],
+        [
+          "Facial-expression emotional salience",
+          "English",
+          "–0.41",
+          "<.001"
+        ],
+        [
+          "Gesture complexity fit",
+          "Japanese",
+          "–0.20",
+          ".006"
+        ],
+        [
+          "Cultural familiarity",
+          "Japanese",
+          "–0.31",
+          "<.001"
+        ],
+        [
+          "Enactment potential",
+          "Japanese",
+          "–0.28",
+          ".021"
+        ]
+      ]
+    },
+    "revised": {
+      "kind": "table",
+      "rows": [
+        [
+          "Dimension",
+          "Cohort",
+          "b",
+          "p"
+        ],
+        [
+          "Iconicity",
+          "English",
+          "–0.20",
+          ".037"
+        ],
+        [
+          "Sensorimotor imagery",
+          "Italian",
+          "0.24",
+          ".016"
+        ],
+        [
+          "Motional salience",
+          "English",
+          "–0.24",
+          ".007"
+        ],
+        [
+          "Facial-expression emotional salience",
+          "English",
+          "–0.41",
+          "<.001"
+        ],
+        [
+          "Gesture complexity fit",
+          "Japanese",
+          "–0.20",
+          ".007"
+        ],
+        [
+          "Cultural familiarity",
+          "Japanese",
+          "–0.31",
+          "<.001"
+        ],
+        [
+          "Enactment potential",
+          "Japanese",
+          "–0.28",
+          ".022"
+        ]
+      ]
+    }
+  },
+  {
+    "after_source_block": 131,
+    "section": "5 Human ratings",
+    "reason": "Disclose the original analysis scope; optional multiplicity adjustment is kept in suggestions.",
+    "original": null,
+    "revised": {
+      "kind": "p",
+      "text": "The p values shown are unadjusted for multiple comparisons; the cohort contrasts are exploratory.",
+      "reason": "Disclose the original analysis scope; optional multiplicity adjustment is kept in suggestions."
+    }
+  },
+  {
+    "source_block": 134,
+    "section": "6 Model evaluation and results",
+    "reason": "Uniform 25 fps recording was not established for both collections. Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "Eleven model–input configurations were evaluated across three model families: Google Gemini, OpenAI GPT, and Alibaba Qwen (Table 4). Gemini 3.8 Flash and Gemini 3.1 Pro were tested on video input at 1 and 2 frames per second (fps); Gemini 3.1 Flash-Lite was tested at 1 fps only. GPT-5.6 Sol and GPT-5.6 Luna were tested on extracted frame sequences at 1 and 2 fps. Qwen 3.8 Max and Qwen 3.5-397B-A17B were tested on video input at 1 fps. These sampling rates describe how each model received the video, not the original recording rate (25 fps)."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Twelve model–input configurations were evaluated across four model families: Google Gemini, OpenAI GPT, Alibaba Qwen, and Elorian Glimpse (Table 4). Gemini 3.8 Flash and Gemini 3.1 Pro were tested on video input at 1 and 2 frames per second (fps); Gemini 3.1 Flash-Lite was tested at 1 fps only. GPT-5.6 Sol and GPT-5.6 Luna were tested on extracted frame sequences at 1 and 2 fps. Qwen 3.8 Max and Qwen 3.5-397B-A17B were tested on video input at 1 fps. These sampling rates describe how each model received the video, not the original recording rate. Elorian Glimpse (elorian/glimpse; saved version elorian/glimpse-20261016) was evaluated on 19 October 2026 using native MP4 video through OpenRouter, with provider-default sampling rather than a specified fps. It used the same neutral video identifiers, target words and human-aligned prompt, with temperature 0, reasoning disabled and a maximum of 4,096 output tokens."
+    }
+  },
+  {
+    "source_block": 135,
+    "section": "6 Model evaluation and results",
+    "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "A separate, additional comparison used Gemini 3.8 Flash to test whether feeding it a full video produces different results from feeding it manually extracted still frames. This comparison sits outside the main eleven-configuration benchmark, and its validity depends on the frames, resolution, prompt, and settings being matched across the two conditions."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "A separate, additional comparison used Gemini 3.8 Flash to test whether feeding it a full video produces different results from feeding it manually extracted still frames. This comparison sits outside the main twelve-configuration benchmark, and its validity depends on the frames, resolution, prompt, and settings being matched across the two conditions."
+    }
+  },
+  {
+    "source_block": 141,
+    "section": "6 Model evaluation and results",
+    "reason": "Use shared controls and the correct pairing unit.",
+    "original": {
+      "kind": "p",
+      "text": "The main comparison set model scores against the mean human rating for each of the 134 standard gesture–word pairings. With seven dimensions rated per item, each model configuration produced 938 model–human score pairs. These pairs compare items across dimensions, not 938 independent human judgments. The 15 mismatched control pairings were analyzed separately."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "The main comparison set model scores against the mean human rating for each of the 134 standard gesture–word pairings. With seven dimensions rated per item, each model configuration produced 938 model–human score pairs. These pairs compare items across dimensions, not 938 independent human judgments. The 14 mismatched control pairings shared with humans were analyzed separately, paired by underlying clip; different human participants rated the two labels."
+    }
+  },
+  {
+    "source_block": 142,
+    "section": "6 Model evaluation and results",
+    "reason": "Pearson r measures linear association, not rank association.",
+    "original": {
+      "kind": "p",
+      "text": "For each dimension, we report: mean absolute error (MAE), the average size of the gap between a model’s score and the human average, ignoring direction; root mean squared error (RMSE), a similar measure that penalizes large errors more heavily; bias, the average signed difference (model minus human), where a positive number means the model rated higher than people did; and two measures of rank agreement, Pearson’s r and Spearman’s ρ, which capture whether the model and human raters ordered the gestures similarly, regardless of the exact scores used."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "For each dimension, we report: mean absolute error (MAE), the average size of the gap between a model’s score and the human average, ignoring direction; root mean squared error (RMSE), a similar measure that penalizes large errors more heavily; bias, the average signed difference (model minus human), where a positive number means the model rated higher than people did; and two measures of association, Pearson’s r and Spearman’s ρ, which capture whether the model and human raters ordered the gestures similarly, regardless of the exact scores used."
+    }
+  },
+  {
+    "after_source_block": 143,
+    "section": "6 Model evaluation and results",
+    "reason": "User-requested comparison of human disagreement with model–human disagreement; defines the common sample and weighting.",
+    "original": null,
+    "revised": {
+      "kind": "p",
+      "text": "To contextualize model error, we also calculated the mean absolute difference between individual human ratings of the same item, between each human rating and the mean of the other human ratings, and between each model score and individual human ratings. All three comparisons used the same 134 standard pairings, with equal weight for each pairing and dimension.",
+      "reason": "User-requested comparison of human disagreement with model–human disagreement; defines the common sample and weighting."
+    }
+  },
+  {
+    "source_block": 146,
+    "section": "6 Model evaluation and results",
+    "reason": "Completed outputs alone cannot establish absence of failures/timeouts. Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "Every configuration successfully rated every item, with no failures or timeouts. Across the eleven configurations, MAE ranged from 0.53 to 1.12 points, and Spearman correlations ranged from .62 to .69 (Table 4)."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Every configuration had a valid saved rating for every item; the saved outputs do not establish whether earlier requests failed or were retried. Across the twelve configurations, MAE ranged from 0.53 to 1.12 points, and Spearman correlations ranged from .62 to .69 (Table 4)."
+    }
+  },
+  {
+    "source_block": 147,
+    "section": "6 Model evaluation and results",
+    "reason": "Normalize alternate Qwen score fields before computing aggregate metrics. Correct Qwen overall MAE. Correct Qwen bias range. Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "Gemini 3.8 Flash at 1 fps had the lowest error of any configuration (MAE = 0.53, RMSE = 0.70). Qwen 3.8 Max had the smallest bias (+0.09), meaning its ratings were, on average, barely higher than the human mean, though its overall error was moderate (MAE = 0.74). At 2 fps, GPT-5.6 Luna and GPT-5.6 Sol had MAEs of 0.78 and 0.80. Every configuration showed a positive bias — all models tended to rate gestures somewhat higher than human raters did — though the size of that bias varied widely, from +0.09 to +0.69."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Gemini 3.8 Flash at 1 fps had the lowest error of any configuration (MAE = 0.53, RMSE = 0.70). Qwen 3.8 Max had the smallest bias (+0.02), meaning its ratings were, on average, barely higher than the human mean, though its overall error was moderate (MAE = 0.73). At 2 fps, GPT-5.6 Luna and GPT-5.6 Sol had MAEs of 0.78 and 0.80. All Gemini, GPT and Qwen configurations showed positive bias, ranging from +0.02 to +0.69; Glimpse showed a small negative overall bias (−0.06)."
+    }
+  },
+  {
+    "after_source_block": 148,
+    "section": "6 Model evaluation and results",
+    "reason": "Add the human disagreement context requested by the user, using the same 134 pairings and seven dimensions.",
+    "original": null,
+    "revised": {
+      "kind": "p",
+      "text": "Human disagreement provided a useful reference for these errors. Two humans rating the same pairing differed by an average of 1.06 scale points. Against individual human ratings, mean absolute differences were 0.93 for Gemini 3.8 Flash (1 fps), 1.01 for Qwen 3.8 Max, 1.03 for both GPT-5.6 Luna and Sol (2 fps), and 1.24 for Gemini 3.1 Pro (1 fps). An individual human differed from the mean of the other human raters by 0.82 points, compared with model errors of 0.53–1.12 against the human mean. Thus, several configurations were closer to the human average than a typical individual rater was. Full dimension-specific comparisons are provided in Supplementary Material 2.",
+      "reason": "Add the human disagreement context requested by the user, using the same 134 pairings and seven dimensions."
+    }
+  },
+  {
+    "source_block": 150,
+    "section": "6 Model evaluation and results",
+    "reason": "Recalculate reported metrics from saved scores, with Qwen alternate fields normalized; retain original table structure and historical costs. Add Glimpse with observed run cost and unspecified provider sampling.",
+    "original": {
+      "kind": "table",
+      "rows": [
+        [
+          "Configuration",
+          "Input",
+          "MAE",
+          "RMSE",
+          "Bias",
+          "r",
+          "ρ",
+          "USD/1k clips"
+        ],
+        [
+          "Gemini 3.8 Flash",
+          "1 fps, video",
+          "0.53",
+          "0.70",
+          "+0.15",
+          ".64",
+          ".65",
+          "$3.69"
+        ],
+        [
+          "Qwen 3.8 Max",
+          "1 fps, video",
+          "0.74",
+          "0.91",
+          "+0.09",
+          ".67",
+          ".67",
+          "$27.55"
+        ],
+        [
+          "GPT-5.6 Luna",
+          "2 fps, frames",
+          "0.78",
+          "0.95",
+          "+0.23",
+          ".65",
+          ".65",
+          "$1.31"
+        ],
+        [
+          "GPT-5.6 Sol",
+          "2 fps, frames",
+          "0.80",
+          "0.96",
+          "+0.34",
+          ".68",
+          ".68",
+          "$4.62"
+        ],
+        [
+          "GPT-5.6 Sol",
+          "1 fps, frames",
+          "0.81",
+          "0.97",
+          "+0.32",
+          ".66",
+          ".67",
+          "$2.31"
+        ],
+        [
+          "GPT-5.6 Luna",
+          "1 fps, frames",
+          "0.81",
+          "0.97",
+          "+0.12",
+          ".63",
+          ".62",
+          "$0.65"
+        ],
+        [
+          "Gemini 3.8 Flash",
+          "2 fps, video",
+          "0.86",
+          "1.02",
+          "+0.32",
+          ".68",
+          ".69",
+          "$7.38"
+        ],
+        [
+          "Qwen 3.5-397B-A17B",
+          "1 fps, video",
+          "0.92",
+          "1.12",
+          "+0.42",
+          ".67",
+          ".68",
+          "$8.57"
+        ],
+        [
+          "Gemini 3.1 Flash-Lite",
+          "1 fps, video",
+          "1.01",
+          "1.20",
+          "+0.38",
+          ".68",
+          ".69",
+          "$0.94"
+        ],
+        [
+          "Gemini 3.1 Pro",
+          "2 fps, video",
+          "1.11",
+          "1.30",
+          "+0.69",
+          ".63",
+          ".65",
+          "$37.24"
+        ],
+        [
+          "Gemini 3.1 Pro",
+          "1 fps, video",
+          "1.12",
+          "1.33",
+          "+0.69",
+          ".60",
+          ".62",
+          "$18.62"
+        ]
+      ]
+    },
+    "revised": {
+      "kind": "table",
+      "rows": [
+        [
+          "Configuration",
+          "Input",
+          "MAE",
+          "RMSE",
+          "Bias",
+          "r",
+          "ρ",
+          "USD/1k clips"
+        ],
+        [
+          "Gemini 3.8 Flash",
+          "1 fps, video",
+          "0.53",
+          "0.70",
+          "+0.15",
+          ".64",
+          ".65",
+          "$3.69"
+        ],
+        [
+          "Qwen 3.8 Max",
+          "1 fps, video",
+          "0.73",
+          "0.90",
+          "+0.02",
+          ".65",
+          ".65",
+          "$27.55"
+        ],
+        [
+          "GPT-5.6 Luna",
+          "2 fps, frames",
+          "0.78",
+          "0.95",
+          "+0.23",
+          ".65",
+          ".65",
+          "$1.31"
+        ],
+        [
+          "GPT-5.6 Sol",
+          "2 fps, frames",
+          "0.80",
+          "0.96",
+          "+0.34",
+          ".68",
+          ".68",
+          "$4.62"
+        ],
+        [
+          "GPT-5.6 Sol",
+          "1 fps, frames",
+          "0.81",
+          "0.97",
+          "+0.32",
+          ".66",
+          ".67",
+          "$2.31"
+        ],
+        [
+          "GPT-5.6 Luna",
+          "1 fps, frames",
+          "0.81",
+          "0.97",
+          "+0.12",
+          ".63",
+          ".62",
+          "$0.65"
+        ],
+        [
+          "Gemini 3.8 Flash",
+          "2 fps, video",
+          "0.86",
+          "1.02",
+          "+0.32",
+          ".68",
+          ".69",
+          "$7.38"
+        ],
+        [
+          "Elorian Glimpse",
+          "Native video, default sampling",
+          "0.86",
+          "1.05",
+          "-0.06",
+          ".63",
+          ".63",
+          "$3.34*"
+        ],
+        [
+          "Qwen 3.5-397B-A17B",
+          "1 fps, video",
+          "0.92",
+          "1.12",
+          "+0.42",
+          ".67",
+          ".68",
+          "$8.57"
+        ],
+        [
+          "Gemini 3.1 Flash-Lite",
+          "1 fps, video",
+          "1.01",
+          "1.20",
+          "+0.38",
+          ".68",
+          ".69",
+          "$0.94"
+        ],
+        [
+          "Gemini 3.1 Pro",
+          "2 fps, video",
+          "1.11",
+          "1.30",
+          "+0.69",
+          ".63",
+          ".65",
+          "$37.24"
+        ],
+        [
+          "Gemini 3.1 Pro",
+          "1 fps, video",
+          "1.12",
+          "1.33",
+          "+0.69",
+          ".60",
+          ".62",
+          "$18.62"
+        ]
+      ]
+    }
+  },
+  {
+    "source_block": 151,
+    "section": "6 Model evaluation and results",
+    "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "Note. Costs are benchmark-time estimates, not current pricing. A positive bias means the model rated higher, on average, than human raters."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Note. Costs are benchmark-time estimates, not current pricing. A positive bias means the model rated higher, on average, than human raters. *Glimpse cost is the measured $0.4972 for 149 completed reasoning-off requests, scaled to 1,000 clips; other costs are the original benchmark-time estimates."
+    }
+  },
+  {
+    "after_source_block": 151,
+    "section": "6 Model evaluation and results",
+    "reason": "Add the overview/results figure requested in the email.",
+    "original": null,
+    "revised": {
+      "kind": "figure",
+      "text": "Figure 3. Mean absolute error across the twelve model–input configurations on 134 standard pairings, with seven dimensions per pairing.",
+      "reason": "Add the overview/results figure requested in the email.",
+      "file": "figures/fig2_overall_error.png"
+    }
+  },
+  {
+    "source_block": 153,
+    "section": "6 Model evaluation and results",
+    "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "Model performance depended heavily on which dimension was being rated (Table 5). Cultural familiarity was the hardest dimension for every model, with MAE ranging from 0.88 to 1.80 across configurations. Gemini 3.1 Pro’s cultural-familiarity ratings averaged about 4.47, compared with a human average of 2.76 — a gap of roughly 1.7 points on a 5-point scale. This tells us the model’s ratings didn’t match this particular sample of raters; it doesn’t tell us what cultural knowledge, if any, the model was actually drawing on."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Model performance depended heavily on which dimension was being rated (Table 5). Cultural familiarity was the hardest dimension for the Gemini, GPT and Qwen configurations, with MAE ranging from 0.88 to 1.80 across configurations. Gemini 3.1 Pro’s cultural-familiarity ratings averaged about 4.47, compared with a human average of 2.76 — a gap of roughly 1.7 points on a 5-point scale. This tells us the model’s ratings didn’t match this particular sample of raters; it doesn’t tell us what cultural knowledge, if any, the model was actually drawing on."
+    }
+  },
+  {
+    "source_block": 154,
+    "section": "6 Model evaluation and results",
+    "reason": "The previous negative result used only 22 items because alternate Qwen field names were missed; all 134 now contribute.",
+    "original": {
+      "kind": "p",
+      "text": "A model can look accurate on one measure and unreliable on another for the same dimension. For Gemini 3.8 Flash at 1 fps, the two dimensions with the lowest error were enactment potential (MAE = 0.32) and motional salience (MAE = 0.37) — but their rank correlations with human ratings were weak (ρ = .17 and .38). Facial emotional expressiveness showed the same pattern: low error (MAE = 0.43) alongside weak ranking (ρ = .15). Qwen 3.8 Max’s motional-salience ratings were actually ordered in the opposite direction from the human ratings (ρ = –.20), despite a fairly low error (MAE = 0.54). In short, a model can land close to the human average score while still failing to tell individual gestures apart in the way people do."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "A model can look accurate on one measure and unreliable on another for the same dimension. For Gemini 3.8 Flash at 1 fps, the two dimensions with the lowest error were enactment potential (MAE = 0.32) and motional salience (MAE = 0.37) — but their rank correlations with human ratings were weak (ρ = .17 and .38). Facial emotional expressiveness showed the same pattern: low error (MAE = 0.43) alongside weak ranking (ρ = .15). Qwen 3.8 Max’s motional-salience ratings showed a weak positive association with human ratings (ρ = .27), with MAE = 0.64. In short, a model can land close to the human average score while still failing to tell individual gestures apart in the way people do."
+    }
+  },
+  {
+    "source_block": 155,
+    "section": "6 Model evaluation and results",
+    "reason": "Update numeric ranges and replace the GPT example, which is contradicted by corrected correlations; retain the paragraph’s original point.",
+    "original": {
+      "kind": "p",
+      "text": "Iconicity was rated more consistently: correlations ranged from .57 to .68 across the six configurations shown, and sensorimotor imagery from .49 to .65. But again, lower error didn’t guarantee better ranking — GPT-5.6 Sol had a higher iconicity correlation than Gemini 3.8 Flash (.68 vs. .60) despite a larger error (0.71 vs. 0.60)."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Iconicity was rated more consistently: correlations ranged from .53 to .66 across the six configurations shown, and sensorimotor imagery from .36 to .65. But again, lower error didn’t guarantee better ranking — Qwen 3.5 had a higher iconicity correlation than Gemini 3.8 Flash (.66 vs. .60) despite a larger error (0.91 vs. 0.60)."
+    }
+  },
+  {
+    "source_block": 157,
+    "section": "6 Model evaluation and results",
+    "reason": "Replace incorrect dimension correlations and Qwen movement MAE with metrics computed on all 134 standard pairings.",
+    "original": {
+      "kind": "table",
+      "rows": [
+        [
+          "Dimension",
+          "Human mean",
+          "Gemini Flash",
+          "Qwen Max",
+          "GPT Sol",
+          "GPT Luna",
+          "Qwen 3.5",
+          "Gemini Pro"
+        ],
+        [
+          "Iconicity",
+          "3.10",
+          "0.60 (.60)",
+          "0.61 (.57)",
+          "0.71 (.68)",
+          "0.71 (.65)",
+          "0.91 (.66)",
+          "1.20 (.57)"
+        ],
+        [
+          "Sensorimotor imagery",
+          "3.14",
+          "0.58 (.49)",
+          "0.60 (.52)",
+          "0.77 (.64)",
+          "0.74 (.63)",
+          "0.82 (.65)",
+          "1.11 (.58)"
+        ],
+        [
+          "Motional salience",
+          "3.07",
+          "0.37 (.38)",
+          "0.54 (–.20)",
+          "0.46 (.46)",
+          "0.48 (.45)",
+          "0.47 (.45)",
+          "0.46 (.45)"
+        ],
+        [
+          "Facial emotional expressiveness",
+          "2.20",
+          "0.43 (.15)",
+          "0.95 (.25)",
+          "0.84 (.28)",
+          "0.87 (.26)",
+          "0.92 (.27)",
+          "0.96 (.32)"
+        ],
+        [
+          "Complexity fit",
+          "2.99",
+          "0.56 (.39)",
+          "0.59 (.45)",
+          "0.90 (.60)",
+          "0.69 (.58)",
+          "0.95 (.61)",
+          "1.41 (.56)"
+        ],
+        [
+          "Cultural familiarity",
+          "2.76",
+          "0.88 (.48)",
+          "0.97 (.36)",
+          "1.02 (.52)",
+          "1.10 (.50)",
+          "1.48 (.53)",
+          "1.80 (.44)"
+        ],
+        [
+          "Enactment potential",
+          "4.04",
+          "0.32 (.17)",
+          "0.75 (.29)",
+          "0.86 (.18)",
+          "0.91 (.15)",
+          "0.91 (.12)",
+          "0.93 (.16)"
+        ]
+      ]
+    },
+    "revised": {
+      "kind": "table",
+      "rows": [
+        [
+          "Dimension",
+          "Human mean",
+          "Gemini Flash",
+          "Qwen Max",
+          "GPT Sol",
+          "GPT Luna",
+          "Qwen 3.5",
+          "Gemini Pro"
+        ],
+        [
+          "Iconicity",
+          "3.10",
+          "0.60 (.60)",
+          "0.61 (.57)",
+          "0.71 (.53)",
+          "0.71 (.53)",
+          "0.91 (.66)",
+          "1.20 (.57)"
+        ],
+        [
+          "Sensorimotor imagery",
+          "3.14",
+          "0.58 (.49)",
+          "0.60 (.52)",
+          "0.77 (.44)",
+          "0.74 (.36)",
+          "0.82 (.65)",
+          "1.11 (.58)"
+        ],
+        [
+          "Motional salience",
+          "3.07",
+          "0.37 (.38)",
+          "0.64 (.27)",
+          "0.46 (.44)",
+          "0.48 (.38)",
+          "0.47 (.45)",
+          "0.46 (.45)"
+        ],
+        [
+          "Facial emotional expressiveness",
+          "2.20",
+          "0.43 (.15)",
+          "0.96 (.25)",
+          "0.84 (.52)",
+          "0.87 (.53)",
+          "0.92 (.27)",
+          "0.96 (.32)"
+        ],
+        [
+          "Complexity fit",
+          "2.99",
+          "0.56 (.39)",
+          "0.59 (.45)",
+          "0.90 (.51)",
+          "0.69 (.47)",
+          "0.95 (.61)",
+          "1.41 (.56)"
+        ],
+        [
+          "Cultural familiarity",
+          "2.76",
+          "0.88 (.48)",
+          "0.97 (.36)",
+          "1.02 (.51)",
+          "1.10 (.37)",
+          "1.48 (.53)",
+          "1.80 (.44)"
+        ],
+        [
+          "Enactment potential",
+          "4.04",
+          "0.32 (.17)",
+          "0.75 (.29)",
+          "0.86 (.28)",
+          "0.91 (.27)",
+          "0.91 (.12)",
+          "0.93 (.16)"
+        ]
+      ]
+    }
+  },
+  {
+    "after_source_block": 158,
+    "section": "6 Model evaluation and results",
+    "reason": "Explain the material Qwen correction transparently.",
+    "original": null,
+    "revised": {
+      "kind": "p",
+      "text": "Alternate Qwen Max fields named motional_salience and facial_emotional_salience were mapped to the corresponding rating dimensions before analysis. This recovered missing scores and changed the reported movement correlation from −.20 on 22 items to +.27 on all 134 standard pairings.",
+      "reason": "Explain the material Qwen correction transparently."
+    }
+  },
+  {
+    "after_source_block": 158,
+    "section": "6 Model evaluation and results",
+    "reason": "Add the overview/results figure requested in the email.",
+    "original": null,
+    "revised": {
+      "kind": "figure",
+      "text": "Figure 4. Dimension-specific mean absolute error and Spearman correlation with human item means for the six configurations shown in Table 5.",
+      "reason": "Add the overview/results figure requested in the email.",
+      "file": "figures/fig3_dimension_profiles.png"
+    }
+  },
+  {
+    "source_block": 161,
+    "section": "6 Model evaluation and results",
+    "reason": "Compare the same 14 clips rather than all 134 standard pairings against a 14-item subset.",
+    "original": {
+      "kind": "p",
+      "text": "Human raters gave standard (well-matched) gesture–word pairs an average iconicity of 3.10, and mismatched control pairs an average of just 1.25 (Table 6). Every model rated the mismatched items lower than the standard ones — a good sign that the models are, to some extent, responding to the actual fit between gesture and word rather than the word alone. The size of this drop ranged from 0.84 points (Gemini 3.8 Flash) to 2.28 points (Gemini 3.1 Pro). A bigger drop isn’t automatically “better,“ though, since it partly just reflects how generously a model rated the standard items in the first place."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "For the same 14 underlying clips, human raters gave correct-label pairings an average iconicity of 2.97, and mismatched control pairings an average of just 1.25 (Table 6). Different participants rated the two versions. Every model rated the mismatched items lower than the correct-label versions of those same clips — a good sign that the models are, to some extent, responding to the actual fit between gesture and word rather than the word alone. Across the configurations shown in Table 6, the size of this drop ranged from 0.79 points (Gemini 3.1 Flash-Lite) to 2.21 points (Gemini 3.1 Pro). A bigger drop isn’t automatically “better,” though, since it partly just reflects how generously a model rated the correct-label items in the first place."
+    }
+  },
+  {
+    "source_block": 163,
+    "section": "6 Model evaluation and results",
+    "reason": "Recalculate Table 6 on the same 14 underlying clips for humans and models. Include Glimpse on the same 14 controls.",
+    "original": {
+      "kind": "table",
+      "rows": [
+        [
+          "Rater / model",
+          "Matched",
+          "Mismatched",
+          "Difference"
+        ],
+        [
+          "Human raters",
+          "3.10",
+          "1.25",
+          "–1.85"
+        ],
+        [
+          "Gemini 3.8 Flash",
+          "3.34",
+          "2.50",
+          "–0.84"
+        ],
+        [
+          "Qwen 3.8 Max",
+          "2.96",
+          "1.57",
+          "–1.39"
+        ],
+        [
+          "GPT-5.6 Luna",
+          "3.11",
+          "1.79",
+          "–1.33"
+        ],
+        [
+          "GPT-5.6 Sol",
+          "3.43",
+          "1.86",
+          "–1.58"
+        ],
+        [
+          "Qwen 3.5-397B",
+          "3.63",
+          "1.93",
+          "–1.71"
+        ],
+        [
+          "Gemini 3.1 Pro",
+          "3.99",
+          "1.71",
+          "–2.28"
+        ],
+        [
+          "Gemini 3.1 Flash-Lite",
+          "3.53",
+          "2.43",
+          "–1.10"
+        ]
+      ]
+    },
+    "revised": {
+      "kind": "table",
+      "rows": [
+        [
+          "Rater / model",
+          "Correct label",
+          "Incorrect label",
+          "Difference"
+        ],
+        [
+          "Human raters",
+          "2.97",
+          "1.25",
+          "–1.72"
+        ],
+        [
+          "Gemini 3.8 Flash",
+          "3.43",
+          "2.50",
+          "–0.93"
+        ],
+        [
+          "Qwen 3.8 Max",
+          "2.86",
+          "1.57",
+          "–1.29"
+        ],
+        [
+          "GPT-5.6 Luna",
+          "3.14",
+          "1.79",
+          "–1.36"
+        ],
+        [
+          "GPT-5.6 Sol",
+          "3.57",
+          "1.86",
+          "–1.71"
+        ],
+        [
+          "Qwen 3.5-397B",
+          "3.36",
+          "1.93",
+          "–1.43"
+        ],
+        [
+          "Gemini 3.1 Pro",
+          "3.93",
+          "1.71",
+          "–2.21"
+        ],
+        [
+          "Gemini 3.1 Flash-Lite",
+          "3.21",
+          "2.43",
+          "–0.79"
+        ],
+        [
+          "Elorian Glimpse",
+          "2.71",
+          "1.57",
+          "–1.14"
+        ]
+      ]
+    }
+  },
+  {
+    "source_block": 164,
+    "section": "6 Model evaluation and results",
+    "reason": "State the control comparison and model configurations. Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "Note. Small (~0.01-point) mismatches between the difference column and the two adjacent columns reflect rounding of unrounded source values."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Note. Both columns use the same 14 clips; human ratings come from different participants. Gemini, GPT and Qwen configurations match Table 5, with Flash-Lite at 1 fps; Glimpse uses native video with provider-default sampling and reasoning disabled. Small (~0.01-point) mismatches between the difference column and the two adjacent columns reflect rounding of unrounded source values."
+    }
+  },
+  {
+    "after_source_block": 165,
+    "section": "6 Model evaluation and results",
+    "reason": "Clarify what the unrelated-label controls test, following the user’s explanation.",
+    "original": null,
+    "revised": {
+      "kind": "p",
+      "text": "Relabeling changes semantic compatibility but not the footage itself; low ratings are therefore expected most directly for word-dependent dimensions such as iconicity, rather than necessarily for movement size, facial expressiveness, or ease of enactment.",
+      "reason": "Clarify what the unrelated-label controls test, following the user’s explanation."
+    }
+  },
+  {
+    "after_source_block": 165,
+    "section": "6 Model evaluation and results",
+    "reason": "Add the overview/results figure requested in the email.",
+    "original": null,
+    "revised": {
+      "kind": "figure",
+      "text": "Figure 5. Mean iconicity for the same 14 clips under correct and unrelated labels. Human ratings for the two versions were provided by different participants. Values are descriptive; no confidence intervals are shown.",
+      "reason": "Add the overview/results figure requested in the email.",
+      "file": "figures/fig4_controls_descriptive.png"
+    }
+  },
+  {
+    "source_block": 168,
+    "section": "6 Model evaluation and results",
+    "reason": "Avoid a causal input-rate conclusion from one run per configuration.",
+    "original": {
+      "kind": "p",
+      "text": "Gemini 3.8 Flash went the other way: its overall error got worse with more frames (MAE: 0.53 → 0.86), even though its rank correlation slightly improved (ρ: .65 → .69). Most of that extra error came from the facial-expression and enactment-potential ratings, which shifted toward the extreme ends of the scale at the higher sampling rate. This shows that giving a model more visual information doesn’t uniformly make it more accurate — it can improve how well a model ranks gestures relative to each other while simultaneously making its absolute scores drift further from the human average."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Gemini 3.8 Flash went the other way: its overall error got worse with more frames (MAE: 0.53 → 0.86), even though its rank correlation slightly improved (ρ: .65 → .69). Most of that extra error came from the facial-expression and enactment-potential ratings, which shifted toward the extreme ends of the scale at the higher sampling rate. In these saved runs, giving a model more visual information did not uniformly make it more accurate — it can improve how well a model ranks gestures relative to each other while simultaneously making its absolute scores drift further from the human average."
+    }
+  },
+  {
+    "source_block": 174,
+    "section": "6 Model evaluation and results",
+    "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "Cost per 1,000 clips ranged from $0.65 to $37.24 (Table 4). The cheapest configuration, GPT-5.6 Luna at 1 fps ($0.65), had a moderate error (MAE = 0.81); its 2 fps version cost slightly more ($1.31) with somewhat lower error (MAE = 0.78). Gemini 3.8 Flash at 1 fps, the most accurate configuration overall, cost $3.69. Qwen 3.8 Max, the least biased configuration, cost considerably more at $27.55 — a reminder that the “best” configuration depends on what you’re optimizing for."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Cost per 1,000 clips ranged from $0.65 to $37.24 (Table 4). The cheapest configuration, GPT-5.6 Luna at 1 fps ($0.65), had a moderate error (MAE = 0.81); its 2 fps version cost slightly more ($1.31) with somewhat lower error (MAE = 0.78). Gemini 3.8 Flash at 1 fps, the most accurate configuration overall, cost $3.69. Qwen 3.8 Max, the least biased configuration, cost considerably more at $27.55 — a reminder that the “best” configuration depends on what you’re optimizing for. Glimpse’s completed run cost $0.4972 for 149 clips, equivalent to $3.34 per 1,000 clips."
+    }
+  },
+  {
+    "after_source_block": 175,
+    "section": "6 Model evaluation and results",
+    "reason": "Add the user-requested Glimpse evaluation.",
+    "original": null,
+    "revised": {
+      "kind": "heading",
+      "text": "6.3.7 Elorian Glimpse",
+      "reason": "Add the user-requested Glimpse evaluation."
+    }
+  },
+  {
+    "after_source_block": 175,
+    "section": "6 Model evaluation and results",
+    "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": null,
+    "revised": {
+      "kind": "p",
+      "text": "Glimpse returned complete ratings for all 149 model pairings. Against the same 134 standard-pairing human means used above, it obtained MAE = 0.86, RMSE = 1.05, and pooled Spearman ρ = .63 (Table 4). Its error was higher than Gemini Flash at 1 fps (0.53), Qwen Max (0.73) and the GPT configurations. On the 14 shared controls, its seven-dimension MAE was 0.75, compared with 0.77 for Qwen Max and 0.92 for Gemini Flash at 1 fps. Its mean iconicity fell from 2.71 under correct labels to 1.57 under unrelated labels (Table 6).",
+      "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper."
+    }
+  },
+  {
+    "after_source_block": 175,
+    "section": "6 Model evaluation and results",
+    "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": null,
+    "revised": {
+      "kind": "p",
+      "text": "Glimpse’s small overall bias concealed opposite errors across dimensions: it rated facial emotional expressiveness 1.07 points below humans, while rating cultural familiarity 0.80 points above them. Its largest error was facial emotional expressiveness (MAE = 1.08), followed by cultural familiarity (1.04; Table 7). Against individual human ratings, Glimpse differed by 1.08 points on average, compared with 1.06 between two humans. The evaluation used one reasoning-off output per clip; the provider’s video sampling rate was unspecified.",
+      "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper."
+    }
+  },
+  {
+    "after_source_block": 175,
+    "section": "6 Model evaluation and results",
+    "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": null,
+    "revised": {
+      "kind": "caption",
+      "text": "Table 7. Glimpse performance by dimension on 134 standard pairings",
+      "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper."
+    }
+  },
+  {
+    "after_source_block": 175,
+    "section": "6 Model evaluation and results",
+    "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": null,
+    "revised": {
+      "kind": "table",
+      "rows": [
+        [
+          "Dimension",
+          "Human mean",
+          "Glimpse mean",
+          "MAE",
+          "Bias",
+          "ρ"
+        ],
+        [
+          "Iconicity",
+          "3.10",
+          "2.85",
+          "0.83",
+          "-0.25",
+          ".51"
+        ],
+        [
+          "Sensorimotor imagery",
+          "3.14",
+          "2.99",
+          "0.76",
+          "-0.15",
+          ".43"
+        ],
+        [
+          "Motional salience",
+          "3.07",
+          "2.45",
+          "0.72",
+          "-0.62",
+          ".30"
+        ],
+        [
+          "Facial emotional salience",
+          "2.20",
+          "1.13",
+          "1.08",
+          "-1.07",
+          ".32"
+        ],
+        [
+          "Complexity fit",
+          "2.99",
+          "3.23",
+          "0.95",
+          "+0.24",
+          ".47"
+        ],
+        [
+          "Cultural familiarity",
+          "2.76",
+          "3.57",
+          "1.04",
+          "+0.80",
+          ".52"
+        ],
+        [
+          "Enactment potential",
+          "4.04",
+          "4.64",
+          "0.68",
+          "+0.60",
+          ".49"
+        ]
+      ],
+      "text": "",
+      "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper."
+    }
+  },
+  {
+    "source_block": 178,
+    "section": "7 Discussion",
+    "reason": "Update scope after deleting fine-tuning; preserve original discussion structure.",
+    "original": {
+      "kind": "p",
+      "text": "This study asked whether contemporary video-language models can serve as computational annotators for GMSM-aligned gesture dimensions, using a benchmark of gesture–word pairings evaluated against a large human reference sample. Six research questions and their associated hypotheses guided this evaluation; we address each in turn before summarizing the pattern across all six."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "This study asked whether contemporary video-language models can serve as computational annotators for GMSM-aligned gesture dimensions, using a benchmark of gesture–word pairings evaluated against a large human reference sample. Five research questions and their associated hypotheses frame this evaluation; we address them in turn."
+    }
+  },
+  {
+    "source_block": 179,
+    "section": "7 Discussion",
+    "reason": "Match the revised question. No correlation significance testing was reported. Delete discussion of an obsolete RQ formulation, retaining its existing limitation. Use the actual scope of the measurement. Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "RQ1/H1 (reliable, correlated ratings). H1 predicted moderate-to-strong positive correlations between model and human ratings across dimensions. This is supported, with an important qualification. Pooled Spearman correlations across the eleven configurations ranged from .62 to .69 — moderate by conventional standards, and clearly above chance, but not strong in an absolute sense. Every configuration also showed positive bias, so agreement in ranking did not imply agreement in absolute level. More importantly, RQ1 as originally framed asks about reliability — consistency across repeated inferences, prompt conditions, and model configurations. The reported benchmark does not test this: each configuration was run once against a fixed human reference, with no repeated-inference or repeated-prompt data to establish whether a model would return the same rating for the same clip on a second attempt. What the data speak to is validity, not reliability in the strict sense the question was posed."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "RQ1/H1 (correspondence with human ratings). H1 predicted positive correlations between model and human ratings across dimensions. This is supported, with an important qualification. Pooled Spearman correlations across the twelve configurations ranged from .62 to .69 — moderate by conventional standards, but not strong in an absolute sense. Most configurations showed positive bias, with Glimpse the exception, so agreement in ranking did not imply agreement in absolute level. Reliability — consistency across repeated inferences or prompt conditions — remains untested: each configuration was run once against a fixed human reference, with no repeated-inference or repeated-prompt data to establish whether a model would return the same rating for the same clip on a second attempt. What the data speak to is correspondence with the human reference, not reliability across repeated runs."
+    }
+  },
+  {
+    "source_block": 180,
+    "section": "7 Discussion",
+    "reason": "Movement means are not near the ceiling, and restricted distributions alone do not prove the causal explanation. Remove interpretation resting on the erroneous negative Qwen result. The preceding sentence and corrected dimension results do not justify the original binary verdict. Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "RQ2/H2 (grounded dimensions easier). H2 predicted that visually grounded dimensions (iconicity, motional salience, enactment potential) would show higher human–model agreement than culturally or affectively mediated dimensions. The data split this hypothesis along its own axes. On error (MAE), the prediction holds: cultural familiarity was the worst dimension for every model. But enactment potential and motional salience — the dimensions H2 predicted would be easiest — had among the lowest MAEs for Gemini 3.8 Flash, essentially because human ratings on these dimensions are compressed near the scale ceiling, not because the model was tracking anything gesture-specific. On ranking (Spearman ρ), the pattern is closer to H2’s prediction, but for a more transparent reason: iconicity and sensorimotor imagery had the most consistent rank correlations, while motional salience and enactment potential — despite low error — had weak or even negative rank correlations. H2 is therefore supported for ranking accuracy but not for absolute error, and the dimensions where this split appeared most strongly are the same dimensions with the lowest interrater reliability in the human data (α = .09 and .18)."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "RQ2/H2 (grounded dimensions easier). H2 predicted that visually grounded dimensions (iconicity, motional salience, enactment potential) would show higher human–model agreement than culturally or affectively mediated dimensions. The data split this hypothesis along its own axes. On error (MAE), the prediction holds: cultural familiarity was among the largest sources of error across models. But enactment potential and motional salience — the dimensions H2 predicted would be easiest — had among the lowest MAEs for Gemini 3.8 Flash, a pattern consistent with the restricted human rating distributions, which does not by itself establish item-specific discrimination. On ranking (Spearman ρ), the pattern is closer to H2’s prediction, but for a more transparent reason: iconicity and sensorimotor imagery had the most consistent rank correlations, while motional salience and enactment potential — despite low error — had weaker rank correlations. H2 therefore receives mixed descriptive support, and the dimensions where this split appeared most strongly are the same dimensions with the lowest interrater reliability in the human data (α = .09 and .18)."
+    }
+  },
+  {
+    "source_block": 181,
+    "section": "7 Discussion",
+    "reason": "The original RQ3/H3 pairing was erroneous: H3 concerned fine-tuning.",
+    "original": {
+      "kind": "p",
+      "text": "RQ3/H3 (construct validity for covariate use). This is partially supported and dimension-dependent rather than a single yes/no answer. The mismatched-control analysis is the strongest evidence in the models’ favor: every configuration rated mismatched pairs lower on iconicity than matched pairs, showing genuine sensitivity to gesture–word compatibility. That said, even the best-calibrated model still rated mismatched pairs well above the human floor, so the sensitivity is real but incomplete. Usable dimensions are iconicity and sensorimotor imagery, with caution; cultural familiarity and facial-expression salience are not yet usable as unsupervised covariates."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "RQ3 (alignment for covariate use). This is partially supported and dimension-dependent rather than a single yes/no answer. The mismatched-control analysis is the strongest evidence in the models’ favor: every configuration rated mismatched pairs lower on iconicity than matched pairs, showing genuine sensitivity to gesture–word compatibility. That said, even the best-calibrated model still rated mismatched pairs well above the human floor, so the sensitivity is real but incomplete. Usable dimensions are iconicity and sensorimotor imagery, with caution; cultural familiarity and facial-expression salience are not yet usable as unsupervised covariates."
+    }
+  },
+  {
+    "source_block": 182,
+    "section": "7 Discussion",
+    "reason": "Delete obsolete fine-tuning verdict after removing it from the tested questions.",
+    "original": {
+      "kind": "p",
+      "text": "RQ4/H4 (fine-tuning). This cannot be evaluated from the reported results. All eleven configurations are zero-shot prompting variants; no fine-tuned configuration was included in this benchmark. RQ4/H4 is therefore untested, not unsupported."
+    },
+    "revised": null
+  },
+  {
+    "source_block": 183,
+    "section": "7 Discussion",
+    "reason": "Renumber after removing fine-tuning. Low alpha is not equivalent to the greatest raw disagreement. Remove duplicated dimension names following the correction. Correct hypothesis numbering and avoid treating an untested uncertainty relationship as established.",
+    "original": {
+      "kind": "p",
+      "text": "RQ5/H5 (disagreement mirrors human disagreement). The two datasets converge here in an informative way. In the human data, disagreement was highest for exactly the dimensions with the lowest Krippendorff’s α — motional salience and enactment potential — where between-video variance was also smallest. In the model data, those same two dimensions show the clearest low-error/low-ranking split. This supports H5’s core prediction, though the mechanism looks less like “models replicate human uncertainty” and more like both humans and models working with items that carry little genuine between-item variance on these two dimensions — a structural property of the stimulus set rather than evidence of shared cognitive uncertainty."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "RQ4/H4 (disagreement mirrors human disagreement). The two datasets converge here in an informative way. In the human data, chance-corrected agreement was lowest for motional salience and enactment potential, where between-video variance was also smallest. In the model data, those same two dimensions show the clearest low-error/low-ranking split. This is consistent with H4’s core prediction, though the mechanism looks less like “models replicate human uncertainty” and more like both humans and models working with items that carry little genuine between-item variance on these two dimensions — a structural property of the stimulus set rather than evidence of shared cognitive uncertainty."
+    }
+  },
+  {
+    "source_block": 184,
+    "section": "7 Discussion",
+    "reason": "Renumber after removing fine-tuning. Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "RQ6/H6 (scalable pipeline feasibility). Cautiously supported for a subset of dimensions, not the full profile. The strongest practical case is Gemini 3.8 Flash at 1 fps: lowest MAE of any configuration, a non-dominated cost–accuracy position, and reasonable iconicity/sensorimotor-imagery correlations. Cultural familiarity, with errors exceeding a full scale point for some configurations, is not ready for unsupervised large-scale use. Table 7 summarizes these findings."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "RQ5/H5 (scalable pipeline feasibility). Cautiously supported for a subset of dimensions, not the full profile. The strongest practical case is Gemini 3.8 Flash at 1 fps: lowest MAE of any configuration, a non-dominated cost–accuracy position, and reasonable iconicity/sensorimotor-imagery correlations. Cultural familiarity, with errors exceeding a full scale point for some configurations, is not ready for unsupervised large-scale use. Table 8 summarizes these findings."
+    }
+  },
+  {
+    "source_block": 185,
+    "section": "7 Discussion",
+    "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "Table 7. Summary of findings by research question and hypothesis"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Table 8. Summary of findings by research question and hypothesis"
+    }
+  },
+  {
+    "source_block": 186,
+    "section": "7 Discussion",
+    "reason": "Delete fine-tuning row, repair question/hypothesis numbering, and distinguish descriptive patterns from unperformed tests.",
+    "original": {
+      "kind": "table",
+      "rows": [
+        [
+          "#",
+          "Question/Hypothesis",
+          "Verdict",
+          "Basis"
+        ],
+        [
+          "RQ1/H1",
+          "Reliable, correlated ratings",
+          "Partially supported",
+          "ρ = .62–.69, but no repeated-inference data exists to test reliability proper"
+        ],
+        [
+          "RQ2/H2",
+          "Grounded dimensions easier",
+          "Split: supported for ranking, not for error",
+          "Iconicity ranks best; enactment/motional have lowest error but weakest ranking"
+        ],
+        [
+          "RQ3/H3",
+          "Construct validity sufficient for covariate use",
+          "Partially supported, dimension-dependent",
+          "Strong mismatch sensitivity; cultural familiarity/facial salience too imprecise"
+        ],
+        [
+          "RQ4/H4",
+          "Fine-tuning improves alignment",
+          "Untested",
+          "No fine-tuned configuration was included in the reported benchmark"
+        ],
+        [
+          "RQ5/H5",
+          "Model disagreement mirrors human disagreement",
+          "Supported, mechanism uncertain",
+          "Same two dimensions show low reliability in both datasets"
+        ],
+        [
+          "RQ6/H6",
+          "Scalable pipeline feasibility",
+          "Supported for a subset of dimensions only",
+          "Best case: Gemini 3.8 Flash, iconicity/imagery; weakest: cultural familiarity"
+        ]
+      ]
+    },
+    "revised": {
+      "kind": "table",
+      "rows": [
+        [
+          "#",
+          "Question/Hypothesis",
+          "Verdict",
+          "Basis"
+        ],
+        [
+          "RQ1/H1",
+          "Correspondence with human ratings",
+          "Partially supported",
+          "ρ = .62–.69, but no repeated-inference data exists to test reliability proper"
+        ],
+        [
+          "RQ2/H2",
+          "Grounded dimensions easier",
+          "Mixed descriptive support",
+          "Iconicity ranks best; enactment/motional have lowest error but weakest ranking"
+        ],
+        [
+          "RQ3",
+          "Alignment for covariate use",
+          "Partially supported, dimension-dependent",
+          "Strong mismatch sensitivity; cultural familiarity/facial salience too imprecise"
+        ],
+        [
+          "RQ4/H4",
+          "Model disagreement mirrors human disagreement",
+          "Consistent descriptive pattern; not directly tested",
+          "Low human alpha and weak model ranking coincide; model uncertainty was not measured"
+        ],
+        [
+          "RQ5/H5",
+          "Scalable pipeline feasibility",
+          "Supported for a subset of dimensions only",
+          "Best case: Gemini 3.8 Flash, iconicity/imagery; weakest: cultural familiarity"
+        ]
+      ]
+    }
+  },
+  {
+    "after_source_block": 187,
+    "section": "7 Discussion",
+    "reason": "Add a brief interpretation of the requested human/model disagreement comparison.",
+    "original": null,
+    "revised": {
+      "kind": "p",
+      "text": "The direct comparison also places model discrepancies in context: disagreement between individual humans averaged 1.06 points, comparable to the 0.93–1.03-point differences between individual humans and the Flash, Qwen Max, and GPT configurations reported above. Model ratings should therefore be evaluated against the variability in human judgments as well as their proximity to the pooled human mean.",
+      "reason": "Add a brief interpretation of the requested human/model disagreement comparison."
+    }
+  },
+  {
+    "source_block": 192,
+    "section": "7 Discussion",
+    "reason": "Remove interpretation based on the erroneous Qwen negative correlation.",
+    "original": {
+      "kind": "p",
+      "text": "The distinction between absolute error and rank-order association is particularly important when ratings are intended as covariates. A model that assigns nearly constant scores can approximate a dimension with a restricted human range yet fail to distinguish stimuli from one another. Conversely, a model can preserve the relative ordering of items while systematically shifting its scores away from the human scale. The enactment-potential ceiling effect observed for Gemini 3.1 Flash-Lite, and the weak or negative rank correlations observed for otherwise low-error dimensions such as motional salience and enactment potential, illustrate these two distinct failure modes."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "The distinction between absolute error and rank-order association is particularly important when ratings are intended as covariates. A model that assigns nearly constant scores can approximate a dimension with a restricted human range yet fail to distinguish stimuli from one another. Conversely, a model can preserve the relative ordering of items while systematically shifting its scores away from the human scale. The enactment-potential ceiling effect observed for Gemini 3.1 Flash-Lite, and the weak rank correlations observed for otherwise low-error dimensions such as motional salience and enactment potential, illustrate these two distinct failure modes."
+    }
+  },
+  {
+    "source_block": 196,
+    "section": "7 Discussion",
+    "reason": "The cohort-effect dimensions are not identical to the largest-error dimensions. Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "Cultural familiarity yielded the largest errors of any dimension across every reported configuration. Because familiarity is inherently population-dependent, a pooled human mean reflects the composition of the sampled cohorts rather than a universal property of the gesture. This is not a hypothetical concern: the video-adjusted cohort analysis reported alongside the human data found that the Japanese-language cohort rated cultural familiarity, enactment potential, and gesture complexity fit systematically lower than the German-language cohort on the identical videos, while the English-language cohort rated iconicity, motional salience, and facial-expression salience systematically lower. These are precisely the dimensions where model–human error was largest. A pooled human reference for these dimensions is therefore not a stable target, it shifts depending on which cohorts happen to be represented and in what proportion. A model score benchmarked against such a target, or later validated against a differently composed cohort, may appear to succeed or fail for reasons that have nothing to do with the model’s visual reasoning. Cohort-specific validation and transparent specification of the intended reference population are needed before ratings on these dimensions are applied in a different instructional or cultural setting."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Cultural familiarity was among the largest sources of error across the reported configurations. Because familiarity is inherently population-dependent, a pooled human mean reflects the composition of the sampled cohorts rather than a universal property of the gesture. This is not a hypothetical concern: the video-adjusted cohort analysis reported alongside the human data found that the Japanese-language cohort rated cultural familiarity, enactment potential, and gesture complexity fit systematically lower than the German-language cohort on the identical videos, while the English-language cohort rated iconicity, motional salience, and facial-expression salience systematically lower. Several of these dimensions also showed substantial model–human error. A pooled human reference for these dimensions is therefore not a stable target, it shifts depending on which cohorts happen to be represented and in what proportion. A model score benchmarked against such a target, or later validated against a differently composed cohort, may appear to succeed or fail for reasons that have nothing to do with the model’s visual reasoning. Cohort-specific validation and transparent specification of the intended reference population are needed before ratings on these dimensions are applied in a different instructional or cultural setting."
+    }
+  },
+  {
+    "source_block": 200,
+    "section": "7 Discussion",
+    "reason": "The comparison concerns runs and input formats within a model.",
+    "original": {
+      "kind": "p",
+      "text": "Temporal sampling density should be treated as an empirical design choice rather than a default setting. Higher sampling density improved some reported metrics (GPT-5.6 Sol and Luna) and worsened others (Gemini 3.8 Flash), and the present comparison does not identify a single, universally optimal rate. The auxiliary video-versus-frames ingestion comparison is limited to one model and one reported comparison; it shows similar aggregate error across input formats but imperfect item-level agreement (74% identical integer ratings), and does not by itself establish equivalence between the two input methods. Repeated runs with carefully matched visual information would be needed to separate genuine input-format effects from ordinary model-to-model variability."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Temporal sampling density should be treated as an empirical design choice rather than a default setting. Higher sampling density improved some reported metrics (GPT-5.6 Sol and Luna) and worsened others (Gemini 3.8 Flash), and the present comparison does not identify a single, universally optimal rate. The auxiliary video-versus-frames ingestion comparison is limited to one model and one reported comparison; it shows similar aggregate error across input formats but imperfect item-level agreement (74% identical integer ratings), and does not by itself establish equivalence between the two input methods. Repeated runs with carefully matched visual information would be needed to separate genuine input-format effects from ordinary run-to-run variability."
+    }
+  },
+  {
+    "source_block": 203,
+    "section": "7 Discussion",
+    "reason": "Remove the obsolete question formulation while preserving the original reliability limitation. Agreement alone does not establish construct or predictive validity.",
+    "original": {
+      "kind": "p",
+      "text": "Several limitations qualify how these findings should be read. First, reliability in the strict sense was not tested. RQ1 was framed around consistency across repeated inferences, prompt phrasings, and model configurations, but the reported benchmark compares only a single run per configuration against a fixed human reference. This design establishes validity — agreement with an external standard — but not reliability in the psychometric sense of self-consistency, since whether a given model would return the same rating for the same clip on a second attempt, or under a reworded but equivalent prompt, remains untested."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Several limitations qualify how these findings should be read. First, reliability in the strict sense was not tested. The reported benchmark compares only a single run per configuration against a fixed human reference. This design measures correspondence with an external reference, but not reliability in the psychometric sense of self-consistency, since whether a given model would return the same rating for the same clip on a second attempt, or under a reworded but equivalent prompt, remains untested."
+    }
+  },
+  {
+    "source_block": 204,
+    "section": "7 Discussion",
+    "reason": "Keep fine-tuning as an existing limitation, removing obsolete RQ/H references. Include the completed Glimpse run using the same corrected human reference as the rest of the paper.",
+    "original": {
+      "kind": "p",
+      "text": "Second, fine-tuning was not evaluated. RQ4 and H4 concern whether domain-specific fine-tuning improves alignment relative to zero-shot prompting, but all eleven reported configurations are zero-shot prompting variants across three commercial model families, and no fine-tuned configuration was included in this benchmark. RQ4 and H4 should accordingly be reported as untested rather than as a negative or inconclusive result."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Second, fine-tuning was not evaluated. All twelve reported configurations are zero-shot prompting variants across four commercial model families, and no fine-tuned configuration was included in this benchmark."
+    }
+  },
+  {
+    "source_block": 206,
+    "section": "7 Discussion",
+    "reason": "Correct the false control-design limitation and resolve the highlighted count question.",
+    "original": {
+      "kind": "p",
+      "text": "Fourth, the stimulus set imposes its own constraints. The benchmark drew on a modest item pool of well under 150 gesture–word pairings, which limits the precision of dimension-specific correlation estimates; none of the reported correlations carry confidence intervals, and differences between configurations of only a few hundredths (e.g., ρ = .67 vs. .69) should not be over-interpreted as meaningfully distinct. The mismatched-control set is particularly small, and because it was not constructed by re-labeling the same gestures under both a matched and a mismatched target word, comparisons between the two sets may partly reflect differences in item composition rather than semantic compatibility alone; the exact count and composition of standard versus mismatched-control items likewise requires reconciliation with the underlying stimulus records before this figure is finalized for publication. Relatedly, all gesture videos featured a single performer recorded once under standardized conditions, so whether model or human ratings would generalize to a different performer, a different recording style, or repeated takes of the same gesture is not addressed by this design."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Fourth, the stimulus set imposes its own constraints. The benchmark drew on a modest item pool of well under 150 gesture–word pairings, which limits the precision of dimension-specific correlation estimates; none of the reported correlations carry confidence intervals, and differences between configurations of only a few hundredths (e.g., ρ = .67 vs. .69) should not be over-interpreted as meaningfully distinct. The mismatched-control set is particularly small: 14 clips were evaluated under both correct and unrelated labels, with different human participants rating the two versions. These controls were deliberately selected to produce low semantic compatibility, so the observed effect should not be assumed to generalize to all clips or types of mismatch. Relatedly, all gesture videos featured a single performer recorded once under standardized conditions, so whether model or human ratings would generalize to a different performer, a different recording style, or repeated takes of the same gesture is not addressed by this design."
+    }
+  },
+  {
+    "source_block": 210,
+    "section": "7 Discussion",
+    "reason": "Remove obsolete RQ/H references, retaining fine-tuning as future work. The proposed control design was already used; retain a concrete extension. The control mapping is now supplied.",
+    "original": {
+      "kind": "p",
+      "text": "Several extensions follow directly from the limitations above. A reliability study, repeating inference on the same items across multiple runs, prompt paraphrases, and, where available, temperature or sampling settings, would establish whether VLM ratings are stable enough to trust a single pass, which the present design cannot determine. A direct zero-shot-versus-fine-tuned comparison, using the same stimulus set and evaluation pipeline reported here, would directly address RQ4/H4, which remains open. Because cultural familiarity and several other dimensions proved population-dependent even in the human data, a deliberately cross-cultural validation design, sampling comparable numbers of raters and, ideally, comparable model prompts per language/cultural cohort — would help separate genuine model limitations from reference-target instability. A revised control-item design, in which the same gestures are evaluated under both a matched and a mismatched target word, would also let future work isolate semantic-compatibility effects from item-composition effects. Most importantly, connecting GMSM dimension scores, whether human- or model-generated, to actual vocabulary-learning outcomes in a controlled instructional study is the necessary next step before any claim about the predictive or practical value of automated gesture annotation can be made. Finally, expanding the stimulus set, refining the operational definitions to more closely track the current GMSM, and formally identifying which items function as mismatched controls in the shared data would together allow tighter confidence intervals around the dimension-specific correlations reported here and let future benchmarks track improvement in specific, currently weak dimensions such as cultural familiarity and facial-expression salience."
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Several extensions follow directly from the limitations above. A reliability study, repeating inference on the same items across multiple runs, prompt paraphrases, and, where available, temperature or sampling settings, would establish whether VLM ratings are stable enough to trust a single pass, which the present design cannot determine. A direct zero-shot-versus-fine-tuned comparison, using the same stimulus set and evaluation pipeline reported here, would establish whether domain-specific adaptation improves alignment. Because cultural familiarity and several other dimensions proved population-dependent even in the human data, a deliberately cross-cultural validation design, sampling comparable numbers of raters and, ideally, comparable model prompts per language/cultural cohort — would help separate genuine model limitations from reference-target instability. Expanding the present control design to more clips and a wider range of mismatched labels would help establish how broadly its findings generalize. Most importantly, connecting GMSM dimension scores, whether human- or model-generated, to actual vocabulary-learning outcomes in a controlled instructional study is the necessary next step before any claim about the predictive or practical value of automated gesture annotation can be made. Finally, expanding the stimulus set, refining the operational definitions to more closely track the current GMSM, and retaining explicit control-item mappings in the shared data would together allow tighter confidence intervals around the dimension-specific correlations reported here and let future benchmarks track improvement in specific, currently weak dimensions such as cultural familiarity and facial-expression salience."
+    }
+  },
+  {
+    "after_source_block": 212,
+    "section": "8 Conclusion and availability",
+    "reason": "Requested reproducibility statement.",
+    "original": null,
+    "revised": {
+      "kind": "heading",
+      "text": "Data and materials availability",
+      "reason": "Requested reproducibility statement."
+    }
+  },
+  {
+    "after_source_block": 212,
+    "section": "8 Conclusion and availability",
+    "reason": "Link to the public, versioned GitHub materials branch rather than leave an unfulfilled future-deposit placeholder.",
+    "original": null,
+    "revised": {
+      "kind": "p",
+      "text": "The aggregate human ratings, model scores, stimulus mapping, instructions in all four survey languages, model prompt, analysis code, and figure files are publicly available at https://github.com/WordsGPT/GestureCheck/tree/paper-materials-20261019/paper_materials. Source information and reuse terms for the video collections are documented there. Participant-level records are not included in this aggregate release.",
+      "reason": "Link to the public, versioned GitHub materials branch rather than leave an unfulfilled future-deposit placeholder."
+    }
+  },
+  {
+    "after_source_block": 216,
+    "section": "References",
+    "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution.",
+    "original": null,
+    "revised": {
+      "kind": "reference",
+      "text": "Bavaresco, A., Bernardi, R., Bertolazzi, L., Elliott, D., Fernández, R., Gatt, A., Ghaleb, E., Giulianelli, M., Hanna, M., Koller, A., Martins, A., Mondorf, P., Neplenbroek, V., Pezzelle, S., Plank, B., Schlangen, D., Suglia, A., Surikuchi, A. K., Takmaz, E., & Testoni, A. (2025). LLMs instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 238–255. https://doi.org/10.18653/v1/2025.acl-short.20",
+      "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution."
+    }
+  },
+  {
+    "source_block": 217,
+    "section": "References",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "Bavaresco, A., de Heer Kloots, M., Pezzelle, S., & Fernández, R. (2026). Vision-Language Models Align with Human Neural Representations in Concept Processing. https://doi.org/10.18653/v1/2026.eacl-long.150"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Bavaresco, A., de Heer Kloots, M., Pezzelle, S., & Fernández, R. (2026). Vision-Language Models Align with Human Neural Representations in Concept Processing. Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers), 3255–3274. https://doi.org/10.18653/v1/2026.eacl-long.150"
+    }
+  },
+  {
+    "after_source_block": 217,
+    "section": "References",
+    "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution.",
+    "original": null,
+    "revised": {
+      "kind": "reference",
+      "text": "Bertasius, G., Wang, H., & Torresani, L. (2021). Is Space-Time Attention All You Need for Video Understanding? Proceedings of the 38th International Conference on Machine Learning, 139, 813–824. https://proceedings.mlr.press/v139/bertasius21a.html",
+      "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution."
+    }
+  },
+  {
+    "after_source_block": 218,
+    "section": "References",
+    "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution.",
+    "original": null,
+    "revised": {
+      "kind": "reference",
+      "text": "Cao, Z., Simon, T., Wei, S.-E., & Sheikh, Y. (2017). Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 7291–7299. https://arxiv.org/abs/1611.08050",
+      "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution."
+    }
+  },
+  {
+    "source_block": 223,
+    "section": "References",
+    "reason": "Repair a malformed URL; preserve the original bibliographic wording.",
+    "original": {
+      "kind": "p",
+      "text": "Dingemanse, M., Perlman, M., & Perniss, P. (2020). Construals of iconicity: experimental approaches to form–meaning resemblances in language. Language and Cognition, 12(1), 1–14. https://doi.org/DOI: 10.1017/langcog.2019.48"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Dingemanse, M., Perlman, M., & Perniss, P. (2020). Construals of iconicity: experimental approaches to form–meaning resemblances in language. Language and Cognition, 12(1), 1–14. https://doi.org/10.1017/langcog.2019.48"
+    }
+  },
+  {
+    "after_source_block": 223,
+    "section": "References",
+    "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution.",
+    "original": null,
+    "revised": {
+      "kind": "reference",
+      "text": "Donahue, J., Hendricks, L. A., Guadarrama, S., Rohrbach, M., Venugopalan, S., Saenko, K., & Darrell, T. (2015). Long-Term Recurrent Convolutional Networks for Visual Recognition and Description. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2625–2634. https://openaccess.thecvf.com/content_cvpr_2015/html/Donahue_Long-Term_Recurrent_Convolutional_2015_CVPR_paper.html",
+      "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution."
+    }
+  },
+  {
+    "after_source_block": 225,
+    "section": "References",
+    "reason": "Add a primary VLM reference or a bibliography entry already cited in the original text.",
+    "original": null,
+    "revised": {
+      "kind": "reference",
+      "text": "Fu, C., Dai, Y., Luo, Y., Li, L., Ren, S., Zhang, R., Wang, Z., Zhou, C., Shen, Y., Zhang, M., Chen, P., Li, Y., Lin, S., Zhao, S., Li, K., Xu, T., Zheng, X., Chen, E., Shan, C., … Sun, X. (2025). Video-MME: The first-ever comprehensive evaluation benchmark of multi-modal LLMs in video analysis. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 24108–24118. https://openaccess.thecvf.com/content/CVPR2025/html/Fu_Video-MME_The_First-Ever_Comprehensive_Evaluation_Benchmark_of_Multi-modal_LLMs_in_CVPR_2025_paper.html",
+      "reason": "Add a primary VLM reference or a bibliography entry already cited in the original text."
+    }
+  },
+  {
+    "after_source_block": 225,
+    "section": "References",
+    "reason": "Add a primary VLM reference or a bibliography entry already cited in the original text.",
+    "original": null,
+    "revised": {
+      "kind": "reference",
+      "text": "Glenberg, A. M., & Gallese, V. (2012). Action-based language: A theory of language acquisition, comprehension, and production. Cortex, 48(7), 905–922. https://doi.org/10.1016/j.cortex.2011.04.010",
+      "reason": "Add a primary VLM reference or a bibliography entry already cited in the original text."
+    }
+  },
+  {
+    "source_block": 226,
+    "section": "References",
+    "reason": "Remove a reference replaced with primary research in the VLM source check.",
+    "original": {
+      "kind": "p",
+      "text": "Florea, C., Popescu, C.-B., Racovițeanu, A., Nițu, A., & Florea, L. (2026). From Context to Human: A Review of VLM Contextualization in the Recognition of Human States in Visual Data. In Mathematics (Vol. 14, Issue 1, p. 175). https://doi.org/10.3390/math14010175"
+    },
+    "revised": null
+  },
+  {
+    "source_block": 227,
+    "section": "References",
+    "reason": "Remove a reference replaced with primary research in the VLM source check.",
+    "original": {
+      "kind": "p",
+      "text": "Foteinos, K., Cani, J., Linardakis, M., Radoglou Grammatikis, P., Argyriou, V., Sarigiannidis, P., Varlamis, I., & Papadopoulos, G. (2025). Visual Hand Gesture Recognition with Deep Learning: A Comprehensive Review of Methods, Datasets, Challenges and Future Research Directions. https://doi.org/10.48550/arXiv.2507.04465"
+    },
+    "revised": null
+  },
+  {
+    "source_block": 228,
+    "section": "References",
+    "reason": "Remove a reference replaced with primary research in the VLM source check.",
+    "original": {
+      "kind": "p",
+      "text": "Ghojogh, B., & Ghodsi, A. (2026). Recurrent Neural Networks and Long Short-Term Memory Networks (pp. 205–229). https://doi.org/10.1007/978-3-032-10738-1_8"
+    },
+    "revised": null
+  },
+  {
+    "source_block": 237,
+    "section": "References",
+    "reason": "Remove a reference replaced with primary research in the VLM source check.",
+    "original": {
+      "kind": "p",
+      "text": "Li, Z., Wu, X., Du, H., Nghiem, H., & Shi, G. (2025). Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey. https://doi.org/10.32388/GXR68Q"
+    },
+    "revised": null
+  },
+  {
+    "after_source_block": 242,
+    "section": "References",
+    "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution.",
+    "original": null,
+    "revised": {
+      "kind": "reference",
+      "text": "Macedonia, M., Mayer, K. M., Mathias, B., & von Kriegstein, K. (2021). Gesture video corpus [Data set]. Figshare. https://doi.org/10.6084/m9.figshare.c.5296396.v1",
+      "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution."
+    }
+  },
+  {
+    "source_block": 244,
+    "section": "References",
+    "reason": "Repair a malformed URL; preserve the original bibliographic wording.",
+    "original": {
+      "kind": "p",
+      "text": "Macedonia, Manuela, Mathias, B., & Hu, L. (2026). Why Some Gestures Work Better Than Others:Toward a Model of Gesture-Supported Vocabulary Learning. Educational Psychology Review, in print. https://doi.org/https://osf.io/preprints/psyarxiv/q65rt_v1"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Macedonia, Manuela, Mathias, B., & Hu, L. (2026). Why Some Gestures Work Better Than Others:Toward a Model of Gesture-Supported Vocabulary Learning. Educational Psychology Review, in print. https://osf.io/preprints/psyarxiv/q65rt_v1"
+    }
+  },
+  {
+    "source_block": 245,
+    "section": "References",
+    "reason": "Remove duplicate of the same Macedonia et al. (2019) reference already at paragraph 242.",
+    "original": {
+      "kind": "p",
+      "text": "Macedonia, Manuela, Repetto, C., Ischebeck, A., & Mueller, K. (2019). Depth of Encoding Through Observed Gestures in Foreign Language Word Learning. Frontiers in Psychology, 10, 33. https://doi.org/10.3389/fpsyg.2019.00033"
+    },
+    "revised": null
+  },
+  {
+    "after_source_block": 247,
+    "section": "References",
+    "reason": "Add a primary VLM reference or a bibliography entry already cited in the original text.",
+    "original": null,
+    "revised": {
+      "kind": "reference",
+      "text": "Mayer, K. M., Yildiz, I. B., Macedonia, M., & von Kriegstein, K. (2015). Visual and motor cortices differentially support the translation of foreign language words. Current Biology, 25(4), 530–535. https://doi.org/10.1016/j.cub.2014.11.068",
+      "reason": "Add a primary VLM reference or a bibliography entry already cited in the original text."
+    }
+  },
+  {
+    "source_block": 251,
+    "section": "References",
+    "reason": "Complete the requested VLM source check with primary research and limit each claim to what its cited study establishes.",
+    "original": {
+      "kind": "p",
+      "text": "Nishida, N., Inoue, K., Nakayama, H., Bono, M., & Takanashi, K. (2025). Do Multimodal Large Language Models Truly See What We Point At? Investigating Indexical, Iconic, and Symbolic Gesture Comprehension. https://doi.org/10.18653/v1/2025.acl-short.40"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Nishida, N., Inoue, K., Nakayama, H., Bono, M., & Takanashi, K. (2025). Do Multimodal Large Language Models Truly See What We Point At? Investigating Indexical, Iconic, and Symbolic Gesture Comprehension. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 514–524. https://doi.org/10.18653/v1/2025.acl-short.40"
+    }
+  },
+  {
+    "source_block": 258,
+    "section": "References",
+    "reason": "Repair a malformed URL; preserve the original bibliographic wording.",
+    "original": {
+      "kind": "p",
+      "text": "Post, L. S., van Gog, T., Paas, F., & Zwaan, R. A. (2013). Effects of simultaneously observing and making gestures while studying grammar animations on cognitive load and learning. Computers in Human Behavior, 29(4), 1450–1455. https://doi.org/https://doi.org/10.1016/j.chb.2013.01.005"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Post, L. S., van Gog, T., Paas, F., & Zwaan, R. A. (2013). Effects of simultaneously observing and making gestures while studying grammar animations on cognitive load and learning. Computers in Human Behavior, 29(4), 1450–1455. https://doi.org/10.1016/j.chb.2013.01.005"
+    }
+  },
+  {
+    "after_source_block": 259,
+    "section": "References",
+    "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution.",
+    "original": null,
+    "revised": {
+      "kind": "reference",
+      "text": "Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J., Krueger, G., & Sutskever, I. (2021). Learning Transferable Visual Models From Natural Language Supervision. Proceedings of the 38th International Conference on Machine Learning, 139, 8748–8763. https://proceedings.mlr.press/v139/radford21a.html",
+      "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution."
+    }
+  },
+  {
+    "source_block": 260,
+    "section": "References",
+    "reason": "Replace the broad VLM review citation with primary research supporting the specific claims.",
+    "original": {
+      "kind": "p",
+      "text": "Rahman, A. (2026). A systematic review of vision language models: Comprehensive analysis of architectures, applications, datasets and challenges towards robust multimodal intelligence. Array, 30, 100739. https://doi.org/https://doi.org/10.1016/j.array.2026.100739"
+    },
+    "revised": null
+  },
+  {
+    "source_block": 264,
+    "section": "References",
+    "reason": "Repair a malformed URL; preserve the original bibliographic wording.",
+    "original": {
+      "kind": "p",
+      "text": "Sweller, J. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2), 257–285. https://doi.org/https://doi.org/10.1207/s15516709cog1202_4"
+    },
+    "revised": {
+      "kind": "p",
+      "text": "Sweller, J. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2), 257–285. https://doi.org/10.1207/s15516709cog1202_4"
+    }
+  },
+  {
+    "after_source_block": 266,
+    "section": "References",
+    "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution.",
+    "original": null,
+    "revised": {
+      "kind": "reference",
+      "text": "Zhang, H., Li, X., & Bing, L. (2023). Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, 543–553. https://doi.org/10.18653/v1/2023.emnlp-demo.49",
+      "reason": "Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution."
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394715-X3e70hpdIFsqXqzcMrnN",
+  "object": "chat.completion",
+  "created": 1792394715,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Bravery\",\n  \"video_file\": \"video_067.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, briefly places both hands on their hips in an assertive posture, and then returns their arms to their sides, remaining still with a neutral facial expression.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The hands-on-hips posture can suggest confidence or assertiveness, which loosely relates to bravery, but it does not visually resemble the concept of bravery itself.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is a simple, static posture change rather than an action that evokes a strong sensory or motor experience of bravery.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and brief, limited to raising and lowering the arms to the hips, with no large or dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and flat throughout the video, conveying no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"Bravery is a complex abstract concept, but the gesture is a simple, single posture that does not capture its depth or nuance.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The hands-on-hips posture is a common and recognizable gesture in many cultures, often associated with confidence or readiness.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple movement of placing hands on the hips and returning to a neutral stance.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The hands-on-hips posture could be interpreted as confidence, assertiveness, or readiness rather than bravery specifically.\",\n      \"The neutral facial expression does not provide additional context to clarify the intended meaning.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2686,
+    "completion_tokens": 538,
+    "total_tokens": 3224,
+    "cost": 0.0032256,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0032256,
+      "upstream_inference_prompt_cost": 0.0016116,
+      "upstream_inference_completions_cost": 0.001614
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

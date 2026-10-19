@@ -1,0 +1,42 @@
+{
+  "target_word": "Mirror",
+  "video_file": "video_037.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns their body to the side and raises both hands in front of their face with palms facing each other, as if holding or looking into a vertical rectangular object. They then lower their hands and return to a neutral standing position facing forward.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of holding hands up in front of the face as if framing a vertical rectangle strongly resembles the act of looking into a mirror."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement feels like a natural, everyday action of holding up a mirror or looking into one, making it easy to imagine performing."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving turning the body and raising the arms, but it is not highly dynamic or large-scale."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, conveying no strong emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-action gesture fits the concrete, everyday concept of a mirror perfectly."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of holding hands up to frame a mirror is a very common and widely understood pantomime."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple hand and body movement without any props."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as looking through a window or holding a phone, but the vertical framing strongly suggests a mirror."
+    ],
+    "confidence": "high"
+  }
+}

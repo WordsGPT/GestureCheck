@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394642-cwKNZit1XMDvT8CAlZBD",
+  "object": "chat.completion",
+  "created": 1792394642,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Bicycle\",\n  \"video_file\": \"video_012.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, raises both hands to chest height with fists clenched as if gripping handlebars, and moves them slightly up and down in a pedaling-like motion before lowering them back to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The clenched fists held in front of the chest and the small up-and-down motion visually resemble gripping handlebars and pedaling, which is a recognizable pantomime for riding a bicycle.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture evokes the physical experience of holding handlebars and pedaling, but the lack of leg movement or body sway limits the full sensorimotor impression of riding.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and restrained, limited to slight vertical motion of the hands at chest level, with no large or dynamic body movement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout the video, conveying no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple hand-and-arm motion matches the relatively simple concept of a bicycle, capturing the core action of riding without unnecessary complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"Pantomiming handlebars and pedaling is a widely recognized and common gesture for 'bicycle' or 'riding a bike' across many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform, requiring only raising the hands into fists and making small up-and-down motions, with no special coordination or space needed.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as rowing, driving, or holding an object rather than specifically riding a bicycle.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2686,
+    "completion_tokens": 555,
+    "total_tokens": 3241,
+    "cost": 0.0032766,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0032766,
+      "upstream_inference_prompt_cost": 0.0016116,
+      "upstream_inference_completions_cost": 0.001665
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

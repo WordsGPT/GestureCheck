@@ -1,0 +1,43 @@
+{
+  "target_word": "Violin",
+  "video_file": "video_103.mp4",
+  "brief_gesture_description": "The person stands facing forward, then raises both arms to chest height. The left arm extends outward and slightly upward with the hand in a loose fist, while the right arm bends at the elbow with the hand held near the chest, also in a loose fist. The person holds this posture briefly, tilting their head slightly, before lowering both arms back to their sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture vaguely resembles holding a string instrument, but the left arm extends too far outward and lacks the characteristic chin-rest position of a violin. The right hand does not clearly mimic bowing motion."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The static hold of the arms in a loose fist posture does not strongly evoke the physical experience of playing a violin, as there is no visible bowing or fingering motion."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is limited to a simple raising and lowering of the arms with a brief static hold, lacking dynamic or large-scale motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, with no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is too simple and static to adequately represent the complex, coordinated actions involved in playing a violin."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The general posture of holding arms up as if playing an instrument is a recognizable pantomime, though it is not specifically or clearly a violin gesture."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only a simple raising of the arms into a loose fist position without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as playing any string instrument (e.g., cello, viola) rather than specifically a violin.",
+      "The lack of a clear bowing motion makes the action ambiguous."
+    ],
+    "confidence": "medium"
+  }
+}

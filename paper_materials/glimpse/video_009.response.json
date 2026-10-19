@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394636-qpg0ilUNi5uLRsbqvKF0",
+  "object": "chat.completion",
+  "created": 1792394636,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Monument\",\n  \"video_file\": \"video_009.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns to a side profile and raises both arms upward and forward, looking up at the raised hands as if tracing or indicating a tall vertical structure. The arms then lower back to the sides, and the person returns to a neutral forward-facing standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The upward reach and upward gaze visually suggest a tall, vertical structure, which aligns with the height of a monument, but the gesture lacks specific features (like a base or shape) that would make it clearly iconic of a monument rather than just 'tall' or 'looking up'.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement feels like a natural action of looking up at something high, providing a moderate sense of experiencing the scale of a large object, though it is somewhat abstract.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement involves raising both arms fully overhead and turning the body, which is a moderate to large movement, but it is performed slowly and smoothly without high dynamic energy.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, showing no visible emotion such as awe or surprise.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture is relatively simple (raising arms to indicate height), which fits the basic concept of a monument as a tall structure, but it may be too simple to fully capture the complexity of a specific monument.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"Using upward hand gestures and gaze to indicate height or large size is a very common and familiar gesture in many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple turn of the body and raising of the arms, with no complex coordination or fine motor skills needed.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as simply 'looking up' or 'tall' rather than specifically 'monument'.\",\n      \"Without context, it might also resemble gestures for 'sky', 'building', or 'statue'.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 635,
+    "total_tokens": 3839,
+    "cost": 0.0038274,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0038274,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001905
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

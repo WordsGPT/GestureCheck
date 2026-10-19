@@ -1,0 +1,42 @@
+{
+  "target_word": "Talent",
+  "video_file": "video_072.mp4",
+  "brief_gesture_description": "The person stands facing the camera, starting with arms at their sides. They raise both hands to chest level with fingers pointing inward, then extend both arms outward to the sides with index fingers pointing outward, before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of extending arms outward with index fingers does not visually resemble the abstract concept of 'talent' in any obvious way."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple, abstract pointing gesture that does not evoke a strong physical sensation or real-world action experience."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves both arms moving from the center to a wide extension, which is moderately dynamic and visible, though not highly exaggerated."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The person's facial expression remains neutral and flat throughout the video, conveying no discernible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple outward pointing gesture seems too basic and arbitrary to adequately represent the complex, multifaceted concept of 'talent'."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This specific gesture is not a widely recognized or common cultural sign for 'talent'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple movement of both arms from the chest outward."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as indicating 'wide', 'big', or 'outward', but has no clear connection to 'talent'."
+    ],
+    "confidence": "high"
+  }
+}

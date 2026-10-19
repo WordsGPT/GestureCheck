@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394677-5RUS6pdVY1sQaLtNW7sc",
+  "object": "chat.completion",
+  "created": 1792394677,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Tram\",\n  \"video_file\": \"video_038.mp4\",\n  \"brief_gesture_description\": \"A person stands facing the camera, raises their right arm straight up with a closed fist, holds it briefly, then lowers the arm back to the side.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The raised fist gesture does not visually resemble a tram, its shape, or its movement.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is a simple arm raise, which feels like a generic physical action rather than a specific experience related to a tram.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The arm raise is a moderate movement, visible but not highly dynamic or large in scope.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and shows no discernible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The simple gesture does not fit the concept of a tram, which would typically involve more specific or complex movements to represent.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"A raised fist is a common gesture in various contexts, but its association with a tram is not culturally familiar.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform, requiring only a simple arm raise and lowering.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as a generic raise or signal, but it lacks specific elements to clearly represent a tram.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 477,
+    "total_tokens": 3681,
+    "cost": 0.0033534,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0033534,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001431
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

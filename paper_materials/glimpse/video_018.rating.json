@@ -1,0 +1,42 @@
+{
+  "target_word": "Present",
+  "video_file": "video_018.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises both hands from the torso and extends them forward and outward with open palms, as if offering or presenting something, before returning the arms to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The open-palmed forward extension visually resembles the act of presenting or offering something, matching the target word well."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture feels like a real physical action of handing or showing an object, with clear hand extension and open palms."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving both arms moving from the torso outward, but it is not large or highly dynamic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains neutral and focused, with little visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple two-handed offering motion fits the straightforward concept of presenting something."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Open-palmed forward gestures are commonly used across cultures to indicate offering or presenting."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only a simple forward extension of both open hands."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as giving, offering, or showing rather than specifically presenting."
+    ],
+    "confidence": "high"
+  }
+}

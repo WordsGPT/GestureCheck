@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394742-ZqXSbKxVSAE7cwh6IORw",
+  "object": "chat.completion",
+  "created": 1792394742,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Benefaction\",\n  \"video_file\": \"video_088.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns to their left and bends forward at the waist, extending their left arm downward toward the floor as if reaching for or placing something low, while the right arm remains near the hip. The person then straightens up and returns to a neutral standing position facing forward.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture shows a reaching or placing motion toward the ground, which does not visually resemble the abstract concept of a benefaction or act of kindness.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The bending and reaching motion feels like a real physical action, such as picking something up or placing an object on the floor.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement involves a clear bend at the waist and arm extension, which is moderately dynamic but not large or highly energetic.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the movement, conveying no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The simple physical reaching motion does not match the complexity of the abstract concept of benefaction.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The bending and reaching motion is a common, everyday physical action, though not a conventional gesture for the target word.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform, requiring only a simple bend and arm extension without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as picking something up, placing something down, or simply reaching, but it does not clearly convey the concept of benefaction.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 532,
+    "total_tokens": 3736,
+    "cost": 0.0035184,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035184,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001596
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

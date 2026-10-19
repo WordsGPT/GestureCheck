@@ -1,0 +1,42 @@
+{
+  "target_word": "Tram",
+  "video_file": "video_038.mp4",
+  "brief_gesture_description": "A person stands facing the camera, raises their right arm straight up with a closed fist, holds it briefly, then lowers the arm back to the side.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The raised fist gesture does not visually resemble a tram, its shape, or its movement."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple arm raise, which feels like a generic physical action rather than a specific experience related to a tram."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The arm raise is a moderate movement, visible but not highly dynamic or large in scope."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and shows no discernible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple gesture does not fit the concept of a tram, which would typically involve more specific or complex movements to represent."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "A raised fist is a common gesture in various contexts, but its association with a tram is not culturally familiar."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only a simple arm raise and lowering."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as a generic raise or signal, but it lacks specific elements to clearly represent a tram."
+    ],
+    "confidence": "high"
+  }
+}

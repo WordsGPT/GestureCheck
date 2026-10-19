@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394785-sxCvBdToUpsCuBaG2PCC",
+  "object": "chat.completion",
+  "created": 1792394785,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Stamp For Letter\",\n  \"video_file\": \"video_117.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises their right hand and repeatedly presses it down onto the back of their left hand, which is held flat in front of the body. The motion mimics the action of stamping an object, followed by lowering both arms back to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture of repeatedly pressing one hand onto the other clearly mimics the physical action of stamping a letter.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 5,\n      \"rationale\": \"The downward pressing motion is distinct and tactile, strongly evoking the physical sensation of using a stamp.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is localized to the hands and arms in front of the torso; it is clear but not large or highly dynamic.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The person maintains a neutral, focused facial expression throughout the video with no visible emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, repetitive pressing motion perfectly matches the straightforward physical action of stamping a letter.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is a common and recognizable pantomime for stamping, widely understood in contexts involving mail or office work.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only simple hand movements without any props or complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"Without a visible letter or stamp, the gesture could be interpreted generally as 'stamping' or 'pressing' rather than specifically for a letter.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 523,
+    "total_tokens": 2578,
+    "cost": 0.002802,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002802,
+      "upstream_inference_prompt_cost": 0.001233,
+      "upstream_inference_completions_cost": 0.001569
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

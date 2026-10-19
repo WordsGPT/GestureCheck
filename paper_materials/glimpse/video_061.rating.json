@@ -1,0 +1,42 @@
+{
+  "target_word": "Indifference",
+  "video_file": "video_061.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera with arms resting at the sides. Throughout the clip, the shoulders perform a slight, slow shrug (raising and lowering), while the facial expression remains neutral and flat.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The slight shoulder shrug combined with a neutral facial expression is a widely recognized visual representation of indifference or a lack of concern."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement is a subtle physical action (shrugging) that feels like a natural, everyday bodily response to a situation, though it is not a large or complex motor action."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is very small and subtle, limited to a slight elevation of the shoulders without any large arm or body displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression is completely neutral and flat, showing no visible emotion, which aligns with the concept of indifference but lacks expressive salience."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simplicity of the gesture (a minimal shrug) perfectly matches the low-energy, non-committal nature of the concept of indifference."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The shoulder shrug is a highly common and universally understood gesture for indifference or uncertainty across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only a slight movement of the shoulders while standing still."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is very subtle and could be interpreted as a lack of movement or a neutral resting state rather than an active gesture of indifference if not viewed in context."
+    ],
+    "confidence": "high"
+  }
+}

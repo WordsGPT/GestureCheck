@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394749-ROp48E20QEJ0F5laUwix",
+  "object": "chat.completion",
+  "created": 1792394749,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Peppermill\",\n  \"video_file\": \"video_093.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then brings both hands together in front of the torso. The right hand is placed over the left hand, and the right hand performs a twisting, grinding motion over the left hand, mimicking the action of turning a crank or grinding mechanism. The hands then return to the sides of the body.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of one hand twisting over the other strongly resembles the physical action of operating a peppermill, making it highly iconic for the target word.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The twisting motion clearly evokes the tactile sensation and physical effort of grinding spices, providing strong sensorimotor imagery.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and contained within the central body space, lacking large or dynamic displacement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, conveying no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The two-handed coordination required to mimic the grinding action fits the complexity of the object and its function well.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture mimics a common kitchen action (grinding spices) that is widely recognizable in many cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is simple to perform, requiring only basic hand coordination and no special equipment or flexibility.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"Without the target word, the gesture could also be interpreted as grinding salt, twisting a jar lid, or using a manual drill.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2416,
+    "completion_tokens": 532,
+    "total_tokens": 2948,
+    "cost": 0.0030456,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0030456,
+      "upstream_inference_prompt_cost": 0.0014496,
+      "upstream_inference_completions_cost": 0.001596
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

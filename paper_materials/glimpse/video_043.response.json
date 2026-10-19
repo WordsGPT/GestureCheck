@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394682-tdvVZXrz72M2nVCDfjaf",
+  "object": "chat.completion",
+  "created": 1792394682,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Bandage\",\n  \"video_file\": \"video_043.mp4\",\n  \"brief_gesture_description\": \"The person stands upright, then bends forward at the waist and reaches both hands down to touch and wrap around the lower leg/shin area, mimicking the action of applying a bandage to a leg injury, before standing back up to a neutral position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of wrapping hands around the leg clearly mimics the action of applying a bandage to a limb, which is a common association with the word.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The movement feels like a realistic enactment of treating an injury, engaging the tactile sensation of wrapping a limb.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement involves bending the torso and moving arms down, which is a moderate range of motion, neither extremely large nor static.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, showing no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is simple and direct, fitting the concrete nature of the object 'bandage' and its primary function.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The action of wrapping a bandage around a leg is a universally understood concept in first aid and daily life.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform as it requires no props and uses natural body movements.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"Could be interpreted as 'injury' or 'pain' rather than the object 'bandage' itself, though the wrapping motion strongly suggests bandaging.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 526,
+    "total_tokens": 3730,
+    "cost": 0.0035004,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035004,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001578
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

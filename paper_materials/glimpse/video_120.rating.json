@@ -1,0 +1,43 @@
+{
+  "target_word": "Towel",
+  "video_file": "video_120.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises one arm and repeatedly wipes or rubs the side of their head and hair with a closed fist or hand, as if drying hair. The other arm remains at the side. The person then returns to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The wiping motion on the head resembles drying hair, which is a common action associated with a towel, but the towel itself is not visible or mimicked, making the connection indirect."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The rubbing motion on the head evokes the physical sensation of drying hair, but without a visible towel or more specific towel-handling movements, the imagery is somewhat limited."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The arm movement is moderate in size and dynamic, involving a clear wiping motion, but it is not highly exaggerated or large-scale."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, with no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, single-action gesture fits well with the concrete, everyday nature of the word 'towel'."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of wiping or drying hair with a hand is a common and recognizable action in many cultures, often associated with towel use."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is simple and easy to perform, requiring only a basic wiping motion with one hand."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as scratching the head or adjusting hair rather than drying with a towel.",
+      "The absence of a visible towel or towel-like object makes the connection to the target word less direct."
+    ],
+    "confidence": "medium"
+  }
+}

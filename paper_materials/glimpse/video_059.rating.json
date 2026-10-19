@@ -1,0 +1,42 @@
+{
+  "target_word": "Thought",
+  "video_file": "video_059.mp4",
+  "brief_gesture_description": "A person stands facing the camera and raises their right arm, pointing upward with the index finger toward the sky. The arm is then lowered back to the side, and the person remains standing still with a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of pointing upward does not visually resemble the abstract concept of 'thought' or any typical representation of thinking (e.g., touching the head)."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple, deliberate arm raise and point, but it lacks the sensory or motor associations typically linked to the internal experience of thinking."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The arm raise is a clear, distinct movement that stands out against the otherwise static posture, though it is brief and not highly dynamic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains completely neutral and flat throughout the video, conveying no emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple pointing gesture does not match the complexity of the abstract concept 'thought', which usually requires more nuanced or internalized gestures to represent."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While pointing upward is a common gesture, it is not a culturally familiar or standard gesture for representing 'thought'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only a simple raise of the arm and extension of the index finger."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The upward pointing gesture could be interpreted as indicating 'up', 'sky', 'future', or 'idea' rather than 'thought'."
+    ],
+    "confidence": "high"
+  }
+}

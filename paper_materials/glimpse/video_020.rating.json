@@ -1,0 +1,43 @@
+{
+  "target_word": "Purse",
+  "video_file": "video_020.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises one hand to the opposite shoulder and briefly touches or pats the shoulder area before lowering the arm back to the side. The face remains neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of touching the shoulder does not visually resemble the meaning of 'purse' (a bag or the action of pursing lips)."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple, brief touch of the shoulder, which feels like a minor action but lacks strong sensory or motor engagement related to the target word."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and limited to one arm raising and lowering, with minimal dynamic range."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and shows no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The simple shoulder touch does not correspond to the concept of 'purse' in any meaningful way, so the complexity does not fit the word."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "Touching one's shoulder is a common, everyday movement but not a culturally recognized gesture for 'purse'."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform as it involves a simple arm raise and touch, requiring no special coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture does not clearly relate to the target word 'purse'.",
+      "The action could be interpreted as a self-touch or adjustment rather than a representational gesture."
+    ],
+    "confidence": "high"
+  }
+}

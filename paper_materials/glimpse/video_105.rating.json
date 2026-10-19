@@ -1,0 +1,42 @@
+{
+  "target_word": "Thread",
+  "video_file": "video_105.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, then raises their right hand to chest level with fingers pinched together. They move the hand upward and outward in a smooth arc, as if pulling or drawing a thin line through the air, before lowering the arm back to the side.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The pinched-finger hand moving in a continuous arc visually mimics pulling or drawing a thread, closely resembling the linear motion associated with the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The smooth, continuous hand movement with pinched fingers evokes the tactile sensation of handling a thin, flexible strand, making it feel like a real action."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, confined to the upper body and arm, with a clear but not highly dynamic or large-scale motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout, with no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-hand linear motion matches the straightforward, concrete nature of the concept 'thread'."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of pinching fingers and drawing a line is a common and recognizable way to represent thin, linear objects or actions across many contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only a simple hand movement with no complex coordination or props."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as pulling a string, drawing a line, or indicating a thin object in general, not exclusively 'thread'."
+    ],
+    "confidence": "high"
+  }
+}

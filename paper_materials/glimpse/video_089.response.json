@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394742-YlsTotBZZAnjbS8T16vp",
+  "object": "chat.completion",
+  "created": 1792394742,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Admission\",\n  \"video_file\": \"video_089.mp4\",\n  \"brief_gesture_description\": \"The person stands upright, then bends forward at the waist and extends both arms forward with open palms facing each other, as if gesturing toward an opening or inviting someone through a space. The person then returns to a neutral standing position with arms at their sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture of extending open hands forward could loosely suggest allowing someone to pass or enter, but it lacks specific features that clearly depict 'admission' (e.g., a ticket, a gate, or a formal acceptance).\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement feels like a natural, physical action of guiding or inviting someone forward, which provides a moderate sense of embodied experience.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement involves a clear bend at the waist and extension of the arms, making it moderately dynamic and visible, though not highly exaggerated.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, conveying no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is relatively simple, consisting of a single forward extension, which may not fully capture the more complex, often procedural or formal nature of 'admission'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture of extending open hands to invite or guide someone is a fairly common and recognizable gesture in many cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform, requiring only a simple bend and arm extension without complex coordination or fine motor skills.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as inviting someone in, guiding someone through a space, or even pushing something away, rather than specifically 'admission'.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 561,
+    "total_tokens": 3765,
+    "cost": 0.0036054,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036054,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001683
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

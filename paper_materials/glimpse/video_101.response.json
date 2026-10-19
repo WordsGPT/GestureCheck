@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394761-sDz8UWw76jHTpBh1aW1R",
+  "object": "chat.completion",
+  "created": 1792394761,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Soap\",\n  \"video_file\": \"video_101.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then brings both hands together in front of the lower torso and rubs the palms against each other in a back-and-forth motion, as if lathering or rubbing a bar of soap. The hands then separate and return to the sides of the body.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The rubbing motion of the palms against each other visually resembles the action of using soap to create lather, which is a strong visual representation of the concept.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture clearly mimics the tactile sensation of rubbing hands together with soap, evoking a strong sense of the physical experience of washing.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and contained within the lower torso area, lacking large or dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, conveying no specific emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, repetitive rubbing motion is an appropriate and direct fit for the simple concept of 'soap'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture of rubbing hands together to represent washing or soap is a universally recognized and common pantomime.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only the simple action of rubbing the palms together.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"Without context, the rubbing motion could also be interpreted as 'washing hands', 'lathering', or 'rubbing hands together for warmth'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2053,
+    "completion_tokens": 528,
+    "total_tokens": 2581,
+    "cost": 0.0028158,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0028158,
+      "upstream_inference_prompt_cost": 0.0012318,
+      "upstream_inference_completions_cost": 0.001584
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

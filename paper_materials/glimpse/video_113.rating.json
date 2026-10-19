@@ -1,0 +1,42 @@
+{
+  "target_word": "Jumper",
+  "video_file": "video_113.mp4",
+  "brief_gesture_description": "A person stands facing the camera, then raises both arms from the sides up over the head, bringing the hands together above the head, and then lowers the arms back down to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of raising arms over the head does not visually resemble the meaning of 'Jumper' (a garment or a person who jumps). It might vaguely suggest putting on a garment over the head, but it lacks the specific pulling motion of a jumper."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement feels like a simple arm raise rather than a specific, tangible action related to a jumper. It lacks the tactile sensation of handling fabric or the physical exertion of jumping."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving the full extension of the arms from the sides to above the head. It is a clear, deliberate motion but not highly dynamic or large-scale."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, conveying no discernible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is a simple, single-action movement. While 'Jumper' is a simple noun, the gesture does not effectively map to the concept's complexity or meaning, making the fit poor."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Raising arms over the head is a common, generic gesture that could mean many things (stretching, surrender, putting on a hat), but it is not a culturally established sign for 'Jumper'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only the simple movement of raising and lowering the arms."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as stretching, putting on a hat, or surrendering, but it does not clearly depict a 'Jumper' (garment) or the act of jumping."
+    ],
+    "confidence": "high"
+  }
+}

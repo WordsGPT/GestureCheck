@@ -1,0 +1,42 @@
+{
+  "target_word": "Therapy",
+  "video_file": "video_077.mp4",
+  "brief_gesture_description": "A woman stands facing the camera. She tilts her head to her right and brings her right hand up to rest against the side of her head/cheek, with her left hand held lower near her waist. She holds this pose briefly, then lowers both arms back to her sides and returns to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The hand-to-head gesture with a tilted head resembles resting, sleeping, or a headache, but does not visually resemble the concept of therapy (e.g., talking, counseling, or treatment)."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture feels like a real, everyday action of resting one's head on a hand or hand, evoking a sense of tiredness or contemplation, though it is not strongly tied to a therapeutic experience."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained, limited to raising one hand to the head and tilting the head, with no large or dynamic body movement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral with a slight tilt of the head; there is little visible emotion conveyed."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple, static hand-to-head pose does not match the complexity of the abstract concept of therapy, which typically involves interaction or a process."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Resting the head on a hand is a common, familiar gesture in many cultures, often associated with tiredness, boredom, or thinking, but not specifically with therapy."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only a simple hand raise to the head and a head tilt."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as sleeping, resting, tiredness, or a headache rather than therapy."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394726-FsvMotcZe0IPtAxurzCj",
+  "object": "chat.completion",
+  "created": 1792394726,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Therapy\",\n  \"video_file\": \"video_077.mp4\",\n  \"brief_gesture_description\": \"A woman stands facing the camera. She tilts her head to her right and brings her right hand up to rest against the side of her head/cheek, with her left hand held lower near her waist. She holds this pose briefly, then lowers both arms back to her sides and returns to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The hand-to-head gesture with a tilted head resembles resting, sleeping, or a headache, but does not visually resemble the concept of therapy (e.g., talking, counseling, or treatment).\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture feels like a real, everyday action of resting one's head on a hand or hand, evoking a sense of tiredness or contemplation, though it is not strongly tied to a therapeutic experience.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and contained, limited to raising one hand to the head and tilting the head, with no large or dynamic body movement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The facial expression is mostly neutral with a slight tilt of the head; there is little visible emotion conveyed.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The simple, static hand-to-head pose does not match the complexity of the abstract concept of therapy, which typically involves interaction or a process.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"Resting the head on a hand is a common, familiar gesture in many cultures, often associated with tiredness, boredom, or thinking, but not specifically with therapy.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform, requiring only a simple hand raise to the head and a head tilt.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as sleeping, resting, tiredness, or a headache rather than therapy.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3205,
+    "completion_tokens": 587,
+    "total_tokens": 3792,
+    "cost": 0.003684,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003684,
+      "upstream_inference_prompt_cost": 0.001923,
+      "upstream_inference_completions_cost": 0.001761
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

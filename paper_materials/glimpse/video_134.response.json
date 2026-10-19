@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394807-3jcRciymKZBn0AMkY7bx",
+  "object": "chat.completion",
+  "created": 1792394807,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Poster\",\n  \"video_file\": \"video_134.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns to their left (side profile to the camera). They raise both hands to head height, holding them as if gripping the top corners of a flat rectangular object, and move them downward in a smoothing motion, as if pressing a sheet onto a surface. They then lower their hands and turn back to face the camera.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of holding the top corners of an invisible sheet and smoothing it downward strongly resembles the physical act of putting up a poster.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The movement feels like a real, tactile action of handling a flat object and pressing it against a wall, providing strong sensorimotor imagery.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, involving both arms moving from head height to waist height, but it is not highly dynamic or large-scale.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, conveying no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is simple and direct, fitting the concrete, everyday concept of a poster and the action of displaying one.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"The mimed action of smoothing a sheet onto a wall is a common and easily recognizable gesture in many cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only simple arm movements and hand positioning without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as hanging a picture frame or smoothing out a tablecloth, though the vertical orientation suggests a wall surface.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2053,
+    "completion_tokens": 549,
+    "total_tokens": 2602,
+    "cost": 0.0028788,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0028788,
+      "upstream_inference_prompt_cost": 0.0012318,
+      "upstream_inference_completions_cost": 0.001647
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

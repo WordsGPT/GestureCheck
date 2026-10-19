@@ -1,0 +1,42 @@
+{
+  "target_word": "Information",
+  "video_file": "video_062.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns their head and upper body to their right while raising their right hand to head height with the palm facing forward. They hold this pose briefly before returning to a neutral standing position facing the camera.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of raising a hand to the head could loosely suggest receiving or processing information, but it lacks specific visual resemblance to the abstract concept of 'Information'."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a natural, everyday action of gesturing or pointing, giving it a moderate sense of real-world action."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained, involving only a slight turn of the body and raising of one arm, without large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and expressionless throughout the video, conveying no discernible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple, single-handed gesture does not adequately reflect the complexity of the abstract concept of 'Information'."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture resembles common conversational hand movements or pointing, making it somewhat familiar in general cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to perform, requiring only a basic turn of the head and raising of one hand."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as pointing, waving, or indicating something to the side rather than specifically representing 'Information'."
+    ],
+    "confidence": "medium"
+  }
+}

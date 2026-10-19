@@ -1,0 +1,42 @@
+{
+  "target_word": "Button",
+  "video_file": "video_125.mp4",
+  "brief_gesture_description": "A person stands facing the camera against a plain background. They raise their right hand toward their chest and make a small, repeated pinching or pressing motion with the fingers, as if manipulating a small object on their clothing, before lowering the hand back to their side. The facial expression remains neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The small pinching and pressing motion of the fingers at the chest area visually resembles the action of fastening or manipulating a button on clothing."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture mimics the fine motor action of handling a small object like a button, providing a clear sense of the physical experience."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and localized to the hand and forearm, lacking large or dynamic body motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The person's face remains neutral and expressionless throughout the video, conveying no emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, focused hand movement matches the simple, concrete nature of the object 'button'."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of miming buttoning clothing is a common and recognizable action in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is simple and requires only a small hand movement, making it very easy to perform."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as snapping fingers or picking something off clothing."
+    ],
+    "confidence": "medium"
+  }
+}

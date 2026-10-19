@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394801-QQsJvTrVHG6N10zVGyFT",
+  "object": "chat.completion",
+  "created": 1792394801,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Telephone\",\n  \"video_file\": \"video_130.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, raises their right hand to their right ear with fingers and thumb forming a C-shape (as if holding a phone receiver), tilts their head slightly toward the hand, holds this pose briefly, then lowers the arm back to the side and returns to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 5,\n      \"rationale\": \"The hand-to-ear C-shape with a head tilt is the conventional pantomime of holding a telephone receiver, directly resembling the meaning of 'Telephone'.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture mimics the real bodily action of holding a phone to the ear, including the characteristic head tilt, though no actual object or talking motion is visible.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and static: a single arm raise to the ear, brief hold, and return to rest, with no large or dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout, with no visible emotion conveyed.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, single-hand gesture matches the simple, concrete concept of a telephone without unnecessary complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The hand-as-phone gesture is a widely recognized, conventional gesture across cultures for 'telephone' or 'call'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform: raise one hand to the ear in a C-shape, tilt the head, and lower the arm; no special skill or props required.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as 'listening' or 'call me' rather than the object 'Telephone' itself.\",\n      \"No mouth movement or talking is visible, so the gesture depicts holding a phone rather than actively using it.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 584,
+    "total_tokens": 3787,
+    "cost": 0.0036738,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036738,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001752
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

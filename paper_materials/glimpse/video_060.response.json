@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394704-XJrD2GaAVZWQzmH3HuIL",
+  "object": "chat.completion",
+  "created": 1792394704,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Patience\",\n  \"video_file\": \"video_060.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, raises both hands to chest height with palms facing forward, then lowers them slowly outward and downward to the sides of the body, ending in a neutral standing posture with arms at the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The slow lowering of the hands could suggest calming down or waiting, but it does not clearly resemble the concept of patience.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is simple and lacks a strong physical sensation or real-world action that would evoke the experience of patience.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small, slow, and contained within the body's immediate space, showing low dynamism.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and calm throughout, conveying no strong emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The simple, slow gesture fits the abstract and calm nature of the concept of patience reasonably well.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"This specific gesture is not a widely recognized or common cultural symbol for patience.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple raising and lowering of the arms.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as calming down, relaxing, or simply lowering hands, rather than specifically patience.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 487,
+    "total_tokens": 3691,
+    "cost": 0.0033834,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0033834,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001461
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

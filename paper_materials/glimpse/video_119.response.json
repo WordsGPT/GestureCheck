@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394790-5WwQuoFw9kasfmAHfj5W",
+  "object": "chat.completion",
+  "created": 1792394790,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Metal Sheet\",\n  \"video_file\": \"video_119.mp4\",\n  \"brief_gesture_description\": \"The person stands upright facing the camera. They bring both hands together in front of the torso, then move them apart horizontally to the sides with palms facing down, as if outlining a flat, horizontal surface or plane, before returning the hands to the sides of the body.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture of spreading hands horizontally with palms down suggests a flat plane or surface, which loosely aligns with the flatness of a sheet, but lacks specific cues for 'metal' or a rigid object.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement feels like a generic outlining or measuring gesture rather than a tactile interaction with a specific material like metal.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and contained within the torso area, with a slow and smooth pace rather than a large or dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, showing no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The simple two-handed gesture fits the relatively simple concept of a flat object, though it is somewhat abstract.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"Using hands to indicate size or flatness is a common gesture, but it is not a specific cultural sign for 'metal sheet'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only simple arm movements from a standing position.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could represent any flat object or surface (e.g., table, paper, floor) rather than specifically a metal sheet.\",\n      \"The lack of rigid hand shape makes it unclear if the object is flexible or stiff.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 558,
+    "total_tokens": 2612,
+    "cost": 0.0029064,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0029064,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001674
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

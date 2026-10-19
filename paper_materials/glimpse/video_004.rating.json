@@ -1,0 +1,43 @@
+{
+  "target_word": "Ball",
+  "video_file": "video_004.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both hands to chest height with fingers curved as if holding a round object, then moves both hands upward and outward to the right side of the frame with open palms, as if tossing or throwing something, before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The initial curved-hand shape suggests holding a round object, and the outward motion resembles throwing, but no ball is visible and the gesture could represent many round objects or actions."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The hand shaping and throwing motion evoke the physical experience of holding and tossing an object, though the lack of a visible ball and the brief duration limit the sensory realism."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving both arms moving from chest height to an extended position, but it is brief and not highly dynamic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, with no visible emotion or reaction."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple two-part gesture (holding and throwing) matches the simple, concrete concept of a ball well."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Miming holding and throwing a ball is a common and widely understood gesture across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only basic hand shaping and a simple arm movement without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could represent throwing any object, not specifically a ball.",
+      "The initial hand shape could be interpreted as holding a small object rather than a ball."
+    ],
+    "confidence": "medium"
+  }
+}

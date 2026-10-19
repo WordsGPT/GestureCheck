@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394682-dqufFa53CKBd9r71QgSl",
+  "object": "chat.completion",
+  "created": 1792394682,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Plate\",\n  \"video_file\": \"video_041.mp4\",\n  \"brief_gesture_description\": \"The person stands upright facing the camera, then brings both hands together in front of the lower torso, holding them flat and parallel as if shaping or holding a flat, round object. The hands remain close together in this flat, horizontal configuration for a moment before returning to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The flat, parallel hand shape can suggest a flat round object like a plate, but the gesture is small and lacks clear outlining of a plate's edge, so resemblance is moderate.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The hands held flat together evoke holding or shaping a flat object, giving some tactile sense, but the movement is brief and restrained, limiting the feeling of a real action.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small, confined to the hands in front of the torso, with minimal body motion and low dynamism.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout, conveying no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple flat-hand shape matches the simple, concrete concept of a plate without unnecessary complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"Holding hands flat to indicate a flat object is a fairly common pantomime, though not a strongly conventionalized gesture for 'plate' specifically.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform: simply bring both hands together flat in front of the body, requiring no special skill or space.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The flat hand shape could also suggest other flat objects (e.g., paper, tray, or a book) rather than specifically a plate.\",\n      \"The brief duration and small scale make the intended object ambiguous.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2685,
+    "completion_tokens": 568,
+    "total_tokens": 3253,
+    "cost": 0.003315,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003315,
+      "upstream_inference_prompt_cost": 0.001611,
+      "upstream_inference_completions_cost": 0.001704
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

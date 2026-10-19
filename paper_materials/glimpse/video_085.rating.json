@@ -1,0 +1,42 @@
+{
+  "target_word": "Excuse",
+  "video_file": "video_085.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both hands to chest height with palms facing inward, and moves them in a small, repeated circular or rubbing motion against each other, then lowers the arms back to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The small circular hand motion does not visually resemble the concept of excusing or asking for pardon; it is an abstract gesture with little direct iconic mapping to the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture feels like a conventional sign rather than a real-world action; there is no tangible object or bodily experience being enacted."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is limited to small hand motions at chest level with minimal body displacement, making it low in size and dynamism."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple, brief hand movement matches the relatively simple social concept of 'excuse' without being overly elaborate."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture resembles a common sign-language or conventional gesture for 'excuse me' or 'sorry' in some contexts, though it is not universally recognized."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only a small circular motion of both hands at chest height."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'sorry,' 'excuse me,' or a general polite gesture, making the exact target word ambiguous without context."
+    ],
+    "confidence": "medium"
+  }
+}

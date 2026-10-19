@@ -1,0 +1,43 @@
+{
+  "target_word": "Consideration",
+  "video_file": "video_069.mp4",
+  "brief_gesture_description": "The person stands facing forward, then raises both hands to chest height with palms facing each other, as if holding or weighing an invisible object. The head tilts slightly downward and to the side, looking at the space between the hands. The hands then lower back to the sides of the body, and the person returns to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture of holding and looking at an invisible object between the hands visually resembles the metaphor of 'weighing' or 'holding' something in mind, which aligns with the concept of consideration, though it is not a direct depiction."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a real action of holding or examining a small object, providing a tangible sense of handling something, which supports the idea of mental processing."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained within the upper body space. It is not large or highly dynamic, consisting mainly of raising and lowering the hands."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral to slightly focused, with the head tilted down to look at the hands. There is no strong emotion displayed, just a look of attention."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is simple but captures the essence of 'weighing' or 'thinking about' something, which fits the moderate complexity of the abstract concept of consideration."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture of holding hands apart and looking between them is a common, recognizable gesture for indicating size or holding something, which is culturally familiar as a basis for abstract gestures."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only the raising of hands to chest level and a slight head tilt, making it accessible for learners."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as holding a specific object rather than an abstract concept.",
+      "The movement is brief and could be seen as a simple hand raise rather than a specific gesture for consideration."
+    ],
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Earring",
+  "video_file": "video_092.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns their head to the side and raises one hand to touch or pinch the earlobe area, mimicking the placement or adjustment of an earring, before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of touching the earlobe directly points to the location of an earring, making the connection to the target word clear and visually representative."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement feels like a natural, everyday action of adjusting or putting on jewelry, providing a strong sense of the physical experience associated with the word."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained, limited to a hand raise and a slight head turn, lacking large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, conveying no specific emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-action gesture is perfectly suited to the concrete and simple nature of the object 'earring'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Touching the ear to indicate an earring is a universally recognized and common gesture across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only a simple hand movement to the ear without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'ear' or 'hearing' if the context of jewelry is not assumed."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394709-OzDmrND2vCZw4DN8oFQy",
+  "object": "chat.completion",
+  "created": 1792394709,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Information\",\n  \"video_file\": \"video_062.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns their head and upper body to their right while raising their right hand to head height with the palm facing forward. They hold this pose briefly before returning to a neutral standing position facing the camera.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture of raising a hand to the head could loosely suggest receiving or processing information, but it lacks specific visual resemblance to the abstract concept of 'Information'.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement feels like a natural, everyday action of gesturing or pointing, giving it a moderate sense of real-world action.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and contained, involving only a slight turn of the body and raising of one arm, without large or dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and expressionless throughout the video, conveying no discernible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The simple, single-handed gesture does not adequately reflect the complexity of the abstract concept of 'Information'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture resembles common conversational hand movements or pointing, making it somewhat familiar in general cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is simple and easy to perform, requiring only a basic turn of the head and raising of one hand.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as pointing, waving, or indicating something to the side rather than specifically representing 'Information'.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2685,
+    "completion_tokens": 524,
+    "total_tokens": 3209,
+    "cost": 0.003183,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003183,
+      "upstream_inference_prompt_cost": 0.001611,
+      "upstream_inference_completions_cost": 0.001572
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

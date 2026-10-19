@@ -1,0 +1,42 @@
+{
+  "target_word": "Camera",
+  "video_file": "video_022.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both hands to eye level, and forms a rectangular frame with their fingers and thumbs, mimicking the viewfinder of a camera. They hold this pose briefly before lowering their arms back to their sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of framing with fingers is a highly recognizable and direct visual representation of using a camera viewfinder."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture feels like a real action because it mimics the physical act of holding a camera up to the eye to take a picture."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained within the upper body, involving only the hands and arms without large body displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, showing no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, two-handed gesture perfectly matches the concrete and simple nature of the object 'camera'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'framing' gesture is a universally understood cultural convention for representing photography or cameras."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform as it requires no props and uses a natural hand configuration."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'taking a picture' or 'photography' rather than the object 'camera' itself, though the connection is strong."
+    ],
+    "confidence": "high"
+  }
+}

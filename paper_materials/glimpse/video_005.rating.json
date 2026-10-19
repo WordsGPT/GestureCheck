@@ -1,0 +1,42 @@
+{
+  "target_word": "Bett",
+  "video_file": "video_005.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, then tilts their head to the side and brings both hands up to rest against the side of their head/cheek, mimicking a resting or sleeping posture. After holding this pose briefly, they lower their arms back to their sides and return to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of tilting the head and resting the hands against the cheek is a widely recognized pantomime for sleeping or resting, which strongly resembles the function of a bed ('Bett')."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement evokes a clear physical sensation of resting one's head on a pillow or hand, making the experience of using a bed feel tangible and relatable."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, slow, and contained to the upper body and head, lacking large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains relatively neutral and calm, with only a slight softening of the eyes during the resting pose, conveying minimal emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-action gesture perfectly matches the straightforward, concrete nature of the noun 'Bett'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'sleeping' gesture (head tilted onto hands) is a highly common and universally understood pantomime in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only a simple head tilt and hand placement without any complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'sleeping' (schlafen) or 'tired' (m\u00fcde) rather than specifically 'bed' (Bett), though the association is strong."
+    ],
+    "confidence": "high"
+  }
+}

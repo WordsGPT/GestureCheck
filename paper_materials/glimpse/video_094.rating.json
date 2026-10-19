@@ -1,0 +1,42 @@
+{
+  "target_word": "Cup",
+  "video_file": "video_094.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both hands to the sides of the head with fingers curved as if holding a large object, tilts the head back, and then lowers the hands to the chest while bringing the head back to a neutral position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of holding hands to the mouth and tilting the head back strongly resembles the action of drinking from a cup, which is a highly iconic representation of the object's primary function."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement feels like a genuine physical action of drinking, with clear hand positioning and head movement that evoke the sensory experience of consuming a beverage."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving the arms and head but remaining contained within the upper body space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is relatively neutral, with the mouth slightly open during the drinking motion but lacking strong emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-action gesture of drinking is an appropriate and direct fit for the concrete, simple concept of a 'cup'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of miming drinking from a cup is a universally recognized and common gesture across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only basic hand and head movements that are simple to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as drinking from any container (bottle, glass, mug) rather than specifically a cup, though the hand shape suggests a cup-like object."
+    ],
+    "confidence": "high"
+  }
+}

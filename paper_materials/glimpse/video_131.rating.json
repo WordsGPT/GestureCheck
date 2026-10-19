@@ -1,0 +1,43 @@
+{
+  "target_word": "Mirror",
+  "video_file": "video_131.mp4",
+  "brief_gesture_description": "The person stands facing forward, raises both hands with palms facing inward toward each other in front of the face, holds them there briefly, then lowers the arms back to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The two palms held parallel and facing each other can suggest a reflective surface or symmetry, loosely resembling a mirror, but there is no clear miming of looking into a mirror or a reflective surface."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple, static hand placement with no interaction with an object or body part, so it feels more like a symbolic sign than a lived action."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The gesture involves a small, slow raise and lower of the hands with minimal amplitude and no dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, with no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, two-handed gesture matches the concrete, single-concept nature of the word 'mirror'."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Holding palms parallel in front of the face is a recognizable gesture in some sign languages for mirror/reflection, but it is not universally familiar to general audiences."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform: simply raise both hands with palms facing each other in front of the face and lower them."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'face,' 'beauty,' 'prayer,' or 'stop' depending on context.",
+      "Without a visible reflective surface or head movement, the mirror meaning is not strongly iconic."
+    ],
+    "confidence": "medium"
+  }
+}

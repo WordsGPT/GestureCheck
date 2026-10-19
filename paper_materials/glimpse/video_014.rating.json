@@ -1,0 +1,42 @@
+{
+  "target_word": "Remote Control",
+  "video_file": "video_014.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns their body to the side and extends one arm forward with the index finger pointing, as if pressing a button on an unseen device. They then return to a neutral standing position facing the camera.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of pointing a finger forward mimics the action of using a remote control, which is highly iconic for the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement feels like a real action of pressing a button on a remote control, providing strong sensorimotor imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and subtle, involving only a slight extension of the arm and a turn of the body."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral throughout the video, conveying no emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simplicity of the gesture fits well with the straightforward concept of using a remote control."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of pointing a finger as if using a remote control is widely recognized and familiar in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only a simple extension of the arm and a pointing finger."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as pointing at something rather than using a remote control, but the context of the target word supports the remote control interpretation."
+    ],
+    "confidence": "high"
+  }
+}

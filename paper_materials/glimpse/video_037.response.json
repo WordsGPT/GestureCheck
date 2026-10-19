@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394677-EK5hlbRNgQ1CihZBrCF5",
+  "object": "chat.completion",
+  "created": 1792394677,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Mirror\",\n  \"video_file\": \"video_037.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns their body to the side and raises both hands in front of their face with palms facing each other, as if holding or looking into a vertical rectangular object. They then lower their hands and return to a neutral standing position facing forward.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of holding hands up in front of the face as if framing a vertical rectangle strongly resembles the act of looking into a mirror.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The movement feels like a natural, everyday action of holding up a mirror or looking into one, making it easy to imagine performing.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, involving turning the body and raising the arms, but it is not highly dynamic or large-scale.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, conveying no strong emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, single-action gesture fits the concrete, everyday concept of a mirror perfectly.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture of holding hands up to frame a mirror is a very common and widely understood pantomime.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple hand and body movement without any props.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as looking through a window or holding a phone, but the vertical framing strongly suggests a mirror.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 519,
+    "total_tokens": 3722,
+    "cost": 0.0034788,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034788,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001557
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

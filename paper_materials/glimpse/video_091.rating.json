@@ -1,0 +1,42 @@
+{
+  "target_word": "Zip",
+  "video_file": "video_091.mp4",
+  "brief_gesture_description": "The person stands facing the camera and performs a repeated vertical sliding motion with the right hand along the front of the torso, moving from the waist up to the neck and back down, while the left hand remains near the hip. The facial expression is neutral and focused.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The vertical sliding motion of the hand along the torso directly mimics the action of pulling a zipper up and down."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture feels like a tangible, physical action, clearly evoking the sensation of manipulating a zipper mechanism."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, confined to the torso area, and is a simple, repetitive vertical motion rather than a large, dynamic sweep."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, showing no significant emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-hand repetitive motion perfectly matches the straightforward, mechanical nature of the concept 'Zip'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture is a universally recognized pantomime for zipping a garment, making it highly familiar across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only a simple hand movement along the body without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without context, the motion could be interpreted as adjusting clothing or a necklace, but the repetitive vertical nature strongly points to zipping."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394812-HFn6xVP4frvqBcYsCGV2",
+  "object": "chat.completion",
+  "created": 1792394812,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Bread\",\n  \"video_file\": \"video_140.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then raises their right hand to the side of their head with the palm facing down. They rotate their body to the left (their right) while keeping the hand raised near the head, then lower the arm and return to a neutral standing position facing forward.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture of raising a hand to the head and turning does not visually resemble bread, its shape, or any common action associated with it.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement feels like a generic salute or looking gesture rather than a tactile or sensory experience related to handling or eating bread.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement involves raising the arm and rotating the torso, which is a moderate amount of motion, but it is not particularly large or dynamic.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and flat throughout the video, conveying no specific emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is relatively simple, but its form (hand to head, turning) does not align well with the simple concept of 'bread'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"While the gesture resembles a salute or looking into the distance, it is not a culturally common or recognized sign for 'bread'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The physical actions (raising hand, turning body) are simple and easy to perform, regardless of their meaning.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture resembles a salute or looking into the distance rather than anything related to bread.\",\n      \"The rotation of the body adds ambiguity to the intent of the hand movement.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 553,
+    "total_tokens": 3757,
+    "cost": 0.0035814,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035814,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001659
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

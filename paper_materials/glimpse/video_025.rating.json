@@ -1,0 +1,42 @@
+{
+  "target_word": "Clothes",
+  "video_file": "video_025.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises both hands to the shoulders and chest area, smoothing or patting the front of their shirt. They then move their hands down along the sides of their torso to the hips, continuing to smooth the clothing downward, before lowering their arms back to their sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of smoothing and patting the torso and clothing directly mimics the action of adjusting or indicating clothes, making it highly iconic for the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement feels like a natural, everyday action of straightening one's own shirt or dress, providing strong sensorimotor imagery related to wearing clothes."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, confined to the torso area. It is clear and deliberate but not overly large or dynamic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, conveying no specific emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and direct, which fits well with the concrete and common nature of the word 'Clothes'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Smoothing one's clothing is a universally recognized gesture across cultures, making it highly familiar."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform as it involves simple, natural hand movements on one's own body without requiring any props or complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'shirt' or 'top' specifically rather than clothes in general, though it fits the broader category well."
+    ],
+    "confidence": "high"
+  }
+}

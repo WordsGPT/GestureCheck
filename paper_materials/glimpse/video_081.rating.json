@@ -1,0 +1,42 @@
+{
+  "target_word": "Innocence",
+  "video_file": "video_081.mp4",
+  "brief_gesture_description": "A woman stands facing the camera, brings both hands up to her chest with palms flat and crossed over each other, holds the pose briefly, then lowers her arms back to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The hands-over-heart gesture is a conventional sign for sincerity or purity, which loosely relates to innocence, but it does not visually depict the concept itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Placing hands on the chest is a tangible, felt bodily action that evokes sincerity or heartfelt feeling, though it is not a direct physical enactment of innocence."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained to the upper body, with a slow, gentle raise and lower of the hands and no large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The face remains largely neutral and composed, with only a faint, calm expression and no strong emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple, single-phase gesture matches the abstract, uncomplicated nature of the concept, though it lacks distinctive features specific to innocence."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Crossing hands over the chest is a widely recognized gesture for sincerity, honesty, or purity in many cultures, making it familiar."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform: simply raise both hands to the chest, cross them, hold briefly, and lower them."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The hands-over-heart gesture could also be interpreted as sincerity, honesty, or heartfelt emotion rather than specifically innocence."
+    ],
+    "confidence": "medium"
+  }
+}

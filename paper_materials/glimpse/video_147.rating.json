@@ -1,0 +1,43 @@
+{
+  "target_word": "Cooking",
+  "video_file": "video_147.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both hands to chest height, and performs a small, repeated stirring or mixing motion with both hands in front of the torso, then lowers the arms back to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The two-handed motion in front of the chest resembles stirring or mixing, which is a common component of cooking, but no pot, utensil, or food is visible, so the resemblance is partial."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The repeated hand movement suggests a physical action like stirring, but the small amplitude and lack of object make the sensory experience feel limited."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is confined to the hands and forearms at chest level, with small amplitude and no large body displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout the clip, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple repeated stirring motion fits a basic action concept like cooking, though it captures only one aspect of the broader activity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Mimicking stirring with the hands is a widely recognized and common gesture for cooking or mixing across many cultures."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only small repeated hand movements in front of the chest without props or complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as mixing, stirring, or preparing food rather than cooking specifically.",
+      "Without a visible pot or utensil, the action may be ambiguous between cooking and other hand-based activities."
+    ],
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394817-KwK0aUGadKJJ8yFPlVwe",
+  "object": "chat.completion",
+  "created": 1792394817,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Leg\",\n  \"video_file\": \"video_143.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises one hand to rest under their chin while placing the other hand on their hip, tilting their head slightly in a thoughtful or resting pose. They hold this posture briefly before lowering both arms back to their sides and standing still.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture focuses on the head, chin, and hip, with no movement, pointing, or emphasis directed toward the legs, which remain stationary throughout.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The pose resembles a common resting or thinking stance, but it does not evoke any physical sensation or action related to the legs.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is limited to a slow, small arm raise and head tilt, followed by returning to a neutral standing position, with no dynamic or large-scale motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The facial expression remains largely neutral, with only a slight head tilt that might suggest mild contemplation, but no strong emotion is conveyed.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The simple, static pose does not correspond to the concept of a leg, as it lacks any leg-specific movement or indication.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The hand-on-chin and hand-on-hip pose is a widely recognized gesture for thinking or resting, but it is not culturally associated with the word 'leg'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform, requiring only a simple arm raise to the chin and a hand placement on the hip, though it does not represent the target word.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as 'thinking', 'resting', or 'bored', but it does not clearly or uniquely represent 'leg'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 577,
+    "total_tokens": 3780,
+    "cost": 0.0036528,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036528,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001731
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

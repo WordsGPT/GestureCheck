@@ -1,0 +1,42 @@
+{
+  "target_word": "Benefaction",
+  "video_file": "video_088.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns to their left and bends forward at the waist, extending their left arm downward toward the floor as if reaching for or placing something low, while the right arm remains near the hip. The person then straightens up and returns to a neutral standing position facing forward.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture shows a reaching or placing motion toward the ground, which does not visually resemble the abstract concept of a benefaction or act of kindness."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The bending and reaching motion feels like a real physical action, such as picking something up or placing an object on the floor."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves a clear bend at the waist and arm extension, which is moderately dynamic but not large or highly energetic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the movement, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple physical reaching motion does not match the complexity of the abstract concept of benefaction."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The bending and reaching motion is a common, everyday physical action, though not a conventional gesture for the target word."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only a simple bend and arm extension without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as picking something up, placing something down, or simply reaching, but it does not clearly convey the concept of benefaction."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394773-S4lMZgDf9sZizwaCUjrg",
+  "object": "chat.completion",
+  "created": 1792394773,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Chair\",\n  \"video_file\": \"video_107.mp4\",\n  \"brief_gesture_description\": \"The person stands upright facing the camera, then briefly lifts one leg with the knee bent and places a hand on the hip while looking upward, before returning to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture shows a leg lift and hand-on-hip pose, which does not visually resemble a chair or the act of sitting.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement feels like a brief balance or dance pose rather than an experience related to sitting on or using a chair.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and brief, limited to lifting one leg and placing a hand on the hip.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and shows no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The simple pose does not match the concept of a chair, which would typically involve a sitting or supporting gesture.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"The pose is not a commonly recognized gesture for 'chair' in typical cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The movement is simple and easy to perform, requiring only a leg lift and hand placement.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as a dance move or balance exercise rather than representing a chair.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2053,
+    "completion_tokens": 478,
+    "total_tokens": 2531,
+    "cost": 0.0026658,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0026658,
+      "upstream_inference_prompt_cost": 0.0012318,
+      "upstream_inference_completions_cost": 0.001434
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394642-7bTJWnk6te1yaYJa8jUL",
+  "object": "chat.completion",
+  "created": 1792394642,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Remote Control\",\n  \"video_file\": \"video_014.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns their body to the side and extends one arm forward with the index finger pointing, as if pressing a button on an unseen device. They then return to a neutral standing position facing the camera.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of pointing a finger forward mimics the action of using a remote control, which is highly iconic for the target word.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The movement feels like a real action of pressing a button on a remote control, providing strong sensorimotor imagery.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and subtle, involving only a slight extension of the arm and a turn of the body.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral throughout the video, conveying no emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simplicity of the gesture fits well with the straightforward concept of using a remote control.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture of pointing a finger as if using a remote control is widely recognized and familiar in many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform, requiring only a simple extension of the arm and a pointing finger.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as pointing at something rather than using a remote control, but the context of the target word supports the remote control interpretation.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 506,
+    "total_tokens": 3710,
+    "cost": 0.0034404,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034404,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001518
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

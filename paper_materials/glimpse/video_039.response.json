@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394604-YeX5N69YYNNDzrobMiwy",
+  "object": "chat.completion",
+  "created": 1792394604,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Daily Newspaper\",\n  \"video_file\": \"video_039.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera and performs a single, quick sweeping motion with the left arm across the front of the torso, moving from the right side toward the left side, before returning the arm to the side of the body.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The single sweeping arm motion does not visually resemble holding, opening, or reading a newspaper, nor does it convey the concept of 'daily'.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement feels like a generic, abstract sweep rather than a concrete, embodied action related to handling a physical object like a newspaper.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is a brief, moderate-amplitude sweep of one arm across the body, lacking large or highly dynamic movement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and flat throughout the video, conveying no discernible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The simple, single-arm sweep is too basic and abstract to adequately represent the specific, multi-faceted concept of a 'Daily Newspaper'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture does not correspond to any widely recognized cultural sign or conventional gesture for a newspaper.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The movement is a simple, single-arm sweep that is physically easy to perform, though it lacks semantic clarity.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The sweeping motion could be interpreted as a generic 'brushing off' or 'sweeping' gesture rather than anything related to a newspaper.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 528,
+    "total_tokens": 3732,
+    "cost": 0.0035064,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035064,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001584
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

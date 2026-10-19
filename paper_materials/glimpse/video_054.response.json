@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394698-onuDmeVUcNaXarC7qjeJ",
+  "object": "chat.completion",
+  "created": 1792394698,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Property\",\n  \"video_file\": \"video_054.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then bends forward at the waist and crosses both arms in front of the torso, rubbing or hugging the opposite arms in a self-embracing motion. The person then straightens up and returns to a neutral standing posture with arms at the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture of hugging oneself or rubbing the arms does not visually resemble the concept of 'Property' (ownership, real estate, or attributes).\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The motion of crossing arms and rubbing the torso feels like a tangible physical action, resembling self-hugging, shivering, or comforting oneself.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and contained within the body's immediate space, involving a simple bend and arm crossing without large dynamic displacement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and flat throughout the video, showing no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The simple self-hugging gesture does not map well to the abstract or concrete meanings of 'Property'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture of crossing arms to hug oneself is a common, recognizable human movement, though not specifically tied to the target word.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform, requiring only a forward bend and crossing the arms over the chest.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as shivering, self-comforting, or hugging oneself, but has no clear connection to 'Property'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 538,
+    "total_tokens": 3741,
+    "cost": 0.0035358,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035358,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001614
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

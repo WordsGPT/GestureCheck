@@ -1,0 +1,42 @@
+{
+  "target_word": "Crutch",
+  "video_file": "video_121.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, then tilts their torso and head to one side while placing one hand on their hip and letting the other arm hang loosely. They hold this leaning posture briefly before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture shows a hand-on-hip lean with no object or arm position resembling a crutch under the arm or hand."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement feels like a casual stretch or hip rest rather than the weight-bearing action of using a crutch."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and slow, limited to a slight torso tilt and hand placement with no large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple lean does not match the concept of a crutch, which typically involves an object or supportive arm posture."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "A hand-on-hip lean is a common everyday posture, but it is not a familiar gesture for representing a crutch."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only a slight body tilt and placing a hand on the hip."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The lean could be interpreted as a stretch, hip rest, or casual posture rather than anything related to a crutch."
+    ],
+    "confidence": "high"
+  }
+}

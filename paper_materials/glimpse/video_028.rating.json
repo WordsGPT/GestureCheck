@@ -1,0 +1,42 @@
+{
+  "target_word": "Mask",
+  "video_file": "video_028.mp4",
+  "brief_gesture_description": "A person stands facing the camera, raises both hands to cover their face, holds them there briefly, then lowers them back to their sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Covering the face with both hands visually resembles the function of a mask, which covers the face, though it does not depict a specific mask object."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The action of placing hands over the face feels like a real, tangible experience of covering or hiding one's face, closely related to wearing a mask."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving both arms moving from the sides to the face and back, but it is not highly dynamic or large."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face is neutral and largely obscured during the key gesture, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, single-action gesture fits the relatively simple concept of a mask well."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Covering the face with hands is a common and widely understood gesture across many cultures, often associated with hiding or masking."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only the simple movement of raising both hands to the face."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'hide', 'face', or 'cover' rather than specifically 'mask'."
+    ],
+    "confidence": "high"
+  }
+}

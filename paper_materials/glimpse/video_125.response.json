@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394612-1LdgUGoeQSPgLY7S9xHp",
+  "object": "chat.completion",
+  "created": 1792394612,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Button\",\n  \"video_file\": \"video_125.mp4\",\n  \"brief_gesture_description\": \"A person stands facing the camera against a plain background. They raise their right hand toward their chest and make a small, repeated pinching or pressing motion with the fingers, as if manipulating a small object on their clothing, before lowering the hand back to their side. The facial expression remains neutral throughout.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The small pinching and pressing motion of the fingers at the chest area visually resembles the action of fastening or manipulating a button on clothing.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture mimics the fine motor action of handling a small object like a button, providing a clear sense of the physical experience.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and localized to the hand and forearm, lacking large or dynamic body motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The person's face remains neutral and expressionless throughout the video, conveying no emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, focused hand movement matches the simple, concrete nature of the object 'button'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of miming buttoning clothing is a common and recognizable action in many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is simple and requires only a small hand movement, making it very easy to perform.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as snapping fingers or picking something off clothing.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2053,
+    "completion_tokens": 508,
+    "total_tokens": 2561,
+    "cost": 0.0027558,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0027558,
+      "upstream_inference_prompt_cost": 0.0012318,
+      "upstream_inference_completions_cost": 0.001524
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

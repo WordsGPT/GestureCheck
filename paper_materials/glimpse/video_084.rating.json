@@ -1,0 +1,42 @@
+{
+  "target_word": "Procedure",
+  "video_file": "video_084.mp4",
+  "brief_gesture_description": "The person stands upright and stationary facing the camera with arms resting at the sides. There is no visible hand movement, gesturing, or change in posture throughout the clip, and the facial expression remains neutral.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The person remains completely still with no hand or body movements, providing no visual representation of a procedure or sequence of steps."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "There is no observable action, movement, or physical interaction, so the video does not evoke any sensorimotor experience."
+    },
+    "motional_salience_gesture": {
+      "score": 1,
+      "rationale": "The video shows a static standing posture with no dynamic movement or displacement of the limbs."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression is neutral and unchanging, conveying no emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The complete absence of gesture does not fit the concept of a procedure, which typically involves a sequence of actions or steps."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "A static standing posture is not a recognizable or conventional gesture for representing a procedure in any cultural context."
+    },
+    "enactment_potential": {
+      "score": 1,
+      "rationale": "While standing still is physically easy, it is not a gesture and therefore has no enactment potential for conveying the target word."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The video contains no visible gesture or movement, making it impossible to interpret any intended meaning or connection to the target word."
+    ],
+    "confidence": "high"
+  }
+}

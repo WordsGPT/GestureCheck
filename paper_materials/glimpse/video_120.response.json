@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394790-nWlfGavatK0qv9fMPuh4",
+  "object": "chat.completion",
+  "created": 1792394790,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Towel\",\n  \"video_file\": \"video_120.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises one arm and repeatedly wipes or rubs the side of their head and hair with a closed fist or hand, as if drying hair. The other arm remains at the side. The person then returns to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The wiping motion on the head resembles drying hair, which is a common action associated with a towel, but the towel itself is not visible or mimicked, making the connection indirect.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The rubbing motion on the head evokes the physical sensation of drying hair, but without a visible towel or more specific towel-handling movements, the imagery is somewhat limited.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The arm movement is moderate in size and dynamic, involving a clear wiping motion, but it is not highly exaggerated or large-scale.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, with no visible emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, single-action gesture fits well with the concrete, everyday nature of the word 'towel'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of wiping or drying hair with a hand is a common and recognizable action in many cultures, often associated with towel use.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is simple and easy to perform, requiring only a basic wiping motion with one hand.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as scratching the head or adjusting hair rather than drying with a towel.\",\n      \"The absence of a visible towel or towel-like object makes the connection to the target word less direct.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 564,
+    "total_tokens": 2618,
+    "cost": 0.0029244,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0029244,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001692
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

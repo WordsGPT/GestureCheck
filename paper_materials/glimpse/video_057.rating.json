@@ -1,0 +1,43 @@
+{
+  "target_word": "Discipline",
+  "video_file": "video_057.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, then briefly extends the left arm straight out to the side at shoulder height while simultaneously lifting the left leg forward and outward in a marching-like motion. The arm and leg are then returned to the sides, and the person stands still in a neutral posture for the remainder of the clip.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The brief marching-like arm and leg extension loosely resembles military drill or self-control, but the movement is minimal and does not clearly depict the abstract concept of discipline."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The single marching step evokes a physical action, but it is brief and lacks the repeated, effortful quality that would make it feel like a sustained experience of discipline."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and quick, limited to one arm and one leg, followed by a long period of stillness, so overall dynamism is low."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "Discipline is a complex, sustained concept, but the gesture is a single, simple movement that does not match that complexity."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The marching-like motion is a recognizable gesture associated with military or drill contexts, though it is not a widely standardized sign for discipline."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to perform, requiring only a brief arm and leg extension followed by standing still."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The brief marching motion could be interpreted as walking, marching, or a military drill rather than specifically representing discipline.",
+      "The long period of stillness after the movement may be perceived as a neutral resting posture rather than part of the gesture."
+    ],
+    "confidence": "medium"
+  }
+}

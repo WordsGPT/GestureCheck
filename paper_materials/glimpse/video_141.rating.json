@@ -1,0 +1,42 @@
+{
+  "target_word": "Water",
+  "video_file": "video_141.mp4",
+  "brief_gesture_description": "A person stands facing the camera against a plain background. They raise their right hand to their forehead, holding it flat with the palm facing down, and then lower it back to their side. The facial expression remains neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of placing a hand flat on the forehead resembles a salute or shielding the eyes to look into the distance, which does not visually resemble water."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement does not evoke any sensory experience related to water, such as drinking, pouring, or flowing."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and limited to a single arm raising and lowering, lacking dynamic or large-scale motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The person's facial expression is completely neutral and shows no emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The simple hand-to-forehead gesture does not fit the concept of water, which is typically represented by hand movements mimicking drinking or flowing."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While the salute-like gesture is a recognizable human movement, it is not a culturally familiar or standard gesture for representing water."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only a simple raising and lowering of one arm."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as a salute, shielding eyes from the sun, or indicating a headache, but it does not clearly represent water."
+    ],
+    "confidence": "high"
+  }
+}

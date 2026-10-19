@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394698-Dg1VWuKQOgsA0rMeQD5l",
+  "object": "chat.completion",
+  "created": 1792394698,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Plea\",\n  \"video_file\": \"video_056.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, brings both hands together in front of the chest with palms pressed and fingers pointing upward, and performs a small up-and-down motion with the joined hands while slightly bending the knees. The face remains largely neutral with a faint smile, and the hands then return to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The pressed-palm, praying-like hand configuration with a small bobbing motion is a widely recognized visual representation of begging or pleading, which closely matches the meaning of 'plea'.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture feels like a genuine embodied action of supplication; the joined palms and slight knee bend create a tangible sense of earnest requesting.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and contained: hands move from the sides to the chest and back, with only a slight vertical bob and minor knee flexion, so overall dynamism is low.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The facial expression is mostly neutral with at most a faint smile; there is no visible distress, urgency, or earnestness that would strongly convey the emotion of a plea.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, single-hand-configuration gesture matches the relatively simple concept of a plea without unnecessary complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The praying/begging hand gesture is a highly familiar and common gesture across many cultures for pleading or begging.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform: it requires only bringing the palms together in front of the chest and making a small bobbing motion, with no fine motor demands.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The same pressed-palm gesture can also be interpreted as prayer, gratitude, or a greeting (e.g., namaste), so without the target word the meaning could be ambiguous.\",\n      \"The neutral facial expression does not strongly signal the emotional urgency typically associated with a plea.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 615,
+    "total_tokens": 3819,
+    "cost": 0.0037674,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0037674,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001845
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

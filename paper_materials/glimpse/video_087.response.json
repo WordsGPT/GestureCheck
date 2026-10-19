@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394743-gWK0NM1IbeVuBXDI1UR4",
+  "object": "chat.completion",
+  "created": 1792394743,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Wealth\",\n  \"video_file\": \"video_087.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, starting with arms at their sides. They raise both hands to chest level with palms facing upward, hold them there briefly, and then lower them back down to their sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture of holding open palms upward is a generic offering or receiving motion. It does not visually resemble the specific concept of wealth, such as holding money, counting coins, or displaying abundance.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is a simple, abstract hand raise. It lacks the tactile or physical sensation associated with handling wealth, like grasping objects or counting.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and contained within the chest area. It is a slow, deliberate motion with low dynamic energy.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and flat throughout the video, conveying no specific emotion related to wealth or abundance.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is very simple (a single hand movement), which does not seem to fit the complex, abstract nature of the concept 'wealth'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The open-palm gesture is a common, recognizable human movement often used for offering or presenting, though not specifically tied to wealth.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is extremely easy to perform, requiring only a simple raising and lowering of the hands.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as 'give', 'offer', 'receive', or 'present' rather than 'wealth'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 539,
+    "total_tokens": 3743,
+    "cost": 0.0035394,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035394,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001617
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

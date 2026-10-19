@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394802-NsPu4JiFL4yMnZa1slJd",
+  "object": "chat.completion",
+  "created": 1792394802,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Mirror\",\n  \"video_file\": \"video_131.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, raises both hands with palms facing inward toward each other in front of the face, holds them there briefly, then lowers the arms back to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The two palms held parallel and facing each other can suggest a reflective surface or symmetry, loosely resembling a mirror, but there is no clear miming of looking into a mirror or a reflective surface.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is a simple, static hand placement with no interaction with an object or body part, so it feels more like a symbolic sign than a lived action.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture involves a small, slow raise and lower of the hands with minimal amplitude and no dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout, with no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, two-handed gesture matches the concrete, single-concept nature of the word 'mirror'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"Holding palms parallel in front of the face is a recognizable gesture in some sign languages for mirror/reflection, but it is not universally familiar to general audiences.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform: simply raise both hands with palms facing each other in front of the face and lower them.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as 'face,' 'beauty,' 'prayer,' or 'stop' depending on context.\",\n      \"Without a visible reflective surface or head movement, the mirror meaning is not strongly iconic.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2053,
+    "completion_tokens": 553,
+    "total_tokens": 2606,
+    "cost": 0.0028908,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0028908,
+      "upstream_inference_prompt_cost": 0.0012318,
+      "upstream_inference_completions_cost": 0.001659
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

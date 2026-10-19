@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394817-c0V81lMitC0XFabVTXPH",
+  "object": "chat.completion",
+  "created": 1792394817,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Water\",\n  \"video_file\": \"video_141.mp4\",\n  \"brief_gesture_description\": \"A person stands facing the camera against a plain background. They raise their right hand to their forehead, holding it flat with the palm facing down, and then lower it back to their side. The facial expression remains neutral throughout.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture of placing a hand flat on the forehead resembles a salute or shielding the eyes to look into the distance, which does not visually resemble water.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 1,\n      \"rationale\": \"The movement does not evoke any sensory experience related to water, such as drinking, pouring, or flowing.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and limited to a single arm raising and lowering, lacking dynamic or large-scale motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The person's facial expression is completely neutral and shows no emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The simple hand-to-forehead gesture does not fit the concept of water, which is typically represented by hand movements mimicking drinking or flowing.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"While the salute-like gesture is a recognizable human movement, it is not a culturally familiar or standard gesture for representing water.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is extremely easy to perform, requiring only a simple raising and lowering of one arm.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as a salute, shielding eyes from the sun, or indicating a headache, but it does not clearly represent water.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 517,
+    "total_tokens": 3720,
+    "cost": 0.0034728,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034728,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001551
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

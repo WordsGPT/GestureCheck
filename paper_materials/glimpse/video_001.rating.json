@@ -1,0 +1,43 @@
+{
+  "target_word": "Traffic Light",
+  "video_file": "video_001.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns their head and upper body to their right while raising their right arm to point forward and upward with a closed fist. They hold this pointing posture briefly, then lower the arm and return to a neutral standing position facing forward.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture shows a single pointing motion with a closed fist, which does not visually resemble a traffic light (e.g., no vertical stack of lights, no color changes, no stop/go signals)."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement feels like a generic pointing or indicating action rather than an embodied experience of interacting with or observing a traffic light."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The arm raise and turn are clearly visible and moderately dynamic, but the movement is brief and limited to one arm without large body displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout, with no visible emotion or expressive change."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "A traffic light concept typically involves multiple states or a vertical structure; the single simple pointing gesture is too minimal to fit the concept's complexity."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "Pointing with a closed fist is not a widely recognized or conventional gesture for 'traffic light' in common cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to perform: turn the body, raise one arm, point with a fist, and return to neutral."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The pointing gesture could be interpreted as indicating a distant object, signaling 'stop' in a non-traffic context, or simply pointing at something unspecified.",
+      "The closed fist rather than an open hand or finger makes the intended referent unclear."
+    ],
+    "confidence": "medium"
+  }
+}

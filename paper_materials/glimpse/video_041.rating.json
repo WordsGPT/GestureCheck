@@ -1,0 +1,43 @@
+{
+  "target_word": "Plate",
+  "video_file": "video_041.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, then brings both hands together in front of the lower torso, holding them flat and parallel as if shaping or holding a flat, round object. The hands remain close together in this flat, horizontal configuration for a moment before returning to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The flat, parallel hand shape can suggest a flat round object like a plate, but the gesture is small and lacks clear outlining of a plate's edge, so resemblance is moderate."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The hands held flat together evoke holding or shaping a flat object, giving some tactile sense, but the movement is brief and restrained, limiting the feeling of a real action."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, confined to the hands in front of the torso, with minimal body motion and low dynamism."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple flat-hand shape matches the simple, concrete concept of a plate without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Holding hands flat to indicate a flat object is a fairly common pantomime, though not a strongly conventionalized gesture for 'plate' specifically."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform: simply bring both hands together flat in front of the body, requiring no special skill or space."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The flat hand shape could also suggest other flat objects (e.g., paper, tray, or a book) rather than specifically a plate.",
+      "The brief duration and small scale make the intended object ambiguous."
+    ],
+    "confidence": "medium"
+  }
+}

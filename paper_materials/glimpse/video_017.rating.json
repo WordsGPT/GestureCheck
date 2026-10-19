@@ -1,0 +1,42 @@
+{
+  "target_word": "Painting",
+  "video_file": "video_017.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns to their left (viewer's right) and raises their right arm, making a small, repeated up-and-down stroking motion with the hand as if holding a brush and painting a vertical surface in front of them. The gaze follows the hand. The arm then lowers and the person returns to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The repeated up-and-down hand motion in front of an imagined vertical surface strongly resembles the action of painting with a brush, matching the target word well."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture mimics the physical motion of applying paint with a brush, evoking a clear sense of the real action."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The arm is raised and the motion is visible, but the strokes are relatively small and contained rather than large or highly dynamic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout, with no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, repetitive stroking motion appropriately captures the core action of painting without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Miming painting with a brush is a widely recognized and common gesture across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is simple, requiring only a single arm movement that is easy to imitate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as writing on a board or pointing at something, though the repeated stroking motion leans toward painting."
+    ],
+    "confidence": "high"
+  }
+}

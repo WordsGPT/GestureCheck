@@ -1,0 +1,43 @@
+{
+  "target_word": "Thread",
+  "video_file": "video_011.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises their left arm upward and outward, holding the hand in a pinched position with thumb and forefinger together as if grasping a thin object. The arm is held extended at head height for a moment before being lowered back to the side.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The pinched-finger gesture suggests holding a thin object, which could loosely relate to a thread, but the upward arm extension does not clearly depict threading, pulling, or a thread's linear form."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The pinch between thumb and forefinger evokes a light grasp, but the single raised-arm motion lacks the repeated or continuous movement that would strongly suggest handling a thread."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is limited to one arm raising and lowering; it is small in amplitude and lacks dynamic or large-scale motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, showing no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is a simple single-arm motion, which matches the simplicity of the word, but it does not capture the elongated or linear nature of a thread."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The pinched-finger hold is a common gesture for small objects, but it is not a widely recognized conventional gesture specifically for 'thread'."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only a simple arm raise with a thumb-and-forefinger pinch."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as holding any small thin object (e.g., a needle, hair, or string) rather than specifically a thread.",
+      "The upward arm extension may suggest pointing or reaching rather than manipulating a thread."
+    ],
+    "confidence": "medium"
+  }
+}

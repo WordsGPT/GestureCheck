@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394671-bv8MGBDO7zoEooxQl4pP",
+  "object": "chat.completion",
+  "created": 1792394671,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Collection\",\n  \"video_file\": \"video_033.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises both hands to waist height with palms facing each other. She makes small, repeated gathering or scooping motions with both hands, moving them slightly inward and outward as if collecting multiple small items into a central space, before lowering her arms back to her sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The repeated inward scooping motions with both hands visually suggest gathering multiple items together, which aligns with the concept of a collection, though no specific objects are shown.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture mimics the physical action of picking up and gathering items, providing a moderate sense of a real-world experience, though the lack of visible objects limits the imagery.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and contained within the waist area, lacking large, dynamic, or expansive motions.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, conveying no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The repeated, two-handed gathering motion fits the concept of a collection (which implies multiple items) better than a single, simple gesture, though it is still quite basic.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture of gathering with both hands is a common, intuitive pantomime for collecting or gathering items across many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is simple to perform, requiring only basic hand and arm movements at waist height without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as 'gathering', 'picking up', or 'sorting' rather than specifically 'collection'.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 557,
+    "total_tokens": 3760,
+    "cost": 0.0035928,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035928,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001671
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

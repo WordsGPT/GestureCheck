@@ -1,0 +1,42 @@
+{
+  "target_word": "Hair Dryer",
+  "video_file": "video_098.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises one arm above their head with the hand in a loose fist or cupped shape, tilting their head slightly. They then move the hand downward and outward in a sweeping motion away from the head, as if mimicking the action of drying hair with a handheld device, before lowering the arm back to the side.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture of holding a hand above the head and sweeping it down resembles the motion of using a hair dryer, but the lack of a clear object shape (like a nozzle) makes it somewhat generic."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement evokes the physical action of drying hair, but the hand shape is not specific enough to strongly suggest holding a device, limiting the sensory realism."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving raising the arm and sweeping it down, but it is not particularly large or dynamic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, showing no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, single-arm motion fits the straightforward concept of using a hair dryer well."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of miming drying hair is a common and recognizable action in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple arm raise and sweep without complex hand shapes or body movements."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The hand shape is not clearly defined as holding a device, which could make the gesture ambiguous (e.g., could be interpreted as brushing hair or waving)."
+    ],
+    "confidence": "medium"
+  }
+}

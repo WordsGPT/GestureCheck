@@ -1,0 +1,42 @@
+{
+  "target_word": "Monitor",
+  "video_file": "video_006.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both hands to head height with index fingers pointing upward, then brings both hands down and forward to point both index fingers directly at the camera/viewer, before returning to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of pointing at the viewer could loosely suggest observing or watching, but it does not visually resemble the concept of a monitor (a display screen or a person supervising)."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple, abstract pointing gesture rather than a realistic physical action or experience related to monitoring or using a screen."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves raising both arms and then bringing them forward, which is moderately visible and dynamic, though not highly exaggerated."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, conveying no discernible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple pointing gesture does not adequately capture the complexity of the word 'Monitor', which involves continuous observation, supervision, or a technological display."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Pointing with index fingers is a universally familiar gesture, but its specific application here to represent 'Monitor' is not a standard or widely recognized convention."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only simple arm and finger movements without any complex coordination or physical effort."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as pointing at the viewer, indicating 'you', or a generic attention-getting movement rather than 'Monitor'."
+    ],
+    "confidence": "high"
+  }
+}

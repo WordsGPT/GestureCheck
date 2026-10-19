@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394636-5LluR70Q4tBrjeM3qM5q",
+  "object": "chat.completion",
+  "created": 1792394636,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Entrance Ticket\",\n  \"video_file\": \"video_010.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns to their left side. They extend their right arm forward and slightly upward, holding their hand in a flat, horizontal position as if presenting or holding a small object. The left hand briefly moves near the waist. The person then returns to a neutral standing position facing forward.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture of extending a hand forward could vaguely represent handing over or holding a ticket, but it lacks specific features like holding a rectangular object or interacting with a gate, making the resemblance to 'Entrance Ticket' weak.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement feels somewhat abstract. While the arm extension is clear, the lack of a visible object or specific interaction (like scanning or inserting) limits the sensory experience of handling a ticket.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and contained. It involves a simple arm extension and body turn without large, dynamic motions or significant displacement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, showing no distinct emotion or reaction.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture is simple, which fits the relatively simple concept of a ticket, but it may be too simple to clearly distinguish 'entrance ticket' from other types of tickets or handing over objects.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture of extending a hand forward is a common, neutral movement in many cultures, but it is not a specific, widely recognized cultural sign for 'entrance ticket'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is very easy to perform. It requires only a simple turn and arm extension, with no complex coordination or fine motor skills needed.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as pointing, handing over an object, or checking a watch, rather than specifically holding or using an entrance ticket.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3205,
+    "completion_tokens": 606,
+    "total_tokens": 3811,
+    "cost": 0.003741,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003741,
+      "upstream_inference_prompt_cost": 0.001923,
+      "upstream_inference_completions_cost": 0.001818
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

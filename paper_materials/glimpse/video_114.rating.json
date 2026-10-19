@@ -1,0 +1,43 @@
+{
+  "target_word": "Dish Washing Liquid",
+  "video_file": "video_114.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then bends forward slightly and extends the right arm forward and downward with a closed fist, making a small circular or rubbing motion near the left hand, which is held open at waist level. The person then returns to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture shows a rubbing or scrubbing motion, which could relate to washing, but it lacks specific cues for 'liquid' or 'dish', making the connection to the target word weak."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The motion feels like a physical scrubbing action, which is tangible, but it is not clearly tied to the specific experience of using dish washing liquid."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained, involving only the arms and a slight bend of the torso, lacking large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, conveying no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple scrubbing motion does not adequately capture the complexity of the concept 'Dish Washing Liquid', which involves both the substance and the action."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The scrubbing motion is a common gesture for washing or cleaning, but it is not specifically recognizable as 'dish washing liquid' without context."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to perform, requiring only a basic arm movement and a slight bend of the body."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as general washing or scrubbing rather than specifically using dish washing liquid.",
+      "The lack of a visible object or container makes it unclear what is being washed."
+    ],
+    "confidence": "medium"
+  }
+}

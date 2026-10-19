@@ -1,0 +1,42 @@
+{
+  "target_word": "Wealth",
+  "video_file": "video_087.mp4",
+  "brief_gesture_description": "The person stands facing the camera, starting with arms at their sides. They raise both hands to chest level with palms facing upward, hold them there briefly, and then lower them back down to their sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of holding open palms upward is a generic offering or receiving motion. It does not visually resemble the specific concept of wealth, such as holding money, counting coins, or displaying abundance."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple, abstract hand raise. It lacks the tactile or physical sensation associated with handling wealth, like grasping objects or counting."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained within the chest area. It is a slow, deliberate motion with low dynamic energy."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, conveying no specific emotion related to wealth or abundance."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is very simple (a single hand movement), which does not seem to fit the complex, abstract nature of the concept 'wealth'."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The open-palm gesture is a common, recognizable human movement often used for offering or presenting, though not specifically tied to wealth."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only a simple raising and lowering of the hands."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'give', 'offer', 'receive', or 'present' rather than 'wealth'."
+    ],
+    "confidence": "high"
+  }
+}

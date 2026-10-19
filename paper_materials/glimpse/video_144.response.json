@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394817-yOiUQest8iLAmfcR2xkm",
+  "object": "chat.completion",
+  "created": 1792394817,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Ball\",\n  \"video_file\": \"video_144.mp4\",\n  \"brief_gesture_description\": \"A person stands facing the camera and raises both hands to chest height, holding them apart as if gripping an invisible sphere. The hands then move outward and slightly upward in a spreading motion, as if mimicking the expansion or throwing of a ball, before returning to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The initial hand position suggests holding a round object, but the subsequent outward spreading motion is ambiguous and could represent many things (e.g., 'big', 'open', 'throw'), making the specific link to 'Ball' moderate.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture mimics the physical action of holding and releasing or expanding an object, providing some tactile sense of size and shape, but lacks the specific weight or bounce associated with a ball.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is clear and visible, involving both arms moving from the center to the sides, but it is not particularly large, fast, or dynamic.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The person's facial expression remains neutral and flat throughout the video, showing no discernible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is simple and direct, fitting the concrete and simple nature of the word 'Ball' well.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"Using hands to outline or hold an invisible object is a very common and universally understood gesture across cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is extremely easy to perform, requiring only simple arm movements and hand positioning without any complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The outward spreading motion could be interpreted as 'big', 'open', or 'throw' rather than specifically 'ball'.\",\n      \"The lack of a specific 'holding' or 'bouncing' motion makes the object identity slightly vague.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 587,
+    "total_tokens": 3790,
+    "cost": 0.0036828,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036828,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001761
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

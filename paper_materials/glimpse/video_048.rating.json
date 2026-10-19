@@ -1,0 +1,42 @@
+{
+  "target_word": "Requirement",
+  "video_file": "video_048.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, raises both arms straight up overhead with open palms, then lowers them back to the sides of the body and remains still.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The visible movement is a simple raising and lowering of both arms, which does not visually resemble the abstract concept of a requirement."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture feels like a basic physical stretch or arm raise rather than an enacted experience tied to the word."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The arms move through a large vertical range from the sides to overhead, but the motion is brief and then the body remains still."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The single simple arm raise does not match the complexity of the abstract concept of a requirement."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Raising both arms overhead is a common and familiar movement, but it is not a conventional gesture for the word."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple upward and downward movement of both arms."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as stretching, celebrating, or surrendering rather than representing a requirement."
+    ],
+    "confidence": "high"
+  }
+}

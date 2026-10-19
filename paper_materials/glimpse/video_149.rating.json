@@ -1,0 +1,42 @@
+{
+  "target_word": "Cat",
+  "video_file": "video_149.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns their head and torso slightly to the side. They raise their left arm with the palm facing outward and flat, while the right hand moves horizontally across the body toward the left palm, as if stroking or pushing against it. The hands then lower back to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of a flat palm and a horizontal hand movement does not visually resemble a cat, its shape, or typical cat behaviors like scratching or meowing."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement feels like a physical interaction with a surface or object, such as wiping or pushing, but lacks any sensory connection to the concept of a cat."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained within the upper body, involving only a brief arm extension and hand motion without large or dynamic displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, showing no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The gesture is a simple two-handed motion, but it does not align with the semantic complexity or typical representations of the word 'Cat'."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This specific hand configuration is not a common or recognizable gesture for 'Cat' in typical cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is physically simple to perform, requiring only basic arm and hand movements without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as wiping a surface, pushing something away, or a sign for 'stop' or 'wait', but it does not clearly map to 'Cat'."
+    ],
+    "confidence": "high"
+  }
+}

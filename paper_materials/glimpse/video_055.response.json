@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394698-Ra7zgufRqQ6znNxXZdh1",
+  "object": "chat.completion",
+  "created": 1792394698,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Destination\",\n  \"video_file\": \"video_055.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises their right hand to shoulder height with the index finger pointing upward. They then move the hand downward and forward, pointing toward the ground in front of them, while tilting their head down to look at the spot. Finally, they return to a neutral standing position with arms at their sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture shows a downward pointing motion, which could represent arriving at a point, but it lacks a clear trajectory or movement from a starting point to an end point that would strongly depict a 'destination'.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement feels like a deliberate physical action of indicating a specific location on the ground, which is a tangible experience, though it is somewhat abstract.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and contained within the person's immediate space, involving only one arm and a slight head tilt, lacking large dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, showing no significant emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The concept of 'destination' implies a journey or a path leading to a place, but the gesture is a simple, static point, which does not fully capture the complexity of the concept.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"Pointing at a location is a very common and universally understood gesture in many cultures to indicate a place or spot.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple arm movement and a head tilt without any complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as simply pointing at the ground or indicating a specific spot rather than the abstract concept of a destination.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 579,
+    "total_tokens": 3782,
+    "cost": 0.0036588,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036588,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001737
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "target_word": "Bravery",
+  "video_file": "video_067.mp4",
+  "brief_gesture_description": "The person stands facing the camera, briefly places both hands on their hips in an assertive posture, and then returns their arms to their sides, remaining still with a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The hands-on-hips posture can suggest confidence or assertiveness, which loosely relates to bravery, but it does not visually resemble the concept of bravery itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple, static posture change rather than an action that evokes a strong sensory or motor experience of bravery."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and brief, limited to raising and lowering the arms to the hips, with no large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "Bravery is a complex abstract concept, but the gesture is a simple, single posture that does not capture its depth or nuance."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The hands-on-hips posture is a common and recognizable gesture in many cultures, often associated with confidence or readiness."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple movement of placing hands on the hips and returning to a neutral stance."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The hands-on-hips posture could be interpreted as confidence, assertiveness, or readiness rather than bravery specifically.",
+      "The neutral facial expression does not provide additional context to clarify the intended meaning."
+    ],
+    "confidence": "medium"
+  }
+}

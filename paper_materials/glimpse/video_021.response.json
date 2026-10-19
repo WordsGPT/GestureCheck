@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394653-v189aW4N05V8G3oA6gNn",
+  "object": "chat.completion",
+  "created": 1792394653,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Cable\",\n  \"video_file\": \"video_021.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera and raises both hands to chest height, holding them in front of the body as if gripping a thin, elongated object. The hands move slightly along an imaginary horizontal line, mimicking the action of holding, tracing, or pulling a flexible cord or wire. The facial expression remains neutral throughout the movement.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture of holding and moving hands along a horizontal line visually resembles the shape and flexibility of a cable, though it lacks specific details like plugging in or coiling.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement feels like a real action of handling a flexible object, such as pulling or inspecting a wire, providing a moderate tactile sense of the object.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and contained within the chest area, lacking large, dynamic, or sweeping motions.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression is neutral and focused, showing no visible emotion or exaggerated reaction.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, linear hand movement fits the relatively simple concept of a cable, which is a straightforward object.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"While holding a wire is a common action, the specific gesture of tracing a line in the air is a somewhat abstract representation that may not be universally recognized as 'cable' without context.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only simple hand movements in front of the body without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as holding a rope, a string, or a wire, not specifically a cable.\",\n      \"The lack of specific cable-related actions (like plugging in) makes the identification rely heavily on the shape of the movement.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 588,
+    "total_tokens": 3792,
+    "cost": 0.0036864,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036864,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001764
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

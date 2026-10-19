@@ -1,0 +1,43 @@
+{
+  "target_word": "Till",
+  "video_file": "video_023.mp4",
+  "brief_gesture_description": "A woman stands facing the camera against a plain background. She briefly raises her right hand to chest height with the index finger extended, pointing slightly downward and to her right, while her head tilts down to look at the hand. She then lowers her arm back to her side and returns to a neutral standing posture with a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The brief downward point with the index finger could loosely suggest a limit or endpoint, but it does not clearly resemble the meaning of 'till' (e.g., a temporal boundary or agricultural tilling)."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a small, isolated hand gesture with minimal bodily involvement, offering little sensory or motor experience related to the word."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The gesture is small in amplitude, limited to a brief hand raise and lower, with no large or dynamic movement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral throughout, with no visible emotional expression."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple, brief gesture matches the simplicity of the single word 'till,' though it lacks specificity to its meaning."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Pointing with the index finger is a common and familiar gesture, but its use here is ambiguous and not strongly tied to a conventional meaning."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only a brief raise and lower of one hand with the index finger extended."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The downward point could be interpreted as indicating a location, a limit, or a temporal endpoint, making it unclear whether it represents 'till' as a temporal preposition or another meaning.",
+      "The gesture is very brief and lacks repetition or elaboration, which may reduce interpretability."
+    ],
+    "confidence": "medium"
+  }
+}

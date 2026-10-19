@@ -1,0 +1,43 @@
+{
+  "target_word": "Watering Can",
+  "video_file": "video_099.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, then bends forward at the waist and extends the right arm downward and outward to the side, holding the arm in a tilted, pouring-like position for a moment before returning to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The forward lean and downward-extended arm loosely resemble the posture of tilting a watering can, but no hand shape or object is formed to clearly depict the can itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The body tilt and arm extension evoke the physical motion of pouring, giving a moderate sense of the action, though the lack of a grasped object limits the realism."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and slow, limited to a slight torso bend and a single arm extension, with little dynamic range or amplitude."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, with no visible emotional content."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple, single-arm gesture matches the straightforward concept of a watering can, but it omits the object-holding component that would make the fit more complete."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The pouring-like body posture is a recognizable everyday motion, but it is not a conventional or widely recognized gesture specifically for a watering can."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only a slight forward bend and one arm extended downward, with no complex coordination or props."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as generic pouring, sprinkling, or reaching down rather than specifically using a watering can.",
+      "No hand shape or object is formed, so the watering can itself is not visually represented."
+    ],
+    "confidence": "medium"
+  }
+}

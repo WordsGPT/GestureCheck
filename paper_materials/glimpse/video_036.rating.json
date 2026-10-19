@@ -1,0 +1,42 @@
+{
+  "target_word": "Sunglasses",
+  "video_file": "video_036.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both hands to the face, and forms circles with the fingers around the eyes, mimicking the shape and placement of glasses or sunglasses. The hands are then lowered back to the sides of the body.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of forming circles with fingers around the eyes is a highly iconic and universally recognized representation of glasses or sunglasses."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the physical action of putting on or wearing glasses, providing strong sensorimotor imagery related to the face and eyes."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving the arms moving from the sides to the face. It is clear and deliberate but not overly large or dynamic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, with no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, two-handed gesture perfectly matches the simple concept of a common object (sunglasses)."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming glasses with fingers is a very common and widely understood gesture across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only basic hand and arm movements without any special coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also represent 'glasses' (eyeglasses) or 'binoculars' depending on context, but 'sunglasses' is a very strong fit."
+    ],
+    "confidence": "high"
+  }
+}

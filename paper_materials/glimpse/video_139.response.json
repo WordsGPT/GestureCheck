@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394812-hgoLYyeeXiZszBmtwuue",
+  "object": "chat.completion",
+  "created": 1792394812,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Grass\",\n  \"video_file\": \"video_139.mp4\",\n  \"brief_gesture_description\": \"The person stands upright, then bends forward at the waist, reaching both hands down toward the floor with open palms as if touching or sweeping the ground. They then straighten back up to a neutral standing position with arms at their sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The downward reaching motion toward the ground loosely resembles interacting with grass, but lacks specific features like grasping blades or sweeping motions that would strongly indicate grass.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The bending and reaching motion evokes a physical interaction with the ground, but the open palms and lack of grasping or pulling make the tactile experience of grass less vivid.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and contained, involving only a forward bend and arm extension without large or dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral throughout the video, showing no discernible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple bending and reaching gesture matches the straightforward nature of the concept 'grass' as a ground-level object.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"Bending to touch the ground is a common gesture, but it is not specifically associated with grass in most cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is simple and easy to perform, requiring only a forward bend and arm extension.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as picking up an object from the ground rather than specifically interacting with grass.\",\n      \"The open palms and lack of grasping motion make it unclear whether the person is touching grass or simply reaching toward the ground.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 548,
+    "total_tokens": 3752,
+    "cost": 0.0035664,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035664,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001644
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

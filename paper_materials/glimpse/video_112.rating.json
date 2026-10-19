@@ -1,0 +1,42 @@
+{
+  "target_word": "Shampoo",
+  "video_file": "video_112.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises both hands to the head and performs a rubbing or massaging motion on the scalp and hair, before lowering the hands back to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of rubbing the scalp with both hands strongly resembles the action of washing hair with shampoo, making it highly iconic for the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The hand movements on the head clearly evoke the tactile sensation of scrubbing hair, providing strong sensorimotor imagery associated with the experience of shampooing."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving the arms and hands moving to the head, but it is not a large or highly dynamic full-body motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, conveying no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, direct action of rubbing the head fits the concrete, everyday concept of using shampoo perfectly."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture is a universally recognized pantomime for washing hair, making it highly familiar across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only the hands and arms to mimic a common daily activity."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could be interpreted as 'washing hair' or 'headache' depending on context, but fits 'shampoo' well."
+    ],
+    "confidence": "high"
+  }
+}

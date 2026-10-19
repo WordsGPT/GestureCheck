@@ -1,0 +1,42 @@
+{
+  "target_word": "Cancellation",
+  "video_file": "video_046.mp4",
+  "brief_gesture_description": "A person stands facing the camera against a plain background. They raise their right hand to their mouth, briefly touching or covering it, and then lower the hand back down to their side. The rest of the body remains still, and the facial expression is neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of touching the mouth does not visually resemble the concept of cancellation, which typically involves crossing out, erasing, or stopping an action."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple, everyday action of touching the face, but it lacks the physical sensation or dynamic quality associated with canceling something."
+    },
+    "motional_salience_gesture": {
+      "score": 1,
+      "rationale": "The movement is very small and subtle, limited to a brief hand raise and lower, with no large or dynamic body motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains completely neutral and flat throughout the video, conveying no emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The simple, static gesture does not fit the complexity of the abstract concept of cancellation, which usually requires a more definitive or negating movement."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Touching the mouth is a common, familiar human gesture, though it is not specifically associated with cancellation in most cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only a simple raise and lower of one hand."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as thinking, shushing, or a nervous habit rather than cancellation."
+    ],
+    "confidence": "high"
+  }
+}

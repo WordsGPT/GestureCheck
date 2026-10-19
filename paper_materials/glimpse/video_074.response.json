@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394726-b5CyzF1luWgZokPAV6U0",
+  "object": "chat.completion",
+  "created": 1792394726,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Participation\",\n  \"video_file\": \"video_074.mp4\",\n  \"brief_gesture_description\": \"A woman stands facing the camera. She raises her left hand to her chest, then extends it forward and upward with the index finger pointing up, as if volunteering or signaling to speak, before returning her arm to her side.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of raising a hand with the index finger extended is a widely recognized visual representation of volunteering or participating in a group setting.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The movement feels like a natural, real-world action of someone raising their hand to contribute or answer a question.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is clear and distinct, involving a moderate range of motion from the chest to an extended position, though it is not highly dynamic or large-scale.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The facial expression remains relatively neutral and focused, with only a slight smile, conveying little strong emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, single-handed gesture fits the concept of 'participation' well, as it represents a basic act of joining in or contributing.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"Raising a hand to speak or volunteer is a highly familiar and common gesture in educational and professional contexts across many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple arm movement and hand extension.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as 'asking a question' or 'having an idea' rather than general participation.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 525,
+    "total_tokens": 3729,
+    "cost": 0.0034974,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034974,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001575
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

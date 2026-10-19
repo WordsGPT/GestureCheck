@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394736-aET9U8sTlGUiVNhmvI8s",
+  "object": "chat.completion",
+  "created": 1792394736,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Sympathy\",\n  \"video_file\": \"video_083.mp4\",\n  \"brief_gesture_description\": \"The person begins standing upright with arms at their sides. They then bring both hands together in front of their chest, clasping them, while bending their torso forward and lowering their head. After holding this bowed posture briefly, they straighten back up to a neutral standing position with arms at their sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The clasped hands and bowed head can visually represent sympathy or condolence, but the gesture is also highly ambiguous and could easily be interpreted as prayer, gratitude, or general respect.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement feels like a genuine, physical bodily action (bowing with clasped hands), but it lacks the specific tactile or emotional imagery uniquely tied to the concept of sympathy.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and contained, consisting only of bringing the hands together and a slight forward bow of the torso, without large or dynamic displacement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The facial expression remains largely neutral and subdued throughout the video, with the head lowered during the gesture, conveying very little overt emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The simple, single-action gesture fits the abstract nature of the word, but it may be too generic to fully capture the nuanced emotional complexity of sympathy.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of clasping hands and bowing the head is a highly familiar and common gesture across many cultures, often associated with prayer, mourning, or sympathy.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple movement of the arms and a slight bend of the torso without any complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as prayer or religious devotion.\",\n      \"The gesture could be interpreted as a sign of gratitude or thankfulness.\",\n      \"The gesture could be interpreted as a general bow of respect or apology.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3205,
+    "completion_tokens": 611,
+    "total_tokens": 3816,
+    "cost": 0.003756,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003756,
+      "upstream_inference_prompt_cost": 0.001923,
+      "upstream_inference_completions_cost": 0.001833
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

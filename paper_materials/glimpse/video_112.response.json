@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394778-UnYwtsk7nYvLx18hvUmF",
+  "object": "chat.completion",
+  "created": 1792394778,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Shampoo\",\n  \"video_file\": \"video_112.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises both hands to the head and performs a rubbing or massaging motion on the scalp and hair, before lowering the hands back to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of rubbing the scalp with both hands strongly resembles the action of washing hair with shampoo, making it highly iconic for the target word.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The hand movements on the head clearly evoke the tactile sensation of scrubbing hair, providing strong sensorimotor imagery associated with the experience of shampooing.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, involving the arms and hands moving to the head, but it is not a large or highly dynamic full-body motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, conveying no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, direct action of rubbing the head fits the concrete, everyday concept of using shampoo perfectly.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is a universally recognized pantomime for washing hair, making it highly familiar across cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only the hands and arms to mimic a common daily activity.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"Could be interpreted as 'washing hair' or 'headache' depending on context, but fits 'shampoo' well.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 515,
+    "total_tokens": 2569,
+    "cost": 0.0027774,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0027774,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001545
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

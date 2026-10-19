@@ -1,0 +1,42 @@
+{
+  "target_word": "Paper",
+  "video_file": "video_029.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises both hands to the waist area and makes a brief, small rubbing or smoothing motion against the front of their clothing, as if wiping or brushing the fabric. The hands then return to the sides of the body, and the person stands still with a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The visible movement is a small hand rub against the clothing at the waist, which does not visually resemble paper, a sheet, or any paper-related action."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture feels like a real, everyday action such as brushing off or smoothing clothing, but it does not evoke any tactile experience of handling paper."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, brief, and confined to the waist area, with low amplitude and little dynamic range."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout the video, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is simple, which could fit a simple noun, but its content (rubbing clothing) does not align with the concept of paper."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The hand-rubbing motion resembles a common, familiar gesture for brushing off or smoothing clothing, though it is not a conventional sign for paper."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The movement is simple, small, and easy to imitate, requiring only a brief hand motion at the waist."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as brushing off clothing, smoothing fabric, or wiping hands, none of which clearly maps to 'paper'."
+    ],
+    "confidence": "high"
+  }
+}

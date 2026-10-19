@@ -1,0 +1,42 @@
+{
+  "target_word": "Saw",
+  "video_file": "video_122.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then turns their torso slightly to the side and extends both arms forward, moving them in a horizontal back-and-forth sawing motion at waist height before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The horizontal back-and-forth motion of the hands clearly mimics the action of using a hand saw, strongly resembling the meaning of the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The rhythmic, repetitive pushing and pulling motion feels like a genuine physical effort, evoking the tactile sensation of sawing through material."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, confined to the arms and torso without large body displacement, but the dynamic back-and-forth motion is clearly visible."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, showing no distinct emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, repetitive mechanical motion perfectly matches the straightforward physical concept of sawing."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture is a universally recognized pantomime for sawing, commonly understood across various cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple rhythmic movement of the arms and hands without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without an object, the gesture could be interpreted as other repetitive horizontal motions, but the context strongly supports sawing."
+    ],
+    "confidence": "high"
+  }
+}

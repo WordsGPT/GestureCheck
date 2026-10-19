@@ -1,0 +1,42 @@
+{
+  "target_word": "Attention",
+  "video_file": "video_050.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises their left hand with an open palm near the side of their head while tilting their head toward that hand. The torso leans slightly to the left, and the facial expression shows widened eyes and raised eyebrows. The hand then lowers back to the side, returning to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The hand raised near the head with an open palm and the head tilt can suggest directing attention or listening, but it does not clearly depict the abstract concept of 'attention' itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a natural, everyday gesture of listening or trying to catch someone's attention, giving it moderate sensorimotor realism."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained, limited to raising one hand and a slight head and torso tilt, with no large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The face shows mild surprise or attentiveness with slightly widened eyes and raised eyebrows, but the emotional expression is subtle and brief."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple hand raise and head tilt match the relatively simple concept of attention, though the gesture is somewhat generic."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Raising a hand near the head or ear is a common gesture in many cultures for listening, calling attention, or signaling attention."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only a simple hand raise, head tilt, and slight torso lean."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as listening, calling someone's attention, or simply waving, rather than specifically representing 'attention'."
+    ],
+    "confidence": "medium"
+  }
+}

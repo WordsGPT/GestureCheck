@@ -1,0 +1,42 @@
+{
+  "target_word": "Exercise",
+  "video_file": "video_080.mp4",
+  "brief_gesture_description": "A woman stands facing the camera, then performs a squat by bending her knees and lowering her body while extending both arms straight out to the sides at shoulder height with palms facing down. She then stands back up to an upright position and lowers her arms to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly depicts a squat, a common physical exercise, making it highly iconic for the word 'Exercise'."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement is a full-body, realistic physical action that strongly evokes the bodily sensation of performing a workout."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement involves a large, dynamic change in body posture, lowering and raising the entire body with extended arms."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the movement, showing no distinct emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-action gesture appropriately matches the broad, general concept of 'Exercise'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Squats are a universally recognized and common exercise movement across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is a basic, natural body movement that is very easy for anyone to perform."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'squat' or 'jumping jack' depending on the viewer's perspective, but it clearly falls under the umbrella of 'Exercise'."
+    ],
+    "confidence": "high"
+  }
+}

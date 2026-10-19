@@ -1,0 +1,42 @@
+{
+  "target_word": "Command",
+  "video_file": "video_053.mp4",
+  "brief_gesture_description": "A person stands facing the camera, raises their right hand to their forehead in a salute-like gesture, holds it briefly, and then lowers the arm back to their side.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The salute-like gesture is associated with military respect or greeting rather than the act of giving a command, so it only slightly resembles the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement is a clear, recognizable physical action (raising and lowering the arm to the head), but it does not strongly evoke the experience of issuing or receiving a command."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is limited to a single arm raising and lowering; it is relatively small and lacks large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple salute gesture does not adequately capture the complexity of 'command,' which involves authority, communication, and control."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The salute is a widely recognized and common gesture in many cultural contexts, particularly in military or formal settings."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple raising of the hand to the forehead and lowering it back down."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as a military salute, a greeting, or a sign of respect rather than a command."
+    ],
+    "confidence": "high"
+  }
+}

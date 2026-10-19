@@ -1,0 +1,42 @@
+{
+  "target_word": "Cheese",
+  "video_file": "video_142.mp4",
+  "brief_gesture_description": "The person stands upright, then bends forward at the waist and crosses both arms in front of the torso, rubbing the upper arms and forearms with the opposite hands in a self-hugging or rubbing motion. The person then straightens up and returns to a neutral standing posture with arms at the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of crossing arms and rubbing the upper arms does not visually resemble cheese, its shape, texture, or any typical interaction with it."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The rubbing motion feels like a real physical action (e.g., self-soothing or warming up), but it does not evoke any sensory experience related to cheese."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained to the torso, with a brief bending and rubbing motion that lacks large or dynamic displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, conveying no discernible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The gesture is a simple self-rubbing motion that does not map onto the concept of cheese, making the complexity fit poor."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While self-hugging or rubbing one's arms is a recognizable human behavior, it is not a culturally established or common gesture for representing cheese."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only bending forward and crossing the arms to rub the upper arms, with no complex coordination needed."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as self-hugging, warming up, or feeling cold, but it does not clearly relate to the target word 'Cheese'."
+    ],
+    "confidence": "high"
+  }
+}

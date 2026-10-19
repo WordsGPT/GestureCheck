@@ -1,0 +1,43 @@
+{
+  "target_word": "Door",
+  "video_file": "video_146.mp4",
+  "brief_gesture_description": "A woman stands facing the camera. She raises her left arm and points upward with her index finger, holding the pose briefly, then lowers her arm back to her side. Her facial expression remains neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture consists of a simple upward point with the index finger, which bears no visual resemblance to a door, its frame, or the action of opening/closing it."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement is a static point rather than an enacted physical interaction; it does not evoke the tactile or motor experience of handling a door."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is limited to a single arm raise and lower with a brief hold; it is small in amplitude and lacks dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout the video, conveying no emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The gesture is a simple point, which does not map onto the concept of a door; the complexity does not fit the referent."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "Pointing upward is a common gesture, but it is not a conventional or widely recognized sign for 'door' in typical cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is physically simple to perform\u2014raising an arm and pointing\u2014but it does not enact the concept of a door."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The upward point could indicate 'up', 'high', or a directional reference rather than a door.",
+      "No hand shape or motion suggests grasping, pushing, or pulling a door."
+    ],
+    "confidence": "high"
+  }
+}

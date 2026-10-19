@@ -1,0 +1,43 @@
+{
+  "target_word": "Recommendation",
+  "video_file": "video_058.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then extends their right arm forward and downward with an open, upturned palm in a presenting or offering motion, briefly tilting their head and gaze toward the extended hand. The arm then returns to the side, and the person stands still facing forward with a neutral expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The open-palm presenting gesture loosely resembles offering or suggesting something, which is tangentially related to 'recommendation,' but there is no visual element that specifically conveys recommending or endorsing."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture feels like a mild, generic presenting motion rather than a concrete physical action tied to the concept of making a recommendation."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and restrained: a single arm extension with a slight head tilt, followed by a return to rest. It lacks size, speed, or dynamic range."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral throughout, with no visible smile, emphasis, or emotional engagement."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The word 'Recommendation' involves a communicative or evaluative act, but the gesture is a simple, single-phase arm extension that does not reflect that conceptual complexity."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "An open-palm presenting gesture is a common and recognizable gesture in many cultures, though it is generic and not specifically tied to recommending."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to reproduce: extend one arm with an open palm, tilt the head slightly, then return to rest."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The open-palm gesture could be interpreted as presenting, offering, or indicating something rather than specifically recommending.",
+      "The lack of facial expression or additional movement makes the intended meaning ambiguous."
+    ],
+    "confidence": "medium"
+  }
+}

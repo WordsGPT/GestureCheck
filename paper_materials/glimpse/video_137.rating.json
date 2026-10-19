@@ -1,0 +1,43 @@
+{
+  "target_word": "Cup",
+  "video_file": "video_137.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then briefly raises both hands to waist height with palms turned upward and fingers loosely curled, as if holding or presenting two small objects. The hands are then lowered back to the sides, and the person remains still with a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The hands are held apart with palms up and fingers slightly curled, which could suggest holding small objects, but there is no clear cup shape, rim, or drinking motion to visually resemble a cup."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture feels like a light, generic presenting or holding motion rather than a concrete action such as grasping, lifting, or drinking from a cup."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and brief, limited to a slight raise and lowering of the hands at waist level, with no large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout the video, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple hand movement matches the simplicity of the concrete noun 'cup,' but the lack of a distinct cup-like shape makes the fit only moderate."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The open-palmed, hands-apart gesture is a common presenting or shrugging-like motion, but it is not a widely recognized conventional gesture for 'cup.'"
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only a brief raise of both hands with palms up and a return to the sides."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as holding two small objects, presenting something, or a shrug-like motion rather than specifically representing a cup.",
+      "No object, drinking motion, or cup-shaped hand configuration is visible."
+    ],
+    "confidence": "medium"
+  }
+}

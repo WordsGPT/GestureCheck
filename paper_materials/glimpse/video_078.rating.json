@@ -1,0 +1,42 @@
+{
+  "target_word": "Tradition",
+  "video_file": "video_078.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then briefly raises both hands to chest height with palms facing inward, while simultaneously lifting one leg (knee bent) in a marching-like motion. The hands and leg are then lowered back to a neutral standing position with arms at the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The visible movement (hands raised to chest, one leg lifted) does not visually resemble the abstract concept of 'Tradition'."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture involves a physical leg lift and hand raise, which feels like a real bodily action, but it lacks a clear sensory or experiential connection to the target word."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and brief, consisting of a slight hand raise and a single leg lift, followed by a return to a static posture."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, conveying no discernible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The simple, brief physical movement does not match the complexity of the abstract concept of 'Tradition'."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The gesture does not correspond to any widely recognized cultural symbol or common gesture associated with tradition."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The physical actions (raising hands, lifting one leg) are simple and easy to perform."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as marching, stepping, or a generic physical exercise, but it lacks any clear semantic link to 'Tradition'."
+    ],
+    "confidence": "high"
+  }
+}

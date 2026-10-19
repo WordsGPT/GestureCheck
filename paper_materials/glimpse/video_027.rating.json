@@ -1,0 +1,42 @@
+{
+  "target_word": "Machine",
+  "video_file": "video_027.mp4",
+  "brief_gesture_description": "A person stands facing the camera against a plain background. They briefly raise both arms outward and slightly forward to about shoulder height with elbows bent, then lower them back to their sides and remain standing still with a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The brief outward arm movement does not visually resemble a machine, its parts, or its operation."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement is a simple arm raise and lower with no object interaction or mechanical motion, so it does not feel like operating or experiencing a machine."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The gesture is small and brief, limited to a quick arm lift and return, with the rest of the video showing a static standing posture."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The concept of a machine involves mechanisms and processes, but the gesture is a single simple arm movement that does not reflect that complexity."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The arm movement is a generic, non-specific gesture and is not a commonly recognized sign for 'machine'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very easy to perform, requiring only a brief raise and lowering of both arms."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as a generic shrug, a neutral preparatory movement, or an unrelated motion rather than a representation of 'machine'."
+    ],
+    "confidence": "high"
+  }
+}

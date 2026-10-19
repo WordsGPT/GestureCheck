@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394731-12oO0ypv3DD8IHwNS39t",
+  "object": "chat.completion",
+  "created": 1792394731,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Change\",\n  \"video_file\": \"video_082.mp4\",\n  \"brief_gesture_description\": \"A person stands facing the camera and brings both hands up to the torso, with one hand near the chest and the other near the abdomen. The hands then move in a crossing, alternating motion in front of the body, as if swapping positions, before returning to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The crossing and swapping motion of the hands visually represents a transition or exchange, which aligns with the concept of change, though it is somewhat abstract.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement feels like a deliberate physical action of swapping or exchanging, providing a moderate sense of embodied experience related to transformation.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively contained within the torso area and lacks large, expansive dynamics, making it moderately subtle.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, conveying no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, two-handed swapping motion fits the basic, fundamental nature of the concept 'change' well without being overly complex.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"While not a universally standardized gesture for 'change', the motion of swapping hands is a common intuitive gesture for exchange or transition in many contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is simple, requires no props, and involves basic arm movements that are very easy to replicate.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as 'exchange', 'swap', or 'transition' rather than specifically 'change'.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 530,
+    "total_tokens": 3733,
+    "cost": 0.0035118,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035118,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.00159
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394721-90V2ddlaZ8Kp9NcWGwsg",
+  "object": "chat.completion",
+  "created": 1792394721,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Style\",\n  \"video_file\": \"video_071.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then shifts weight to one leg, places one hand on the hip, and raises the other arm outward with an open palm in a brief presenting or posing motion, before returning to a neutral standing posture with arms at the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The hand-on-hip pose and outward open-palm gesture resemble a fashion-model or 'ta-da' presentation pose, which loosely evokes style, but there is no direct visual depiction of the abstract concept of style.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement feels like a real, embodied posing or presenting action (hand on hip, arm extended), giving a moderate sense of physical enactment.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and brief: a single arm raise and hip placement followed by a return to neutral, with limited dynamic range.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and flat throughout, conveying no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The simple, brief pose does not capture the multifaceted, abstract nature of 'style,' so the gesture's simplicity fits the concept poorly.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The hand-on-hip presenting pose is a recognizable, moderately common gesture in everyday and fashion contexts, though not universally standardized.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform: it requires only a weight shift, one hand on the hip, and a simple outward arm extension.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The pose could be interpreted as a generic presenting or 'ta-da' gesture rather than specifically representing 'style.'\",\n      \"The brief duration and neutral face make the intended meaning ambiguous.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 570,
+    "total_tokens": 3773,
+    "cost": 0.0036318,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036318,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.00171
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

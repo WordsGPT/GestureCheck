@@ -1,0 +1,42 @@
+{
+  "target_word": "Ceiling",
+  "video_file": "video_008.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both arms overhead, and brings the hands together with palms facing down to form a flat horizontal plane above the head, looking upward at the hands. The arms are then lowered back to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hands form a flat horizontal plane directly above the head, visually mimicking the overhead surface of a ceiling."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The upward reach and the flat hand placement evoke the physical experience of looking up at and touching an overhead surface."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is a clear, full-arm raise and lower, but it is slow and steady rather than large or dynamic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral throughout, with only the gaze directed upward; no emotion is conveyed."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple two-hand overhead plane matches the simple, concrete concept of a ceiling."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Pointing or shaping an overhead plane is a common, widely understood gesture for indicating a ceiling."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture requires only raising both arms and holding the hands flat overhead, which is easy to perform."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The overhead hand plane could also be interpreted as a roof or an overhead cover rather than specifically a ceiling."
+    ],
+    "confidence": "high"
+  }
+}

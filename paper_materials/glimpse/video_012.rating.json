@@ -1,0 +1,42 @@
+{
+  "target_word": "Bicycle",
+  "video_file": "video_012.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both hands to chest height with fists clenched as if gripping handlebars, and moves them slightly up and down in a pedaling-like motion before lowering them back to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The clenched fists held in front of the chest and the small up-and-down motion visually resemble gripping handlebars and pedaling, which is a recognizable pantomime for riding a bicycle."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical experience of holding handlebars and pedaling, but the lack of leg movement or body sway limits the full sensorimotor impression of riding."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and restrained, limited to slight vertical motion of the hands at chest level, with no large or dynamic body movement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout the video, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple hand-and-arm motion matches the relatively simple concept of a bicycle, capturing the core action of riding without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Pantomiming handlebars and pedaling is a widely recognized and common gesture for 'bicycle' or 'riding a bike' across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only raising the hands into fists and making small up-and-down motions, with no special coordination or space needed."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as rowing, driving, or holding an object rather than specifically riding a bicycle."
+    ],
+    "confidence": "medium"
+  }
+}

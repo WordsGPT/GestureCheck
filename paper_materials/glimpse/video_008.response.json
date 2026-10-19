@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394636-9tZMc9KJnLQ4fGYjaL66",
+  "object": "chat.completion",
+  "created": 1792394636,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Ceiling\",\n  \"video_file\": \"video_008.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, raises both arms overhead, and brings the hands together with palms facing down to form a flat horizontal plane above the head, looking upward at the hands. The arms are then lowered back to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 5,\n      \"rationale\": \"The hands form a flat horizontal plane directly above the head, visually mimicking the overhead surface of a ceiling.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The upward reach and the flat hand placement evoke the physical experience of looking up at and touching an overhead surface.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is a clear, full-arm raise and lower, but it is slow and steady rather than large or dynamic.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral throughout, with only the gaze directed upward; no emotion is conveyed.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple two-hand overhead plane matches the simple, concrete concept of a ceiling.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"Pointing or shaping an overhead plane is a common, widely understood gesture for indicating a ceiling.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture requires only raising both arms and holding the hands flat overhead, which is easy to perform.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The overhead hand plane could also be interpreted as a roof or an overhead cover rather than specifically a ceiling.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 497,
+    "total_tokens": 3701,
+    "cost": 0.0034134,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034134,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001491
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

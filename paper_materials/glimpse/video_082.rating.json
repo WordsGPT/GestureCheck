@@ -1,0 +1,42 @@
+{
+  "target_word": "Change",
+  "video_file": "video_082.mp4",
+  "brief_gesture_description": "A person stands facing the camera and brings both hands up to the torso, with one hand near the chest and the other near the abdomen. The hands then move in a crossing, alternating motion in front of the body, as if swapping positions, before returning to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The crossing and swapping motion of the hands visually represents a transition or exchange, which aligns with the concept of change, though it is somewhat abstract."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a deliberate physical action of swapping or exchanging, providing a moderate sense of embodied experience related to transformation."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively contained within the torso area and lacks large, expansive dynamics, making it moderately subtle."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, conveying no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, two-handed swapping motion fits the basic, fundamental nature of the concept 'change' well without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "While not a universally standardized gesture for 'change', the motion of swapping hands is a common intuitive gesture for exchange or transition in many contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is simple, requires no props, and involves basic arm movements that are very easy to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'exchange', 'swap', or 'transition' rather than specifically 'change'."
+    ],
+    "confidence": "medium"
+  }
+}

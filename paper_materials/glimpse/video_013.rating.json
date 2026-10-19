@@ -1,0 +1,42 @@
+{
+  "target_word": "Window",
+  "video_file": "video_013.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns to their left (viewer's right) and raises both hands to chest/face height, holding them as if gripping the edges of a rectangular frame. They move their hands forward and slightly upward in a pushing or sliding motion, as if opening a window, then lower their arms and return to a neutral standing position facing forward.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The two-handed grip and forward pushing motion visually resemble the action of opening a sliding or casement window, which is a common iconic representation for the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture mimics the physical sensation of gripping a frame and pushing it open, providing a strong sense of the real-world action associated with a window."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving the arms and upper body turning, but it is not highly dynamic or large-scale."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, conveying no specific emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and direct, fitting the concrete nature of the word 'Window' without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Miming the action of opening a window is a widely understood and common gesture across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only basic arm movements and a body turn without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as opening a door or a box, though the height and two-handed grip lean towards a window."
+    ],
+    "confidence": "high"
+  }
+}

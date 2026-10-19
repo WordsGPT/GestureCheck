@@ -1,0 +1,42 @@
+{
+  "target_word": "Entrance Ticket",
+  "video_file": "video_010.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns to their left side. They extend their right arm forward and slightly upward, holding their hand in a flat, horizontal position as if presenting or holding a small object. The left hand briefly moves near the waist. The person then returns to a neutral standing position facing forward.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of extending a hand forward could vaguely represent handing over or holding a ticket, but it lacks specific features like holding a rectangular object or interacting with a gate, making the resemblance to 'Entrance Ticket' weak."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement feels somewhat abstract. While the arm extension is clear, the lack of a visible object or specific interaction (like scanning or inserting) limits the sensory experience of handling a ticket."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained. It involves a simple arm extension and body turn without large, dynamic motions or significant displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, showing no distinct emotion or reaction."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is simple, which fits the relatively simple concept of a ticket, but it may be too simple to clearly distinguish 'entrance ticket' from other types of tickets or handing over objects."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture of extending a hand forward is a common, neutral movement in many cultures, but it is not a specific, widely recognized cultural sign for 'entrance ticket'."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is very easy to perform. It requires only a simple turn and arm extension, with no complex coordination or fine motor skills needed."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as pointing, handing over an object, or checking a watch, rather than specifically holding or using an entrance ticket."
+    ],
+    "confidence": "medium"
+  }
+}

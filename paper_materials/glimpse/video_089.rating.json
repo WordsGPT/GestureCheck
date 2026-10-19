@@ -1,0 +1,42 @@
+{
+  "target_word": "Admission",
+  "video_file": "video_089.mp4",
+  "brief_gesture_description": "The person stands upright, then bends forward at the waist and extends both arms forward with open palms facing each other, as if gesturing toward an opening or inviting someone through a space. The person then returns to a neutral standing position with arms at their sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of extending open hands forward could loosely suggest allowing someone to pass or enter, but it lacks specific features that clearly depict 'admission' (e.g., a ticket, a gate, or a formal acceptance)."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a natural, physical action of guiding or inviting someone forward, which provides a moderate sense of embodied experience."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves a clear bend at the waist and extension of the arms, making it moderately dynamic and visible, though not highly exaggerated."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, conveying no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is relatively simple, consisting of a single forward extension, which may not fully capture the more complex, often procedural or formal nature of 'admission'."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture of extending open hands to invite or guide someone is a fairly common and recognizable gesture in many cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only a simple bend and arm extension without complex coordination or fine motor skills."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as inviting someone in, guiding someone through a space, or even pushing something away, rather than specifically 'admission'."
+    ],
+    "confidence": "medium"
+  }
+}

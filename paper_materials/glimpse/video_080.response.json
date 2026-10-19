@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394731-PzbQSu4oFi0FUYf4sgEv",
+  "object": "chat.completion",
+  "created": 1792394731,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Exercise\",\n  \"video_file\": \"video_080.mp4\",\n  \"brief_gesture_description\": \"A woman stands facing the camera, then performs a squat by bending her knees and lowering her body while extending both arms straight out to the sides at shoulder height with palms facing down. She then stands back up to an upright position and lowers her arms to her sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture directly depicts a squat, a common physical exercise, making it highly iconic for the word 'Exercise'.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 5,\n      \"rationale\": \"The movement is a full-body, realistic physical action that strongly evokes the bodily sensation of performing a workout.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 4,\n      \"rationale\": \"The movement involves a large, dynamic change in body posture, lowering and raising the entire body with extended arms.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the movement, showing no distinct emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, single-action gesture appropriately matches the broad, general concept of 'Exercise'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"Squats are a universally recognized and common exercise movement across many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is a basic, natural body movement that is very easy for anyone to perform.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as 'squat' or 'jumping jack' depending on the viewer's perspective, but it clearly falls under the umbrella of 'Exercise'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2685,
+    "completion_tokens": 511,
+    "total_tokens": 3196,
+    "cost": 0.003144,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003144,
+      "upstream_inference_prompt_cost": 0.001611,
+      "upstream_inference_completions_cost": 0.001533
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

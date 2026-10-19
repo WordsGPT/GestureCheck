@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394659-fZ5u1E33noBs1KmkUe7f",
+  "object": "chat.completion",
+  "created": 1792394659,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Catalog\",\n  \"video_file\": \"video_024.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then brings both hands up in front of the torso. The left hand is held flat and horizontal, palm up, while the right hand repeatedly sweeps or slides across the top of the left palm in a horizontal, back-and-forth motion, as if flipping through or scanning a series of items. The head tilts slightly downward to look at the hands during the movement, and the hands then return to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The repeated horizontal sweeping of one hand over the other resembles flipping through or scanning a sequence of items, which loosely matches browsing a catalog, but there is no clear object or page-turning shape to make the resemblance strong.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The motion feels like a real, light physical action of running a hand over a surface or flipping through thin items, giving moderate tactile imagery, though the absence of an actual object limits the realism.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and confined to the hands in front of the torso; the body remains still and the motion is subtle rather than large or dynamic.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and focused, with only a slight downward gaze toward the hands; no emotion is conveyed.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The simple repeated scanning motion fits the idea of browsing a catalog, but the word also implies a structured list or collection, which the gesture does not fully capture.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The hand-over-hand scanning motion is a recognizable gesture for browsing or flipping through items, but it is not a widely standardized or universally familiar sign for 'catalog'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform: it requires only holding one hand flat and sweeping the other across it, with no complex coordination or large movement.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as flipping through pages, counting items, or scanning a list rather than specifically a catalog.\",\n      \"The lack of a visible object makes the exact referent of the sweeping motion ambiguous.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2685,
+    "completion_tokens": 649,
+    "total_tokens": 3334,
+    "cost": 0.003558,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003558,
+      "upstream_inference_prompt_cost": 0.001611,
+      "upstream_inference_completions_cost": 0.001947
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394687-1szVGP62Yvib8VXh6xvw",
+  "object": "chat.completion",
+  "created": 1792394687,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Alternative\",\n  \"video_file\": \"video_047.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns their head to the right while raising both hands to chest height with palms facing upward in a shrugging, weighing motion. They then turn their head to the left, keeping both hands raised with palms up, before lowering their arms and returning to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture of turning the head side to side while holding both hands out with palms up visually resembles weighing or considering two options, which aligns with the concept of an 'alternative'.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement feels like a natural, everyday action of pondering or weighing choices, though it is not a highly specific or intense physical experience.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and contained, limited to the arms and head, with no large or dynamic body movements.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, with no visible emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, two-sided weighing motion fits the concept of an 'alternative' well, as it visually represents considering one option versus another.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The shrugging, palms-up gesture combined with head turning is a widely recognized and common gesture for uncertainty or weighing options across many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only simple arm raises and head turns without any complex coordination or physical effort.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as general uncertainty, confusion, or a simple shrug rather than specifically representing an 'alternative'.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 557,
+    "total_tokens": 3760,
+    "cost": 0.0035928,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035928,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001671
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

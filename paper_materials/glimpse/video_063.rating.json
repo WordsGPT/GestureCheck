@@ -1,0 +1,42 @@
+{
+  "target_word": "Correction",
+  "video_file": "video_063.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises their right hand with the index finger extended, and moves it in a small horizontal side-to-side shaking motion at head height, then lowers the arm back to the side.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The side-to-side index finger shake is a conventional 'no' or negation gesture, which only loosely relates to correction; it does not visually depict fixing or adjusting anything."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a small, abstract hand shake with no object interaction or bodily experience that would evoke a concrete action."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The gesture is limited to a small hand and forearm movement at head height; the body remains still and the motion is brief and low-amplitude."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, with no visible emotion conveyed."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "Correction is a concept involving identifying and fixing an error; a single finger shake is too simple and does not map well to that process."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The index-finger side-to-side shake is a widely recognized gesture for 'no' or disapproval in many cultures, though not specifically for correction."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform: simply raise one index finger and shake it side to side."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The finger shake could be interpreted as 'no', 'don't do that', or disapproval rather than correction specifically."
+    ],
+    "confidence": "medium"
+  }
+}

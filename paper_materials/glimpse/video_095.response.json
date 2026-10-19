@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394755-zjj7j1AtPEDdpYZCyKpY",
+  "object": "chat.completion",
+  "created": 1792394755,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Broom\",\n  \"video_file\": \"video_095.mp4\",\n  \"brief_gesture_description\": \"The person stands upright facing the camera, then bends forward slightly and moves one hand in a repeated sweeping motion near the floor, as if miming sweeping with a broom. The body sways slightly with the motion, and the face remains neutral.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The repeated hand sweeping motion near the floor closely resembles the action of using a broom, making the gesture highly iconic for the target word.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The sweeping motion and forward lean evoke the physical experience of sweeping, giving a strong sense of the real action.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size and dynamic, involving arm and torso motion but not large or exaggerated.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and shows no visible emotion throughout the gesture.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, repetitive sweeping motion matches the straightforward concept of a broom, fitting well in complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The sweeping gesture is widely recognized across cultures as representing broom use, making it highly familiar.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform, requiring only a simple hand sweeping motion and slight body lean.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as sweeping in general rather than specifically using a broom.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 497,
+    "total_tokens": 2551,
+    "cost": 0.0027234,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0027234,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001491
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394693-H0djjhov6Nafkw6avjra",
+  "object": "chat.completion",
+  "created": 1792394693,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Arrival\",\n  \"video_file\": \"video_049.mp4\",\n  \"brief_gesture_description\": \"The person stands in place facing the camera, taking a few small steps forward toward the viewer, then stops with feet together and arms resting at the sides. The facial expression remains neutral throughout.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The forward steps visually resemble approaching or arriving at a location, but the lack of a destination or arrival cue (e.g., stopping at a door) makes the resemblance moderate.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The small stepping motion feels like a real, everyday walking action, though the limited movement and neutral posture provide only moderate sensory engagement.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and subdued, consisting of only a couple of short steps with arms held at the sides, resulting in low dynamism.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout the video, conveying no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple act of walking forward and stopping matches the straightforward concept of arrival well, without unnecessary complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"Walking forward and stopping is a universally common and easily recognizable action across cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is extremely easy to perform, requiring only a few natural steps forward and a stop.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as simply walking forward or approaching, rather than specifically arriving at a destination.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 506,
+    "total_tokens": 3710,
+    "cost": 0.0034404,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034404,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001518
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

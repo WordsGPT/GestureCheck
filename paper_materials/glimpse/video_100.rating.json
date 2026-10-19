@@ -1,0 +1,42 @@
+{
+  "target_word": "Tissue",
+  "video_file": "video_100.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises one hand to the face, covering the mouth and nose area with the hand or forearm in a sneezing or coughing motion, before lowering the arm back to the side.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture depicts the action of sneezing or coughing into one's hand, which is an action associated with using a tissue, but it does not visually resemble the object 'tissue' itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement strongly evokes the physical sensation and reflex of sneezing or coughing, making it feel like a real bodily experience."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is a moderate, quick motion of raising the arm to the face and lowering it, which is noticeable but not highly dynamic or large in scale."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is largely neutral and obscured during the gesture, conveying little to no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture represents a complex action (sneezing/coughing) rather than the simple object concept of a 'tissue', creating a mismatch in semantic complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of covering one's mouth and nose when sneezing or coughing is a universally recognized and common social behavior."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple raising of the hand to the face."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as sneezing, coughing, or wiping the nose, rather than specifically representing the object 'tissue'."
+    ],
+    "confidence": "high"
+  }
+}

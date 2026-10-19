@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394761-EDlyrux264GVpCa5vuE0",
+  "object": "chat.completion",
+  "created": 1792394761,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Shelf\",\n  \"video_file\": \"video_102.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then raises both hands above head level with palms facing down. She then sweeps both hands horizontally downward and to her right side, keeping the palms flat and facing down throughout the motion, before returning to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The flat, downward-facing palms moving in a horizontal plane visually resemble the flat surface of a shelf, but the sweeping motion is more indicative of a general surface or wiping action rather than a static shelf.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture feels like a physical action of smoothing or tracing a surface, which provides some tactile imagery, but it lacks the specific interaction (like placing an object) that would strongly evoke a shelf.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 4,\n      \"rationale\": \"The movement is large and dynamic, involving both arms moving from a high position above the head down to the side of the body in a clear, sweeping arc.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, showing no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture is moderately complex, involving a two-handed sweep. While a shelf is a simple object, the gesture's complexity is somewhat high for a static noun, though it effectively outlines a spatial plane.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"Using flat hands to indicate a surface or plane is a relatively common gesture, but this specific sweeping motion is not a universally standardized sign for 'shelf'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only simple arm movements and flat hand positions without any fine motor skills or props.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The sweeping motion could be interpreted as 'wiping', 'smoothing', or 'leveling' rather than specifically 'shelf'.\",\n      \"The gesture might also represent a 'table' or 'counter' depending on the height of the sweep.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 612,
+    "total_tokens": 2666,
+    "cost": 0.0030684,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0030684,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001836
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394715-ZpeHl5lLGWW5ucArcd8C",
+  "object": "chat.completion",
+  "created": 1792394715,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Consideration\",\n  \"video_file\": \"video_069.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then raises both hands to chest height with palms facing each other, as if holding or weighing an invisible object. The head tilts slightly downward and to the side, looking at the space between the hands. The hands then lower back to the sides of the body, and the person returns to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture of holding and looking at an invisible object between the hands visually resembles the metaphor of 'weighing' or 'holding' something in mind, which aligns with the concept of consideration, though it is not a direct depiction.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement feels like a real action of holding or examining a small object, providing a tangible sense of handling something, which supports the idea of mental processing.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is relatively small and contained within the upper body space. It is not large or highly dynamic, consisting mainly of raising and lowering the hands.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The facial expression is neutral to slightly focused, with the head tilted down to look at the hands. There is no strong emotion displayed, just a look of attention.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture is simple but captures the essence of 'weighing' or 'thinking about' something, which fits the moderate complexity of the abstract concept of consideration.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture of holding hands apart and looking between them is a common, recognizable gesture for indicating size or holding something, which is culturally familiar as a basis for abstract gestures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform, requiring only the raising of hands to chest level and a slight head tilt, making it accessible for learners.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as holding a specific object rather than an abstract concept.\",\n      \"The movement is brief and could be seen as a simple hand raise rather than a specific gesture for consideration.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 632,
+    "total_tokens": 3836,
+    "cost": 0.0038184,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0038184,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001896
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

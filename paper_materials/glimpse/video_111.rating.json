@@ -1,0 +1,42 @@
+{
+  "target_word": "Flower",
+  "video_file": "video_111.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera. They raise their left hand to chest height with the palm facing upward, then bring their right hand down to touch or hover over the left palm. Finally, the right hand lifts upward and away from the left hand, which remains held in place, while the person's gaze follows the moving right hand.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture does not visually resemble a flower. The movement of one hand lifting away from another resembles an action like taking, giving, or releasing rather than the static shape or blooming of a flower."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a plausible physical interaction, such as picking up an object from an open palm or handing something over, giving it a moderate sense of real-world action."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained within the upper body. The hands move slowly and smoothly without large, dynamic, or expansive motions."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, showing no visible emotion such as joy, surprise, or sadness."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture involves a two-handed sequence that seems more complex than the simple noun 'flower,' and the action does not align well with the concept of a flower."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This specific two-handed gesture is not a widely recognized or common cultural sign for 'flower' in typical contexts."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only simple, slow movements of the hands and arms without any complex coordination or physical strain."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as taking an object, giving an object, or releasing something rather than representing a flower."
+    ],
+    "confidence": "high"
+  }
+}

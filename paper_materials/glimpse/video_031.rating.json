@@ -1,0 +1,42 @@
+{
+  "target_word": "Ring",
+  "video_file": "video_031.mp4",
+  "brief_gesture_description": "The person stands facing the camera with arms initially at their sides. They raise both hands to chest level, bringing the fingertips of both hands together to form a small circle or ring shape, hold it briefly, and then lower their hands back to their sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of bringing fingertips together to form a circular shape visually resembles the shape of a ring, making it highly iconic for the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture feels like a deliberate, controlled movement of shaping an object with the hands, but it lacks the tactile sensation of actually holding or wearing a ring."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained within the chest area, with minimal dynamic range or large body displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, conveying no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-action gesture of forming a circle with the fingers perfectly matches the simple, concrete nature of the word 'Ring'."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using hands to form a circle to represent a ring or circular object is a common and easily understood gesture in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only the simple action of touching fingertips together in front of the chest."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as representing other small circular objects or concepts like 'zero' or 'circle'."
+    ],
+    "confidence": "high"
+  }
+}

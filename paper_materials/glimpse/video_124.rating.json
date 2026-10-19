@@ -1,0 +1,43 @@
+{
+  "target_word": "Tie",
+  "video_file": "video_124.mp4",
+  "brief_gesture_description": "A woman stands facing the camera against a plain white background. She raises both hands to her upper chest and neck area, bringing them together in front of her collar. She makes a small, quick adjusting or tightening motion with her hands at the neckline of her turtleneck sweater, then lowers her arms back to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The hand motion at the collar resembles the action of adjusting or tightening a tie, but because she is wearing a turtleneck and no tie is visible, the resemblance is only partial."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical sensation of adjusting clothing at the neck, but the lack of an actual tie or knot limits the realism of the action."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, confined to the chest and neck area, and performed quickly without large or dynamic body motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, showing no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, two-handed adjusting motion appropriately matches the straightforward physical action of tying or adjusting a tie."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of adjusting a collar or tie at the neck is a common and easily recognizable action in everyday life."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is simple, requires no props, and can be easily imitated by anyone."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as adjusting a sweater or turtleneck collar rather than tying a tie.",
+      "The motion is brief and could be seen as a general self-touch or nervous gesture."
+    ],
+    "confidence": "medium"
+  }
+}

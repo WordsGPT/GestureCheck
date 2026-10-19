@@ -1,0 +1,42 @@
+{
+  "target_word": "Tire",
+  "video_file": "video_030.mp4",
+  "brief_gesture_description": "The person stands facing the camera and performs a repeated circular motion with both hands, alternating one hand raised high and the other lowered, as if turning a large wheel or steering wheel. The torso rotates slightly with the movement, and the facial expression remains neutral.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The circular hand motion strongly resembles the action of turning a wheel or tire, which is a highly iconic representation of the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture feels like a real physical action of gripping and turning a large wheel, providing strong sensorimotor imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is large, dynamic, and clearly visible, involving full arm extensions and torso rotation."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, conveying no specific emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The complexity of the gesture (a continuous circular motion) fits well with the concept of a tire, which is associated with rotation and movement."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of miming turning a steering wheel or wheel is a common and widely understood gesture in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only simple arm movements and a slight torso rotation without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as turning a steering wheel or a large knob, but the circular motion is strongly associated with a tire."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394618-MJJkg0oUURqjcLMfpkeW",
+  "object": "chat.completion",
+  "created": 1792394618,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Cat\",\n  \"video_file\": \"video_149.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns their head and torso slightly to the side. They raise their left arm with the palm facing outward and flat, while the right hand moves horizontally across the body toward the left palm, as if stroking or pushing against it. The hands then lower back to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture of a flat palm and a horizontal hand movement does not visually resemble a cat, its shape, or typical cat behaviors like scratching or meowing.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement feels like a physical interaction with a surface or object, such as wiping or pushing, but lacks any sensory connection to the concept of a cat.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and contained within the upper body, involving only a brief arm extension and hand motion without large or dynamic displacement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, showing no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture is a simple two-handed motion, but it does not align with the semantic complexity or typical representations of the word 'Cat'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 1,\n      \"rationale\": \"This specific hand configuration is not a common or recognizable gesture for 'Cat' in typical cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is physically simple to perform, requiring only basic arm and hand movements without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as wiping a surface, pushing something away, or a sign for 'stop' or 'wait', but it does not clearly map to 'Cat'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 556,
+    "total_tokens": 3759,
+    "cost": 0.0035898,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035898,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001668
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

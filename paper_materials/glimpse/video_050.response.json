@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394611-EtwwGXhWb3tkqM4MX9rL",
+  "object": "chat.completion",
+  "created": 1792394611,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Attention\",\n  \"video_file\": \"video_050.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises their left hand with an open palm near the side of their head while tilting their head toward that hand. The torso leans slightly to the left, and the facial expression shows widened eyes and raised eyebrows. The hand then lowers back to the side, returning to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The hand raised near the head with an open palm and the head tilt can suggest directing attention or listening, but it does not clearly depict the abstract concept of 'attention' itself.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement feels like a natural, everyday gesture of listening or trying to catch someone's attention, giving it moderate sensorimotor realism.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and contained, limited to raising one hand and a slight head and torso tilt, with no large or dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The face shows mild surprise or attentiveness with slightly widened eyes and raised eyebrows, but the emotional expression is subtle and brief.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The simple hand raise and head tilt match the relatively simple concept of attention, though the gesture is somewhat generic.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"Raising a hand near the head or ear is a common gesture in many cultures for listening, calling attention, or signaling attention.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform, requiring only a simple hand raise, head tilt, and slight torso lean.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as listening, calling someone's attention, or simply waving, rather than specifically representing 'attention'.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 563,
+    "total_tokens": 3766,
+    "cost": 0.0036108,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036108,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001689
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

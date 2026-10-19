@@ -1,0 +1,42 @@
+{
+  "target_word": "Backpack",
+  "video_file": "video_032.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both hands to the front of the shoulders, and makes a repeated downward pulling motion with both fists, as if tugging on straps, before lowering the arms back to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The two-handed downward tug at the shoulders visually mimics adjusting backpack straps, which is a recognizable iconic action for a backpack."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The repeated pulling motion at the shoulders evokes the bodily feeling of tightening or settling backpack straps on the shoulders."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, limited to the arms and shoulders, with a clear but not large or highly dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple two-handed strap-pulling gesture matches the concrete, everyday object 'backpack' without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Mimicking backpack straps is a common and widely understood gesture in everyday contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only raising both hands to the shoulders and pulling downward."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as adjusting a jacket or hoodie rather than a backpack."
+    ],
+    "confidence": "medium"
+  }
+}

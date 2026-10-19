@@ -1,0 +1,43 @@
+{
+  "target_word": "Gold",
+  "video_file": "video_136.mp4",
+  "brief_gesture_description": "A person stands facing the camera against a plain background. Around 1.0-1.5 seconds, they briefly raise their right hand to touch their chin/mouth area, then lower it back to their side. For the remainder of the video, they stand still with arms at their sides and a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The brief hand-to-chin movement does not visually resemble the concept of gold, its color, or its properties."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The gesture is a minimal, static touch to the face and does not evoke any tangible action or sensory experience related to gold."
+    },
+    "motional_salience_gesture": {
+      "score": 1,
+      "rationale": "The movement is very small, limited to a brief hand raise and lower, with the rest of the video showing a static standing posture."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains completely neutral and unchanging throughout the video, conveying no emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The gesture is extremely simple and lacks any representational elements that would fit the concept of gold."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "A hand-to-chin gesture is a common human movement, but it is not a culturally recognized or conventional gesture for representing gold."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is extremely simple, requiring only a brief raise of the hand to the chin, making it very easy to perform."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as a generic thinking or contemplation pose rather than a specific representation of gold.",
+      "The lack of movement and facial expression makes it difficult to determine any intended meaning."
+    ],
+    "confidence": "high"
+  }
+}

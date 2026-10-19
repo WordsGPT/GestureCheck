@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394693-h0AeZ7tYDYXC8GHzHMWk",
+  "object": "chat.completion",
+  "created": 1792394693,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"View\",\n  \"video_file\": \"video_052.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then raises their right hand to their forehead with the palm facing outward, mimicking a shading or scanning motion. They turn their head and upper body to the right, holding the hand at the brow as if looking into the distance, then lower the arm and return to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The hand-to-forehead gesture is a classic iconic representation of looking or viewing, visually resembling the act of shielding eyes to see something far away.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture strongly evokes the physical sensation of peering into the distance or scanning a horizon, making it feel like a real action.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, involving the arm and head turning, but it is not highly dynamic or large-scale.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, conveying no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is simple and direct, fitting the straightforward nature of the word 'View' without unnecessary complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The hand-to-forehead 'looking into the distance' gesture is a widely recognized and common gesture across many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple arm raise and head turn.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as 'looking' or 'searching' rather than the noun 'view', but the action is clearly related to the concept.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 543,
+    "total_tokens": 3746,
+    "cost": 0.0035508,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035508,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001629
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "target_word": "Style",
+  "video_file": "video_071.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then shifts weight to one leg, places one hand on the hip, and raises the other arm outward with an open palm in a brief presenting or posing motion, before returning to a neutral standing posture with arms at the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The hand-on-hip pose and outward open-palm gesture resemble a fashion-model or 'ta-da' presentation pose, which loosely evokes style, but there is no direct visual depiction of the abstract concept of style."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a real, embodied posing or presenting action (hand on hip, arm extended), giving a moderate sense of physical enactment."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and brief: a single arm raise and hip placement followed by a return to neutral, with limited dynamic range."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple, brief pose does not capture the multifaceted, abstract nature of 'style,' so the gesture's simplicity fits the concept poorly."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The hand-on-hip presenting pose is a recognizable, moderately common gesture in everyday and fashion contexts, though not universally standardized."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform: it requires only a weight shift, one hand on the hip, and a simple outward arm extension."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The pose could be interpreted as a generic presenting or 'ta-da' gesture rather than specifically representing 'style.'",
+      "The brief duration and neutral face make the intended meaning ambiguous."
+    ],
+    "confidence": "medium"
+  }
+}

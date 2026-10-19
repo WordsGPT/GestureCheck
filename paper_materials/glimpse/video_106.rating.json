@@ -1,0 +1,42 @@
+{
+  "target_word": "Temple",
+  "video_file": "video_106.mp4",
+  "brief_gesture_description": "A person stands facing the camera, brings both palms together in front of the chest in a prayer-like position, bows the head and upper body forward, then returns to an upright standing position with arms lowered.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The prayer-like hand position and bowing resemble worship or prayer, which is associated with temples, but the gesture does not depict the building or structure itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture feels like a real, embodied action of praying or showing reverence, with clear hand placement and body bowing."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained, limited to bringing hands together and a slight forward bow, with no large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, with no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple gesture captures an aspect of temple-related activity (prayer/worship) but does not fully represent the concept of a temple as a place or building."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The prayer-like gesture with palms together and bowing is widely recognized across many cultures as a sign of reverence or worship."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is simple and easy to perform, requiring only bringing palms together and bowing the head and upper body."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as prayer, gratitude, or general reverence rather than specifically representing a temple."
+    ],
+    "confidence": "medium"
+  }
+}

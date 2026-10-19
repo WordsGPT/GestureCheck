@@ -1,0 +1,42 @@
+{
+  "target_word": "Telephone",
+  "video_file": "video_040.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises their right hand to their right ear with fingers and thumb extended in a C-shape mimicking holding a phone receiver, tilts their head slightly toward the hand, then lowers the arm back to the side and returns to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hand-to-ear C-shape is the universally recognized pantomime of holding a telephone receiver, directly resembling the object and its use."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the familiar bodily experience of holding a phone to the ear, though the movement is brief and lacks sustained listening or talking motion."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained to one arm and a slight head tilt; the rest of the body remains still, giving low overall dynamism."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, with no visible emotion conveyed."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-hand gesture matches the concrete, everyday nature of the word 'Telephone' without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The hand-as-phone gesture is a widely known and commonly used pantomime across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only raising one hand to the ear in a C-shape with minimal coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is brief and could momentarily be mistaken for scratching the ear or adjusting hair before the C-shape is clear."
+    ],
+    "confidence": "high"
+  }
+}

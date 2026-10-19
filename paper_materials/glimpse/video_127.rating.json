@@ -1,0 +1,42 @@
+{
+  "target_word": "Piece Of Paper",
+  "video_file": "video_127.mp4",
+  "brief_gesture_description": "The person stands facing the camera with arms at their sides. They raise both hands to chest height, holding them close together with fingers pinched as if grasping a small, flat object. They then move their hands apart in a quick tearing motion, separating the hands to opposite sides, before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of holding a small object with both hands and pulling them apart strongly resembles the physical action of tearing a piece of paper, which is a highly iconic representation of the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The pinched fingers and the quick, sharp pulling motion evoke a strong tactile sensation of holding and tearing a thin, flat material, making the action feel very real."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, confined to the upper body and chest area. It is dynamic enough to be clearly visible but not overly large or sweeping."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The person's facial expression remains neutral and focused throughout the video, showing no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, two-handed action of tearing is perfectly suited to the concrete and simple concept of a 'piece of paper'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of tearing paper is a universally recognized and common action across most cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only basic hand coordination and no special equipment or complex body movements."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the target word, the gesture could also be interpreted as tearing any thin material, such as cloth or fabric."
+    ],
+    "confidence": "high"
+  }
+}

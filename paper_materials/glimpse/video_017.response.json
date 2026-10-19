@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394648-SFuUwR0uq2Flzj18gTwk",
+  "object": "chat.completion",
+  "created": 1792394648,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Painting\",\n  \"video_file\": \"video_017.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns to their left (viewer's right) and raises their right arm, making a small, repeated up-and-down stroking motion with the hand as if holding a brush and painting a vertical surface in front of them. The gaze follows the hand. The arm then lowers and the person returns to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The repeated up-and-down hand motion in front of an imagined vertical surface strongly resembles the action of painting with a brush, matching the target word well.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture mimics the physical motion of applying paint with a brush, evoking a clear sense of the real action.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The arm is raised and the motion is visible, but the strokes are relatively small and contained rather than large or highly dynamic.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout, with no visible emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, repetitive stroking motion appropriately captures the core action of painting without unnecessary complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"Miming painting with a brush is a widely recognized and common gesture across cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is simple, requiring only a single arm movement that is easy to imitate.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as writing on a board or pointing at something, though the repeated stroking motion leans toward painting.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 531,
+    "total_tokens": 3735,
+    "cost": 0.0035154,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035154,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001593
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

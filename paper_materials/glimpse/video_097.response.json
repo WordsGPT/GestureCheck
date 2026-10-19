@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394755-a8o58dvInCAjzAsIKZqi",
+  "object": "chat.completion",
+  "created": 1792394755,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Stairs\",\n  \"video_file\": \"video_097.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns slightly to the side and raises both arms forward and upward in a diagonal, ascending motion, as if tracing a rising line or staircase, before returning to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The upward diagonal arm movement suggests ascending, which loosely resembles climbing stairs, but the continuous diagonal sweep lacks the stepped, alternating pattern typical of stair gestures.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The rising arm motion evokes a sense of upward movement, but without leg movement or stepping, the bodily experience of climbing stairs is only partially suggested.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture involves a clear, moderate-amplitude arm raise with body rotation, but it is a single smooth motion rather than a large or highly dynamic sequence.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout, with no visible emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The simple ascending arm motion matches the basic concept of stairs as an upward path, but omits the repetitive stepping that characterizes stair use.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"Upward arm gestures for ascending are common, but the specific diagonal sweep is less conventional than a stepped hand or leg motion for stairs.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform: it requires only raising both arms diagonally upward while turning slightly, with no complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The diagonal arm sweep could be interpreted as pointing upward, reaching, or indicating a slope rather than specifically stairs.\",\n      \"Absence of stepping or leg movement makes the stair meaning less explicit.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 556,
+    "total_tokens": 2610,
+    "cost": 0.0029004,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0029004,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001668
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

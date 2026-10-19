@@ -1,0 +1,42 @@
+{
+  "target_word": "Sensation",
+  "video_file": "video_070.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then briefly raises both arms out to the sides with open palms and tilts the head to one side, before lowering the arms back to the sides and standing still with a neutral expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The brief outward arm spread and head tilt could loosely suggest feeling or receiving something, but it does not clearly resemble the meaning of 'sensation'."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is minimal and lacks a clear tactile or bodily sensation cue, so it feels only slightly like a real sensory experience."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The gesture is small and brief, with only a short arm raise and head tilt before returning to a still posture."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral throughout, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple, brief movement does not adequately capture the abstract and internal nature of 'sensation'."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The open-arm gesture is a common, neutral body movement, but it is not a widely recognized conventional sign for 'sensation'."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to perform, requiring only a brief arm raise and head tilt."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as a general shrug, openness, or a neutral demonstration rather than specifically representing 'sensation'."
+    ],
+    "confidence": "medium"
+  }
+}

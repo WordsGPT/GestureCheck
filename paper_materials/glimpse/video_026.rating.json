@@ -1,0 +1,42 @@
+{
+  "target_word": "Suitcase",
+  "video_file": "video_026.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, then briefly tilts their torso and head to the right side while dropping the right arm slightly downward, before returning to a neutral standing posture with arms at the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The visible movement is a simple lateral body tilt with no hand shaping, grasping, or carrying motion that would visually resemble a suitcase."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The gesture does not simulate handling, lifting, or pulling an object; it feels like a neutral postural sway rather than a real action experience."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and brief, limited to a slight torso and head tilt with minimal arm displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The gesture is too simple and unrelated to the concept of a suitcase, which typically involves grasping or carrying a rectangular object."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "A simple body tilt is a common neutral movement but is not a culturally recognized gesture for representing a suitcase."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The movement is physically easy to perform, requiring only a slight lateral tilt of the torso and head."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as a neutral body sway, a stretch, or a balance adjustment rather than a representation of a suitcase."
+    ],
+    "confidence": "high"
+  }
+}

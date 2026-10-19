@@ -1,0 +1,43 @@
+{
+  "target_word": "Telephone",
+  "video_file": "video_130.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises their right hand to their right ear with fingers and thumb forming a C-shape (as if holding a phone receiver), tilts their head slightly toward the hand, holds this pose briefly, then lowers the arm back to the side and returns to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hand-to-ear C-shape with a head tilt is the conventional pantomime of holding a telephone receiver, directly resembling the meaning of 'Telephone'."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture mimics the real bodily action of holding a phone to the ear, including the characteristic head tilt, though no actual object or talking motion is visible."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and static: a single arm raise to the ear, brief hold, and return to rest, with no large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, with no visible emotion conveyed."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-hand gesture matches the simple, concrete concept of a telephone without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The hand-as-phone gesture is a widely recognized, conventional gesture across cultures for 'telephone' or 'call'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform: raise one hand to the ear in a C-shape, tilt the head, and lower the arm; no special skill or props required."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'listening' or 'call me' rather than the object 'Telephone' itself.",
+      "No mouth movement or talking is visible, so the gesture depicts holding a phone rather than actively using it."
+    ],
+    "confidence": "high"
+  }
+}

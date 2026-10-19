@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394773-yP4xwAPMExnAIIW9jV8j",
+  "object": "chat.completion",
+  "created": 1792394773,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Coffee\",\n  \"video_file\": \"video_108.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises both hands to chest level with palms facing each other as if holding a cup. She tilts her head back and moves her hands upward toward her mouth in a drinking motion, then lowers her hands back down to her sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of holding an invisible cup and tilting the head back to drink is a highly recognizable and iconic representation of drinking coffee.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The movement clearly mimics the physical action of holding a warm cup and drinking from it, evoking a strong sensory experience of the action.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, confined to the upper body and hands, and is performed at a steady, deliberate pace.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The facial expression remains relatively neutral and focused on the action, with only slight changes as the head tilts back to drink.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, single-action gesture perfectly matches the straightforward concept of drinking coffee.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"Miming drinking from a cup is a universally understood gesture across many cultures, making it highly familiar.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only basic hand movements and a head tilt without any complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could represent drinking any hot beverage (like tea) rather than specifically coffee, though it fits the target word well.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2053,
+    "completion_tokens": 527,
+    "total_tokens": 2580,
+    "cost": 0.0028128,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0028128,
+      "upstream_inference_prompt_cost": 0.0012318,
+      "upstream_inference_completions_cost": 0.001581
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

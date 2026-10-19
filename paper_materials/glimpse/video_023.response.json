@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394653-Hco1oFaQ51XSf1pgA9kc",
+  "object": "chat.completion",
+  "created": 1792394653,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Till\",\n  \"video_file\": \"video_023.mp4\",\n  \"brief_gesture_description\": \"A woman stands facing the camera against a plain background. She briefly raises her right hand to chest height with the index finger extended, pointing slightly downward and to her right, while her head tilts down to look at the hand. She then lowers her arm back to her side and returns to a neutral standing posture with a neutral facial expression.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The brief downward point with the index finger could loosely suggest a limit or endpoint, but it does not clearly resemble the meaning of 'till' (e.g., a temporal boundary or agricultural tilling).\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is a small, isolated hand gesture with minimal bodily involvement, offering little sensory or motor experience related to the word.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is small in amplitude, limited to a brief hand raise and lower, with no large or dynamic movement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral throughout, with no visible emotional expression.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The simple, brief gesture matches the simplicity of the single word 'till,' though it lacks specificity to its meaning.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"Pointing with the index finger is a common and familiar gesture, but its use here is ambiguous and not strongly tied to a conventional meaning.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is extremely easy to perform, requiring only a brief raise and lower of one hand with the index finger extended.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The downward point could be interpreted as indicating a location, a limit, or a temporal endpoint, making it unclear whether it represents 'till' as a temporal preposition or another meaning.\",\n      \"The gesture is very brief and lacks repetition or elaboration, which may reduce interpretability.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 592,
+    "total_tokens": 3796,
+    "cost": 0.0036984,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036984,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001776
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Wave",
+  "video_file": "video_129.mp4",
+  "brief_gesture_description": "A person stands facing the camera against a plain background. They raise one arm to shoulder height with an open palm and move the hand side to side in a repeated swinging motion, then lower the arm back to the side. The facial expression remains neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The raised open palm moving side to side is the canonical visual representation of a wave."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement is a direct, natural enactment of the greeting action, making it feel like a real-world experience."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clearly visible and distinct, but it is a moderate, controlled motion rather than a large or highly dynamic one."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless, conveying no specific emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-arm movement perfectly matches the simple, concrete nature of the word 'Wave'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The hand wave is a universally recognized and common gesture for greeting or farewell."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only a simple arm raise and hand movement."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

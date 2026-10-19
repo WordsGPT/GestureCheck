@@ -1,0 +1,42 @@
+{
+  "target_word": "Sponge",
+  "video_file": "video_126.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then brings both hands together in front of the chest, squeezing them into a tight fist-like shape while tilting the head and torso slightly, before returning to a neutral standing posture with arms at the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The two-handed squeezing motion resembles the action of wringing out a sponge, but the gesture does not visually depict the sponge object itself, making the resemblance moderate."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The firm compression of both hands together strongly evokes the tactile sensation of squeezing a wet, pliable object like a sponge."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained within the chest area, with only a slight head tilt and no large or dynamic displacement of the body."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, showing no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, single-action squeeze appropriately matches the concrete, everyday nature of the word 'sponge'."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of squeezing with both hands is a common, universally understood pantomime for wringing out a sponge or cloth."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple two-handed squeezing motion in front of the chest."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The squeezing motion could also be interpreted as wringing out a wet cloth, towel, or holding something fragile, rather than specifically a sponge."
+    ],
+    "confidence": "medium"
+  }
+}

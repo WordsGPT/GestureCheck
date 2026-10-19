@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394755-x6CUXU2Sh6NgWj3FejJ1",
+  "object": "chat.completion",
+  "created": 1792394755,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Hair Dryer\",\n  \"video_file\": \"video_098.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises one arm above their head with the hand in a loose fist or cupped shape, tilting their head slightly. They then move the hand downward and outward in a sweeping motion away from the head, as if mimicking the action of drying hair with a handheld device, before lowering the arm back to the side.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture of holding a hand above the head and sweeping it down resembles the motion of using a hair dryer, but the lack of a clear object shape (like a nozzle) makes it somewhat generic.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement evokes the physical action of drying hair, but the hand shape is not specific enough to strongly suggest holding a device, limiting the sensory realism.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, involving raising the arm and sweeping it down, but it is not particularly large or dynamic.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, showing no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, single-arm motion fits the straightforward concept of using a hair dryer well.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of miming drying hair is a common and recognizable action in many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple arm raise and sweep without complex hand shapes or body movements.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The hand shape is not clearly defined as holding a device, which could make the gesture ambiguous (e.g., could be interpreted as brushing hair or waving).\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 562,
+    "total_tokens": 2617,
+    "cost": 0.002919,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002919,
+      "upstream_inference_prompt_cost": 0.001233,
+      "upstream_inference_completions_cost": 0.001686
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

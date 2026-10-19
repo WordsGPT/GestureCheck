@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394604-aaglGbDmE6DrAD0wW72w",
+  "object": "chat.completion",
+  "created": 1792394604,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Ball\",\n  \"video_file\": \"video_004.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, raises both hands to chest height with fingers curved as if holding a round object, then moves both hands upward and outward to the right side of the frame with open palms, as if tossing or throwing something, before returning to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The initial curved-hand shape suggests holding a round object, and the outward motion resembles throwing, but no ball is visible and the gesture could represent many round objects or actions.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The hand shaping and throwing motion evoke the physical experience of holding and tossing an object, though the lack of a visible ball and the brief duration limit the sensory realism.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, involving both arms moving from chest height to an extended position, but it is brief and not highly dynamic.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and flat throughout the video, with no visible emotion or reaction.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple two-part gesture (holding and throwing) matches the simple, concrete concept of a ball well.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"Miming holding and throwing a ball is a common and widely understood gesture across many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform, requiring only basic hand shaping and a simple arm movement without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could represent throwing any object, not specifically a ball.\",\n      \"The initial hand shape could be interpreted as holding a small object rather than a ball.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2685,
+    "completion_tokens": 549,
+    "total_tokens": 3234,
+    "cost": 0.003258,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003258,
+      "upstream_inference_prompt_cost": 0.001611,
+      "upstream_inference_completions_cost": 0.001647
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

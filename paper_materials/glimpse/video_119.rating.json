@@ -1,0 +1,43 @@
+{
+  "target_word": "Metal Sheet",
+  "video_file": "video_119.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera. They bring both hands together in front of the torso, then move them apart horizontally to the sides with palms facing down, as if outlining a flat, horizontal surface or plane, before returning the hands to the sides of the body.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of spreading hands horizontally with palms down suggests a flat plane or surface, which loosely aligns with the flatness of a sheet, but lacks specific cues for 'metal' or a rigid object."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement feels like a generic outlining or measuring gesture rather than a tactile interaction with a specific material like metal."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained within the torso area, with a slow and smooth pace rather than a large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, showing no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple two-handed gesture fits the relatively simple concept of a flat object, though it is somewhat abstract."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Using hands to indicate size or flatness is a common gesture, but it is not a specific cultural sign for 'metal sheet'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only simple arm movements from a standing position."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could represent any flat object or surface (e.g., table, paper, floor) rather than specifically a metal sheet.",
+      "The lack of rigid hand shape makes it unclear if the object is flexible or stiff."
+    ],
+    "confidence": "medium"
+  }
+}

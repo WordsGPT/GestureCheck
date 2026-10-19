@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394773-jRzg0l36XZ9rGkZhf4Yn",
+  "object": "chat.completion",
+  "created": 1792394773,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Bridge\",\n  \"video_file\": \"video_109.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises both arms upward and outward, bends forward at the waist while extending both arms forward and downward, and finally returns to an upright standing position with arms at the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The forward bend with extended arms could loosely suggest an arch or span, but the motion is more reminiscent of a dive or reaching out than a clear bridge structure.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movement feels like a physical action (such as diving or reaching), but it does not strongly evoke the experience of crossing or building a bridge.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture involves a large, dynamic movement of both arms and the torso, making it visually prominent.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, with no visible emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture is moderately complex, involving a full-body motion, which somewhat matches the concept of a bridge as a structure, but it lacks specific structural representation.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"This specific gesture is not a common or widely recognized sign for 'bridge' in typical cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is relatively easy to perform, requiring only a simple forward bend and arm extension without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as diving, reaching, or bowing rather than specifically representing a bridge.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2053,
+    "completion_tokens": 519,
+    "total_tokens": 2572,
+    "cost": 0.0027888,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0027888,
+      "upstream_inference_prompt_cost": 0.0012318,
+      "upstream_inference_completions_cost": 0.001557
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

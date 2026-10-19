@@ -1,0 +1,42 @@
+{
+  "target_word": "Mentality",
+  "video_file": "video_065.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both hands to the sides of the head with palms facing inward, then moves them outward and downward away from the head, and finally returns to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The hands near the head suggest a mental or cognitive domain, but the outward sweeping motion does not clearly depict the specific concept of 'mentality' or mindset."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture is abstract and symbolic rather than mimicking a concrete physical action or experience."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves both arms moving from the head outward and downward, which is a moderate, visible movement but not highly dynamic or large in scale."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, conveying no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple two-part movement (hands to head, then outward) is too basic to adequately represent the complex, multifaceted concept of 'mentality'."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While touching the head is a common gesture for 'thinking' or 'idea', the specific outward sweeping motion is not a widely recognized conventional gesture for 'mentality'."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is simple, requiring only basic arm movements to the head and outward, making it easy to perform."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'thinking', 'having an idea', 'forgetting', or 'mindset' rather than specifically 'mentality'."
+    ],
+    "confidence": "medium"
+  }
+}

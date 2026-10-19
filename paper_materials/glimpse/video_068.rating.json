@@ -1,0 +1,42 @@
+{
+  "target_word": "Partnership",
+  "video_file": "video_068.mp4",
+  "brief_gesture_description": "The person stands facing the camera with arms initially at their sides. They raise both hands to chest height, bringing the index fingers together to touch or point at each other in the center, hold this joined-finger posture briefly, and then lower both arms back down to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture of bringing two index fingers together visually represents two entities joining or connecting, which aligns with the concept of partnership, though it is a conventional rather than highly iconic depiction."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a small, controlled hand gesture without any real-world physical interaction or object manipulation, so it feels more symbolic than experiential."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is limited to raising and lowering the forearms and touching the index fingers together; it is small in amplitude and lacks dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, with no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple two-hand joining gesture matches the abstract but relational nature of 'partnership' reasonably well, though it does not convey the full complexity of a sustained collaborative relationship."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture resembles common sign-language or conventional gestures for 'together' or 'connection,' making it somewhat familiar, though not universally standardized for 'partnership.'"
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only raising both hands and touching the index fingers together at chest level."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'together,' 'connection,' 'agreement,' or 'two people' rather than specifically 'partnership.'"
+    ],
+    "confidence": "medium"
+  }
+}

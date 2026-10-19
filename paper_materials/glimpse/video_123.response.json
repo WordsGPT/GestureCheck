@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394795-Afr0esnRMYsDhjkTOZjh",
+  "object": "chat.completion",
+  "created": 1792394795,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Perfume\",\n  \"video_file\": \"video_123.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns their head to the side and raises one hand with the index finger extended, pointing it toward their neck or collar area. They hold this pose briefly before lowering the hand and returning to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture of pointing to the neck could loosely relate to where perfume is applied, but it lacks the specific miming of spraying or smelling, making the resemblance weak.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is a simple point and does not strongly evoke the sensory experience of smelling or applying perfume.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and contained, involving only a slight head turn and a hand raise to the neck.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, showing no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The simple gesture matches the relatively simple concept of a noun, though it may be too abstract to be fully effective.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"Pointing to the neck is not a widely recognized or standard gesture for 'perfume' in common cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple hand raise and head turn.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as pointing to the neck, collar, or throat rather than specifically indicating perfume.\",\n      \"Without a mimed bottle or smelling motion, the connection to 'perfume' is tenuous.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 536,
+    "total_tokens": 2591,
+    "cost": 0.002841,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002841,
+      "upstream_inference_prompt_cost": 0.001233,
+      "upstream_inference_completions_cost": 0.001608
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

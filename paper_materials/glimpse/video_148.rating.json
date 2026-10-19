@@ -1,0 +1,43 @@
+{
+  "target_word": "Wrench",
+  "video_file": "video_148.mp4",
+  "brief_gesture_description": "The person stands upright, then bends forward at the waist and extends both arms forward and downward, holding the hands apart as if gripping an object. The hands make a small twisting or turning motion, after which the person straightens back up to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The two-handed gripping and twisting motion resembles the action of using a wrench, but the lack of a visible tool and the somewhat generic turning motion make the resemblance moderate rather than exact."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The bending posture and hand positioning suggest a physical effort of turning something, providing some sensorimotor feel, though the movement is brief and lacks strong resistance cues."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained, limited to a slight bend and a small hand motion, without large or dynamic displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, showing no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and direct, matching the concrete, single-action nature of the word 'wrench' (as a tool or action of turning)."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The mimed action of gripping and turning a tool is a common and recognizable gesture in many cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only a simple bend and a two-handed mimed turning motion without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as turning any generic tool or object, not specifically a wrench.",
+      "The twisting motion is subtle and could be seen as simply reaching or grabbing."
+    ],
+    "confidence": "medium"
+  }
+}

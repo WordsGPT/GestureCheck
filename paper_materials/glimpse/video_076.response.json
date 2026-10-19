@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394726-3tegzY9s9OI6vCjSuf3m",
+  "object": "chat.completion",
+  "created": 1792394726,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Theory\",\n  \"video_file\": \"video_076.mp4\",\n  \"brief_gesture_description\": \"A woman stands facing the camera against a plain background. She raises both hands to chest height with palms facing inward, then moves them slightly forward and outward in a small, contained gesture, before lowering her arms back to her sides. Her facial expression remains neutral throughout.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture of holding hands in front of the chest could vaguely represent holding or shaping an abstract concept, but it lacks specific visual resemblance to 'theory'.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and abstract, not resembling a concrete physical action or experience that would strongly evoke sensorimotor imagery.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small, contained, and slow, with limited dynamic range or size.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression is neutral and shows no discernible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The simple, abstract gesture might loosely fit the abstract nature of 'theory', but it is not clearly tailored to the concept's complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture is a common, neutral hand movement that could be interpreted in various ways, but it is not a widely recognized cultural symbol for 'theory'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is simple and easy to perform, requiring only a small movement of both hands.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture is highly abstract and could be interpreted as holding, shaping, or presenting an idea, but it does not clearly map to 'theory'.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 530,
+    "total_tokens": 3733,
+    "cost": 0.0035118,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035118,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.00159
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

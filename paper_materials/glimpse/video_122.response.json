@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394790-ktQf8i3US7D0xqzDdjZL",
+  "object": "chat.completion",
+  "created": 1792394790,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Saw\",\n  \"video_file\": \"video_122.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then turns their torso slightly to the side and extends both arms forward, moving them in a horizontal back-and-forth sawing motion at waist height before returning to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The horizontal back-and-forth motion of the hands clearly mimics the action of using a hand saw, strongly resembling the meaning of the word.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The rhythmic, repetitive pushing and pulling motion feels like a genuine physical effort, evoking the tactile sensation of sawing through material.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, confined to the arms and torso without large body displacement, but the dynamic back-and-forth motion is clearly visible.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, showing no distinct emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, repetitive mechanical motion perfectly matches the straightforward physical concept of sawing.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is a universally recognized pantomime for sawing, commonly understood across various cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple rhythmic movement of the arms and hands without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"Without an object, the gesture could be interpreted as other repetitive horizontal motions, but the context strongly supports sawing.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 518,
+    "total_tokens": 2572,
+    "cost": 0.0027864,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0027864,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001554
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

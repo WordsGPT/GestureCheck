@@ -1,0 +1,43 @@
+{
+  "target_word": "Warning",
+  "video_file": "video_086.mp4",
+  "brief_gesture_description": "A woman stands facing the camera and raises her left arm, pointing her index finger upward. She holds the raised finger briefly, then lowers her arm back to her side. Her facial expression remains neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The raised index finger is a conventional gesture for 'attention' or 'number one,' but it does not visually resemble the concept of a warning, which typically involves a shaking finger, a stop hand, or an alarmed expression."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple, isolated arm raise and lower. It lacks the dynamic quality or physical engagement associated with the experience of giving or receiving a warning."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The gesture is small and contained to one arm. The movement is slow and lacks the sharpness or energy that would make it highly salient or attention-grabbing."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The woman's facial expression is completely neutral and flat. There is no visible emotion, concern, or seriousness that would accompany a warning."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The word 'Warning' implies a communicative act with some urgency or seriousness. The simple, neutral finger-point is too minimal and lacks the communicative weight to fit the concept well."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Raising an index finger is a very common and familiar gesture in many cultures, but it is more commonly associated with 'I have an idea,' 'wait,' or 'number one' rather than 'warning.'"
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple to perform. It requires only raising one arm and pointing a finger, with no complex coordination or facial expression needed."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'number one,' 'attention,' 'idea,' or 'wait' rather than 'warning.'",
+      "The lack of facial expression makes the intent of the gesture ambiguous."
+    ],
+    "confidence": "high"
+  }
+}

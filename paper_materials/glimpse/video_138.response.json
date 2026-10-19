@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394812-3dgqUEH4amFfTp6YqbmS",
+  "object": "chat.completion",
+  "created": 1792394812,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Flashlight\",\n  \"video_file\": \"video_138.mp4\",\n  \"brief_gesture_description\": \"The person stands upright facing the camera with arms resting at their sides. Throughout the clip, the person remains largely stationary, with only minor postural adjustments and no hand movements, object manipulation, or beam-like gestures.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The person stands still with arms at their sides; there is no hand shape, pointing, or sweeping motion that resembles holding or using a flashlight.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 1,\n      \"rationale\": \"No action is performed; the body remains static, so there is no embodied experience of gripping, switching, or shining a light.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 1,\n      \"rationale\": \"The movement is minimal to nonexistent, limited to slight standing adjustments with no dynamic or large-scale motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression is neutral and unchanged, conveying no emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture is essentially absent, providing no representational content to match the concept of a flashlight.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 1,\n      \"rationale\": \"Standing still is not a recognizable gesture for a flashlight in any cultural context.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 1,\n      \"rationale\": \"There is no gesture to enact; the video shows only a static standing posture.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The video shows no identifiable gesture, making it impossible to link to the target word 'Flashlight'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 489,
+    "total_tokens": 3693,
+    "cost": 0.0033894,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0033894,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001467
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

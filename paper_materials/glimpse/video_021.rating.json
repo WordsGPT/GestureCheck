@@ -1,0 +1,43 @@
+{
+  "target_word": "Cable",
+  "video_file": "video_021.mp4",
+  "brief_gesture_description": "The person stands facing the camera and raises both hands to chest height, holding them in front of the body as if gripping a thin, elongated object. The hands move slightly along an imaginary horizontal line, mimicking the action of holding, tracing, or pulling a flexible cord or wire. The facial expression remains neutral throughout the movement.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture of holding and moving hands along a horizontal line visually resembles the shape and flexibility of a cable, though it lacks specific details like plugging in or coiling."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a real action of handling a flexible object, such as pulling or inspecting a wire, providing a moderate tactile sense of the object."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained within the chest area, lacking large, dynamic, or sweeping motions."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression is neutral and focused, showing no visible emotion or exaggerated reaction."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, linear hand movement fits the relatively simple concept of a cable, which is a straightforward object."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "While holding a wire is a common action, the specific gesture of tracing a line in the air is a somewhat abstract representation that may not be universally recognized as 'cable' without context."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only simple hand movements in front of the body without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as holding a rope, a string, or a wire, not specifically a cable.",
+      "The lack of specific cable-related actions (like plugging in) makes the identification rely heavily on the shape of the movement."
+    ],
+    "confidence": "medium"
+  }
+}

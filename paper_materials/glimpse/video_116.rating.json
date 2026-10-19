@@ -1,0 +1,43 @@
+{
+  "target_word": "Eraser",
+  "video_file": "video_116.mp4",
+  "brief_gesture_description": "The person stands upright against a plain background. They briefly bend forward at the waist, raising their right hand into a loose fist near chest height, then return to a neutral standing posture with arms at their sides. The facial expression remains largely neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture does not visually resemble the meaning of 'Eraser'. There is no visible object, rubbing motion, or wiping action that would depict an eraser."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is minimal and lacks the tactile or kinesthetic qualities associated with using an eraser, such as friction or repetitive rubbing."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and brief, consisting only of a slight forward lean and a small hand raise, lacking dynamic range or size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression is neutral and static, conveying no discernible emotion or emphasis related to the action."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is too simple and ambiguous to fit the concept of an eraser, which typically involves a specific tool or motion."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The gesture is not a recognizable or common cultural sign for 'Eraser' or any related concept."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The physical movement is simple and easy to perform, requiring only a slight bend and hand raise, though it lacks semantic clarity."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as a generic coughing motion or a small, undefined hand movement.",
+      "There is no clear connection to the target word 'Eraser'."
+    ],
+    "confidence": "high"
+  }
+}

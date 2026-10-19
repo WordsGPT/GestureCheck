@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394682-WJFM00rCqjx2MxPkgvPg",
+  "object": "chat.completion",
+  "created": 1792394682,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Tent\",\n  \"video_file\": \"video_044.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, raises both hands to meet at the fingertips in front of the face to form an inverted V or triangular shape, holds it briefly, then lowers the arms back to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The fingertips meeting at the top with hands sloping down form a clear triangular shape that visually resembles the profile of a tent.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is a static hand shape rather than an enacted action, so it evokes little physical sensation of setting up or entering a tent.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and contained to the upper body, with a brief hold and slow lowering; it lacks large or dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout, conveying no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple two-hand triangular shape matches the simple, concrete concept of a tent without unnecessary complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"Forming a triangle with the hands is a recognizable iconic gesture for a tent or roof, though not a highly conventionalized everyday gesture.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform: simply raise both hands and touch the fingertips together in front of the face.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The triangular hand shape could also be interpreted as a roof, house, or mountain rather than specifically a tent.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2686,
+    "completion_tokens": 513,
+    "total_tokens": 3199,
+    "cost": 0.0031506,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0031506,
+      "upstream_inference_prompt_cost": 0.0016116,
+      "upstream_inference_completions_cost": 0.001539
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

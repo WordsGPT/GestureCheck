@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394721-aovorY1Svh9NrbmFq78o",
+  "object": "chat.completion",
+  "created": 1792394721,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Talent\",\n  \"video_file\": \"video_072.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, starting with arms at their sides. They raise both hands to chest level with fingers pointing inward, then extend both arms outward to the sides with index fingers pointing outward, before returning to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture of extending arms outward with index fingers does not visually resemble the abstract concept of 'talent' in any obvious way.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is a simple, abstract pointing gesture that does not evoke a strong physical sensation or real-world action experience.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement involves both arms moving from the center to a wide extension, which is moderately dynamic and visible, though not highly exaggerated.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The person's facial expression remains neutral and flat throughout the video, conveying no discernible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The simple outward pointing gesture seems too basic and arbitrary to adequately represent the complex, multifaceted concept of 'talent'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"This specific gesture is not a widely recognized or common cultural sign for 'talent'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple movement of both arms from the chest outward.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as indicating 'wide', 'big', or 'outward', but has no clear connection to 'talent'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 524,
+    "total_tokens": 3728,
+    "cost": 0.0034944,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034944,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001572
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

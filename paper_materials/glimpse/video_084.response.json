@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394736-lxR8CUTWbd6nRaqJpiP3",
+  "object": "chat.completion",
+  "created": 1792394736,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Procedure\",\n  \"video_file\": \"video_084.mp4\",\n  \"brief_gesture_description\": \"The person stands upright and stationary facing the camera with arms resting at the sides. There is no visible hand movement, gesturing, or change in posture throughout the clip, and the facial expression remains neutral.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The person remains completely still with no hand or body movements, providing no visual representation of a procedure or sequence of steps.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 1,\n      \"rationale\": \"There is no observable action, movement, or physical interaction, so the video does not evoke any sensorimotor experience.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 1,\n      \"rationale\": \"The video shows a static standing posture with no dynamic movement or displacement of the limbs.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression is neutral and unchanging, conveying no emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The complete absence of gesture does not fit the concept of a procedure, which typically involves a sequence of actions or steps.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 1,\n      \"rationale\": \"A static standing posture is not a recognizable or conventional gesture for representing a procedure in any cultural context.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 1,\n      \"rationale\": \"While standing still is physically easy, it is not a gesture and therefore has no enactment potential for conveying the target word.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The video contains no visible gesture or movement, making it impossible to interpret any intended meaning or connection to the target word.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2685,
+    "completion_tokens": 498,
+    "total_tokens": 3183,
+    "cost": 0.003105,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003105,
+      "upstream_inference_prompt_cost": 0.001611,
+      "upstream_inference_completions_cost": 0.001494
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394736-i8YQM6tk0ybEp7RE83xm",
+  "object": "chat.completion",
+  "created": 1792394736,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Excuse\",\n  \"video_file\": \"video_085.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, raises both hands to chest height with palms facing inward, and moves them in a small, repeated circular or rubbing motion against each other, then lowers the arms back to the sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The small circular hand motion does not visually resemble the concept of excusing or asking for pardon; it is an abstract gesture with little direct iconic mapping to the word.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture feels like a conventional sign rather than a real-world action; there is no tangible object or bodily experience being enacted.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is limited to small hand motions at chest level with minimal body displacement, making it low in size and dynamism.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout, conveying no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The simple, brief hand movement matches the relatively simple social concept of 'excuse' without being overly elaborate.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture resembles a common sign-language or conventional gesture for 'excuse me' or 'sorry' in some contexts, though it is not universally recognized.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform, requiring only a small circular motion of both hands at chest height.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as 'sorry,' 'excuse me,' or a general polite gesture, making the exact target word ambiguous without context.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 530,
+    "total_tokens": 3734,
+    "cost": 0.0035124,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035124,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.00159
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

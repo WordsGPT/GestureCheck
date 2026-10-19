@@ -1,0 +1,44 @@
+{
+  "target_word": "Sympathy",
+  "video_file": "video_083.mp4",
+  "brief_gesture_description": "The person begins standing upright with arms at their sides. They then bring both hands together in front of their chest, clasping them, while bending their torso forward and lowering their head. After holding this bowed posture briefly, they straighten back up to a neutral standing position with arms at their sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The clasped hands and bowed head can visually represent sympathy or condolence, but the gesture is also highly ambiguous and could easily be interpreted as prayer, gratitude, or general respect."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a genuine, physical bodily action (bowing with clasped hands), but it lacks the specific tactile or emotional imagery uniquely tied to the concept of sympathy."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained, consisting only of bringing the hands together and a slight forward bow of the torso, without large or dynamic displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains largely neutral and subdued throughout the video, with the head lowered during the gesture, conveying very little overt emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple, single-action gesture fits the abstract nature of the word, but it may be too generic to fully capture the nuanced emotional complexity of sympathy."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of clasping hands and bowing the head is a highly familiar and common gesture across many cultures, often associated with prayer, mourning, or sympathy."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple movement of the arms and a slight bend of the torso without any complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as prayer or religious devotion.",
+      "The gesture could be interpreted as a sign of gratitude or thankfulness.",
+      "The gesture could be interpreted as a general bow of respect or apology."
+    ],
+    "confidence": "medium"
+  }
+}

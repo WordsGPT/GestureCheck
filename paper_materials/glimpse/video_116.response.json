@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394785-dS7Q6WoyAQ9knwjXrzqm",
+  "object": "chat.completion",
+  "created": 1792394785,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Eraser\",\n  \"video_file\": \"video_116.mp4\",\n  \"brief_gesture_description\": \"The person stands upright against a plain background. They briefly bend forward at the waist, raising their right hand into a loose fist near chest height, then return to a neutral standing posture with arms at their sides. The facial expression remains largely neutral throughout.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture does not visually resemble the meaning of 'Eraser'. There is no visible object, rubbing motion, or wiping action that would depict an eraser.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is minimal and lacks the tactile or kinesthetic qualities associated with using an eraser, such as friction or repetitive rubbing.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and brief, consisting only of a slight forward lean and a small hand raise, lacking dynamic range or size.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression is neutral and static, conveying no discernible emotion or emphasis related to the action.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is too simple and ambiguous to fit the concept of an eraser, which typically involves a specific tool or motion.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is not a recognizable or common cultural sign for 'Eraser' or any related concept.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The physical movement is simple and easy to perform, requiring only a slight bend and hand raise, though it lacks semantic clarity.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as a generic coughing motion or a small, undefined hand movement.\",\n      \"There is no clear connection to the target word 'Eraser'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 548,
+    "total_tokens": 2602,
+    "cost": 0.0028764,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0028764,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001644
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

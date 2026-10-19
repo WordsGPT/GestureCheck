@@ -1,0 +1,42 @@
+{
+  "target_word": "Broom",
+  "video_file": "video_095.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, then bends forward slightly and moves one hand in a repeated sweeping motion near the floor, as if miming sweeping with a broom. The body sways slightly with the motion, and the face remains neutral.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The repeated hand sweeping motion near the floor closely resembles the action of using a broom, making the gesture highly iconic for the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The sweeping motion and forward lean evoke the physical experience of sweeping, giving a strong sense of the real action."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and dynamic, involving arm and torso motion but not large or exaggerated."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and shows no visible emotion throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, repetitive sweeping motion matches the straightforward concept of a broom, fitting well in complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The sweeping gesture is widely recognized across cultures as representing broom use, making it highly familiar."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only a simple hand sweeping motion and slight body lean."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as sweeping in general rather than specifically using a broom."
+    ],
+    "confidence": "high"
+  }
+}

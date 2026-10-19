@@ -1,0 +1,42 @@
+{
+  "target_word": "Chair",
+  "video_file": "video_107.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, then briefly lifts one leg with the knee bent and places a hand on the hip while looking upward, before returning to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture shows a leg lift and hand-on-hip pose, which does not visually resemble a chair or the act of sitting."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement feels like a brief balance or dance pose rather than an experience related to sitting on or using a chair."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and brief, limited to lifting one leg and placing a hand on the hip."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and shows no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple pose does not match the concept of a chair, which would typically involve a sitting or supporting gesture."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The pose is not a commonly recognized gesture for 'chair' in typical cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The movement is simple and easy to perform, requiring only a leg lift and hand placement."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as a dance move or balance exercise rather than representing a chair."
+    ],
+    "confidence": "high"
+  }
+}

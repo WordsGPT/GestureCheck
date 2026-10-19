@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394715-cK2ylE1qxHmOagCHSYIK",
+  "object": "chat.completion",
+  "created": 1792394715,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Method\",\n  \"video_file\": \"video_066.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then raises their right hand with an open palm to head height while turning their head and upper body to the right. They then lower the right arm and point downward with the index finger toward the floor on their right side, before returning to a neutral standing posture with arms at their sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture of raising a hand and then pointing down could loosely represent a step-by-step process or a sequence, which relates to 'method', but it lacks specific visual resemblance to the abstract concept of a method.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The movements are clear and deliberate, resembling a demonstration of a procedure or pointing out steps, which gives a moderate sense of enacting a process.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement involves raising the arm to head height and then pointing down, which is a moderate range of motion, neither very large nor very small.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, conveying no strong emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture consists of two distinct actions (raising hand, pointing down), which somewhat fits the idea of a method involving steps, but it is relatively simple for the abstract concept.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The gestures of raising a hand and pointing are common and familiar in many cultures, often used in demonstrations or instructions.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform, involving simple arm movements and head turning that most people can replicate without difficulty.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as pointing at something specific rather than representing a method.\",\n      \"The sequence of raising and pointing down might be seen as a single action of indicating a location rather than a process.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 588,
+    "total_tokens": 3791,
+    "cost": 0.0036858,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036858,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001764
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

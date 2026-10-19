@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394604-WAjddOd6SyWIbgkbBPHX",
+  "object": "chat.completion",
+  "created": 1792394604,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Camera\",\n  \"video_file\": \"video_022.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, raises both hands to eye level, and forms a rectangular frame with their fingers and thumbs, mimicking the viewfinder of a camera. They hold this pose briefly before lowering their arms back to their sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture of framing with fingers is a highly recognizable and direct visual representation of using a camera viewfinder.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture feels like a real action because it mimics the physical act of holding a camera up to the eye to take a picture.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and contained within the upper body, involving only the hands and arms without large body displacement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, showing no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, two-handed gesture perfectly matches the concrete and simple nature of the object 'camera'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The 'framing' gesture is a universally understood cultural convention for representing photography or cameras.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is extremely easy to perform as it requires no props and uses a natural hand configuration.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"Could be interpreted as 'taking a picture' or 'photography' rather than the object 'camera' itself, though the connection is strong.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 507,
+    "total_tokens": 3710,
+    "cost": 0.0034428,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034428,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001521
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

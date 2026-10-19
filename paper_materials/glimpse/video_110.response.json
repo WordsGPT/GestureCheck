@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394773-oAOY3uXGnFaN7xbajQOi",
+  "object": "chat.completion",
+  "created": 1792394773,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Earth\",\n  \"video_file\": \"video_110.mp4\",\n  \"brief_gesture_description\": \"The person stands upright facing the camera, then raises both arms straight up overhead with open palms, sweeps them outward and downward in a wide arc to the sides, and finally brings both hands together in front of the lower torso with palms facing each other, as if holding or shaping a sphere, before returning to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The final hand-together shaping gesture loosely resembles holding a round globe, but the preceding wide overhead sweep is generic and does not specifically depict Earth.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The sweeping arms and cupped hands create a mild sensation of enclosing a large object, but there is no clear tactile or spatial cue tied specifically to Earth.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 4,\n      \"rationale\": \"The arms move through a large range from overhead to the sides and down to the torso, producing a broad, visible arc.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 2,\n      \"rationale\": \"The face remains largely neutral with only slight mouth opening during the movement; no strong emotion is conveyed.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture is moderately complex with a multi-phase arc, which is somewhat more elaborate than needed for a simple concrete noun like Earth.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"The wide overhead-to-side sweep is not a conventional or widely recognized sign for Earth in common gesture repertoires.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The movement is simple to reproduce: raise arms, sweep outward and down, and cup hands together in front of the body.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The wide overhead sweep could be interpreted as indicating something large, sky, or space rather than Earth specifically.\",\n      \"The final cupped-hand shape is brief and may not clearly read as holding a globe.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2053,
+    "completion_tokens": 574,
+    "total_tokens": 2627,
+    "cost": 0.0029538,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0029538,
+      "upstream_inference_prompt_cost": 0.0012318,
+      "upstream_inference_completions_cost": 0.001722
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

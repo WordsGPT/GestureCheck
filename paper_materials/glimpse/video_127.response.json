@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394795-PBTezJcdKvrgv09PXbZV",
+  "object": "chat.completion",
+  "created": 1792394795,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Piece Of Paper\",\n  \"video_file\": \"video_127.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera with arms at their sides. They raise both hands to chest height, holding them close together with fingers pinched as if grasping a small, flat object. They then move their hands apart in a quick tearing motion, separating the hands to opposite sides, before returning to a neutral standing position.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of holding a small object with both hands and pulling them apart strongly resembles the physical action of tearing a piece of paper, which is a highly iconic representation of the target word.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The pinched fingers and the quick, sharp pulling motion evoke a strong tactile sensation of holding and tearing a thin, flat material, making the action feel very real.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, confined to the upper body and chest area. It is dynamic enough to be clearly visible but not overly large or sweeping.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The person's facial expression remains neutral and focused throughout the video, showing no distinct emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, two-handed action of tearing is perfectly suited to the concrete and simple concept of a 'piece of paper'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture of tearing paper is a universally recognized and common action across most cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only basic hand coordination and no special equipment or complex body movements.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"Without the target word, the gesture could also be interpreted as tearing any thin material, such as cloth or fabric.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 559,
+    "total_tokens": 2614,
+    "cost": 0.00291,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00291,
+      "upstream_inference_prompt_cost": 0.001233,
+      "upstream_inference_completions_cost": 0.001677
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

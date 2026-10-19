@@ -1,0 +1,42 @@
+{
+  "target_word": "Daily Newspaper",
+  "video_file": "video_039.mp4",
+  "brief_gesture_description": "The person stands facing the camera and performs a single, quick sweeping motion with the left arm across the front of the torso, moving from the right side toward the left side, before returning the arm to the side of the body.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The single sweeping arm motion does not visually resemble holding, opening, or reading a newspaper, nor does it convey the concept of 'daily'."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement feels like a generic, abstract sweep rather than a concrete, embodied action related to handling a physical object like a newspaper."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The gesture is a brief, moderate-amplitude sweep of one arm across the body, lacking large or highly dynamic movement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and flat throughout the video, conveying no discernible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The simple, single-arm sweep is too basic and abstract to adequately represent the specific, multi-faceted concept of a 'Daily Newspaper'."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The gesture does not correspond to any widely recognized cultural sign or conventional gesture for a newspaper."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The movement is a simple, single-arm sweep that is physically easy to perform, though it lacks semantic clarity."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The sweeping motion could be interpreted as a generic 'brushing off' or 'sweeping' gesture rather than anything related to a newspaper."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Balcony",
+  "video_file": "video_003.mp4",
+  "brief_gesture_description": "The person stands upright, then bends forward at the waist while extending both arms forward and downward, holding the hands together as if resting on a railing or ledge. The head is tilted down, looking toward the hands. The person then straightens back up to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture of leaning forward over a railing is a common representation of a balcony, but the lack of a clear horizontal railing shape makes it somewhat ambiguous."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The forward lean and hand placement strongly evoke the physical sensation of leaning over a balcony railing."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained, involving a simple forward lean and return to standing without large or dynamic motions."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, showing no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple action of leaning over a railing fits the relatively simple concept of a balcony well."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of leaning over a railing is a widely recognized and common way to represent a balcony in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple forward lean and hand placement."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as looking over a fence, a wall, or a ledge, not specifically a balcony."
+    ],
+    "confidence": "medium"
+  }
+}

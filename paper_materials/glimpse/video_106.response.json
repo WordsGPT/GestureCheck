@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394767-vbnCSgUJoJYM8Az4cNr8",
+  "object": "chat.completion",
+  "created": 1792394767,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Temple\",\n  \"video_file\": \"video_106.mp4\",\n  \"brief_gesture_description\": \"A person stands facing the camera, brings both palms together in front of the chest in a prayer-like position, bows the head and upper body forward, then returns to an upright standing position with arms lowered.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The prayer-like hand position and bowing resemble worship or prayer, which is associated with temples, but the gesture does not depict the building or structure itself.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture feels like a real, embodied action of praying or showing reverence, with clear hand placement and body bowing.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and contained, limited to bringing hands together and a slight forward bow, with no large or dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout, with no visible emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 3,\n      \"rationale\": \"The simple gesture captures an aspect of temple-related activity (prayer/worship) but does not fully represent the concept of a temple as a place or building.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"The prayer-like gesture with palms together and bowing is widely recognized across many cultures as a sign of reverence or worship.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is simple and easy to perform, requiring only bringing palms together and bowing the head and upper body.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as prayer, gratitude, or general reverence rather than specifically representing a temple.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 524,
+    "total_tokens": 2578,
+    "cost": 0.0028044,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0028044,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001572
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394807-eIW3TVWBv0Lbd7CEbAwK",
+  "object": "chat.completion",
+  "created": 1792394807,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Remote Control\",\n  \"video_file\": \"video_132.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises their right hand forward with the index finger extended, pointing directly ahead as if pressing a button on an invisible device. The left hand rests on the hip during the gesture. The right hand then lowers back to the side, and the person returns to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 4,\n      \"rationale\": \"The forward-pointing index finger mimics the typical action of pressing a button on a remote control, visually resembling the concept well.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture feels like a real, familiar action of pointing and pressing a button, evoking a clear sensorimotor experience of using a remote.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and contained, limited to raising and lowering one arm with a finger point; it lacks large or dynamic motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and flat throughout, conveying no noticeable emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, single-hand pointing gesture appropriately matches the straightforward concept of using a remote control.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"Pointing a finger forward as if pressing a remote button is a widely recognized and common gesture in everyday life.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple arm raise and finger point without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also be interpreted as pointing at something or someone rather than specifically using a remote control.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 527,
+    "total_tokens": 2581,
+    "cost": 0.0028134,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0028134,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001581
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

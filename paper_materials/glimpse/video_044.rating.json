@@ -1,0 +1,42 @@
+{
+  "target_word": "Tent",
+  "video_file": "video_044.mp4",
+  "brief_gesture_description": "The person stands facing the camera, raises both hands to meet at the fingertips in front of the face to form an inverted V or triangular shape, holds it briefly, then lowers the arms back to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The fingertips meeting at the top with hands sloping down form a clear triangular shape that visually resembles the profile of a tent."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture is a static hand shape rather than an enacted action, so it evokes little physical sensation of setting up or entering a tent."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained to the upper body, with a brief hold and slow lowering; it lacks large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple two-hand triangular shape matches the simple, concrete concept of a tent without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Forming a triangle with the hands is a recognizable iconic gesture for a tent or roof, though not a highly conventionalized everyday gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform: simply raise both hands and touch the fingertips together in front of the face."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The triangular hand shape could also be interpreted as a roof, house, or mountain rather than specifically a tent."
+    ],
+    "confidence": "high"
+  }
+}

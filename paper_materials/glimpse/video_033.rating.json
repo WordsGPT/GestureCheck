@@ -1,0 +1,42 @@
+{
+  "target_word": "Collection",
+  "video_file": "video_033.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises both hands to waist height with palms facing each other. She makes small, repeated gathering or scooping motions with both hands, moving them slightly inward and outward as if collecting multiple small items into a central space, before lowering her arms back to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The repeated inward scooping motions with both hands visually suggest gathering multiple items together, which aligns with the concept of a collection, though no specific objects are shown."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture mimics the physical action of picking up and gathering items, providing a moderate sense of a real-world experience, though the lack of visible objects limits the imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained within the waist area, lacking large, dynamic, or expansive motions."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, conveying no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The repeated, two-handed gathering motion fits the concept of a collection (which implies multiple items) better than a single, simple gesture, though it is still quite basic."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture of gathering with both hands is a common, intuitive pantomime for collecting or gathering items across many cultures."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is simple to perform, requiring only basic hand and arm movements at waist height without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'gathering', 'picking up', or 'sorting' rather than specifically 'collection'."
+    ],
+    "confidence": "medium"
+  }
+}

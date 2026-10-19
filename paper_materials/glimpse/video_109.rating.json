@@ -1,0 +1,42 @@
+{
+  "target_word": "Bridge",
+  "video_file": "video_109.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises both arms upward and outward, bends forward at the waist while extending both arms forward and downward, and finally returns to an upright standing position with arms at the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The forward bend with extended arms could loosely suggest an arch or span, but the motion is more reminiscent of a dive or reaching out than a clear bridge structure."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a physical action (such as diving or reaching), but it does not strongly evoke the experience of crossing or building a bridge."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture involves a large, dynamic movement of both arms and the torso, making it visually prominent."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, with no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is moderately complex, involving a full-body motion, which somewhat matches the concept of a bridge as a structure, but it lacks specific structural representation."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This specific gesture is not a common or widely recognized sign for 'bridge' in typical cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is relatively easy to perform, requiring only a simple forward bend and arm extension without complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as diving, reaching, or bowing rather than specifically representing a bridge."
+    ],
+    "confidence": "medium"
+  }
+}

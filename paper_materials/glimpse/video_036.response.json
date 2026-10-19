@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394677-uCyzgvlYCQp1UUfYYbkO",
+  "object": "chat.completion",
+  "created": 1792394677,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Sunglasses\",\n  \"video_file\": \"video_036.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, raises both hands to the face, and forms circles with the fingers around the eyes, mimicking the shape and placement of glasses or sunglasses. The hands are then lowered back to the sides of the body.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture of forming circles with fingers around the eyes is a highly iconic and universally recognized representation of glasses or sunglasses.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture clearly mimics the physical action of putting on or wearing glasses, providing strong sensorimotor imagery related to the face and eyes.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, involving the arms moving from the sides to the face. It is clear and deliberate but not overly large or dynamic.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the gesture, with no visible emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, two-handed gesture perfectly matches the simple concept of a common object (sunglasses).\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"Miming glasses with fingers is a very common and widely understood gesture across many cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is extremely easy to perform, requiring only basic hand and arm movements without any special coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could also represent 'glasses' (eyeglasses) or 'binoculars' depending on context, but 'sunglasses' is a very strong fit.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3205,
+    "completion_tokens": 526,
+    "total_tokens": 3731,
+    "cost": 0.003501,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003501,
+      "upstream_inference_prompt_cost": 0.001923,
+      "upstream_inference_completions_cost": 0.001578
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

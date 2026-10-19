@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394666-agjlJMWHELbNtlSIT3Xt",
+  "object": "chat.completion",
+  "created": 1792394666,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Paper\",\n  \"video_file\": \"video_029.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises both hands to the waist area and makes a brief, small rubbing or smoothing motion against the front of their clothing, as if wiping or brushing the fabric. The hands then return to the sides of the body, and the person stands still with a neutral facial expression.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The visible movement is a small hand rub against the clothing at the waist, which does not visually resemble paper, a sheet, or any paper-related action.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture feels like a real, everyday action such as brushing off or smoothing clothing, but it does not evoke any tactile experience of handling paper.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small, brief, and confined to the waist area, with low amplitude and little dynamic range.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout the video, conveying no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is simple, which could fit a simple noun, but its content (rubbing clothing) does not align with the concept of paper.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 3,\n      \"rationale\": \"The hand-rubbing motion resembles a common, familiar gesture for brushing off or smoothing clothing, though it is not a conventional sign for paper.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The movement is simple, small, and easy to imitate, requiring only a brief hand motion at the waist.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as brushing off clothing, smoothing fabric, or wiping hands, none of which clearly maps to 'paper'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2685,
+    "completion_tokens": 555,
+    "total_tokens": 3240,
+    "cost": 0.003276,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003276,
+      "upstream_inference_prompt_cost": 0.001611,
+      "upstream_inference_completions_cost": 0.001665
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

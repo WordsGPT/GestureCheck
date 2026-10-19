@@ -1,0 +1,42 @@
+{
+  "target_word": "Peppermill",
+  "video_file": "video_093.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then brings both hands together in front of the torso. The right hand is placed over the left hand, and the right hand performs a twisting, grinding motion over the left hand, mimicking the action of turning a crank or grinding mechanism. The hands then return to the sides of the body.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of one hand twisting over the other strongly resembles the physical action of operating a peppermill, making it highly iconic for the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The twisting motion clearly evokes the tactile sensation and physical effort of grinding spices, providing strong sensorimotor imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained within the central body space, lacking large or dynamic displacement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the video, conveying no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The two-handed coordination required to mimic the grinding action fits the complexity of the object and its function well."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture mimics a common kitchen action (grinding spices) that is widely recognizable in many cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is simple to perform, requiring only basic hand coordination and no special equipment or flexibility."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the target word, the gesture could also be interpreted as grinding salt, twisting a jar lid, or using a manual drill."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394647-bGLneGb9lQftDXP4X1Ha",
+  "object": "chat.completion",
+  "created": 1792394647,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Bottle\",\n  \"video_file\": \"video_015.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises their right hand to their mouth, tilts their head back, and leans their torso backward in a drinking motion. Afterward, they lower their arm and return to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture depicts the action of drinking from a bottle, which is strongly associated with the object, but the bottle itself is not visually represented or outlined by the hand.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 4,\n      \"rationale\": \"The backward head tilt and torso lean closely mimic the physical sensation and posture of drinking from a container, creating a strong sense of the real action.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement involves a clear and distinct change in posture and arm position, but it is a single, relatively contained motion rather than a large or highly dynamic sequence.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The person's facial expression remains neutral and focused throughout the gesture, showing no visible emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, single-action gesture is well-matched to the concrete, everyday nature of the word 'Bottle'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The pantomime of drinking is a universally recognized and common gesture across cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is very easy to perform, requiring only a simple arm raise and head tilt without any complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as the verb 'drink' rather than the noun 'bottle'.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 530,
+    "total_tokens": 3734,
+    "cost": 0.0035124,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035124,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.00159
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

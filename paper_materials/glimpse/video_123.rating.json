@@ -1,0 +1,43 @@
+{
+  "target_word": "Perfume",
+  "video_file": "video_123.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns their head to the side and raises one hand with the index finger extended, pointing it toward their neck or collar area. They hold this pose briefly before lowering the hand and returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of pointing to the neck could loosely relate to where perfume is applied, but it lacks the specific miming of spraying or smelling, making the resemblance weak."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple point and does not strongly evoke the sensory experience of smelling or applying perfume."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and contained, involving only a slight head turn and a hand raise to the neck."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, showing no distinct emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The simple gesture matches the relatively simple concept of a noun, though it may be too abstract to be fully effective."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "Pointing to the neck is not a widely recognized or standard gesture for 'perfume' in common cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple hand raise and head turn."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as pointing to the neck, collar, or throat rather than specifically indicating perfume.",
+      "Without a mimed bottle or smelling motion, the connection to 'perfume' is tenuous."
+    ],
+    "confidence": "high"
+  }
+}

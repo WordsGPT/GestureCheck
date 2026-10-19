@@ -1,0 +1,43 @@
+{
+  "target_word": "Leg",
+  "video_file": "video_135.mp4",
+  "brief_gesture_description": "A person stands upright facing the camera, raises their left arm, and points with an extended index finger toward the upper right side of the frame, then lowers the arm back to the side. The legs remain stationary and are not touched or indicated.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture is a pointing motion directed upward and away from the body; it does not resemble, touch, or indicate the leg in any way."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple, deliberate arm extension and point, but it evokes no bodily sensation or experience related to the leg."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is limited to a single arm raise and point; the body and legs remain still, so overall dynamism is low."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout, conveying no discernible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The simple pointing gesture is low in complexity, but it does not map onto the concept of 'leg' at all, so the fit is poor."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Pointing with an extended index finger is a common, familiar gesture in many cultures, though it is generic and not specific to body parts."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform: simply raise one arm and point with the index finger, requiring no special coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The pointing direction (upper right) does not correspond to the leg, so the gesture may be intended for a different target word.",
+      "The gesture could be interpreted as indicating a distant object or direction rather than a body part."
+    ],
+    "confidence": "high"
+  }
+}

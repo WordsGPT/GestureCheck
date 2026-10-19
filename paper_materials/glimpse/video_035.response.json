@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394671-Hexbk2bXD84KoKFHnp6a",
+  "object": "chat.completion",
+  "created": 1792394671,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Drawer\",\n  \"video_file\": \"video_035.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then looks down and extends the left arm forward and downward with the hand in a loose fist, as if gripping and pulling an object toward the body. The arm then returns to the side and the person returns to a neutral standing posture.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The downward, forward reach with a closed hand resembles gripping a drawer handle and pulling, but the motion is small and lacks a clear pulling trajectory, so the resemblance is only partial.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The hand forms a fist as if grasping something, which gives a slight sense of a real pulling action, but the movement is brief and low-amplitude, limiting the felt experience.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is limited to a small extension and retraction of one arm; the body remains otherwise still, making the gesture low in size and dynamism.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral throughout, with only a downward glance during the gesture and no visible emotional expression.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple grasp-and-pull motion matches the straightforward, single-action concept of opening a drawer.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"Miming the act of pulling a drawer open is a common, everyday gesture in most cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is easy to perform: it requires only extending one arm with a closed hand and pulling it back, with no complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The small pulling motion could be interpreted as other grasp-and-pull actions (e.g., pulling a cord or opening a pocket) rather than specifically a drawer.\",\n      \"The lack of a visible object or clear horizontal pulling path makes the target word only partly supported.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 585,
+    "total_tokens": 3788,
+    "cost": 0.0036768,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036768,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001755
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

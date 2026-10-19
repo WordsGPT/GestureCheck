@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394604-0Lbq10KofZQmHl3W9FT4",
+  "object": "chat.completion",
+  "created": 1792394604,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Traffic Light\",\n  \"video_file\": \"video_001.mp4\",\n  \"brief_gesture_description\": \"The person stands facing forward, then turns their head and upper body to their right while raising their right arm to point forward and upward with a closed fist. They hold this pointing posture briefly, then lower the arm and return to a neutral standing position facing forward.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture shows a single pointing motion with a closed fist, which does not visually resemble a traffic light (e.g., no vertical stack of lights, no color changes, no stop/go signals).\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement feels like a generic pointing or indicating action rather than an embodied experience of interacting with or observing a traffic light.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The arm raise and turn are clearly visible and moderately dynamic, but the movement is brief and limited to one arm without large body displacement.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and flat throughout, with no visible emotion or expressive change.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"A traffic light concept typically involves multiple states or a vertical structure; the single simple pointing gesture is too minimal to fit the concept's complexity.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"Pointing with a closed fist is not a widely recognized or conventional gesture for 'traffic light' in common cultural contexts.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is simple and easy to perform: turn the body, raise one arm, point with a fist, and return to neutral.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The pointing gesture could be interpreted as indicating a distant object, signaling 'stop' in a non-traffic context, or simply pointing at something unspecified.\",\n      \"The closed fist rather than an open hand or finger makes the intended referent unclear.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2686,
+    "completion_tokens": 576,
+    "total_tokens": 3262,
+    "cost": 0.0033396,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0033396,
+      "upstream_inference_prompt_cost": 0.0016116,
+      "upstream_inference_completions_cost": 0.001728
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

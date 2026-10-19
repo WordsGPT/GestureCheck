@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394642-JFeMLW40cWTpnkeplILW",
+  "object": "chat.completion",
+  "created": 1792394642,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Thread\",\n  \"video_file\": \"video_011.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises their left arm upward and outward, holding the hand in a pinched position with thumb and forefinger together as if grasping a thin object. The arm is held extended at head height for a moment before being lowered back to the side.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 2,\n      \"rationale\": \"The pinched-finger gesture suggests holding a thin object, which could loosely relate to a thread, but the upward arm extension does not clearly depict threading, pulling, or a thread's linear form.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The pinch between thumb and forefinger evokes a light grasp, but the single raised-arm motion lacks the repeated or continuous movement that would strongly suggest handling a thread.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is limited to one arm raising and lowering; it is small in amplitude and lacks dynamic or large-scale motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless throughout, showing no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 2,\n      \"rationale\": \"The gesture is a simple single-arm motion, which matches the simplicity of the word, but it does not capture the elongated or linear nature of a thread.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"The pinched-finger hold is a common gesture for small objects, but it is not a widely recognized conventional gesture specifically for 'thread'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform, requiring only a simple arm raise with a thumb-and-forefinger pinch.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as holding any small thin object (e.g., a needle, hair, or string) rather than specifically a thread.\",\n      \"The upward arm extension may suggest pointing or reaching rather than manipulating a thread.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 585,
+    "total_tokens": 3788,
+    "cost": 0.0036768,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036768,
+      "upstream_inference_prompt_cost": 0.0019218,
+      "upstream_inference_completions_cost": 0.001755
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

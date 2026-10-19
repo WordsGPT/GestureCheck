@@ -1,0 +1,42 @@
+{
+  "target_word": "Arrival",
+  "video_file": "video_049.mp4",
+  "brief_gesture_description": "The person stands in place facing the camera, taking a few small steps forward toward the viewer, then stops with feet together and arms resting at the sides. The facial expression remains neutral throughout.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The forward steps visually resemble approaching or arriving at a location, but the lack of a destination or arrival cue (e.g., stopping at a door) makes the resemblance moderate."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The small stepping motion feels like a real, everyday walking action, though the limited movement and neutral posture provide only moderate sensory engagement."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and subdued, consisting of only a couple of short steps with arms held at the sides, resulting in low dynamism."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The face remains neutral and expressionless throughout the video, conveying no visible emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple act of walking forward and stopping matches the straightforward concept of arrival well, without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Walking forward and stopping is a universally common and easily recognizable action across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy to perform, requiring only a few natural steps forward and a stop."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as simply walking forward or approaching, rather than specifically arriving at a destination."
+    ],
+    "confidence": "medium"
+  }
+}

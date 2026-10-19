@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394749-UGa2G1esBzP8dpUZ6mxZ",
+  "object": "chat.completion",
+  "created": 1792394749,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Zip\",\n  \"video_file\": \"video_091.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera and performs a repeated vertical sliding motion with the right hand along the front of the torso, moving from the waist up to the neck and back down, while the left hand remains near the hip. The facial expression is neutral and focused.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 5,\n      \"rationale\": \"The vertical sliding motion of the hand along the torso directly mimics the action of pulling a zipper up and down.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture feels like a tangible, physical action, clearly evoking the sensation of manipulating a zipper mechanism.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is moderate in size, confined to the torso area, and is a simple, repetitive vertical motion rather than a large, dynamic sweep.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, showing no significant emotional display.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, single-hand repetitive motion perfectly matches the straightforward, mechanical nature of the concept 'Zip'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is a universally recognized pantomime for zipping a garment, making it highly familiar across cultures.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is extremely easy to perform, requiring only a simple hand movement along the body without complex coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"Without context, the motion could be interpreted as adjusting clothing or a necklace, but the repetitive vertical nature strongly points to zipping.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2413,
+    "completion_tokens": 520,
+    "total_tokens": 2933,
+    "cost": 0.0030078,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0030078,
+      "upstream_inference_prompt_cost": 0.0014478,
+      "upstream_inference_completions_cost": 0.00156
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

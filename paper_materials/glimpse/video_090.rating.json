@@ -1,0 +1,42 @@
+{
+  "target_word": "Purpose",
+  "video_file": "video_090.mp4",
+  "brief_gesture_description": "The person stands facing forward, then turns their head and torso slightly to their left. They raise their left arm with the palm open and facing forward, while extending their right arm forward with the index finger pointing toward the open left palm, as if indicating a target or direction. They then lower both arms and return to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture of pointing toward a target or destination visually represents the concept of having a 'purpose' or direction, though it is somewhat abstract."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement feels like a deliberate, physical indication of a goal or endpoint, which aligns with the physical experience of aiming or directing oneself."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, involving the arms and upper body, but it is not highly dynamic or large-scale."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral and focused throughout the gesture, conveying no strong emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is relatively simple and direct, which fits well with the abstract but singular concept of 'purpose'."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Pointing and indicating a target are common and widely understood gestures in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform, requiring only basic arm movements and a slight turn of the body."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as indicating a specific location or object rather than an abstract concept like 'purpose'."
+    ],
+    "confidence": "medium"
+  }
+}

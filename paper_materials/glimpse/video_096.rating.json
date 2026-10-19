@@ -1,0 +1,42 @@
+{
+  "target_word": "Parsley",
+  "video_file": "video_096.mp4",
+  "brief_gesture_description": "The person stands upright facing the camera, then raises both arms outward and upward to shoulder height with open palms and spread fingers, holds the pose briefly, and lowers the arms back to the sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The open-palm, arms-raised gesture does not visually resemble parsley, a leafy herb; no leaf-like or plant-like shape is formed."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement feels like a generic open-arms gesture rather than a concrete action tied to handling or eating parsley."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The arms move from the sides to a raised position with visible motion blur, giving moderate size and dynamism."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The face remains largely neutral with only slight mouth movement, conveying little emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "A simple two-arm raise does not map well to the specific concept of parsley, which would more naturally involve hand shapes suggesting leaves or stems."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Raising open arms is a common, familiar gesture in many contexts, but it is not a conventional sign for parsley."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform: simply raise both arms outward with open palms and return them to the sides."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'open,' 'big,' 'surprise,' or 'presenting,' rather than parsley."
+    ],
+    "confidence": "high"
+  }
+}

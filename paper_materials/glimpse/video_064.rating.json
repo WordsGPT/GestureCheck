@@ -1,0 +1,43 @@
+{
+  "target_word": "Boredom",
+  "video_file": "video_064.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises one hand to rest their chin on their palm while tilting their head to the side, with the other hand placed on their hip. They hold this posture briefly with a flat, unsmiling facial expression, then lower both arms back to their sides and return to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand-under-chin pose with head tilt and hand on hip is a widely recognized visual convention for boredom or disinterest, closely matching the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture feels like a real, everyday posture of resting the head on the hand, but it is a static pose rather than a dynamic action, so the embodied experience is moderate."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small and slow: the arms rise, hold a static pose, and lower again, with no large or dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The face remains largely neutral and flat throughout, with no smile or strong expression; the lack of expression subtly supports boredom but conveys little overt emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, low-energy pose matches the low-arousal, passive nature of boredom well."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Resting the chin on the hand with a tilted head is a common, widely understood gesture for boredom in many cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is easy to perform: it requires only raising one hand to the chin, tilting the head, and placing the other hand on the hip."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The hand-under-chin pose could also be interpreted as thinking, daydreaming, or tiredness rather than boredom specifically.",
+      "The neutral facial expression provides little additional emotional cue to disambiguate boredom from contemplation."
+    ],
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394795-NCg80X9NMSTEUawccasS",
+  "object": "chat.completion",
+  "created": 1792394795,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Tie\",\n  \"video_file\": \"video_124.mp4\",\n  \"brief_gesture_description\": \"A woman stands facing the camera against a plain white background. She raises both hands to her upper chest and neck area, bringing them together in front of her collar. She makes a small, quick adjusting or tightening motion with her hands at the neckline of her turtleneck sweater, then lowers her arms back to her sides.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 3,\n      \"rationale\": \"The hand motion at the collar resembles the action of adjusting or tightening a tie, but because she is wearing a turtleneck and no tie is visible, the resemblance is only partial.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 3,\n      \"rationale\": \"The gesture evokes the physical sensation of adjusting clothing at the neck, but the lack of an actual tie or knot limits the realism of the action.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small, confined to the chest and neck area, and performed quickly without large or dynamic body motion.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and focused throughout the video, showing no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 4,\n      \"rationale\": \"The simple, two-handed adjusting motion appropriately matches the straightforward physical action of tying or adjusting a tie.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture of adjusting a collar or tie at the neck is a common and easily recognizable action in everyday life.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is simple, requires no props, and can be easily imitated by anyone.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [\n      \"The gesture could be interpreted as adjusting a sweater or turtleneck collar rather than tying a tie.\",\n      \"The motion is brief and could be seen as a general self-touch or nervous gesture.\"\n    ],\n    \"confidence\": \"medium\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 559,
+    "total_tokens": 2613,
+    "cost": 0.0029094,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0029094,
+      "upstream_inference_prompt_cost": 0.0012324,
+      "upstream_inference_completions_cost": 0.001677
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Bottle",
+  "video_file": "video_015.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises their right hand to their mouth, tilts their head back, and leans their torso backward in a drinking motion. Afterward, they lower their arm and return to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture depicts the action of drinking from a bottle, which is strongly associated with the object, but the bottle itself is not visually represented or outlined by the hand."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The backward head tilt and torso lean closely mimic the physical sensation and posture of drinking from a container, creating a strong sense of the real action."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves a clear and distinct change in posture and arm position, but it is a single, relatively contained motion rather than a large or highly dynamic sequence."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The person's facial expression remains neutral and focused throughout the gesture, showing no visible emotional display."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The simple, single-action gesture is well-matched to the concrete, everyday nature of the word 'Bottle'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The pantomime of drinking is a universally recognized and common gesture across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to perform, requiring only a simple arm raise and head tilt without any complex coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as the verb 'drink' rather than the noun 'bottle'."
+    ],
+    "confidence": "high"
+  }
+}

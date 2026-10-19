@@ -1,0 +1,42 @@
+{
+  "target_word": "Leg",
+  "video_file": "video_143.mp4",
+  "brief_gesture_description": "The person stands facing the camera, then raises one hand to rest under their chin while placing the other hand on their hip, tilting their head slightly in a thoughtful or resting pose. They hold this posture briefly before lowering both arms back to their sides and standing still.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture focuses on the head, chin, and hip, with no movement, pointing, or emphasis directed toward the legs, which remain stationary throughout."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The pose resembles a common resting or thinking stance, but it does not evoke any physical sensation or action related to the legs."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is limited to a slow, small arm raise and head tilt, followed by returning to a neutral standing position, with no dynamic or large-scale motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains largely neutral, with only a slight head tilt that might suggest mild contemplation, but no strong emotion is conveyed."
+    },
+    "gesture_complexity_fit": {
+      "score": 1,
+      "rationale": "The simple, static pose does not correspond to the concept of a leg, as it lacks any leg-specific movement or indication."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The hand-on-chin and hand-on-hip pose is a widely recognized gesture for thinking or resting, but it is not culturally associated with the word 'leg'."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to perform, requiring only a simple arm raise to the chin and a hand placement on the hip, though it does not represent the target word."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'thinking', 'resting', or 'bored', but it does not clearly or uniquely represent 'leg'."
+    ],
+    "confidence": "high"
+  }
+}

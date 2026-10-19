@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394653-vQF77aQ7oPueVma9sZpv",
+  "object": "chat.completion",
+  "created": 1792394653,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Purse\",\n  \"video_file\": \"video_020.mp4\",\n  \"brief_gesture_description\": \"The person stands facing the camera, then raises one hand to the opposite shoulder and briefly touches or pats the shoulder area before lowering the arm back to the side. The face remains neutral throughout.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 1,\n      \"rationale\": \"The gesture of touching the shoulder does not visually resemble the meaning of 'purse' (a bag or the action of pursing lips).\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is a simple, brief touch of the shoulder, which feels like a minor action but lacks strong sensory or motor engagement related to the target word.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 2,\n      \"rationale\": \"The movement is small and limited to one arm raising and lowering, with minimal dynamic range.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The facial expression remains neutral and shows no visible emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 1,\n      \"rationale\": \"The simple shoulder touch does not correspond to the concept of 'purse' in any meaningful way, so the complexity does not fit the word.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 2,\n      \"rationale\": \"Touching one's shoulder is a common, everyday movement but not a culturally recognized gesture for 'purse'.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 4,\n      \"rationale\": \"The gesture is easy to perform as it involves a simple arm raise and touch, requiring no special coordination.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": false,\n    \"possible_ambiguities\": [\n      \"The gesture does not clearly relate to the target word 'purse'.\",\n      \"The action could be interpreted as a self-touch or adjustment rather than a representational gesture.\"\n    ],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 524,
+    "total_tokens": 3728,
+    "cost": 0.0034944,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034944,
+      "upstream_inference_prompt_cost": 0.0019224,
+      "upstream_inference_completions_cost": 0.001572
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1792394802-Tk6IRl42uadQiczijkpi",
+  "object": "chat.completion",
+  "created": 1792394802,
+  "model": "elorian/glimpse",
+  "provider": "Together",
+  "system_fingerprint": "default",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"target_word\": \"Wave\",\n  \"video_file\": \"video_129.mp4\",\n  \"brief_gesture_description\": \"A person stands facing the camera against a plain background. They raise one arm to shoulder height with an open palm and move the hand side to side in a repeated swinging motion, then lower the arm back to the side. The facial expression remains neutral throughout.\",\n  \"ratings\": {\n    \"iconicity\": {\n      \"score\": 5,\n      \"rationale\": \"The raised open palm moving side to side is the canonical visual representation of a wave.\"\n    },\n    \"sensorimotor_imagery\": {\n      \"score\": 5,\n      \"rationale\": \"The movement is a direct, natural enactment of the greeting action, making it feel like a real-world experience.\"\n    },\n    \"motional_salience_gesture\": {\n      \"score\": 3,\n      \"rationale\": \"The movement is clearly visible and distinct, but it is a moderate, controlled motion rather than a large or highly dynamic one.\"\n    },\n    \"emotional_salience_facial_expression\": {\n      \"score\": 1,\n      \"rationale\": \"The face remains neutral and expressionless, conveying no specific emotion.\"\n    },\n    \"gesture_complexity_fit\": {\n      \"score\": 5,\n      \"rationale\": \"The simple, single-arm movement perfectly matches the simple, concrete nature of the word 'Wave'.\"\n    },\n    \"cultural_familiarity\": {\n      \"score\": 5,\n      \"rationale\": \"The hand wave is a universally recognized and common gesture for greeting or farewell.\"\n    },\n    \"enactment_potential\": {\n      \"score\": 5,\n      \"rationale\": \"The gesture is extremely easy to perform, requiring only a simple arm raise and hand movement.\"\n    }\n  },\n  \"coherence_check\": {\n    \"is_video_interpretable\": true,\n    \"possible_ambiguities\": [],\n    \"confidence\": \"high\"\n  }\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2053,
+    "completion_tokens": 462,
+    "total_tokens": 2515,
+    "cost": 0.0026178,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0026178,
+      "upstream_inference_prompt_cost": 0.0012318,
+      "upstream_inference_completions_cost": 0.001386
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}
