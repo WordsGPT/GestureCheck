@@ -1,0 +1,764 @@
+[
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_001.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_004.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_005.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_006.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_008.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_009.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_011.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_012.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_013.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_014.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_015.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_016.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_017.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_019.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_020.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_021.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_022.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_023.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_025.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_026.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_027.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_029.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_030.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_031.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_032.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_033.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_034.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_035.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_037.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_038.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_040.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_041.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_043.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_044.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_045.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_046.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_047.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_049.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_050.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_051.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_052.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_053.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_053.mp4",
+    "original_field": "facial_emotional_salience",
+    "canonical_field": "emotional_salience_facial_expression"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_054.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_055.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_057.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_058.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_059.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_060.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_061.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_063.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_064.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_066.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_067.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_068.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_069.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_070.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_071.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_072.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_073.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_074.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_075.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_076.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_078.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_079.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_080.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_082.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_083.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_084.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_085.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_086.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_087.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_088.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_090.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_091.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_092.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_092.mp4",
+    "original_field": "facial_emotional_salience",
+    "canonical_field": "emotional_salience_facial_expression"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_093.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_094.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_095.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_096.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_097.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_098.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_099.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_100.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_101.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_102.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_103.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_105.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_106.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_107.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_108.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_109.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_110.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_113.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_114.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_115.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_116.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_117.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_118.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_119.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_120.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_121.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_122.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_124.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_125.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_126.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_127.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_128.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_129.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_131.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_132.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_133.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_134.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_135.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_137.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_138.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_139.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_140.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_142.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_143.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_144.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_145.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_146.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_147.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_148.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  },
+  {
+    "model": "qwen3.8-max-0902",
+    "item": "video_149.mp4",
+    "original_field": "motional_salience",
+    "canonical_field": "motional_salience_gesture"
+  }
+]

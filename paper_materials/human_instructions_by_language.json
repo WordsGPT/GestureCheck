@@ -1,0 +1,194 @@
+{
+  "en": {
+    "language": "English",
+    "title": "Gesture Rating Task Instructions",
+    "instructions": [
+      "In this task, you will watch a series of gesture videos.",
+      "For each video, a word and a gesture will be presented.",
+      "You will be asked to perform some ratings for each video using a scale from 1 to 5.",
+      "There are no right or wrong answers. Please respond based on your immediate impression."
+    ],
+    "rating_hint": "Choose one answer in every row.",
+    "questions": [
+      [
+        "iconicity",
+        "How much does the gesture visually resemble the meaning of the word?"
+      ],
+      [
+        "sensorimotor_imagery",
+        "How much does the gesture feel like a real action or experience?"
+      ],
+      [
+        "motional_salience_gesture",
+        "How big and dynamic is the movement?"
+      ],
+      [
+        "emotional_salience_facial_expression",
+        "How much emotion is the face conveying?"
+      ],
+      [
+        "gesture_complexity_fit",
+        "How well does the complexity of the gesture fit the complexity of the word or concept?"
+      ],
+      [
+        "cultural_familiarity",
+        "How familiar or common does the gesture seem in your country?"
+      ],
+      [
+        "enactment_potential",
+        "How easy would it be to perform this gesture?"
+      ]
+    ],
+    "scale": {
+      "1": "Not at all",
+      "2": "A little / Slightly",
+      "3": "Moderately / Somewhat",
+      "4": "Very",
+      "5": "Extremely"
+    }
+  },
+  "de": {
+    "language": "German",
+    "title": "Anleitung zur Gestenbewertung",
+    "instructions": [
+      "In dieser Aufgabe werden Ihnen mehrere Videos mit Gesten gezeigt.",
+      "Für jedes Video werden ein Wort und eine Geste präsentiert.",
+      "Bitte beantworten Sie die folgende Frage für jedes Video anhand einer Skala von 1 bis 5:",
+      "Es gibt keine richtigen oder falschen Antworten. Bitte antworten Sie basierend auf Ihrem unmittelbaren Eindruck."
+    ],
+    "rating_hint": "Wählen Sie in jeder Zeile eine Antwort aus.",
+    "questions": [
+      [
+        "iconicity",
+        "Wie sehr ähnelt die Geste visuell der Bedeutung des Wortes?"
+      ],
+      [
+        "sensorimotor_imagery",
+        "Wie sehr fühlt sich die Geste wie eine reale Handlung oder Erfahrung an?"
+      ],
+      [
+        "motional_salience_gesture",
+        "Wie groß und dynamisch ist die Bewegung?"
+      ],
+      [
+        "emotional_salience_facial_expression",
+        "Wie viel Emotion vermittelt das Gesicht?"
+      ],
+      [
+        "gesture_complexity_fit",
+        "Wie gut passt die Komplexität der Geste zur Komplexität des Wortes oder Konzepts?"
+      ],
+      [
+        "cultural_familiarity",
+        "Wie vertraut oder verbreitet erscheint dir diese Geste in deinem Land?"
+      ],
+      [
+        "enactment_potential",
+        "Wie leicht wäre es, diese Geste auszuführen?"
+      ]
+    ],
+    "scale": {
+      "1": "Überhaupt nicht",
+      "2": "Ein wenig / Leicht",
+      "3": "Mäßig",
+      "4": "Sehr",
+      "5": "Äußerst"
+    }
+  },
+  "it": {
+    "language": "Italian",
+    "title": "Istruzioni per la valutazione dei gesti",
+    "instructions": [
+      "In questo compito verranno mostrati diversi video di gesti.",
+      "Per ogni video saranno presentati una parola e un gesto.",
+      "Si prega di rispondere alle seguenti domande per ciascun video utilizzando una scala da 1 a 5.",
+      "Non ci sono risposte giuste o sbagliate. Si prega di rispondere in base alla propria impressione immediata."
+    ],
+    "rating_hint": "Scegli una risposta in ogni riga.",
+    "questions": [
+      [
+        "iconicity",
+        "Quanto assomiglia il gesto visivamente al significato della parola?"
+      ],
+      [
+        "sensorimotor_imagery",
+        "Quanto sembra il gesto una vera azione o esperienza?"
+      ],
+      [
+        "motional_salience_gesture",
+        "Quanto il movimento è ampio e dinamico?"
+      ],
+      [
+        "emotional_salience_facial_expression",
+        "Quanta emozione trasmette il volto?"
+      ],
+      [
+        "gesture_complexity_fit",
+        "Quanto bene la complessità del gesto corrisponde alla complessità della parola o del concetto?"
+      ],
+      [
+        "cultural_familiarity",
+        "Quanto è familiare o comune questo gesto nel tuo Paese?"
+      ],
+      [
+        "enactment_potential",
+        "Quanto sarebbe facile eseguire questo gesto?"
+      ]
+    ],
+    "scale": {
+      "1": "Per nulla",
+      "2": "Poco",
+      "3": "Abbastanza",
+      "4": "Molto",
+      "5": "Moltissimo"
+    }
+  },
+  "ja": {
+    "language": "Japanese",
+    "title": "ジェスチャー評価課題の説明",
+    "instructions": [
+      "この課題では，ジェスチャー動画を視聴していただきます。",
+      "動画ごとに、単語とジェスチャーが表示されます。",
+      "各動画について、1から5の尺度を用いて以下の質問に回答してください。",
+      "正解や不正解はありません。直感的な印象に基づいて回答してください。"
+    ],
+    "rating_hint": "各行で回答を1つ選択してください。",
+    "questions": [
+      [
+        "iconicity",
+        "このジェスチャーは，その単語の意味と視覚的にどの程度似ていますか？"
+      ],
+      [
+        "sensorimotor_imagery",
+        "このジェスチャーは，実際の動作や身体的経験にどの程度基づいていると感じますか？"
+      ],
+      [
+        "motional_salience_gesture",
+        "このジェスチャーの動きは，どの程度大きく，躍動感がありますか？"
+      ],
+      [
+        "emotional_salience_facial_expression",
+        "このジェスチャーに伴う顔の表情は，どの程度感情を伝えていますか？"
+      ],
+      [
+        "gesture_complexity_fit",
+        "このジェスチャーの複雑さは，単語や概念の複雑さにどの程度合っていますか？"
+      ],
+      [
+        "cultural_familiarity",
+        "このジェスチャーは，あなたの国でどの程度馴染みがある，または一般的ですか？"
+      ],
+      [
+        "enactment_potential",
+        "このジェスチャーを自分で行うのは，どの程度簡単ですか。"
+      ]
+    ],
+    "scale": {
+      "1": "まったく",
+      "2": "少し",
+      "3": "ある程度",
+      "4": "かなり",
+      "5": "非常に"
+    }
+  }
+}

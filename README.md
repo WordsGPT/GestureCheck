@@ -1,5 +1,9 @@
 # Gemini Gesture Rating Pilot
 
+## Paper materials — revised manuscript
+
+The corrected data, analysis code, instructions in all four languages, model prompt, figures and source documentation for **Can Video-Language Models Rate Instructional Gestures Like Humans Do? A Benchmark Study** are in [paper_materials/](paper_materials/README.md). This is the package to use for the revised paper; the pilot results described below predate it.
+
 This workspace contains a small pilot setup for testing whether Gemini can interpret gesture videos used in second-language vocabulary learning.
 
 ## Results Viewer
