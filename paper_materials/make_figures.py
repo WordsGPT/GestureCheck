@@ -14,12 +14,48 @@ teal='#137c73';blue='#456a9b';rust='#b9563c';gray='#667085'
 def save(fig,name):
  fig.savefig(OUT/(name+'.png'),bbox_inches='tight',facecolor='white');fig.savefig(OUT/(name+'.pdf'),bbox_inches='tight',facecolor='white');plt.close(fig)
 
-fig,ax=plt.subplots(figsize=(10,4.7));ax.set(xlim=(0,10),ylim=(0,5));ax.axis('off')
-boxes=[(.1,3.35,2.8,1.3,'134 underlying clips\n90 + 44 source collections\nAll depict performed gestures'),(3.6,3.35,2.8,1.3,'Human reference\n230 retained participants\n4,600 evaluations × 7 scores'),(7.1,3.35,2.8,1.3,'Model benchmark\n12 main configurations\n4 model families'),(.1,.7,2.8,1.65,'Label manipulation\n14 shared clips × 2 labels\nDifferent humans per version\n15th control: models only'),(3.6,.7,2.8,1.65,'Standard pairings\n134 items × 7 dimensions\nError, bias and correlation\nSeven separate dimensions'),(7.1,.7,2.8,1.65,'Matched control analysis\nSame footage across labels\nHuman and model score drops\nError on low-rated pairings')]
-for a,b,w,h,t in boxes:
- ax.add_patch(FancyBboxPatch((a,b),w,h,boxstyle='round,pad=.04,rounding_size=.1',facecolor='#eef6f4' if a<3 else '#f2f4f7',edgecolor='#c2d2cf'));ax.text(a+w/2,b+h/2,t,ha='center',va='center',linespacing=1.5,fontsize=10)
-for x in [1.5,5,8.5]:ax.annotate('',xy=(x,2.45),xytext=(x,3.25),arrowprops={'arrowstyle':'->','color':gray,'lw':1.5})
-ax.text(5,4.98,'Study design and units of analysis',ha='center',va='top',fontsize=15,fontweight='bold')
+# Overview: a single left-to-right study flow with parallel human/model ratings.
+fig,ax=plt.subplots(figsize=(10.8,5.8))
+ax.set(xlim=(0,108),ylim=(0,58));ax.axis('off')
+ink='#172b3a';muted='#526575';rule='#d8e1e5';human='#087f79';model='#a35330'
+def txt(x,y,t,size=12,color=ink,weight='normal',**kw):
+ ax.text(x,y,t,fontsize=size,color=color,fontweight=weight,ha='left',va='top',**kw)
+def line(x1,y1,x2,y2,color=rule,lw=1):ax.plot([x1,x2],[y1,y2],color=color,lw=lw,solid_capstyle='round')
+def arrow(x1,y1,x2,y2):
+ ax.annotate('',xy=(x2,y2),xytext=(x1,y1),arrowprops={'arrowstyle':'-|>','color':'#9babb5','lw':1.25,'mutation_scale':11})
+# Stage headings, aligned to a common baseline.
+for x,num,title in [(1,'01','GESTURE MATERIALS'),(39,'02','INDEPENDENT RATINGS'),(78,'03','HUMAN–MODEL COMPARISON')]:
+ txt(x,57,num,11,muted);txt(x,53,title,10.2,ink,'bold');line(x,49,x+(30 if x<78 else 29),49)
+# Materials and the within-video label manipulation.
+txt(1,46,'134',35,ink,'bold');txt(1,35,'underlying gesture clips',13,ink,'bold')
+txt(1,30.5,'90 + 44 clips from two collections',10.5,muted)
+txt(1,23,'LABEL MANIPULATION',9.8,muted,'bold')
+line(1,18.9,1,10,human,2.5)
+txt(3,19,'14 clips × 2 labels',14,ink,'bold')
+txt(3,14,'Correct word / unrelated word',10.5,muted)
+txt(1,7,'Each human saw only one\nlabel version of a given clip.',10.5,muted,linespacing=1.45)
+# Parallel rating arms, with restrained color and large counts.
+line(39,45,39,30,human,2.8)
+txt(41,46,'HUMANS',10.5,human,'bold');txt(41,42,'230',27,ink,'bold')
+txt(53,39,'participants',11,muted)
+txt(41,33.5,'4,600 evaluations · 7 scores each',10.5,muted)
+line(39,24,39,9,model,2.8)
+txt(41,25,'VIDEO-LANGUAGE MODELS',10.5,model,'bold');txt(41,21,'12',27,ink,'bold')
+txt(49,18,'configurations · 4 families',10.5,muted)
+txt(41,12.5,'149 pairings · 7 scores each',10.5,muted)
+# Both rating arms share the same material and feed both comparisons.
+line(33,17,33,38,'#9babb5',1.1);arrow(30,28,33,28);arrow(33,38,37,38);arrow(33,17,37,17)
+line(73,17,73,38,'#9babb5',1.1);line(70,38,73,38,'#9babb5',1.1);line(70,17,73,17,'#9babb5',1.1);arrow(73,28,76,28)
+# Two complementary outcomes, rather than six interchangeable cards.
+txt(78,46,'STANDARD PAIRINGS',10.5,ink,'bold');txt(78,41.5,'134',27,ink,'bold');txt(91,38.5,'gesture–word pairs',10.5,muted)
+txt(78,33,'Error, bias and correlation\nfor each of seven dimensions',11,muted,linespacing=1.45)
+line(78,26.5,107,26.5)
+txt(78,24,'INCORRECT-LABEL CONTROLS',10.5,ink,'bold');txt(78,19.5,'14',27,ink,'bold');txt(87,16.5,'matched clips',10.5,muted)
+txt(78,11,'Score drops across labels\nError on low-rated pairings',11,muted,linespacing=1.45)
+# Keep the additional model-only control visible without competing with the design.
+line(1,.1,107,.1)
+fig.subplots_adjust(left=.025,right=.99,top=.98,bottom=.10)
+fig.text(.034,.025,'Human reference: 148 pairings. Models: 149 pairings, including one additional control without human ratings.',fontsize=9.5,color=muted)
 save(fig,'fig1_study_overview')
 
 keys=sorted(list(R['models'])[:11]+['elorian-glimpse-no-reasoning'],key=lambda k:R['models'][k]['mae']);models=[R['models'][k] for k in keys];names=[m['label']+' · '+('native video, default sampling' if m['label']=='Elorian Glimpse' else m['input']) for m in models]

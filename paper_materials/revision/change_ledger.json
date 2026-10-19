@@ -531,14 +531,14 @@
   {
     "source_block": 98,
     "section": "4 Methods",
-    "reason": "Recorded assignment count does not describe randomization or participant count. Correct the unit of presentation.",
+    "reason": "Recorded assignment count does not describe randomization or participant count. Correct the unit of presentation. Remove a remaining source-collection label inconsistent with the performed-gesture materials.",
     "original": {
       "kind": "p",
       "text": "Each participant was assigned a fixed set of 20 videos to rate on all seven dimensions, presented in a recorded sequential order; this assignment size (M = 20.13, SD = 2.33 across all 563 assignments created, including non-retained ones) was constant at exactly 20 items among the 230 assignments retained for analysis. Items were drawn from both the gesture and object collections such that every one of the 148 videos received ratings from between 25 and 39 distinct participants overall, and from all four language cohorts."
     },
     "revised": {
       "kind": "p",
-      "text": "Each participant was assigned a fixed set of 20 videos to rate on all seven dimensions, presented in randomized order; this assignment size was constant at exactly 20 items among the 230 assignments retained for analysis. Items were drawn from both the gesture and object collections such that every one of the 148 pairings received ratings from between 25 and 39 distinct participants overall, and from all four language cohorts."
+      "text": "Each participant was assigned a fixed set of 20 videos to rate on all seven dimensions, presented in randomized order; this assignment size was constant at exactly 20 items among the 230 assignments retained for analysis. Items were drawn from both the source collections such that every one of the 148 pairings received ratings from between 25 and 39 distinct participants overall, and from all four language cohorts."
     }
   },
   {
@@ -595,14 +595,14 @@
   {
     "source_block": 111,
     "section": "5 Human ratings",
-    "reason": "Correct the unit of presentation. Do not claim participant microdata are in the shared package.",
+    "reason": "Correct the unit of presentation. Do not claim participant microdata are in the shared package. Remove a remaining source-collection label inconsistent with the performed-gesture materials.",
     "original": {
       "kind": "p",
       "text": "Each of the 148 stimulus videos received between 25 and 39 evaluations from distinct participants (M = 31.08, SD = 2.40, Mdn = 31), with responses represented across all four survey languages. The gesture and object collections contributed 3,249 and 1,351 evaluations, respectively, yielding a total of 4,600 analysis-ready ratings per dimension. Median assignment completion time was 13.41 minutes (interquartile range = 9.66–17.94). Full rating and assignment-level data are provided in Supplementary Material 2."
     },
     "revised": {
       "kind": "p",
-      "text": "Each of the 148 stimulus pairings received between 25 and 39 evaluations from distinct participants (M = 31.08, SD = 2.40, Mdn = 31), with responses represented across all four survey languages. The gesture and object collections contributed 3,249 and 1,351 evaluations, respectively, yielding a total of 4,600 analysis-ready ratings per dimension. Median assignment completion time was 13.41 minutes (interquartile range = 9.66–17.94). Aggregate item-level data and rating instructions are provided in Supplementary Material 2; participant-level data remain in the controlled human workbook."
+      "text": "Each of the 148 stimulus pairings received between 25 and 39 evaluations from distinct participants (M = 31.08, SD = 2.40, Mdn = 31), with responses represented across all four survey languages. The two source collections contributed 3,249 and 1,351 evaluations, respectively, yielding a total of 4,600 analysis-ready ratings per dimension. Median assignment completion time was 13.41 minutes (interquartile range = 9.66–17.94). Aggregate item-level data and rating instructions are provided in Supplementary Material 2; participant-level data remain in the controlled human workbook."
     }
   },
   {

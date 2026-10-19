@@ -137,7 +137,7 @@ No bootstrap confidence intervals, typical-score baseline, or new multiplicity-a
 42. **4 Methods, source block 92 (addition):** Add the overview/results figure requested in the email.
    Passage: Figure 1. Overview of the benchmark. The human survey included 148 pairings from 134 underlying clips; the model manifest contained one additional control without human ratings.
 
-43. **4 Methods, source block 98:** Recorded assignment count does not describe randomization or participant count. Correct the unit of presentation.
+43. **4 Methods, source block 98:** Recorded assignment count does not describe randomization or participant count. Correct the unit of presentation. Remove a remaining source-collection label inconsistent with the performed-gesture materials.
    Passage: Each participant was assigned a fixed set of 20 videos to rate on all seven dimensions, presented in randomized order; this assignment size was constant at exactly 20 items among t…
 
 44. **4 Methods, source block 99:** Fill the requested survey-methods placeholder, supply all four languages verbatim, and distinguish the instruction screen from an unsupported tutorial claim.
@@ -152,7 +152,7 @@ No bootstrap confidence intervals, typical-score baseline, or new multiplicity-a
 47. **4 Methods, source block 108:** Correct the Human Results cross-reference.
    Passage: Two additional review flags were recorded for sensitivity purposes without triggering automatic exclusion: assignments completed in under 7 minutes, and assignments in which the pa…
 
-48. **5 Human ratings, source block 111:** Correct the unit of presentation. Do not claim participant microdata are in the shared package.
+48. **5 Human ratings, source block 111:** Correct the unit of presentation. Do not claim participant microdata are in the shared package. Remove a remaining source-collection label inconsistent with the performed-gesture materials.
    Passage: Each of the 148 stimulus pairings received between 25 and 39 evaluations from distinct participants (M = 31.08, SD = 2.40, Mdn = 31), with responses represented across all four sur…
 
 49. **5 Human ratings, source block 114:** Correct cultural-familiarity alpha from the recalculated human table.
@@ -391,3 +391,7 @@ No bootstrap confidence intervals, typical-score baseline, or new multiplicity-a
 
 127. **References, source block 266 (addition):** Add the checked primary reference used in the VLM account, hypotheses, or corpus attribution.
    Passage: Zhang, H., Li, X., & Bing, L. (2023). Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding. Proceedings of the 2023 Conference on Empirical Methods…
+
+## Overview figure redesign
+
+Replaced the six-box overview with a three-stage study flow: gesture materials, parallel human/model ratings, and the two comparisons. Added clear numeric hierarchy, restrained human/model colors and vector connectors. The same clip and pairing counts are retained, and the one-label-version-per-human rule is explicit. Also corrected two remaining “gesture and object collections” labels to “two source collections,” consistent with the source description.
