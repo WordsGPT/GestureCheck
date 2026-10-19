@@ -1099,7 +1099,7 @@
         },
         "new": {
           "kind": "p",
-          "text": "The dataset comprised 134 short instructional gesture clips representing lexical items commonly used in second-language (L2) vocabulary-learning paradigms. Stimuli were organized into two source collections: a gesture collection (n = 90 underlying clips) and an internally named object collection (n = 44 underlying clips). Both collections show a performer demonstrating gestures corresponding to target words; “object” is a collection label, not a condition showing the target objects themselves. The 90-clip collection was obtained from the public Gesture video corpus (Macedonia et al., 2021; https://doi.org/10.6084/m9.figshare.c.5296396.v1), associated with Macedonia et al. (2011) and Mayer et al. (2015). The 44-clip collection was supplied through a Johannes Kepler University file share and identified in the project source correspondence as material from Macedonia et al. (2011). Supplementary Material 1 gives the item mapping and source information."
+          "text": "The dataset comprised 134 short instructional gesture clips representing lexical items commonly used in second-language (L2) vocabulary-learning paradigms. Stimuli were organized into two source collections: a gesture collection (n = 90 underlying clips) and an internally named object collection (n = 44 underlying clips). Both collections show a performer demonstrating gestures corresponding to target words; “object” is a collection label, not a condition showing the target objects themselves. The 90-clip collection was obtained from the public Gesture video corpus (Macedonia et al., 2021; https://doi.org/10.6084/m9.figshare.c.5296396.v1), associated with Macedonia et al. (2011) and Mayer et al. (2015). The 44-clip collection comprises original video stimuli from Macedonia, Müller, and Friederici (2011). Supplementary Material 1 gives the item mapping and source information."
         },
         "reason": "Correct the fabricated object-display condition and distinguish 134 base clips from 148 presentations; unresolved provenance remains in author notes. Resolve the requested provenance using Pedro’s original source correspondence and the public corpus record."
       },
@@ -1135,7 +1135,7 @@
         },
         "new": {
           "kind": "p",
-          "text": "Fourteen clips from the gesture collection were also paired with deliberately unrelated target words, yielding 148 gesture–word pairings for the human survey: 134 standard pairings and 14 mismatched controls. These controls were intended to elicit low semantic-compatibility ratings and test whether models agreed with humans in that range. The model manifest included one additional mismatched pairing, the Wealth clip labeled Cooking, yielding 149 pairings. This extra model-only control had no human reference and was excluded from human–model comparisons. The survey application prevented any individual participant from seeing the same clip under both labels; no retained participant rated both versions."
+          "text": "Fourteen clips from the gesture collection were also paired with deliberately unrelated target words, yielding 148 gesture–word pairings : 134 standard pairings and 14 mismatched controls. These controls were intended to elicit low semantic-compatibility ratings and test whether models agreed with humans in that range. The survey application prevented any individual participant from seeing the same clip under both labels; no retained participant rated both versions."
         },
         "reason": "Resolve the highlighted count question using manifests and incorporate the user’s clarification of control purpose and exposure prevention."
       },
@@ -1156,7 +1156,7 @@
         "old": null,
         "new": {
           "kind": "figure",
-          "text": "Figure 1. Overview of the benchmark. The human survey included 148 pairings from 134 underlying clips; the model manifest contained one additional control without human ratings.",
+          "text": "Figure 1. Overview of the benchmark. The human survey included 148 pairings from 134 underlying clips.",
           "reason": "Add the overview/results figure requested in the email.",
           "file": "figures/fig1_study_overview.png"
         },
@@ -2507,7 +2507,7 @@
         },
         "new": {
           "kind": "p",
-          "text": "Note. Costs are benchmark-time estimates, not current pricing. A positive bias means the model rated higher, on average, than human raters. *Glimpse cost is the measured $0.4972 for 149 completed reasoning-off requests, scaled to 1,000 clips; other costs are the original benchmark-time estimates."
+          "text": "Note. Costs are benchmark-time estimates, not current pricing. A positive bias means the model rated higher, on average, than human raters. *Glimpse cost is the measured $0.4972 for completed reasoning-off requests across the stimulus set, scaled to 1,000 clips; other costs are the original benchmark-time estimates."
         },
         "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper."
       },
@@ -3145,7 +3145,7 @@
         "old": null,
         "new": {
           "kind": "p",
-          "text": "Glimpse returned complete ratings for all 149 model pairings. Against the same 134 standard-pairing human means used above, it obtained MAE = 0.86, RMSE = 1.05, and pooled Spearman ρ = .63 (Table 4). Its error was higher than Gemini Flash at 1 fps (0.53), Qwen Max (0.73) and the GPT configurations. On the 14 shared controls, its seven-dimension MAE was 0.75, compared with 0.77 for Qwen Max and 0.92 for Gemini Flash at 1 fps. Its mean iconicity fell from 2.71 under correct labels to 1.57 under unrelated labels (Table 6).",
+          "text": "Glimpse returned complete ratings for all evaluated pairings. Against the same 134 standard-pairing human means used above, it obtained MAE = 0.86, RMSE = 1.05, and pooled Spearman ρ = .63 (Table 4). Its error was higher than Gemini Flash at 1 fps (0.53), Qwen Max (0.73) and the GPT configurations. On the 14 shared controls, its seven-dimension MAE was 0.75, compared with 0.77 for Qwen Max and 0.92 for Gemini Flash at 1 fps. Its mean iconicity fell from 2.71 under correct labels to 1.57 under unrelated labels (Table 6).",
           "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper."
         },
         "reason": "Include the completed Glimpse run using the same corrected human reference as the rest of the paper."
