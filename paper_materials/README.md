@@ -4,6 +4,8 @@ Materials accompanying **Can Video-Language Models Rate Instructional Gestures L
 
 This directory contains the corrected aggregate inputs and descriptive analyses used in the targeted manuscript revision. The repository root also contains earlier pilot experiments and dashboards; use this directory for the revised paper's numbers.
 
+**20 October 2026 update:** [Anonymous individual human ratings, v1.0.0](analysis/human_ratings_public/README.md) now provide 32,200 unlinked dimension ratings, cohort response counts, and public verification code. See [exact manuscript amendments](../MANUSCRIPT_DATA_RELEASE_AMENDMENTS_20_10_2026.txt) for changes to the already circulated DOCX. The original participant workbook remains controlled. The earlier manuscript/ZIP links below predate this data release.
+
 ## Read the current revision
 
 **[Read the current paper](revision/manuscript.md)** · [Word (Improved 07)](revision/07_GestureCheck_Pedro_improved_revision.docx) · [PDF (Improved 07)](revision/07_GestureCheck_Pedro_improved_revision.pdf) · [HTML Writing Changes (06 vs 07)](revision/writing_changes_comparison.html) · [HTML Manuela vs Improved (03 vs 07)](revision/manuela_vs_improved_comparison.html) · [Manuela Original (03)](revision/03_Original_Manuela_draft.docx) · [Base DOCX (06)](revision/06_GestureCheck_Pedro_targeted_revision.docx) · [Download everything](https://github.com/WordsGPT/GestureCheck/raw/refs/heads/main/paper_materials/GestureCheck_revision_with_Glimpse.zip)
@@ -45,7 +47,9 @@ Human agreement and the original cohort coefficients are included as aggregate r
 python analysis/recompute_human_statistics.py /path/to/controlled_workbook.xlsx
 ```
 
-This requires the controlled workbook with its `Clean Ratings` and `Video Summary` sheets, which is not included here. Its calculation uses item fixed effects, participant-clustered standard errors and unadjusted two-sided t-reference p values. The comparisons are exploratory. No bootstrap intervals, typical-score baseline or new multiplicity correction is included in this paper package.
+This original script requires the controlled workbook with its `Clean Ratings` and `Video Summary` sheets, which is not included here. Its calculation uses item fixed effects, participant-clustered standard errors and unadjusted two-sided t-reference p values. That script does not apply a multiplicity correction; the public-release verification script below adds Holm adjustment from the saved estimates.
+
+The new public release can be checked without that workbook using `python analysis/verify_public_human_ratings.py`. It reproduces item/cohort means, ordinal alpha, stimulus-adjusted cohort coefficients, and response-distribution diagnostics. The script also computes confidence intervals and Holm adjustment from the saved participant-clustered estimates. It cannot recompute clustered standard errors from unlinked ratings. See the release README for the exact scope.
 
 ## Video attribution
 

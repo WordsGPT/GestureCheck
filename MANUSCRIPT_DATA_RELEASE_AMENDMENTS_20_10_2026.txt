@@ -1,0 +1,40 @@
+EXACT MANUSCRIPT AMENDMENTS: PUBLIC HUMAN RATING DATA RELEASE
+20 October 2026
+
+Apply these changes to the manuscript already emailed. They concern only the new public data release; the numerical results and Table 3 do not change. No revised DOCX is required to apply them.
+
+Release: https://github.com/WordsGPT/GestureCheck/releases/tag/human-ratings-v1-20261020
+Files: https://github.com/WordsGPT/GestureCheck/tree/human-ratings-v1-20261020/paper_materials/analysis/human_ratings_public
+
+1. HUMAN SAMPLE / DATA COVERAGE PARAGRAPH
+
+Find the sentence beginning "Aggregate item-level data and rating instructions are provided in Supplementary Material 2" and ending "participant-level data remain in the controlled human workbook."
+
+REPLACE THAT SENTENCE WITH:
+
+Aggregate item-level data and rating instructions are provided in Supplementary Material 2. Anonymous individual ratings are also publicly available in the versioned data release described below. The release includes the stimulus-label pairing, survey-language cohort, rating dimension, and numerical response, but no participant identifiers or links between a participant's responses. The original workbook remains controlled.
+
+
+2. DATA AND MATERIALS AVAILABILITY
+
+REPLACE THE ENTIRE PARAGRAPH under "Data and materials availability" with the following. This replaces both the original paragraph saying participant-level records are not included and the later extended paragraph beginning "The aggregate human ratings" that says no public trial-level archive is claimed.
+
+The aggregate human ratings, saved model scores, stimulus mapping, instructions in all four survey languages, model prompt, analysis code, and figure files are available at https://github.com/WordsGPT/GestureCheck/tree/paper-materials-20261019/paper_materials. Anonymous individual human ratings and additional verification code are available in the versioned release GestureCheck anonymous human rating data, version 1.0.0 (20 October 2026), at https://github.com/WordsGPT/GestureCheck/releases/tag/human-ratings-v1-20261020. This release contains 32,200 individual dimension ratings from 4,600 retained evaluations across 148 stimulus-label pairings. Each record contains only the pairing identifier, survey-language cohort, dimension, and rating. Participant and session identifiers, demographics, timestamps, response order, free-text notes, and links between a person's responses are omitted. The public data reproduce item and cohort means, ordinal Krippendorff's alpha, stimulus-adjusted cohort coefficients, and response-distribution diagnostics. Participant-clustered standard errors cannot be independently recomputed without participant links; the original coefficient, standard-error, and p-value summaries are provided, together with code for the reported confidence intervals and Holm correction. Source information and reuse terms for the video collections are documented in the repository. The original participant workbook is not redistributed. No archival DOI is claimed.
+
+
+3. APPENDIX A: DATA-SOURCE PARAGRAPH (IF PRESENT IN THE EMAILED VERSION)
+
+Find the paragraph beginning "The participant workbook used for these calculations was verified against the SHA-256" and ending "No participant identifiers or trial-level rows are reproduced here."
+
+REPLACE THE ENTIRE PARAGRAPH WITH:
+
+These calculations used the 4,600 retained evaluations from 230 participants in the source workbook, verified against the SHA-256 checksum recorded in the analysis audit. The endpoint and midpoint percentages can also be reproduced from the anonymous public ratings using analysis/verify_public_human_ratings.py in the versioned data release. Participant identifiers and links between a person's responses are not released.
+
+If the emailed version has no Appendix A, skip this amendment.
+
+
+VERSION NOTE FOR YOU
+
+The DOCX you emailed has not been overwritten. These passages supersede its statements about the absence of public individual-rating data. Existing participant-level records remain controlled; the new public data deliberately contain no participant IDs, including replacement IDs. There are 4,600 evaluations and seven dimensions, hence 32,200 rows in the long-format public CSV. The 32,200 rows are not independent participants or 32,200 independent trials. Duplicate rows are valid responses and must not be removed.
+
+The public release is on GitHub. It has a fixed version/tag and downloadable archive, but no Zenodo DOI. Do not describe it as DOI-archived.

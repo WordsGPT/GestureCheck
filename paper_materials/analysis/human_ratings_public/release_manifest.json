@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "release_date": "2026-10-20",
+  "source_workbook_sha256": "0d89327d223a79b121ddf73158c30aed27503d30335098df065b8621fc9b43f6",
+  "source_sheet": "Clean Ratings",
+  "retained_evaluations": 4600,
+  "retained_participants": 230,
+  "human_pairings": 148,
+  "standard_pairings": 134,
+  "incorrect_label_pairings": 14,
+  "dimensions": [
+    "iconicity",
+    "sensorimotor_imagery",
+    "motional_salience_gesture",
+    "emotional_salience_facial_expression",
+    "gesture_complexity_fit",
+    "cultural_familiarity",
+    "enactment_potential"
+  ],
+  "individual_dimension_ratings": 32200,
+  "public_columns": [
+    "pairing_id",
+    "cohort",
+    "dimension",
+    "rating"
+  ],
+  "participant_linkage_released": false,
+  "cross_dimension_linkage_released": false,
+  "row_order": "Canonical frequency expansion, not collection order",
+  "files": {
+    "human_ratings_unlinked.csv": {
+      "sha256": "269bb45253c34b9357659b794c17081e44bd38316da085b5b618a151eb376da5",
+      "bytes": 1338635
+    },
+    "human_rating_counts_by_cohort.csv": {
+      "sha256": "86dcd88f7c7a79c96c50d36b6805605d848d5dfdb8bc5ca4e64c2144f9536f80",
+      "bytes": 902877
+    }
+  }
+}
