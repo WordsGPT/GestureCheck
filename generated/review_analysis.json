@@ -1,0 +1,466 @@
+{
+  "contrasts": [
+    {
+      "cohort": "en",
+      "b": -0.19796878006179863,
+      "se": 0.09434243961260222,
+      "p": 0.036965236416231284,
+      "dimension": "iconicity",
+      "p_holm": 0.5544785462434693,
+      "ci_low": -0.38385895319835894,
+      "ci_high": -0.012078606925238294
+    },
+    {
+      "cohort": "it",
+      "b": -0.035731508259400496,
+      "se": 0.08992226162631889,
+      "p": 0.691472139424815,
+      "dimension": "iconicity",
+      "p_holm": 1.0,
+      "ci_low": -0.21291226435588184,
+      "ci_high": 0.14144924783708085
+    },
+    {
+      "cohort": "ja",
+      "b": -0.1026854053820849,
+      "se": 0.07908000716378098,
+      "p": 0.19542160933353303,
+      "dimension": "iconicity",
+      "p_holm": 1.0,
+      "ci_low": -0.2585028326574342,
+      "ci_high": 0.05313202189326438
+    },
+    {
+      "cohort": "en",
+      "b": -0.14038112660008184,
+      "se": 0.10430235832610772,
+      "p": 0.17966389182117312,
+      "dimension": "sensorimotor_imagery",
+      "p_holm": 1.0,
+      "ci_low": -0.34589609449160297,
+      "ci_high": 0.06513384129143932
+    },
+    {
+      "cohort": "it",
+      "b": 0.24444331295291352,
+      "se": 0.10090416462872577,
+      "p": 0.016190194488995422,
+      "dimension": "sensorimotor_imagery",
+      "p_holm": 0.2752333063129222,
+      "ci_low": 0.04562406776425873,
+      "ci_high": 0.44326255814156834
+    },
+    {
+      "cohort": "ja",
+      "b": 0.04574771165937841,
+      "se": 0.08565140840656986,
+      "p": 0.5937800083984995,
+      "dimension": "sensorimotor_imagery",
+      "p_holm": 1.0,
+      "ci_low": -0.1230178534825335,
+      "ci_high": 0.21451327680129031
+    },
+    {
+      "cohort": "en",
+      "b": -0.24275683391133085,
+      "se": 0.08888166872553795,
+      "p": 0.006801101018499147,
+      "dimension": "motional_salience_gesture",
+      "p_holm": 0.12453592224514101,
+      "ci_low": -0.4178872296897501,
+      "ci_high": -0.06762643813291155
+    },
+    {
+      "cohort": "it",
+      "b": 0.17748977479720016,
+      "se": 0.09408203279291119,
+      "p": 0.060487132985554734,
+      "dimension": "motional_salience_gesture",
+      "p_holm": 0.8468198617977662,
+      "ci_low": -0.007887298731197812,
+      "ci_high": 0.3628668483255981
+    },
+    {
+      "cohort": "ja",
+      "b": -0.14509486640948274,
+      "se": 0.0798621833599,
+      "p": 0.07055259054486877,
+      "dimension": "motional_salience_gesture",
+      "p_holm": 0.8468198617977662,
+      "ci_low": -0.3024534756716124,
+      "ci_high": 0.012263742852646947
+    },
+    {
+      "cohort": "en",
+      "b": -0.4054436667869423,
+      "se": 0.09980372968262674,
+      "p": 6.674099657086129e-05,
+      "dimension": "emotional_salience_facial_expression",
+      "p_holm": 0.001401560927988087,
+      "ci_low": -0.6020946402678073,
+      "ci_high": -0.2087926933060773
+    },
+    {
+      "cohort": "it",
+      "b": -0.04983855950339107,
+      "se": 0.12307524051255672,
+      "p": 0.6858968094539566,
+      "dimension": "emotional_salience_facial_expression",
+      "p_holm": 1.0,
+      "ci_low": -0.29234318267880105,
+      "ci_high": 0.19266606367201894
+    },
+    {
+      "cohort": "ja",
+      "b": 0.11330354469114877,
+      "se": 0.09834667804203585,
+      "p": 0.2504882358997677,
+      "dimension": "emotional_salience_facial_expression",
+      "p_holm": 1.0,
+      "ci_low": -0.08047648774928372,
+      "ci_high": 0.30708357713158124
+    },
+    {
+      "cohort": "en",
+      "b": -0.1562104869371812,
+      "se": 0.1021949809635921,
+      "p": 0.12775527662052374,
+      "dimension": "gesture_complexity_fit",
+      "p_holm": 1.0,
+      "ci_low": -0.3575731269432809,
+      "ci_high": 0.04515215306891851
+    },
+    {
+      "cohort": "it",
+      "b": -0.06643702175274567,
+      "se": 0.08487243572427107,
+      "p": 0.43456105817206014,
+      "dimension": "gesture_complexity_fit",
+      "p_holm": 1.0,
+      "ci_low": -0.23366771703782774,
+      "ci_high": 0.10079367353233638
+    },
+    {
+      "cohort": "ja",
+      "b": -0.19614039859512955,
+      "se": 0.07148526339907048,
+      "p": 0.006554522223428475,
+      "dimension": "gesture_complexity_fit",
+      "p_holm": 0.12453592224514101,
+      "ci_low": -0.33699331743559985,
+      "ci_high": -0.05528747975465925
+    },
+    {
+      "cohort": "en",
+      "b": -0.12557098165718505,
+      "se": 0.10137388098532371,
+      "p": 0.21672789763174335,
+      "dimension": "cultural_familiarity",
+      "p_holm": 1.0,
+      "ci_low": -0.32531574515140427,
+      "ci_high": 0.07417378183703413
+    },
+    {
+      "cohort": "it",
+      "b": 0.16790846351041572,
+      "se": 0.08983890702739285,
+      "p": 0.06290011533310129,
+      "dimension": "cultural_familiarity",
+      "p_holm": 0.8468198617977662,
+      "ci_low": -0.009108052601497524,
+      "ci_high": 0.34492497962232893
+    },
+    {
+      "cohort": "ja",
+      "b": -0.3129128724013284,
+      "se": 0.08705291043435749,
+      "p": 0.0003979280396740693,
+      "dimension": "cultural_familiarity",
+      "p_holm": 0.007958560793481386,
+      "ci_low": -0.4844399249042465,
+      "ci_high": -0.1413858198984104
+    },
+    {
+      "cohort": "en",
+      "b": -0.06812002769202596,
+      "se": 0.12627037530167864,
+      "p": 0.5900815579001919,
+      "dimension": "enactment_potential",
+      "p_holm": 1.0,
+      "ci_low": -0.3169202709678216,
+      "ci_high": 0.1806802155837697
+    },
+    {
+      "cohort": "it",
+      "b": 0.11995161096527131,
+      "se": 0.11702415769607247,
+      "p": 0.3064372612695601,
+      "dimension": "enactment_potential",
+      "p_holm": 1.0,
+      "ci_low": -0.11063009780344286,
+      "ci_high": 0.3505333197339855
+    },
+    {
+      "cohort": "ja",
+      "b": -0.2797448188189553,
+      "se": 0.1213204914024327,
+      "p": 0.02201446599506005,
+      "dimension": "enactment_potential",
+      "p_holm": 0.3522314559209608,
+      "ci_low": -0.5187919247070064,
+      "ci_high": -0.040697712930904156
+    }
+  ],
+  "response_style": [
+    {
+      "cohort": "de",
+      "dimension": "iconicity",
+      "n": 1460,
+      "extreme": 0.3678082191780822,
+      "midpoint": 0.21712328767123287
+    },
+    {
+      "cohort": "de",
+      "dimension": "sensorimotor_imagery",
+      "n": 1460,
+      "extreme": 0.36164383561643837,
+      "midpoint": 0.2089041095890411
+    },
+    {
+      "cohort": "de",
+      "dimension": "motional_salience_gesture",
+      "n": 1460,
+      "extreme": 0.08767123287671233,
+      "midpoint": 0.4273972602739726
+    },
+    {
+      "cohort": "de",
+      "dimension": "emotional_salience_facial_expression",
+      "n": 1460,
+      "extreme": 0.3150684931506849,
+      "midpoint": 0.24794520547945206
+    },
+    {
+      "cohort": "de",
+      "dimension": "gesture_complexity_fit",
+      "n": 1460,
+      "extreme": 0.2595890410958904,
+      "midpoint": 0.3
+    },
+    {
+      "cohort": "de",
+      "dimension": "cultural_familiarity",
+      "n": 1460,
+      "extreme": 0.44452054794520546,
+      "midpoint": 0.18767123287671234
+    },
+    {
+      "cohort": "de",
+      "dimension": "enactment_potential",
+      "n": 1460,
+      "extreme": 0.39452054794520547,
+      "midpoint": 0.16506849315068492
+    },
+    {
+      "cohort": "en",
+      "dimension": "iconicity",
+      "n": 1000,
+      "extreme": 0.384,
+      "midpoint": 0.214
+    },
+    {
+      "cohort": "en",
+      "dimension": "sensorimotor_imagery",
+      "n": 1000,
+      "extreme": 0.395,
+      "midpoint": 0.214
+    },
+    {
+      "cohort": "en",
+      "dimension": "motional_salience_gesture",
+      "n": 1000,
+      "extreme": 0.136,
+      "midpoint": 0.396
+    },
+    {
+      "cohort": "en",
+      "dimension": "emotional_salience_facial_expression",
+      "n": 1000,
+      "extreme": 0.493,
+      "midpoint": 0.132
+    },
+    {
+      "cohort": "en",
+      "dimension": "gesture_complexity_fit",
+      "n": 1000,
+      "extreme": 0.322,
+      "midpoint": 0.241
+    },
+    {
+      "cohort": "en",
+      "dimension": "cultural_familiarity",
+      "n": 1000,
+      "extreme": 0.492,
+      "midpoint": 0.167
+    },
+    {
+      "cohort": "en",
+      "dimension": "enactment_potential",
+      "n": 1000,
+      "extreme": 0.473,
+      "midpoint": 0.172
+    },
+    {
+      "cohort": "it",
+      "dimension": "iconicity",
+      "n": 1020,
+      "extreme": 0.3627450980392157,
+      "midpoint": 0.22549019607843138
+    },
+    {
+      "cohort": "it",
+      "dimension": "sensorimotor_imagery",
+      "n": 1020,
+      "extreme": 0.32745098039215687,
+      "midpoint": 0.24901960784313726
+    },
+    {
+      "cohort": "it",
+      "dimension": "motional_salience_gesture",
+      "n": 1020,
+      "extreme": 0.16862745098039217,
+      "midpoint": 0.3637254901960784
+    },
+    {
+      "cohort": "it",
+      "dimension": "emotional_salience_facial_expression",
+      "n": 1020,
+      "extreme": 0.38333333333333336,
+      "midpoint": 0.20098039215686275
+    },
+    {
+      "cohort": "it",
+      "dimension": "gesture_complexity_fit",
+      "n": 1020,
+      "extreme": 0.28627450980392155,
+      "midpoint": 0.25588235294117645
+    },
+    {
+      "cohort": "it",
+      "dimension": "cultural_familiarity",
+      "n": 1020,
+      "extreme": 0.3607843137254902,
+      "midpoint": 0.2284313725490196
+    },
+    {
+      "cohort": "it",
+      "dimension": "enactment_potential",
+      "n": 1020,
+      "extreme": 0.4803921568627451,
+      "midpoint": 0.1607843137254902
+    },
+    {
+      "cohort": "ja",
+      "dimension": "iconicity",
+      "n": 1120,
+      "extreme": 0.3410714285714286,
+      "midpoint": 0.21785714285714286
+    },
+    {
+      "cohort": "ja",
+      "dimension": "sensorimotor_imagery",
+      "n": 1120,
+      "extreme": 0.35892857142857143,
+      "midpoint": 0.21339285714285713
+    },
+    {
+      "cohort": "ja",
+      "dimension": "motional_salience_gesture",
+      "n": 1120,
+      "extreme": 0.09017857142857143,
+      "midpoint": 0.4035714285714286
+    },
+    {
+      "cohort": "ja",
+      "dimension": "emotional_salience_facial_expression",
+      "n": 1120,
+      "extreme": 0.3125,
+      "midpoint": 0.25535714285714284
+    },
+    {
+      "cohort": "ja",
+      "dimension": "gesture_complexity_fit",
+      "n": 1120,
+      "extreme": 0.2,
+      "midpoint": 0.3223214285714286
+    },
+    {
+      "cohort": "ja",
+      "dimension": "cultural_familiarity",
+      "n": 1120,
+      "extreme": 0.42410714285714285,
+      "midpoint": 0.18839285714285714
+    },
+    {
+      "cohort": "ja",
+      "dimension": "enactment_potential",
+      "n": 1120,
+      "extreme": 0.34285714285714286,
+      "midpoint": 0.2544642857142857
+    }
+  ],
+  "remaps": {
+    "gemini-3.8-flash": {
+      "fields": 0,
+      "items": 0
+    },
+    "qwen3.8-max-0902": {
+      "fields": 127,
+      "items": 125
+    },
+    "gpt-5.6-luna": {
+      "fields": 0,
+      "items": 0
+    },
+    "gpt-5.6-sol": {
+      "fields": 0,
+      "items": 0
+    },
+    "gpt-5.6-sol-1fps": {
+      "fields": 0,
+      "items": 0
+    },
+    "gpt-5.6-luna-1fps": {
+      "fields": 0,
+      "items": 0
+    },
+    "gemini-3.8-flash-native-2fps": {
+      "fields": 0,
+      "items": 0
+    },
+    "qwen3.5-397b-a17b": {
+      "fields": 0,
+      "items": 0
+    },
+    "gemini-3.1-flash-lite-preview": {
+      "fields": 0,
+      "items": 0
+    },
+    "gemini-3.1-pro-preview": {
+      "fields": 0,
+      "items": 0
+    },
+    "gemini-3.1-pro-native-2fps": {
+      "fields": 0,
+      "items": 0
+    },
+    "gemini-3.8-flash-2fps": {
+      "fields": 0,
+      "items": 0
+    },
+    "elorian-glimpse-no-reasoning": {
+      "fields": 0,
+      "items": 0
+    }
+  }
+}

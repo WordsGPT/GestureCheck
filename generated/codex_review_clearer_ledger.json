@@ -1,0 +1,200 @@
+[
+  {
+    "op": "edit",
+    "source_paragraph": 136,
+    "old": "The dataset comprised 134 short instructional gesture clips representing lexical items commonly used in second-language (L2) vocab",
+    "new": "The dataset comprised 134 short instructional gesture clips representing lexical items commonly used in second-language (L2) vocab"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 138,
+    "old": "A female performer demonstrated each gesture against a neutral background, from a fixed frontal camera position. The source collec",
+    "new": "Each clip shows a female performer against a neutral background from a fixed frontal camera position. An ffprobe audit of the 134 "
+  },
+  {
+    "op": "insert",
+    "new": "The overall tests detected cohort differences in each of the seven rating dimensions (all p < .001). To examine these differences, we compared the English-, Ita"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 261,
+    "old": "Both analyses converged: cohort differences remained significant for every dimension after conditioning on video identity (residua",
+    "new": "Seven comparisons were statistically significant before correction for multiple testing. After Holm correction across all 21 compa"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 262,
+    "old": "Table 3 Video-adjusted cohort differences in ratings (reference: German cohort)",
+    "new": "Table 3. Cohort differences in ratings after adjustment for stimulus (reference cohort: German)"
+  },
+  {
+    "op": "table_text_change",
+    "old": "DimensionCohortbpIconicityEnglish–0.20.037Sensorimotor imageryItalian0.24.016Motional salienceEnglis",
+    "new": "DimensionCohortb95% CIpHolm pIconicityEnglish-0.20[-0.38, -0.01].037.554IconicityItalian-0.04[-0.21,"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 295,
+    "old": "Note. Coefficients are from ordinary least squares regressions of each rating on cohort (dummy-coded, German as reference) and a f",
+    "new": "Note. Negative coefficients indicate lower ratings than those of the German-language cohort; positive coefficients indicate higher"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 296,
+    "old": "The p values shown are unadjusted for multiple comparisons; the cohort contrasts are exploratory.",
+    "new": "We also examined how often each cohort selected the endpoints (1 or 5) and midpoint (3) of the rating scale (Appendix A). For enac"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 298,
+    "old": "These findings indicate that cohort-level differences in gesture ratings are not artifacts of item sampling but persist when ident",
+    "new": "Together, the analyses provide the strongest evidence for lower facial-expression ratings in the English-language cohort and lower"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 300,
+    "old": "We evaluated twelve distinct model and input conditions across four multimodal AI model families: Google Gemini, OpenAI GPT, Aliba",
+    "new": "We evaluated twelve distinct model and input conditions across four multimodal AI model families: Google Gemini, OpenAI GPT, Aliba"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 303,
+    "old": "Models were given the target word, the rating instructions, and the video itself. The prompt used the same five-point scale given ",
+    "new": "Models were given the target word, the rating instructions, and the video or sampled frames. The prompt used the same five-point s"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 305,
+    "old": "Models responded in a structured format containing a description of what was visible, a 1–5 rating on each dimension, a short just",
+    "new": "Models responded in a structured format containing a description of what was visible, a 1–5 rating on each dimension, and a short "
+  },
+  {
+    "op": "insert",
+    "new": "Parsing and field normalization. Saved model scores were checked against the seven canonical dimension names and the integer range 1–5 before evaluation. Altern"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 313,
+    "old": "After field names were normalized (Section 6.3.2), every configuration provided a rating for every item. Across the twelve evaluat",
+    "new": "After field names were normalized (Section 6.1), every configuration provided a rating for every item. Across the twelve evaluated"
+  },
+  {
+    "op": "delete",
+    "source_paragraph": 495,
+    "old": "Alternate Qwen Max fields named motional_salience and facial_emotional_salience were mapped to the corresponding rating dimensions before analysis. This recover"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 613,
+    "old": "RQ1/H1 (correspondence with human ratings). H1 predicted positive correlations between model and human ratings across dimensions. ",
+    "new": "RQ1/H1 (correspondence with human ratings). H1 predicted positive correlations between model and human ratings across dimensions. "
+  },
+  {
+    "op": "table_text_change",
+    "old": "#Question/HypothesisVerdictBasisRQ1/H1Correspondence with human ratingsPartially supportedρ = .62–.6",
+    "new": "#Question/HypothesisVerdictBasisRQ1/H1Correspondence with human ratingsPartially supportedPositive o"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 655,
+    "old": "Cultural familiarity was among the largest sources of error across the reported configurations. Because familiarity is inherently ",
+    "new": "Cultural familiarity was among the largest sources of model–human error. Its human reference is population-dependent: after video "
+  },
+  {
+    "op": "delete",
+    "source_paragraph": 662,
+    "old": "Several limitations qualify how these findings should be read. First, reliability in the strict sense was not tested. The reported benchmark compares only a sin"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 663,
+    "old": "Second, fine-tuning was not evaluated. All twelve evaluated model and sampling conditions are zero-shot prompting implementations ",
+    "new": "Several limitations qualify these findings. First, fine-tuning was not evaluated. All twelve evaluated model and sampling conditio"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 664,
+    "old": "Third, the human reference itself is not a fixed target. Pooled human means for several dimensions — most notably cultural familia",
+    "new": "Second, the human reference is population-dependent. The strongest adjusted cohort evidence concerns cultural familiarity and faci"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 665,
+    "old": "Fourth, the stimulus set imposes its own constraints. The benchmark drew on a modest item pool of well under 150 gesture–word pair",
+    "new": "Third, the stimulus set imposes its own constraints. The benchmark drew on a modest item pool of well under 150 gesture–word pairi"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 666,
+    "old": "Fifth, the rating instrument and the theoretical framework are not perfectly aligned. As discussed in Section 7.4, the operational",
+    "new": "Fourth, the rating instrument and the theoretical framework are not perfectly aligned. As discussed in Section 7.4, the operationa"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 669,
+    "old": "Several extensions follow directly from the limitations above. A reliability study, repeating inference on the same items across m",
+    "new": "Several extensions follow directly from the limitations above. A direct zero-shot-versus-fine-tuned comparison, using the same sti"
+  },
+  {
+    "op": "edit",
+    "source_paragraph": 673,
+    "old": "The aggregate human ratings, model scores, stimulus mapping, instructions in all four survey languages, model prompt, analysis cod",
+    "new": "The aggregate human ratings, model scores, stimulus mapping, instructions in all four survey languages, model prompt, analysis cod"
+  },
+  {
+    "op": "insert",
+    "new": ""
+  },
+  {
+    "op": "insert",
+    "new": "Appendix A. Response-distribution diagnostics"
+  },
+  {
+    "op": "insert",
+    "new": "Table A1. Endpoint / midpoint use by dimension and survey-language cohort (%)"
+  },
+  {
+    "op": "insert",
+    "new": "Each cell reports the percentage of individual ratings at either endpoint (1 or 5), followed by the percentage at the midpoint (3). Each dimension has 1,460 Ger"
+  },
+  {
+    "op": "insert",
+    "new": "DimensionGermanEnglishItalianJapaneseIconicity36.8 / 21.738.4 / 21.436.3 / 22.534.1 / 21.8Sensorimotor imagery36.2 / 20.939.5 / 21.432.7 / 24.935.9 / 21.3Motion"
+  },
+  {
+    "op": "insert",
+    "new": "The participant workbook used for these calculations was verified against the SHA-256 recorded in the existing analysis audit; it contains 4,600 retained evalua"
+  },
+  {
+    "op": "insert",
+    "new": "Appendix B. Model provenance and parsing audit"
+  },
+  {
+    "op": "insert",
+    "new": "Table B1. Saved model identifiers, access routes, and evaluation dates"
+  },
+  {
+    "op": "insert",
+    "new": "“Not retained” means the exact evaluation date cannot be recovered from the retained analysis package; it is not inferred from a directory name or file modifica"
+  },
+  {
+    "op": "insert",
+    "new": "ConfigurationSaved exact IDAccess routeDateGemini 3.8 Flash; 1 fps videogoogle/gemini-3.8-flashOpenRouterNot retainedQwen 3.8 Max; 1 fps videoqwen/qwen3.8-max-0"
+  },
+  {
+    "op": "insert",
+    "new": "Glimpse saved canonical version: elorian/glimpse-20261016. Model family, API route, sampling, and image preprocessing vary together; these configurations cannot"
+  },
+  {
+    "op": "insert",
+    "new": "Table B2. Final completeness and documented field remapping"
+  },
+  {
+    "op": "insert",
+    "new": "ConfigurationMissing final vectorsPairings remappedFieldsGemini 3.8 Flash; 1 fps video0 / 1490 / 149 (0.0%)0Qwen 3.8 Max; 1 fps video0 / 149125 / 149 (83.9%)127"
+  },
+  {
+    "op": "insert",
+    "new": "Final completeness is checked on the frozen seven-score vectors for all 149 model pairings (134 standard and 15 controls); 14 controls have a human reference. R"
+  }
+]
